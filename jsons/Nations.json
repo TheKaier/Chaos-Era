@@ -1818,7 +1818,7 @@
 		"innerColor": [47, 64, 80],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Beast of Beidi",
-		"uniques": ["[+1 Production] from every [Pasture]","[+1 Production] from every [Camp]"],
+		"uniques": ["[+1 Food] from every [Pasture]","[+1 Food] from every [Camp]"],
 		"cities": ["Shimao","Woman","Qiaoshan"],
     },
 
