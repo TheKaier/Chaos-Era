@@ -1598,8 +1598,8 @@
 				"uniqueTo": "Beidi",
 		"requiredNearbyImprovedResources": ["Ivory","Horses","Cattle","Deer","Furs","Sheep","Truffles"],
 		"happiness": 2,
-		"production": 1,
-		"hurryCostModifier": 20,
+		"production": 2,
+		"hurryCostModifier": 25,
 		"requiredTech": "Trapping"
 	},
 	
