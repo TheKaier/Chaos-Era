@@ -2353,12 +2353,21 @@
 		"uniques" : ["Destroys tile improvements when attacking"],
 		"attackSound": "nonmetalhit",
 	},
-	
-	
-	
-	
-	
-	
+	{
+		"name": "Beast cavalry",//兽骑
+		"unitType": "Mounted",
+		"uniqueTo": "Beidi",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 12,
+		"cost": 65,
+		"requiredTech": "Trapping",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Double movement in [Hill]","Double movement in [Forest]","Double movement in [Jungle]"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
 	
 	
 	

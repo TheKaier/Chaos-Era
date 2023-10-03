@@ -1593,10 +1593,15 @@
 		"cost":0,
 		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [neuromodification]>","Only available <in cities with a [A chitin blade]>"]
 	},	
-	
-	
-	
-	
+		{
+		"name": "Circus",
+				"uniqueTo": "Beidi",
+		"requiredNearbyImprovedResources": ["Ivory","Horses","Cattle","Deer","Furs","Sheep","Truffles"],
+		"happiness": 2,
+		"production": 1,
+		"hurryCostModifier": 20,
+		"requiredTech": "Trapping"
+	},
 	
 	
 	

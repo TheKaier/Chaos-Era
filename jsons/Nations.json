@@ -1800,9 +1800,27 @@
 			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
     },
-
-
-
+	{
+		"name": "Beidi",//北狄
+		"leaderName": "Beidi Chieftain",
+		"adjective": ["Beidi"],
+		"preferredVictoryType": "Scientific",
+        "startIntroPart1": "A long time ago in the northern part of China, a tribe accompanied by beasts quietly rose up, but they longed for the world to discover and respect them. And can you, the chief of Beidi, lead the tribe to conquer the world?",
+        "startIntroPart2": "",
+        "declaringWar": "Humph, now I see you look like my family's fattened sheep, waiting for me to eat them!",
+		"attacked": "Hehe, I think you're more suitable to be moved back and eaten by us!",
+		"defeated": "I...... Submit to you",
+		"introduction": "Hey, I'm the chieftain of Beidi. Welcome to our place for barbecue",
+		"neutralHello": "Our barbecue is very delicious...... How about a piece?",
+		"hateHello": "What? Are you here to deliver meat?",
+		"tradeRequest": "I think you need these things. How many pieces of barbecue would you like by the way?",
+		"outerColor": [133, 204, 213],
+		"innerColor": [47, 64, 80],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Beast of Beidi",
+		"uniques": ["[+1 Production] from every [Pasture]","[+1 Production] from every [Camp]"],
+		"cities": ["Shimao","Woman","Qiaoshan"],
+    },
 
 
 
