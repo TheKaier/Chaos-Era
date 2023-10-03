@@ -1,0 +1,286 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Giant
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Guarder
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Giant
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Indian Empire
+  rotate: false
+  xy: 335, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Nuclear materials
+  rotate: false
+  xy: 335, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Rosbin City
+  rotate: false
+  xy: 875, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The underground kingdom
+  rotate: false
+  xy: 1307, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Underground
+  rotate: false
+  xy: 1307, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Usas Empire
+  rotate: false
+  xy: 1415, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zerg
+  rotate: false
+  xy: 4, 220
+  size: 215, 215
+  orig: 215, 215
+  offset: 0, 0
+  index: -1
+ResourceIcons/Slime
+  rotate: false
+  xy: 1091, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The kingdom of slime
+  rotate: false
+  xy: 1091, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Giant settler
+  rotate: false
+  xy: 227, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High step combat
+  rotate: false
+  xy: 335, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Houyi mecha
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Iron Sword
+  rotate: false
+  xy: 443, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Katana
+  rotate: false
+  xy: 443, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kuafu tank
+  rotate: false
+  xy: 551, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lava Sword
+  rotate: false
+  xy: 659, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Low-level infantry
+  rotate: false
+  xy: 659, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Medium Infantry
+  rotate: false
+  xy: 767, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nvwa
+  rotate: false
+  xy: 767, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Self-propelled artillery
+  rotate: false
+  xy: 875, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeleton 1
+  rotate: false
+  xy: 983, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeleton 2
+  rotate: false
+  xy: 983, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeleton 3
+  rotate: false
+  xy: 1091, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/The guardian of the giants
+  rotate: false
+  xy: 1199, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Thousand machine gun
+  rotate: false
+  xy: 1307, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/joint command
+  rotate: false
+  xy: 1523, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/zombie 1
+  rotate: false
+  xy: 1631, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/zombie 2
+  rotate: false
+  xy: 1631, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/zombie 3
+  rotate: false
+  xy: 1739, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Barbarians
+  rotate: false
+  xy: 4, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Dark capture
+  rotate: false
+  xy: 227, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Dark hidden
+  rotate: false
+  xy: 227, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fire
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kim
+  rotate: false
+  xy: 551, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Soil
+  rotate: false
+  xy: 1199, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Water
+  rotate: false
+  xy: 1415, 227
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wood
+  rotate: false
+  xy: 1523, 335
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
