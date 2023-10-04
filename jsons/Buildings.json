@@ -1594,17 +1594,34 @@
 		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [neuromodification]>","Only available <in cities with a [A chitin blade]>"]
 	},	
 		{
-		"name": "Circus",
+		"name": "Beastground",//兽场
 				"uniqueTo": "Beidi",
 		"requiredNearbyImprovedResources": ["Ivory","Horses","Cattle","Deer","Furs","Sheep","Truffles"],
+				"replaces": "Circus",
 		"happiness": 2,
 		"production": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trapping"
 	},
+			{
+		"name": "Beidi-food",//北狄-粮食
+				"uniqueTo": "Beidi",
+					"cost":0,
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]","[+1 Food] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-production]>","Cannot be purchased","Will not be displayed in Civilopedia"]	
+	},
+			{
+		"name": "Beidi-production",//北狄-产能
+				"uniqueTo": "Beidi",
+					"cost":0,
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Production] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-food]>","Cannot be purchased","Will not be displayed in Civilopedia"]	
+	},
 	
 	
 	
 	
+	
+	
+	//[in this city]
+	//"[+1 Food] from every [Pasture]","[+1 Food] from every [Camp]"
 	//"Only available <in cities with a [Muscle of hindlimb]>"]
 ]

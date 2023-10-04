@@ -1818,7 +1818,8 @@
 		"innerColor": [47, 64, 80],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Beast of Beidi",
-		"uniques": ["[+1 Food] from every [Pasture]","[+1 Food] from every [Camp]"],
+        "uniqueText": "所有被开发的动物资源可以获得+1粮或+1产",
+		"uniques": [],
 		"cities": ["Shimao","Woman","Qiaoshan"],
     },
 
