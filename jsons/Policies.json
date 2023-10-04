@@ -95,7 +95,7 @@
                 "name": "Republic",
                 "uniques": [
                     "[+2 Production] [in all cities]",
-                    "[+10]% Production when constructing [All] buildings [in all cities]"
+                    "[+7]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -126,7 +126,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [35]% less than normal",
+                    "Each city founded increases culture cost of policies [30]% less than normal",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -136,7 +136,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+3 Happiness, +1 Culture, +1 Science] [in all cities connected to capital]",
+                    "[+2 Happiness, +1 Culture, +1 Science] [in all cities connected to capital]",
                     "[-15]% Unhappiness from [Population] [in all non-occupied cities]"
                 ],
                 "requires": ["Citizenship"],

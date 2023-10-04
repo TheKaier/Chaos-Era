@@ -325,7 +325,7 @@
     {
         "name": "Theology",//神学
         "type": "Follower",
-        "uniques": ["[+1 Science, +1 Culture] from every [Wonder]"]
+        "uniques": ["[+1 Science, +2 Culture] from every [Wonder]"]
     },
     {
         "name": "Mountain Gift Culture",//山之馈赠-文化
