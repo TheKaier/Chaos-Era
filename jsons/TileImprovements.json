@@ -297,7 +297,7 @@
 	},
 	//只是一个分界线
 	{
-		"name": "Loulan field",
+		"name": "Loulan field",//楼兰古田
 		"uniqueTo": "Loulan",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,

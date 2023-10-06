@@ -95,7 +95,7 @@
                 "name": "Republic",
                 "uniques": [
                     "[+2 Production] [in all cities]",
-                    "[+7]% Production when constructing [All] buildings [in all cities]"
+                    "[+6]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -137,7 +137,7 @@
                 "name": "Meritocracy",
                 "uniques": [
                     "[+2 Happiness, +1 Culture, +1 Science] [in all cities connected to capital]",
-                    "[-15]% Unhappiness from [Population] [in all non-occupied cities]"
+                    "[-10]% Unhappiness from [Population] [in all non-occupied cities]"
                 ],
                 "requires": ["Citizenship"],
                 "row": 2,

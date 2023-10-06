@@ -344,7 +344,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Faith]","[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
@@ -1740,7 +1740,7 @@
 	},
 	//接下来就是史莱姆的啦
 {
-		"name": "Slime 1",
+		"name": "Slime 1",//史莱姆1
 		"unitType": "Sword",
 		"uniqueTo": "The Kingdom of slime",
 		"replaces": "Warrior",
@@ -1753,7 +1753,7 @@
 
 	},
 {
-		"name": "Slime 2",
+		"name": "Slime 2",//史莱姆2
 		"unitType": "Sword",
 		"uniqueTo": "The Kingdom of slime",
 		"replaces": "Spearman",
@@ -1766,16 +1766,16 @@
 
 	},
 {
-		"name": "Slime 3",
+		"name": "Slime 3",//史莱姆3
 		"unitType": "Sword",
 		"uniqueTo": "The Kingdom of slime",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 10,
-		"cost": 67,
+		"cost": 70,
 		"requiredTech": "Iron Working",		"obsoleteTech": "Steel",
 		"upgradesTo": "Guard Slime",
-		"uniques": ["[+75]% Strength <while the empire is happy>","[+25]% Strength <during a Golden Age>","[+1] Movement <while the empire is happy>","Consumes [3] [Slime]"],
+		"uniques": ["[+70]% Strength <while the empire is happy>","[+20]% Strength <during a Golden Age>","[+1] Movement <while the empire is happy>","Consumes [3] [Slime]"],
 
 
 	},
@@ -1865,7 +1865,7 @@
 		"movement": 3,
 		"strength": 17,
 		"promotions"
-: ["Shock I","Drill I","Cover I"],		"uniques": ["[+55]% Strength <while the empire is happy>","[+55]% Strength <during a Golden Age>","[+1] Movement <while the empire is happy>","[+1] Movement <during a Golden Age>","Unbuildable","Will not be displayed in Civilopedia"],
+: ["Shock I","Drill I","Cover I","精英单位"],		"uniques": ["[+55]% Strength <while the empire is happy>","[+55]% Strength <during a Golden Age>","[+1] Movement <while the empire is happy>","[+1] Movement <during a Golden Age>","Unbuildable","Will not be displayed in Civilopedia"],
 
 	},
 {
@@ -1878,23 +1878,24 @@
 		"cost": 76,
 
 		"replaces": "Warrior",
-		"promotions": [ "Great Generals I"],
+		"promotions": [ "Great Generals I","精英单位"],
 		"uniques": ["[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","Consumes [3] [Guarder]","[+45]% Strength <during the [Classical era]>","[+115]% Strength <during the [Medieval era]>","[+155]% Strength <during the [Renaissance era]>","[+330]% Strength <during the [Industrial era]>","[+490]% Strength <during the [Modern era]>","[+630]% Strength <during the [Atomic era]>","[+960]% Strength <during the [Information era]>"],
 		"hurryCostModifier": 10,
 	},
 {
-		"name": "Joint command",
+		"name": "Joint command",//联合指挥
 		"unitType": "Civilian",
 		"uniqueTo": "Giant",
 
 		"movement": 4,
 
 		"replaces": "Great General",
+		"promotions": ["精英单位"],
 		"uniques": ["Unbuildable", "Uncapturable","[+15]% Strength bonus for [Military] units within [3] tiles","Can instantly construct a [Citadel] improvement <by consuming this unit>",],
 
 	},
 {
-		"name": "Giant settler",
+		"name": "Giant settler",//巨人移民
 		"unitType": "Civilian",
 		"uniqueTo": "Giant",
 
@@ -1980,6 +1981,7 @@
 		"strength": 70,
 		"rangedStrength": 35,
 		"cost": 99999,
+		"promotions": ["领袖单位"],
 		"uniques": [ "Can carry [3] [Aircraft] units","Destroys tile improvements when attacking","Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "tankshot"
 	},
@@ -2097,14 +2099,14 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 65,
-		"uniques" : ["Destroys tile improvements when attacking","[+60]% Strength <during the [Classical era]>","[+90]% Strength <during the [Medieval era]>","[+120]% Strength <during the [Renaissance era]>","[+200]% Strength <during the [Industrial era]>","[+350]% Strength <during the [Modern era]>","[+500]% Strength <during the [Atomic era]>",],
-		"hurryCostModifier": 10,
+		"uniques" : ["Destroys tile improvements when attacking","[+60]% Strength <during the [Classical era]>","[+90]% Strength <during the [Medieval era]>","[+120]% Strength <during the [Renaissance era]>","[+200]% Strength <during the [Industrial era]>","[+350]% Strength <during the [Modern era]>","[+500]% Strength <during the [Atomic era]>","Double movement in [Fallout]"],
+		"hurryCostModifier": 7,
 		"attackSound": "nonmetalhit",
 		
 	},
 	//阴暗帝国
 	{
-		"name": "Dark Warrior",
+		"name": "Dark Warrior",//阴暗勇士
 		"unitType": "Dark",
 		"uniqueTo": "Dark World",
 		"replaces": "Warrior",
@@ -2261,7 +2263,8 @@
 		"uniqueTo": "The Kingdom of slime",
 		"movement": 1,
 		"strength": 25,
-		"cost": 110,
+		"cost": 1000,
+		"promotions": ["领袖单位"],
 		"uniques" : ["Unbuildable","Unit will heal every turn, even if it performs an action","[+30]% Strength <when below [50] HP>","[+50]% Strength <while the empire is happy>","[+2] Movement <while the empire is happy>","[+50]% Strength <during a Golden Age>","[+2] Movement <during a Golden Age>","[+70]% Strength <when below [0] Happiness>","[+3] Movement <when below [0] Happiness>","Invisible to non-adjacent units <when below [0] Happiness>","Can move after attacking <when below [0] Happiness>","Heals [20] damage if it kills a unit","[+20]% Strength bonus for [Military] units within [2] tiles","Will not be displayed in Civilopedia"],
 	},
 	{
@@ -2270,7 +2273,8 @@
 		"uniqueTo": "The Kingdom of slime",
 		"movement": 2,
 		"strength": 35,
-		"cost": 110,
+		"cost": 1000,
+		"promotions": ["领袖单位"],
 		"uniques" : ["Unbuildable","Unit will heal every turn, even if it performs an action","[+3] Movement <when below [60] HP>","[+20]% Strength <when below [60] HP>","Can move after attacking <when below [60] HP>","[+50]% Strength <while the empire is happy>","[+1] Movement <while the empire is happy>","[+60]% Strength <during a Golden Age>","[+3] Movement <during a Golden Age>","[+1] Sight <while the empire is happy>","[+2] Sight <during a Golden Age>","Can move after attacking <during a Golden Age>","[1] additional attacks per turn <while the empire is happy>","[+20]% Strength bonus for [Military] units within [3] tiles","Will not be displayed in Civilopedia"],
 	},
 	{
@@ -2283,6 +2287,7 @@
 		"rangedStrength": 100,
 		"range": 10,
 		"interceptRange": 10,
+		"promotions": ["英雄单位"],
 		"uniques" : ["Unbuildable","[2] additional attacks per turn","Heals [10] damage if it kills a unit","[2] Movement <during a Golden Age>","[1] additional attacks per turn <during a Golden Age>","[5] Range <during a Golden Age>","[+25]% Strength <during a Golden Age>","[+25]% Strength <during the [Modern era]>","[+50]% Strength <during the [Atomic era]>","[+100]% Strength <during the [Information era]>","[+150]% Strength <during the [Future era]>","Will not be displayed in Civilopedia"],
 		"promotions": ["Great Generals II","Quick Study"],
 		"attackSound": "gdrAttack"
@@ -2359,20 +2364,20 @@
 		"uniqueTo": "Beidi",
 		"replaces": "Horseman",
 		"movement": 3,
-		"strength": 12,
+		"strength": 13,
 		"cost": 65,
 		"requiredTech": "Trapping",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Double movement in [Hill]","Double movement in [Forest]","Double movement in [Jungle]"],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 15,
 		"attackSound": "horse"
 	},
 	
 	
 	
 
-	
+	//"promotions": [""],
 	//"Will not be displayed in Civilopedia"
 	//<during a Golden Age>
 ]

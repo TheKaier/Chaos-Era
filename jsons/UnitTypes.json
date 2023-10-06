@@ -128,4 +128,14 @@
         "name": "Blade Soul",
         "movementType": "Land"
     },
+        {
+        "name": "英雄猎手",
+        "movementType": "Land",
+       // "promotions": ["英雄猎手"],
+    },
+        {
+        "name": "克隆英雄",
+        "movementType": "Land",
+       // "promotions": ["克隆英雄"],
+    },
 ]
