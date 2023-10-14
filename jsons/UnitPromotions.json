@@ -918,7 +918,12 @@
         "column": 30,
         "row": 12
 	},
-
+	{
+		"name": "Visionary nation",//远见国
+		"uniques": ["[-1] Sight","Can see over obstacles","Instantly provides [2] [Visionary]<upon defeating a [Wounded] unit>"],
+        "column": 31,
+        "row": 1
+	},
 
 
 ]

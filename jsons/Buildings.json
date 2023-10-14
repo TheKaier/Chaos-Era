@@ -206,11 +206,11 @@
 	{
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
-		"cost": 65,
+		"cost": 60,
 		"uniqueTo": "Babylon",
 		"cityStrength": 6,
-		"cityHealth": 100,
-		"hurryCostModifier": 25,
+		"cityHealth": 120,
+		"hurryCostModifier": 20,
 		"requiredTech": "Masonry",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -355,7 +355,7 @@
 		"faith": 2,
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 20,
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -1615,7 +1615,13 @@
 					"cost":0,
 		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Production] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-food]>","Cannot be purchased","Will not be displayed in Civilopedia"]	
 	},
-	
+	{
+		"name": "To the sky",//向那天空进发
+		"uniqueTo": "Visionary nation",		
+		"isWonder": true,
+		"cost": 0,
+		"uniques": ["Consumes [1000] [Visionary]",],		
+	},
 	
 	
 	

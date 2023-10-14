@@ -548,5 +548,13 @@
 		"revealedBy": "Future Tech",
 		"resourceType": "Strategic"
 	},	
-	
+		{
+		"name": "Visionary",//远见
+		"resourceType": "Bonus",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
 ]
