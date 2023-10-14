@@ -340,7 +340,7 @@
     {
         "name": "Colonization time is up",//殖民时间到
         "type": "Pantheon",
-        "uniques": ["移民加一移动力","[+30]% Production when constructing [Settler] units [in all cities]"]
+        "uniques": ["[+30]% Production when constructing [Settler] units [in all cities]"]
     },
     {
         "name": "The God of Dampness",//潮湿之神

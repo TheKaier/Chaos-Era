@@ -1,7 +1,7 @@
 [
 	{
 		"name": "精英单位",//精英单位
-		"uniques": ["精英单位证明",
+		"uniques": [
 		"[-50]% Strength <vs [英雄猎手] units>",
 		],
         "column": 1000,
@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "英雄单位",//英雄单位
-		"uniques": ["英雄单位证明",
+		"uniques": [
 		"[-50]% Strength <vs [英雄猎手] units>",
 		],
         "column": 1000,
@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "领袖单位",//精英单位
-		"uniques": ["领袖单位证明",
+		"uniques": [
 		"[-50]% Strength <vs [英雄猎手] units>",
 		],
         "column": 1000,
