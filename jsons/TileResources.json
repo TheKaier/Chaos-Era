@@ -548,7 +548,7 @@
 		"revealedBy": "Future Tech",
 		"resourceType": "Strategic"
 	},	
-		{
+	{
 		"name": "Visionary",//远见
 		"resourceType": "Bonus",
 		"revealedBy": "Future Tech",
@@ -557,4 +557,19 @@
 		"Stockpiled"//库存
 		]
 	},
+	{
+		"name": "C_P",//建设槽，Construction policy
+		"resourceType": "Strategic"
+	},	
+	{
+		"name": "E_P",//经济槽，Economic policy
+		"resourceType": "Strategic"
+	},	
+	{
+		"name": "M_P",//军事槽，Military policy
+		"resourceType": "Strategic"
+	},
+	
+	
+	
 ]

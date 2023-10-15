@@ -14,7 +14,8 @@
             "Only available <before adopting [Liberty]>",
             "Only available <before adopting [Usas]>",
             "[+4 Culture] [in capital]",
-            "[-30]% Culture cost of natural border growth [in all cities]"
+            "[-30]% Culture cost of natural border growth [in all cities]",
+            "Provides [1] [C_P]",
         ],
         "policies": [
             {
@@ -85,17 +86,18 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+1 Culture] [in all cities]","[+1 Culture, +1 Production] [in capital]"
+        "uniques": ["[+1 Culture] [in all cities]","[+1 Production] [in capital]"
             "Only available <before adopting [Honor]>",
             "Only available <before adopting [Tradition]>",
             "Only available <before adopting [Usas]>",
+            "Provides [1] [E_P]",
 ],
         "policies": [
             {
                 "name": "Republic",
                 "uniques": [
                     "[+2 Production] [in all cities]",
-                    "[+6]% Production when constructing [All] buildings [in all cities]"
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -103,10 +105,9 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-50]% tile improvement construction time",
+                    "[-33]% tile improvement construction time",
                     "[+1 Science] [in all cities]",
                     "[+1 Gold] per [3] population [in all cities]",
-                    "[+1 Food] per [4] population [in all cities]",
                     "Free [Worker] appears"
                 ],
                 "row": 1,
@@ -115,7 +116,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+100]% Production when constructing [Settler] units [in capital]",
+                    "[+80]% Production when constructing [Settler] units [in capital]",
                     "[+1 Culture] [in all cities]",
                     "Free [Settler] appears"
                 ],
@@ -126,7 +127,7 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [30]% less than normal",
+                    "Each city founded increases culture cost of policies [25]% less than normal",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -166,7 +167,8 @@
             "[+50]% Strength <vs [Barbarian] units>",
             "[+20]% Strength <for [Military] units> <vs [Barbarian 1] units> ",
             "Earn [150]% of killed [Barbarian] unit's [Strength] as [Culture]",
-            "Notified of new Barbarian encampments"
+            "Notified of new Barbarian encampments",
+            "Provides [1] [M_P]"
         ],
         "policies": [
             {
@@ -242,7 +244,8 @@
             "[+120]% Production when constructing [Shrine] buildings [in all cities]",
             "[+120]% Production when constructing [Temple] buildings [in all cities]",
             "[+1 Faith] [in capital]",
-            "Only available <before adopting [Rationalism]>"
+            "Only available <before adopting [Rationalism]>",
+            "Provides [1] [E_P]"
         ],
         "policies": [
             {
@@ -312,7 +315,9 @@
             "Domination": 0,
             "Scientific": 10
         },
-        "uniques": ["[-50]% City-State Influence degradation"],
+        "uniques": ["[-50]% City-State Influence degradation",
+        "Provides [1] [E_P]"
+        ],
         "policies": [
             {
                 "name": "Philantropy",
@@ -377,7 +382,9 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+25]% [Gold] [in capital]"],
+        "uniques": ["[+25]% [Gold] [in capital]",
+        "Provides [1] [E_P]"
+        ],
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -450,7 +457,8 @@
         },
         "uniques": [
             "[+15]% [Science] <while the empire is happy>",
-            "Only available <before adopting [Piety]>"
+            "Only available <before adopting [Piety]>",
+            "Provides [1] [C_P]"
         ],
         "policies": [
             {
@@ -517,7 +525,9 @@
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
             "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>"
+            "Only available <before adopting [Order]>",
+            "Provides [1] [C_P]",
+            "Provides [1] [E_P]"
         ],
         "policies": [
             {
@@ -580,7 +590,9 @@
             "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
             "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>",
+            "Provides [1] [M_P]",
+            "Provides [1] [C_P]"
         ],
         "policies": [
             {
@@ -648,7 +660,8 @@
         "uniques": [
             "[+1 Happiness] [in all cities]",
             "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>",
+            "Provides [2] [C_P]"
         ],
         "policies": [
             {
@@ -719,6 +732,8 @@
             "Only available <for [Usas Empire]>",
             "[+1 Culture, +1 Production, +1 Food] [in capital]",
             "[+1 Science, +3 Gold, -2 Happiness]",
+            "Provides [1] [E_P]",
+            "Provides [1] [C_P]"
         ],
         "policies": [
             {
@@ -776,10 +791,10 @@
                 "name": "Hegemonic culture",//霸权文化
                 "uniques": [
                     "[+2 Culture, +2 Gold, +2 Science, +1 Happiness] [in all cities]",
-                    "[+2 Culture, +1 Faith, +2 Science, +2 Happiness]",
+                    "[+2 Culture, +1 Faith, +2 Science, +3 Happiness]",
                     "[+5]% [Production] [in all cities]",
                     "Empire enters golden age",
-                    "[-20]% Culture cost of natural border growth [in all cities]"
+                    "[-25]% Culture cost of natural border growth [in all cities]"
                 ],
                 "requires": ["Usas culture"],
                 "row": 2,
@@ -818,7 +833,7 @@
             {
                 "name": "Usas Complete",
                 "uniques": [
-
+                     "Provides [1] [M_P]"
                 ]
             }
         ]

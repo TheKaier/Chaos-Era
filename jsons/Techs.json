@@ -44,8 +44,13 @@
 				"row": 9,
 				"prerequisites": ["Agriculture"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
-			}
-
+			},
+			{
+				"name": "Ancient_era",//政策科技_远古
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 	{
@@ -131,7 +136,13 @@
 				"row": 9,
 				"prerequisites": ["Masonry","The Wheel"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
-			}
+			},
+			{
+				"name": "Classical_era",//政策科技_古典
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 	{
@@ -206,7 +217,13 @@
 				"row": 9,
 				"prerequisites": ["Engineering","Iron Working"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
-			}
+			},
+			{
+				"name": "Medieval_era",//政策科技_中古
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 	{
@@ -294,7 +311,13 @@
 				"row": 10,
 				"prerequisites": ["Physics","Steel"],
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
-			}
+			},
+			{
+				"name": "Renaissance_era",//政策科技_启蒙
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 	{
@@ -378,7 +401,13 @@
 				"row": 10,
 				"prerequisites": ["Chemistry"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
-			}
+			},
+			{
+				"name": "Industrial_era",//政策科技_工业
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 	{
@@ -451,7 +480,13 @@
 				"row": 8,
 				"prerequisites": ["Steam Power","Dynamite"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
-			}
+			},
+			{
+				"name": "Modern_era",//政策科技_电气
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 	{
@@ -517,7 +552,13 @@
 				"row": 8,
 				"prerequisites": ["Ballistics","Combustion"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
-			}
+			},
+			{
+				"name": "Atomic_era",//政策科技_原子
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 	{
@@ -596,7 +637,13 @@
 				"row": 8,
 				"prerequisites": ["Computers"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
-			}
+			},
+			{
+				"name": "Information_era",//政策科技_信息
+				"row": 15,
+				"prerequisites": ["Future Tech"],
+				"quote": "'"
+			},
 		]
 	},
 

@@ -1,4 +1,560 @@
 [
+
+//额外的胜利方式
+	//远见胜利
+	{
+		"name": "To the sky",//向那天空进发
+		"uniqueTo": "Visionary nation",		
+		"isWonder": true,
+		"cost": 0,
+		"uniques": ["Consumes [1000] [Visionary]","Can only be built [in capital]",],		
+	},
+	//政策研发科技
+		{
+		"name": "Classical_era",//古典政策
+		"cost":0,
+		//"requiredBuilding": "",	
+		"uniques": ["Destroyed when the city is captured","Discover [Classical_era]","Only available <starting from the [Classical era]>","Limited to [1] per Civilization","Can only be built [in capital]",]
+	},
+	{
+		"name": "Medieval_era",//中古政策
+		"cost":0,
+		"requiredBuilding": "Classical_era",	
+		"uniques": ["Destroyed when the city is captured","Discover [Medieval_era]","Only available <starting from the [Medieval era]>","Limited to [1] per Civilization","Can only be built [in capital]",]
+	},
+	{
+		"name": "Renaissance_era",//启蒙政策
+		"cost":0,
+		"requiredBuilding": "Medieval_era",	
+		"uniques": ["Destroyed when the city is captured","Discover [Renaissance_era]","Only available <starting from the [Renaissance era]>","Limited to [1] per Civilization","Can only be built [in capital]",]
+	},
+	{
+		"name": "Industrial_era",//工业政策
+		"cost":0,
+		"requiredBuilding": "Renaissance_era",	
+		"uniques": ["Destroyed when the city is captured","Discover [Industrial_era]","Only available <starting from the [Industrial era]>","Limited to [1] per Civilization","Can only be built [in capital]",]
+	},
+	{
+		"name": "Modern_era",//电气政策
+		"cost":0,
+		"requiredBuilding": "Industrial_era",	
+		"uniques": ["Destroyed when the city is captured","Discover [Modern_era]","Only available <starting from the [Modern era]>","Limited to [1] per Civilization","Can only be built [in capital]",]
+	},
+    {
+		"name": "Atomic_era",//原子政策
+		"cost":0,
+		"requiredBuilding": "Modern_era",	
+		"uniques": ["Destroyed when the city is captured","Discover [Atomic_era]","Only available <starting from the [Atomic era]>","Limited to [1] per Civilization","Can only be built [in capital]",]
+	},
+	{
+		"name": "Information_era",//信息政策
+		"cost":0,
+		"requiredBuilding": "Atomic_era",	
+		"uniques": ["Destroyed when the city is captured","Discover [Information_era]","Only available <starting from the [Information era]>","Limited to [1] per Civilization","Can only be built [in capital]",]
+	},
+	
+	
+	
+	
+	
+	
+	//政策卡建筑
+	    {//君主崇拜
+        "name":"E_junzhuchongbai",
+        "cost":0,
+        "requiredResource":"E_P",
+        "gold":2,
+        "culture":1,
+        "uniques":[
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [E_P]>",
+        //"Only available <before discovering []>",
+        "Destroyed when the city is captured",
+],
+    },
+	    {//经济-城市规划
+        "name":"E_chengshiguihua",
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[+1 Production] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        //"Only available <before discovering []>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {//经济-服役
+        "name":"E_fuyi",
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[+30]% Production when constructing [Worker] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        //"Only available <before discovering []>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {
+        "name":"E_shangduilvguan",//商队旅馆
+        "cost":0,
+        "requiredResource":"E_P",
+        "uniques":["[+2 Gold] from each Trade Route",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [E_P]>",
+        //"Only available <before discovering []>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {
+        "name":"E_qiangpolaoyi",//强迫劳动
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[-25]% tile improvement construction time",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        //"Only available <before discovering []>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    //Classical_era
+    {
+        "name":"E_tudiceliangyuan",//土地测量员
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[-20]% Gold cost of acquiring tiles [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        "Only available <before discovering [Classical_era]",
+        "Destroyed when the city is captured",
+        ]
+    },
+    {
+        "name":"E_zhimin",//殖民
+        "cost":0,
+        "requiredResource":"E_P",
+        "uniques":["[+33]% Production when constructing [Settler] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [E_P]>",
+        "Only available <before discovering [Classical_era]>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {
+        "name":"E_loufang",//楼房
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[+1 Food] from every [Granary]",
+        "[+1 Food] from every [Monument]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        "Only available <before discovering [Classical_era]>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {
+        "name":"E_ziranzhexue",//自然哲学
+        "cost":0,
+        "requiredResource":"E_P",
+        "uniques":["[+1 Culture, +1 Gold] from [Jungle] tiles [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [E_P]>",
+        "Only available <before discovering [Classical_era]>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {
+        "name":"E_jingwen",//经文
+        "cost":0,
+        "requiredResource":"E_P",
+        "uniques":["[+1 Science] from every [Shrine]",
+        "[+2 Culture] from every [Temple]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [E_P]>",
+        "Only available <before discovering [Classical_era]>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {
+        "name":"E_haijunjichusheshi",//海军基础设施
+        "cost":0,
+        "requiredResource":"E_P",
+        "uniques":["New [Melee Water] units start with [5] Experience [in this city]",
+        "New [Ranged Water] units start with [5] Experience [in this city]",
+        "[+20]% Production when constructing [Water] units [in all cities]"
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [E_P]>",
+        "Only available <before discovering [Classical_era]>",
+        "Destroyed when the city is captured",
+        ],
+    },
+    {
+        "name":"E_nongnuzhi",//农奴制
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[+2] Movement <for [Worker] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        "Only available <before discovering [Classical_era]>",
+        "Destroyed when the city is captured",
+        ],
+    },
+  /*  {
+        "name":"E_minjianweiwang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Happiness, +3 Food, -2 Production] from every [Building_Classification_Governor_Level_1]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Mass media]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Administration"
+    },
+    {
+        "name":"E_maoyilianmeng",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Science, +1 Culture] from each Trade Route",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Capitalism]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Mercenaries"
+    },
+    {
+        "name":"E_meixue",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Theater_Square]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Professional sports]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Medieval bazaar"
+    },
+    {
+        "name":"E_gulaochengqu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Culture] <in cities with a [Building_Classification_District_Unique]>",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Right to vote]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Medieval bazaar"
+    },
+    {
+        "name":"E_chengzhentexuzhuang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Commercial_Hub]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Ideology]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Thw worker's union"
+    },
+    {
+        "name":"E_geteshijianzhu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% Production when constructing [Wonder_Class_Ancient] wonders [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Classical] wonders [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Medieval] wonders [in all cities]",
+        "[+15]% Production when constructing [Wonder_Class_Renaissance] wonders [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Civil engineering]>",
+        "Destroyed when the city is captured",
+        "Class_General_Policy"],
+        "requiredTech":"Civic_Divin right of Kings"
+    },
+    {
+        "name":"E_zhimindibanshichu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[20]% Food is carried over after population increases [in all cities connected to capital]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Exploration"
+    },
+    {
+        "name":"E_zongjiaojiaopai",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Spread Religion Strength <for [Unit_Missionary] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Reformed church"
+    },
+    {
+        "name":"E_gongxiangjiaotang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Faith] from every [Building_Classification_Holy_Site_District]",
+        "[+50]% [Faith] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Reformed church"
+    },
+    {
+        "name":"E_sanjiaomaoyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+4 Gold, +1 Faith] from each Trade Route",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic_Globalization]>",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Mercantilism"
+    },
+    {
+        "name":"E_lixingzhuyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Science] from every [Building_Classification_College_District]",
+        "[+50]% [Science] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Enlightenment"
+    },
+    {
+        "name":"E_ziyoushichang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Gold] from every [Building_Classification_Commercial_Hub_District]",
+        "[+50]% [Gold] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Enlightenment"
+    },
+    {
+        "name":"E_ziyouzhuyi",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2] Movement <for [Class_GreatPerson] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Enlightenment"
+    },
+    {
+        "name":"E_gonggonggongcheng",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+30]% Production when constructing [Unit_Class_Builder] units [in all cities]",
+        "[+1] Movement <for [Unit_Class_Builder] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Civil engineering"
+    },
+    {
+        "name":"E_motiandalou",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% Production when constructing [All] wonders [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Civil engineering"
+    },
+    {
+        "name":"E_ziyoushichang",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Culture] from every [Building_Classification_Theater_Square_District]",
+        "[+50]% [Culture] <in cities with at least [15] [Population]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Opera and ballet"
+    },
+    {
+        "name":"E_zhengshou",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[-20]% Gold cost of acquiring tiles [in all cities]",
+        "[+50]% Production when constructing [Unit_Settler] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Scorched earth strategy"
+    },
+    {//经济-市场经济
+        "name":"E_shichangjingji",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Gold, +2 Culture] from [Luxury resource] tiles [in all cities] <in cities with a [Building_Market]>",
+        "[+1 Gold, +2 Science] from [Strategic resource] tiles [in all cities] <in cities with a [Building_Market]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Capitalism"
+    },
+    {//苏联-经济-计划经济
+        "name":"E_jihuajingji",
+        "replaces":"E_shichangjingji",
+        "uniqueTo":"Nation_SU",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Science, +1 Culture, +1 Production] from [Strategic resource] tiles [in all cities] <in cities with a [Building_Workshop]>",
+        "[+1 Science, +1 Culture, +1 Production] from [Luxury resource] tiles [in all cities] <in cities with a [Building_Workshop]>",
+        "[+1 Science, +1 Culture, +1 Production] from [Bonus resource] tiles [in all cities] <in cities with a [Building_Workshop]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Capitalism"
+    },
+    {
+        "name":"E_jingjitongmeng",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Commercial_Hub]",
+        "[+100]% Yield from every [Class_Harbor]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Ideology"
+    },
+    {
+        "name":"E_wunianjihua",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Campus]",
+        "[+100]% Yield from every [Class_Industrial_Zone]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Ideology"
+    },
+    {
+        "name":"E_xinzheng",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+1 Happiness] from every [Building_Classification_District_Unique]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Right to vote"
+    },
+    {
+        "name":"E_jitihua",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Food, +4 Production] [in all cities connected to capital]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Class struggle"
+    },
+    {
+        "name":"E_yichanlvyou",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% [Culture] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Cultural heritage"
+    },
+    {
+        "name":"E_tiyuchuanmei",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+100]% Yield from every [Class_Theater_Square]",
+        "[+2 Happiness] from every [Building_Stadium]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Professional sports"
+    },
+    {
+        "name":"E_weixingguangbo",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+15]% [Culture] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Space race"
+    },
+    {
+        "name":"E_dianzishangwu",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["[+2 Production, +5 Gold] from each Trade Route",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Globalization"
+    },
+    {
+        "name":"E_zaixianshequ",
+        "cost":0,
+        "requiredResource":"Resource_Economic policy slot",
+        "uniques":["Gain [150] [Culture] <upon declaring friendship>",
+        "Free [Unit_Infantry] appears <upon declaring war with a major Civilization>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class_Economic_Policy"],
+        "requiredTech":"Civic_Social media"
+    },*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	// Ancient Era
 
 	// Always available
@@ -1447,70 +2003,70 @@
 		"name": "Population Power",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
-		"uniques": ["Provides [1] [Power]","Requires at least [1] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [1] [Power]","Requires at least [1] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_2",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power",	
-		"uniques": ["Provides [1] [Power]","Requires at least [2] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [1] [Power]","Requires at least [2] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Population Power_3",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_2",	
-		"uniques": ["Provides [1] [Power]","Requires at least [3] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [1] [Power]","Requires at least [3] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_4",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_3",	
-		"uniques": ["Provides [2] [Power]","Requires at least [4] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [2] [Power]","Requires at least [4] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_5",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_4",	
-		"uniques": ["Provides [2] [Power]","Requires at least [5] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [2] [Power]","Requires at least [5] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_6",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_5",	
-		"uniques": ["Provides [2] [Power]","Requires at least [6] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [2] [Power]","Requires at least [6] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_7",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_6",	
-		"uniques": ["Provides [2] [Power]","Requires at least [7] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [2] [Power]","Requires at least [7] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_8",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_7",	
-		"uniques": ["Provides [3] [Power]","Requires at least [8] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [3] [Power]","Requires at least [8] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_9",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_8",	
-		"uniques": ["Provides [3] [Power]","Requires at least [9] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [3] [Power]","Requires at least [9] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_10",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_9",	
-		"uniques": ["Provides [4] [Power]","Requires at least [10] population","Will not be displayed in Civilopedia"]
+		"uniques": ["Provides [4] [Power]","Requires at least [10] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	//人口电力系列可以结束了
 {
@@ -1524,74 +2080,74 @@
 		"name": "Muscle of hindlimb",//后肢肌肉
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [Muscle of hindlimb] promotion","Can only be built [in capital]","Cannot be purchased"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [Muscle of hindlimb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
 	},
 	{
 		"name": "visual perception",//视觉感知
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [visual perception] promotion","Can only be built [in capital]","Cannot be purchased"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [visual perception] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "A chitin blade",//几丁质利刃
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [A chitin blade] promotion","Can only be built [in capital]","Cannot be purchased"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [A chitin blade] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Muscle of limb",//四肢肌肉
 		"uniqueTo": "Zerg",
 		"cost":0,
 		"requiredBuilding": "Muscle of hindlimb",	
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Muscle of limb] promotion","Can only be built [in capital]","Cannot be purchased"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Muscle of limb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "neuromodification",//神经改良
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [neuromodification] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of hindlimb]>","Only available <in cities with a [visual perception]>"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [neuromodification] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of hindlimb]>","Only available <in cities with a [visual perception]>","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Penetration perception",//穿透感知
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Penetration perception] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [visual perception]>"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Penetration perception] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [visual perception]>","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "The chitin shell",//几丁质外壳
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [The chitin shell] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [A chitin blade]>"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [The chitin shell] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [A chitin blade]>","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Tendon improvement",//肌腱改良
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Tendon improvement] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Quick strike]>"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Tendon improvement] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Quick strike]>","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Quick strike",//迅捷打击
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Quick strike] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Tendon improvement]>"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Quick strike] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Tendon improvement]>","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Exoskeleton optimization",//外骨骼优化
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Exoskeleton optimization] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [The chitin shell]>"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Exoskeleton optimization] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [The chitin shell]>","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Body strengthening",//机体强化
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Body strengthening] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Tendon improvement]>"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Body strengthening] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Tendon improvement]>","Destroyed when the city is captured"]
 	},	
 	{
 		"name": "Rapid phagocytosis",//快速吞噬
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [neuromodification]>","Only available <in cities with a [A chitin blade]>"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [neuromodification]>","Only available <in cities with a [A chitin blade]>","Destroyed when the city is captured"]
 	},	
 		{
 		"name": "Beastground",//兽场
@@ -1607,26 +2163,28 @@
 		"name": "Beidi-food",//北狄-粮食
 				"uniqueTo": "Beidi",
 					"cost":0,
-		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]","[+1 Food] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-production]>","Cannot be purchased","Will not be displayed in Civilopedia"]	
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]","[+1 Food] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-production]>","Cannot be purchased","Will not be displayed in Civilopedia","Destroyed when the city is captured"]	
 	},
 			{
 		"name": "Beidi-production",//北狄-产能
 				"uniqueTo": "Beidi",
 					"cost":0,
-		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Production] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-food]>","Cannot be purchased","Will not be displayed in Civilopedia"]	
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Production] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-food]>","Cannot be purchased","Will not be displayed in Civilopedia","Destroyed when the city is captured"]	
 	},
-	{
-		"name": "To the sky",//向那天空进发
-		"uniqueTo": "Visionary nation",		
-		"isWonder": true,
-		"cost": 0,
-		"uniques": ["Consumes [1000] [Visionary]",],		
-	},
+
 	
 	
-	
-	
-	
+	//Ancient_era
+//Classical_era
+//Medieval_era
+//Renaissance_era
+//Industrial_era
+//Modern_era
+//Atomic_era
+//Information_era
+//Future_era
+	//"Discover [Civic_Code]"
+	//"Destroyed when the city is captured"
 	//[in this city]
 	//"[+1 Food] from every [Pasture]","[+1 Food] from every [Camp]"
 	//"Only available <in cities with a [Muscle of hindlimb]>"]
