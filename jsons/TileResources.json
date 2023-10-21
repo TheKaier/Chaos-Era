@@ -511,32 +511,50 @@
 {
 		"name": "Slime",//史莱姆
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},
 {
 		"name": "Underground",//地底
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},
 {
 		"name": "Guarder",//守卫者
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},
 	{
 		"name": "Nuclear materials",//核原料
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},
 	{
 		"name": "Blade Soul",//剑灵
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},
 	{
 		"name": "Power",//电力
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},
 	{
 		"name": "Thousand machine gun",//千机重炮
@@ -546,7 +564,10 @@
 	{
 		"name": "DNA",//DNA
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},	
 	{
 		"name": "Visionary",//远见
@@ -559,15 +580,24 @@
 	},
 	{
 		"name": "C_P",//建设槽，Construction policy
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},	
 	{
 		"name": "E_P",//经济槽，Economic policy
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},	
 	{
 		"name": "M_P",//军事槽，Military policy
-		"resourceType": "Strategic"
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
 	},
 	
 	
