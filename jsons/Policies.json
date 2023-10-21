@@ -70,6 +70,7 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
+                "Provides [1] [A_P]",
                     "[+25]% growth [in all cities]",
                     "Provides a [Aqueduct] in your first [6] cities for free"
                 ]
@@ -146,7 +147,9 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person","[+50]% Yield from every [Great Improvement]",]
+                "uniques": [
+                "Provides [1] [A_P]",
+                "Free Great Person","[+50]% Yield from every [Great Improvement]",]
             }
         ]
     },
@@ -168,7 +171,7 @@
             "[+20]% Strength <for [Military] units> <vs [Barbarian 1] units> ",
             "Earn [150]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments",
-            "Provides [1] [M_P]"
+            "Provides [1] [A_P]"
         ],
         "policies": [
             {
@@ -224,6 +227,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
+                "Provides [1] [A_P]",
                     "Earn [33]% of killed [Military] unit's [Cost] as [Gold]",
                     "Earn [33]% of killed [Military] unit's [Cost] as [Science]"
                 ]
@@ -297,6 +301,7 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
+                "Provides [1] [A_P]",
                     "[Faith] cost of purchasing items in cities [-25]%",
                     "[+4 Gold, +4 Culture] from every [Holy site]",
                     "[+10]% Spread Religion Strength",
@@ -366,6 +371,7 @@
             {
                 "name": "Patronage Complete",
                 "uniques": [
+                "Provides [1] [A_P]",
                     "Influence of all other civilizations with all city-states degrades [40]% faster",
                     "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
                 ]
@@ -438,6 +444,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
+                "Provides [1] [A_P]",
                     "[+1 Gold] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
@@ -506,6 +513,7 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
+                "Provides [1] [A_P]",
                     "[2] Free Technologies",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -817,12 +825,12 @@
                     "[+50]% [Food] [in all cities] <when below [20] Happiness>",
                     "[-100]% [Food] [in all cities] <while the empire is happy>",
                     "[+150]% Unhappiness from [Population] [in all cities]",
-                    "[+66]% Strength <vs [Barbarian] units>",
-                     "[+43]% Strength <when below [20] Happiness>",
-                     "[+50]% [Production] [in all cities] <when below [20] Happiness>",
+                    "[+100]% Strength <vs [Barbarian] units>",
+                     "[+47]% Strength <when below [20] Happiness>",
+                     "[+70]% [Production] [in all cities] <when below [20] Happiness>",
                      "[+5]% [Production] [in all cities]",
-                     "[+10]% Production when constructing [All] units [in all cities]",
-                     "[+15]% XP gained from combat",
+                     "[+15]% Production when constructing [All] units [in all cities]",
+                     "[+20]% XP gained from combat",
                      "[+3 Culture, +2 Production, +3 Science] [in all cities]",
                      "Empire enters golden age",
                 ],
@@ -833,7 +841,7 @@
             {
                 "name": "Usas Complete",
                 "uniques": [
-                     "Provides [1] [M_P]"
+                     "Provides [2] [A_P]"
                 ]
             }
         ]

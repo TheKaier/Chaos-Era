@@ -599,7 +599,13 @@
 		"Cannot be traded"//不能交易
 		]
 	},
-	
+		{
+		"name": "A_P",//通用槽
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
+	},
 	
 	
 ]
