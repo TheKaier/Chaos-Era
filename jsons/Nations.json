@@ -1603,8 +1603,8 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Mad Gandhi",
-        "uniqueText": "战争期间，加33%科文。和平期间，减33%科文。",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","Population loss from nuclear attacks [-90]% [in all cities]","[-33]% [Culture] <when not at war>","[-33]% [Science] <when not at war>","[+33]% [Culture] <when at war>","[+33]% [Science] <when at war>","[+2 Food, +2 Production] from [Fallout] tiles [in all cities]","[+75]% Strength <in [Fallout] tiles>"],
+        "uniqueText": "战争期间，加33%科文\n和平期间，减33%科文",
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","Population loss from nuclear attacks [-95]% [in all cities]","[-33]% [Culture] <when not at war>","[-33]% [Science] <when not at war>","[+33]% [Culture] <when at war>","[+33]% [Science] <when at war>","[+2 Food, +2 Production] from [Fallout] tiles [in all cities]","[+75]% Strength <in [Fallout] tiles>"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
@@ -1854,6 +1854,44 @@
 		],
 		"cities": ["Visionary nation", "progress"],
     },
+	{
+		"name": "China_Qin",
+		"leaderName": "First Emperor of Qin",
+		"adjective": ["China_Qin"],
+		"preferredVictoryType": "Scientific",
 
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+
+		"favouredReligion": "Taoism",
+		"uniqueName": "Great Unification",
+		"uniqueText": "初始获得一个建设槽位\n组建工人时，加15%产能",
+		"uniques": [
+		"Provides [1] [C_P]",
+		"[+15]% Production when constructing [Worker] units [in all cities]",
+		"[+10]% Strength <in [The_Great_Wall_Qin] tiles>"
+		],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
+    
+    
+    
+    
 
 ]

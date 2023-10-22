@@ -108,7 +108,6 @@
                 "uniques": [
                     "[-33]% tile improvement construction time",
                     "[+1 Science] [in all cities]",
-                    "[+1 Gold] per [3] population [in all cities]",
                     "Free [Worker] appears"
                 ],
                 "row": 1,
@@ -117,7 +116,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+80]% Production when constructing [Settler] units [in capital]",
+                    "[+70]% Production when constructing [Settler] units [in capital]",
                     "[+1 Culture] [in all cities]",
                     "Free [Settler] appears"
                 ],

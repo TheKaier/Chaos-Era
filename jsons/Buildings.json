@@ -1,5 +1,5 @@
 [
-
+//第780行特色政策卡
 //额外的胜利方式
 	//远见胜利
 	{
@@ -776,6 +776,26 @@
         "Class_Economic_Policy"],
         "requiredTech":"Civic_Social media"
     },*/
+	//文明特色政策卡
+	{
+        "name":"junxianzhi",//郡县制
+        "cost":0,
+        "uniqueTo": "China_Qin",
+        "requiredResource":"C_P",
+        "uniques":["[+1 Production, +1 Gold] [in all cities] <before discovering [Renaissance_era]>",
+        "[+5]% [Production] [in all cities] <before discovering [Renaissance_era]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        "Only available <after discovering [Ancient_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Renaissance_era]>",
+        "Provides [1] [C_P] <after discovering [Renaissance_era]>",
+        ],
+    },
+	
+	
+	
 	
 	
 	

@@ -299,7 +299,7 @@
 	{
 		"name": "Loulan field",//楼兰古田
 		"uniqueTo": "Loulan",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 6,
 		"techRequired": "Agriculture",
@@ -311,4 +311,23 @@
             "Pillaging this improvement yields approximately [+8 Gold]"],
 		"shortcutKey": "F"
 	},
+		{
+		"name": "The_Great_Wall_Qin",//秦长城
+		"uniqueTo": "China_Qin",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Masonry",
+		"uniques": [
+		"[+1 Culture, +1 Gold] <with [1] to [1] neighboring [The_Great_Wall_Qin] tiles>",
+		"[+1 Culture, +1 Gold, +1 Production] <with [2] to [2] neighboring [The_Great_Wall_Qin] tiles>",
+		"[-1 Food, -1 Gold] <with [3] to [6] neighboring [The_Great_Wall_Qin] tiles>",
+		"Adjacent enemy units ending their turn take [10] damage",
+            "Pillaging this improvement yields approximately [+12 Gold]"],
+		"shortcutKey": "F"
+	},
+	
+	
+	
+	//<with [1] to [1] neighboring [The_Great_Wall_Qin] tiles>
 ]
