@@ -920,10 +920,10 @@
 	},
 	{
 		"name": "Visionary nation",//远见国
-		"uniques": ["[-1] Sight","Can see over obstacles","Instantly provides [2] [Visionary]<upon defeating a [Wounded] unit>"],
+		"uniques": ["[-1] Sight","Can see over obstacles","Instantly provides [2] [Visionary]<upon defeating a [Wounded] unit>","[+1] Sight <when above [150] [Visionary]>","[+5]% Strength <when above [300] [Visionary]>","[+1] Sight <when above [450] [Visionary]>"],
         "column": 31,
         "row": 1
 	},
 
-
+//<when above [300] [Visionary]>
 ]

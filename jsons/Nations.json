@@ -1844,18 +1844,18 @@
 		"uniques": ["[All] units gain the [Visionary nation] promotion","[+50]% Production when constructing [Culture] buildings [in all cities]","[+50]% Production when constructing [Science] buildings [in all cities]","Provides the cheapest [Culture] building in your first [1] cities for free",
 		"Free [Great Scientist] appears <upon discovering [Civil Service]>",
 		"Free [Great Artist] appears <upon discovering [Metal Casting]>",
-		"Instantly provides [6] [Visionary]<upon constructing [All]>",
-		"Instantly provides [60] [Visionary]<upon constructing [Wonder]>",
-		"[+1 Production] [in all cities]<when above [100] [Visionary]>",
-		"[+1 Gold, +2 Science] from each Trade Route<when above [300] [Visionary]>",
-		"[+1 Production] [in all cities]<when above [500] [Visionary]>",
-		"[+2 Gold] [in all cities]<when above [700] [Visionary]>",
-		"[+3 Production] [in all cities]<when above [900] [Visionary]>",
+		"Instantly provides [8] [Visionary]<upon constructing [All]>",
+		"Instantly provides [100] [Visionary]<upon constructing [Wonder]>",
+		"[+2 Production] [in all cities] <when above [100] [Visionary]>",
+		"[+2 Gold, +2 Science] from each Trade Route <when above [300] [Visionary]>",
+		"[+2 Production] [in all cities]<when above [500] [Visionary]>",
+		"[+3 Gold] [in all cities] <when above [700] [Visionary]>",
+		"[+4 Production] [in all cities] <when above [900] [Visionary]>",
 		],
 		"cities": ["Visionary nation", "progress"],
     },
 	{
-		"name": "China_Qin",
+		"name": "China_Qin",//秦朝
 		"leaderName": "First Emperor of Qin",
 		"adjective": ["China_Qin"],
 		"preferredVictoryType": "Scientific",
@@ -1880,7 +1880,7 @@
 		"uniques": [
 		"Provides [1] [C_P]",
 		"[+15]% Production when constructing [Worker] units [in all cities]",
-		"[+10]% Strength <in [The_Great_Wall_Qin] tiles>"
+		"[+20]% Strength <in [The_Great_Wall_Qin] tiles>"
 		],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -1889,8 +1889,38 @@
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
 
     },
-    
-    
+    {
+		"name": "China_Han",//汉朝
+		"leaderName": "Liu Che",
+		"adjective": ["China_Han"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+
+		"favouredReligion": "Taoism",
+		"uniqueName": "All inputs are levelled",
+		"uniqueText": "初始获得一个经济槽位",
+		"uniques": [
+		"Provides [1] [E_P]",
+		],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+    },
     
     
 
