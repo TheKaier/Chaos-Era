@@ -828,16 +828,16 @@
         "name":"duzunrushu",//独尊儒术
         "cost":0,
         "uniqueTo": "China_Han",
-        "requiredResource":"C_P",
+        "requiredResource":"E_P",
         "uniques":["[+1 Faith] from every [Shrine] <before discovering [Renaissance_era]>",
         "[+1 Faith] <before discovering [Renaissance_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
-        "Only available <with [C_P]>",
+        "Only available <with [E_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
-        "Provides [1] [C_P] <after discovering [Renaissance_era]>",
+        "Provides [1] [E_P] <after discovering [Renaissance_era]>",
         ],
     },
 	{
@@ -846,7 +846,7 @@
         "uniqueTo": "China_Han",
         "requiredResource":"E_P",
         "uniques":["[+1 Production, +1 Gold] from every [Salt] <before discovering [Renaissance_era]>",
-        "[+1 Production, +1 Gold] from every [Iron] <before discovering [Renaissance_era]>",
+        "[+1 Production, +2 Gold] from every [Iron] <before discovering [Renaissance_era]>",
         "[+1 Production] [in all cities] <before discovering [Renaissance_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
@@ -2399,74 +2399,74 @@
 		"name": "Muscle of hindlimb",//后肢肌肉
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [Muscle of hindlimb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [Muscle of hindlimb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
 	},
 	{
 		"name": "visual perception",//视觉感知
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [visual perception] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [visual perception] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "A chitin blade",//几丁质利刃
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [A chitin blade] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [A chitin blade] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Muscle of limb",//四肢肌肉
 		"uniqueTo": "Zerg",
 		"cost":0,
 		"requiredBuilding": "Muscle of hindlimb",	
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Muscle of limb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Muscle of limb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "neuromodification",//神经改良
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [neuromodification] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of hindlimb]>","Only available <in cities with a [visual perception]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [neuromodification] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of hindlimb]>","Only available <in cities with a [visual perception]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Penetration perception",//穿透感知
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Penetration perception] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [visual perception]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Penetration perception] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [visual perception]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "The chitin shell",//几丁质外壳
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [The chitin shell] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [A chitin blade]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [The chitin shell] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [A chitin blade]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Tendon improvement",//肌腱改良
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Tendon improvement] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Quick strike]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Tendon improvement] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Quick strike]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Quick strike",//迅捷打击
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Quick strike] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Tendon improvement]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Quick strike] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification]>","Only available <in cities without a [Tendon improvement]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Exoskeleton optimization",//外骨骼优化
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Exoskeleton optimization] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [The chitin shell]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Exoskeleton optimization] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [The chitin shell]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Body strengthening",//机体强化
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Body strengthening] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Tendon improvement]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Body strengthening] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Tendon improvement]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Rapid phagocytosis",//快速吞噬
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [neuromodification]>","Only available <in cities with a [A chitin blade]>","Destroyed when the city is captured"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [neuromodification]>","Only available <in cities with a [A chitin blade]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 		{
 		"name": "Beastground",//兽场

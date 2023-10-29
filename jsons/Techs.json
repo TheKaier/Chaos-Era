@@ -49,7 +49,7 @@
 				"name": "Ancient_era",//政策科技_远古
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"quote": "'您开启了远古时代的政策卡"
 			},
 		]
 	},
@@ -141,7 +141,8 @@
 				"name": "Classical_era",//政策科技_古典
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"uniques": ["Enables Open Borders agreements"],
+				"quote": "'您开启了古典时代的政策卡"
 			},
 		]
 	},
@@ -202,7 +203,6 @@
 				"name": "Civil Service",
 				"row": 5,
 				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry"],
-				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
@@ -222,7 +222,8 @@
 				"name": "Medieval_era",//政策科技_中古
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"uniques": ["Enables Defensive Pacts"],
+				"quote": "'您开启了中古时代的政策卡"
 			},
 		]
 	},
@@ -316,7 +317,7 @@
 				"name": "Renaissance_era",//政策科技_启蒙
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"quote": "您开启了启蒙时代的政策卡'"
 			},
 		]
 	},
@@ -406,7 +407,7 @@
 				"name": "Industrial_era",//政策科技_工业
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"quote": "您开启了工业时代的政策卡'"
 			},
 		]
 	},
@@ -485,7 +486,7 @@
 				"name": "Modern_era",//政策科技_电气
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"quote": "'您开启了电气时代的政策卡"
 			},
 		]
 	},
@@ -557,7 +558,7 @@
 				"name": "Atomic_era",//政策科技_原子
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"quote": "您开启了原子时代的政策卡'"
 			},
 		]
 	},
@@ -642,7 +643,7 @@
 				"name": "Information_era",//政策科技_信息
 				"row": 15,
 				"prerequisites": ["Future Tech"],
-				"quote": "'"
+				"quote": "您开启了信息时代的政策卡'"
 			},
 		]
 	},

@@ -319,11 +319,11 @@
 		"turnsToBuild": 6,
 		"techRequired": "Masonry",
 		"uniques": [
-		"[+1 Culture, +1 Gold] <with [1] to [1] neighboring [The_Great_Wall_Qin] tiles>",
-		"[+1 Culture, +1 Gold, +1 Production] <with [2] to [2] neighboring [The_Great_Wall_Qin] tiles>",
-		"[-1 Food, -1 Gold] <with [3] to [6] neighboring [The_Great_Wall_Qin] tiles>",
-		"Adjacent enemy units ending their turn take [10] damage",
-            "Pillaging this improvement yields approximately [+12 Gold]"],
+		"[+1 Culture, +1 Gold] <with [1] to [1] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"[+1 Culture, +1 Gold, +1 Production] <with [2] to [2] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"[-1 Food, -1 Gold] <with [3] to [6] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"Adjacent enemy units ending their turn take [12] damage",
+            "Unpillagable"],
 		"shortcutKey": "F"
 	},
 	
