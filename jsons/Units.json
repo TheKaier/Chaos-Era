@@ -1,5 +1,5 @@
 [
-//政策一次性单位
+
 
 
 
@@ -2375,9 +2375,22 @@
 		"hurryCostModifier": 15,
 		"attackSound": "horse"
 	},
+	{
+		"name": "Camp_of_Divine_Machinery",//神机营
+		"unitType": "Gunpowder",
+		"uniqueTo": "China_Ming",
+		"replaces": "Musketman",
+		"movement": 3,
+		"strength": 26,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Transfer Movement to [Worker]","[+10]% Strength when stacked with [Great General]","[+10]% Strength when stacked with [Worker]"],
+		"attackSound": "shot"
+	},
 	
-	
-	
+	//"Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"
 
 	//"promotions": [""],
 	//"Will not be displayed in Civilopedia"

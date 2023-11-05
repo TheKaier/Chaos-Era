@@ -557,9 +557,9 @@
 		]
 	},
 	{
-		"name": "Thousand machine gun",//千机重炮
+		"name": "Official salt",//官盐
 		"revealedBy": "Future Tech",
-		"resourceType": "Strategic"
+		"resourceType": "Luxury"
 	},
 	{
 		"name": "DNA",//DNA

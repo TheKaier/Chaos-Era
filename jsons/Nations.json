@@ -1921,7 +1921,50 @@
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
     },
+        {
+		"name": "China_Ming",//明朝
+		"leaderName": "Zhu Di",
+		"adjective": ["China_Ming"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+
+		"favouredReligion": "Taoism",
+		"uniqueName": "Frontier trade",
+		//"uniqueText": "以3:1的比例，将产能转化为科技文化金钱信仰",
+		"uniques": [
+		"Enables conversion of city production to [Gold]",
+		"Enables conversion of city production to [Faith]",
+		"Enables conversion of city production to [Science] <starting from the [Classical era]>",
+		"Enables conversion of city production to [Culture] <starting from the [Medieval era]>",
+		"Production to [Gold] conversion in cities changed by [+25]%",
+		"Production to [Faith] conversion in cities changed by [+25]%",
+		"Production to [Science] conversion in cities changed by [-25]%",
+		"Production to [Culture] conversion in cities changed by [-50]%",
+		],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+    },
     
     
+    
+    
+    
+    //"Production to [Gold] conversion in cities changed by [+25]%",
 
 ]
