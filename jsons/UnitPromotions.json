@@ -736,6 +736,10 @@
 		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
 	},
 	{
+        "name": "Devout",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    },
+	{
 		"name": "[Mohawk Warrior] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
 	},

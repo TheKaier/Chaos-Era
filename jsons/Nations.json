@@ -933,7 +933,7 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+2 Faith] [in all cities]","[+2 Faith] from each Trade Route"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Faith] [in all cities]","[+2 Faith] from each Trade Route"],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
@@ -1576,7 +1576,30 @@
 		"innerColor": [255, 0, 0],
                 "favoredReligion": "Christianity",
 		"uniqueName": "Rosbin City",
-		"uniques": ["Gain a free [lab 1] [in capital]", "[+1 Production, +1 Science] from every [Grassland]", "[+2 Food, +1 Happiness] from every [Desert]","[+1 Production, +1 Culture] from every [Plains]",  "[+2 Faith] from every [Tundra]", "[-50]% Culture cost of natural border growth [in all cities]",  "[+2 Gold] from every [Grassland] <after discovering [Education]>",],
+		"uniques": [
+		"Provides [1] [C_P]",
+		"Provides [1] [E_P]",
+		"Provides [1] [M_P]",
+		"Gain a free [lab 1] [in capital]", 
+		"[+1 Production, +1 Science] from every [Grassland]", 
+		"[+2 Food, +1 Happiness] from every [Desert]",
+		"[+1 Production, +1 Culture] from every [Plains]",  
+		"[+2 Faith, +1 Production] from every [Tundra]", 
+		"[+1 Production, +1 Gold] from every [Coast]",
+		"[+1 Production, +1 Gold] from every [Ocean]",
+		"[-50]% Culture cost of natural border growth [in all cities]",
+		"[+2 Gold] from every [Grassland] <after discovering [Education]>",
+		"[+1 Gold, +1 Happiness] from every [Tundra] <after discovering [Civil Service]>",
+		"[+1 Production, +1 Food, +1 Gold] from every [Coast] <after discovering [Astronomy]>",
+		"[+2 Production, +1 Food] from every [Ocean] <after discovering [Astronomy]>",
+		"[+1 Production, +1 Food] from every [Plains] <after discovering [Gunpowder]>",
+		"[+2 Production, +1 Food] from every [Grassland] <after discovering [Chemistry]>",
+		"[+2 Production, +2 Food, +2 Gold, +1 Faith] from every [Snow] <after discovering [Industrialization]>",
+		"[+1 Production] from every [Hill] <after discovering [Metal Casting]>",
+		"[+1 Production] from every [Forest] <after discovering [Calendar]>",
+		"[+1 Production] from every [Jungle] <after discovering [Calendar]>",
+		"[+2 Production, +2 Gold] from every [Plains] <after discovering [Banking]>",
+		],
 		"cities": ["Rosbin City","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
 	},
 //接下来是印度帝国
@@ -1617,7 +1640,7 @@
 		"leaderName": "Dark",
 		"adjective": ["Dark"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
         "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": " ",
@@ -1771,8 +1794,8 @@
 		"outerColor": [75,0,130],
         "innerColor": [148,0,211],
 		"uniqueName": "Zerg",
-        "uniqueText": "异虫有着其独特的基因序列，不断的发展会获得更多的DNA",
-		"uniques": ["Provides [1] [DNA] <if [Temple of Artemis] is constructed>","Provides [1] [DNA] <if [Stonehenge] is constructed>","Provides [1] [DNA] <if [The Great Library] is constructed>","Provides [1] [DNA] <if [The Pyramids] is constructed>","Provides [1] [DNA] <if [Mausoleum of Halicarnassus] is constructed>","Provides [1] [DNA] <if [Statue of Zeus] is constructed>","Provides [1] [DNA] <if [The Great Lighthouse] is constructed>","Provides [1] [DNA] <if [Circus Maximus] is constructed>","Provides [1] [DNA] <if [Hanging Gardens] is constructed>","Provides [1] [DNA] <if [Colosseum] is constructed>","Provides [1] [DNA] <if [Terracotta Army] is constructed>","Provides [1] [DNA] <if [National College] is constructed>","Provides [1] [DNA] <if [The Oracle] is constructed>","Provides [1] [DNA] <if [National Epic] is constructed>","Provides [1] [DNA] <if [Petra] is constructed>","Provides [1] [DNA] <if [Great Wall] is constructed>","Provides [1] [DNA] <if [Heroic Epic] is constructed>","Provides [1] [DNA] <if [Colossus] is constructed>","Provides [1] [DNA] <if [Hagia Sophia] is constructed>","Provides [1] [DNA] <if [Great Mosque of Djenne] is constructed>","Provides [1] [DNA] <if [Grand Temple] is constructed>","Provides [1] [DNA] <if [Chichen Itza] is constructed>","Provides [1] [DNA] <if [National Treasury] is constructed>","Provides [1] [DNA] <if [Machu Picchu] is constructed>","Provides [1] [DNA] <if [Oxford University] is constructed>","Provides [1] [DNA] <if [Angkor Wat] is constructed>","Provides [1] [DNA] <if [Alhambra] is constructed>","Provides [1] [DNA] <if [Ironworks] is constructed>","Provides [1] [DNA] <if [Notre Dame] is constructed>","Provides [1] [DNA] <if [Sistine Chapel] is constructed>",]
+        "uniqueText": "异虫有着其独特的基因序列，不断的发展会获得更多的DNA。\nDNA进化总览\n后肢肌肉，+1移\n视觉感知，+1视野\n神经改良，33%撤退，需要，视觉感知，后肢肌肉\n穿透感知，视线穿过障碍，需要，视觉感知\n四肢肌肉，+1移，需要，后肢肌肉\n肌腱改良，+1射程，需要，后肢肌肉，神经改良，与迅捷打击冲突\n迅捷打击，额外攻击1次，需要，后肢肌肉，神经改良，与肌腱改良冲突\n机体强化，+1移+5%力，需要，肌腱改良\n几丁质利刃，+10%力\n几丁质外壳，防御+15%力，需要，几丁质利刃\n外骨骼优化，+15%力，需要，几丁质外壳\n快速吞噬，杀死单位+15血攻击+15%力，需要，神经改良，几丁质利刃",
+		"uniques": ["Provides [1] [DNA] <if [Palace] is constructed>","Provides [1] [DNA] <if [Temple of Artemis] is constructed>","Provides [1] [DNA] <if [Stonehenge] is constructed>","Provides [1] [DNA] <if [The Great Library] is constructed>","Provides [1] [DNA] <if [The Pyramids] is constructed>","Provides [1] [DNA] <if [Mausoleum of Halicarnassus] is constructed>","Provides [1] [DNA] <if [Statue of Zeus] is constructed>","Provides [1] [DNA] <if [The Great Lighthouse] is constructed>","Provides [1] [DNA] <if [Circus Maximus] is constructed>","Provides [1] [DNA] <if [Hanging Gardens] is constructed>","Provides [1] [DNA] <if [Colosseum] is constructed>","Provides [1] [DNA] <if [Terracotta Army] is constructed>","Provides [1] [DNA] <if [National College] is constructed>","Provides [1] [DNA] <if [The Oracle] is constructed>","Provides [1] [DNA] <if [National Epic] is constructed>","Provides [1] [DNA] <if [Petra] is constructed>","Provides [1] [DNA] <if [Great Wall] is constructed>","Provides [1] [DNA] <if [Heroic Epic] is constructed>","Provides [1] [DNA] <if [Colossus] is constructed>","Provides [1] [DNA] <if [Hagia Sophia] is constructed>","Provides [1] [DNA] <if [Great Mosque of Djenne] is constructed>","Provides [1] [DNA] <if [Grand Temple] is constructed>","Provides [1] [DNA] <if [Chichen Itza] is constructed>","Provides [1] [DNA] <if [National Treasury] is constructed>","Provides [1] [DNA] <if [Machu Picchu] is constructed>","Provides [1] [DNA] <if [Oxford University] is constructed>","Provides [1] [DNA] <if [Angkor Wat] is constructed>","Provides [1] [DNA] <if [Alhambra] is constructed>","Provides [1] [DNA] <if [Ironworks] is constructed>","Provides [1] [DNA] <if [Notre Dame] is constructed>","Provides [1] [DNA] <if [Sistine Chapel] is constructed>",]
 		"cities": ["Char"],
 	},
 	{
@@ -1780,7 +1803,7 @@
 		"leaderName": "emperor",
 		"adjective": ["Usas Empire"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
         "startIntroPart1": "",
         "startIntroPart2": "",
         "declaringWar": "",
@@ -1806,7 +1829,7 @@
 		"name": "Beidi",//北狄
 		"leaderName": "Beidi Chieftain",
 		"adjective": ["Beidi"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
         "startIntroPart1": "A long time ago in the northern part of China, a tribe accompanied by beasts quietly rose up, but they longed for the world to discover and respect them. And can you, the chief of Beidi, lead the tribe to conquer the world?",
         "startIntroPart2": "",
         "declaringWar": "Humph, now I see you look like my family's fattened sheep, waiting for me to eat them!",
@@ -1893,7 +1916,7 @@
 		"name": "China_Han",//汉朝
 		"leaderName": "Liu Che",
 		"adjective": ["China_Han"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1906,8 +1929,8 @@
 		"hateHello": "",
 		"tradeRequest": "",
 
-        "outerColor": [9, 112, 84],
-        "innerColor": [255,255,255],
+        "outerColor": [255, 255, 255],
+        "innerColor": [5,35,8],
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "All inputs are levelled",
@@ -1938,12 +1961,12 @@
 		"hateHello": "",
 		"tradeRequest": "",
 
-        "outerColor": [9, 112, 84],
+        "outerColor": [240, 250, 45],
         "innerColor": [255,255,255],
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "Frontier trade",
-		//"uniqueText": "以3:1的比例，将产能转化为科技文化金钱信仰",
+		"uniqueText": "以3:1的比例，将产能转化为科技文化金钱信仰",
 		"uniques": [
 		"Enables conversion of city production to [Gold]",
 		"Enables conversion of city production to [Faith]",

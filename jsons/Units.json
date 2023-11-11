@@ -703,16 +703,17 @@
 	{
 		"name": "Longbowman",
 		"unitType": "Archery",
-		"range": 3,
+		"range": 2,
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 19,
 		"replaces": "Crossbowman",
 		"uniqueTo": "England",
-		"cost": 110,
+		"cost": 100,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
+		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
 	{
@@ -2151,7 +2152,7 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 40,
-		"uniques" : ["[+150]% Strength <vs [Blade Soul] units>","Unbuildable","Will not be displayed in Civilopedia"],
+		"uniques" : ["[+150]% Strength <vs [Blade Soul] units>","Unbuildable",],
 		"attackSound": "nonmetalhit",
 	},
 	{
@@ -2160,7 +2161,7 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 40,
-		"uniques" : ["[+300]% Strength <vs [Blade Soul] units>","Unbuildable","Will not be displayed in Civilopedia"],
+		"uniques" : ["[+300]% Strength <vs [Blade Soul] units>","Unbuildable",],
 		"attackSound": "nonmetalhit",
 	},
 	{
