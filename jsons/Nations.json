@@ -1,4 +1,4 @@
-[
+[//人口增长10, 14，20
 	//Spectator
 	{
 		"name": "Spectator",
@@ -973,9 +973,9 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
-		"uniques": ["[+2 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>",
-			"[+3 Faith] [in all cities] <with [3] to [4] neighboring [unimproved] [Forest] tiles>",
-			"[+4 Faith] [in all cities] <with [5] to [6] neighboring [unimproved] [Forest] tiles>"],
+		"uniques": ["[+2 Faith] [in all cities] <with [1] to [2] neighboring [Forest] tiles>",
+			"[+3 Faith] [in all cities] <with [3] to [4] neighboring [Forest] tiles>",
+			"[+4 Faith] [in all cities] <with [5] to [6] neighboring [Forest] tiles>"],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
 			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
@@ -1983,6 +1983,63 @@
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
     },
+    {
+		"name": "Jungle country",//丛林国
+		"leaderName": "Akatsuki",
+		"adjective": ["Jungle country"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+        "outerColor": [200, 105, 25],
+        "innerColor": [50,205,80],
+		"uniqueName": "Jungle first",
+		"uniques": [
+		"[+1 Production] from every [Jungle]",
+		"[+1 Production] from [Jungle] tiles [in all cities] <after discovering [Calendar]>",
+		"[+2 Happiness] [in all cities] <with [1] to [6] neighboring [Jungle] tiles>",
+		],
+		"cities": ["Jungle country",],
+    },
+    {
+		"name": "Terran Dominion",//泰伦帝国
+		"leaderName": "Arcturus Mengsk",
+		"adjective": ["Terran Dominion"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+        "outerColor": [0, 0, 0],
+        "innerColor": [150,15,20],
+		"uniqueName": "Terran",
+		"uniques": [
+		"[+1] Movement <for [Civilian] units>",
+		"[+1] Sight <for [Civilian] units>",
+		"[+10 Food] [in capital] <for [1] turns>",
+		],
+		"cities": ["Terran",],
+    },
+    
+    
+    
+    
+    
     
     
     

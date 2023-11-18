@@ -315,15 +315,16 @@
 		"name": "The_Great_Wall_Qin",//秦长城
 		"uniqueTo": "China_Qin",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"food": 1,
-		"turnsToBuild": 6,
+		"culture": 1,
+		"turnsToBuild": 7,
 		"techRequired": "Masonry",
 		"uniques": [
-		"[+1 Culture, +1 Gold] <with [1] to [1] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
-		"[+1 Culture, +1 Gold, +1 Production] <with [2] to [2] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
-		"[-1 Food, -1 Gold] <with [3] to [6] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
-		"Adjacent enemy units ending their turn take [12] damage",
-            "Unpillagable"],
+		"[+1 Food] <with [1] to [1] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"[+1 Food, +1 Production] <with [2] to [2] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"[+1 Culture, +1 Gold, +1 Production, +1 Food] <with [3] to [3] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"[-1 Culture, -1 Gold, -1 Production, -1 Food] <with [4] to [6] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"Adjacent enemy units ending their turn take [5] damage",
+            ],
 		"shortcutKey": "F"
 	},
 	

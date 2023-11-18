@@ -167,8 +167,7 @@
             "Only available <before adopting [Tradition]>",
             "Only available <before adopting [Usas]>",
             "[+50]% Strength <vs [Barbarian] units>",
-            "[+20]% Strength <for [Military] units> <vs [Barbarian 1] units> ",
-            "Earn [150]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Earn [130]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments",
             "Provides [1] [A_P]"
         ],
@@ -195,7 +194,7 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[+70]% XP gained from combat <for [Military] units>"
+                    "[+66]% XP gained from combat <for [Military] units>"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -214,10 +213,10 @@
                 "name": "Professional Army",
                 "uniques": [
                     "[-66]% Gold cost of upgrading <for [Military] units>",
-                    "[+2 Happiness, +2 Science] from every [Walls]",
+                    "[+2 Happiness, +1 Science] from every [Walls]",
                     "[+2 Happiness, +2 Culture] from every [Castle]",
                     "[+3 Happiness] from every [Arsenal]",
-                    "[+4 Happiness] from every [Military Base]"
+                    "[+3 Happiness] from every [Military Base]"
                 ],
                 "requires": ["Military Caste"],
                 "row": 3,

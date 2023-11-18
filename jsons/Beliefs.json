@@ -347,4 +347,19 @@
         "type": "Pantheon",
         "uniques": ["[+1 Science, +1 Production] from every [Marsh]","[+1 Production] from every [Flood plains]","[+1 Production] from every [Oasis]"]
     },
+    {
+        "name": "Encourage labor",//鼓励劳动
+        "type": "Pantheon",
+        "uniques": ["[+20]% Production when constructing [Worker] units [in all cities]"]
+    },
+    {
+        "name": "Involuntary Servitude",//强制劳役
+        "type": "Pantheon",
+        "uniques": ["Free [Worker] appears",
+        ]
+    },
+    
+    
+    
+    //Encourage labor
 ]

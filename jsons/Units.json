@@ -10,7 +10,9 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+		"[+1] Movement <after adopting [Involuntary Servitude]>",
+		],
 		"cost": 70
 	},
 	{
@@ -1749,7 +1751,7 @@
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 6,
-		"cost": 30,
+		"cost": 35,
 		"obsoleteTech": "Bronze Working",
 		"upgradesTo": "Slime 2",
 		"uniques": ["[+50]% Strength <while the empire is happy>","Consumes [1] [Slime]"],
@@ -1762,7 +1764,7 @@
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 8,
-		"cost": 43,
+		"cost": 49,
 		"requiredTech": "Bronze Working",		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Slime 3",
 		"uniques": ["[+40]% Strength <while the empire is happy>","[+1] Movement <while the empire is happy>","Consumes [2] [Slime]"],
@@ -1774,8 +1776,8 @@
 		"uniqueTo": "The Kingdom of slime",
 		"replaces": "Swordsman",
 		"movement": 2,
-		"strength": 10,
-		"cost": 70,
+		"strength": 9,
+		"cost": 75,
 		"requiredTech": "Iron Working",		"obsoleteTech": "Steel",
 		"upgradesTo": "Guard Slime",
 		"uniques": ["[+70]% Strength <while the empire is happy>","[+20]% Strength <during a Golden Age>","[+1] Movement <while the empire is happy>","Consumes [3] [Slime]"],
@@ -1789,7 +1791,7 @@
 		"movement": 2,
 		"strength": 3,
 		"rangedStrength": 4,
-		"cost": 30,
+		"cost": 35,
 		"requiredTech": "Archery",		"obsoleteTech": "Construction",
 		"upgradesTo": "Spikes Slime 2",
 		"uniques": ["[+100]% Strength <while the empire is happy>","Consumes [1] [Slime]"],
@@ -1803,7 +1805,7 @@
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
-		"cost": 65,
+		"cost": 75,
 		"requiredTech": "Construction",		"obsoleteTech": "Machinery",
 		"upgradesTo": "Sharp Slime",
 		"uniques": ["[+110]% Strength <while the empire is happy>","Consumes [2] [Slime]","[+1] Range <during a Golden Age>"],
@@ -2240,7 +2242,7 @@
 		"replaces": "Longswordsman",
 		"movement": 2,
 		"strength": 15,
-		"cost": 110,
+		"cost": 140,
 		"requiredTech": "Steel",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
@@ -2253,7 +2255,7 @@
 		"movement": 2,
 		"strength": 10,
 		"rangedStrength": 13,
-		"cost": 100,
+		"cost": 130,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
@@ -2300,8 +2302,8 @@
 		"unitType": "Armored",
 		"uniqueTo": "Shenzhou",
 		"movement": 3,
-		"strength": 24,
-		"cost": 100,
+		"strength": 23,
+		"cost": 110,
 		"requiredTech": "Steel",
 		"uniques": ["Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+300]% Strength <during the [Future era]>","Consumes [2] [Power]"],
 		"attackSound": "tankshot"
@@ -2311,10 +2313,10 @@
 		"unitType": "Archery",
 		"uniqueTo": "Shenzhou",
 		"movement": 2,
-		"strength": 15,
+		"strength": 14,
 		"range": 3,
 		"rangedStrength": 15,
-		"cost": 125,
+		"cost": 135,
 		"requiredTech": "Machinery",
 		"uniques": ["[1] Movement <during a Golden Age>","[1] additional attacks per turn <during a Golden Age>","Ranged attacks may be performed over obstacles","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+300]% Strength <during the [Future era]>","Consumes [2] [Power]"],
 		"attackSound": "gdrAttack"
@@ -2326,11 +2328,11 @@
 		"movement": 2,
 		"strength": 25,
 		"rangedStrength": 17,
-		"range": 7,
-		"interceptRange": 7,
-		"cost": 225,
+		"range": 6,
+		"interceptRange": 6,
+		"cost": 255,
 		"requiredTech": "Physics",
-		"uniques": ["[+50]% Strength <during a Golden Age>","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+300]% Strength <during the [Future era]>","Consumes [2] [Power]"],
+		"uniques": ["[+50]% Strength <during a Golden Age>","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+300]% Strength <during the [Future era]>","Consumes [3] [Power]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2390,6 +2392,67 @@
 		"uniques": ["Transfer Movement to [Worker]","[+10]% Strength when stacked with [Great General]","[+10]% Strength when stacked with [Worker]"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Fly Scout",//飞斥候
+		"unitType": "Scout",
+		"uniqueTo": "Jungle country",
+		"replaces": "Scout",
+		"movement": 3,
+		"strength": 4,
+		"cost": 35,
+		"upgradesTo": "Composite Bowman",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"uniques": ["[+1] Sight"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Siege Tank March_mode",//攻城坦克-行军模式
+		"unitType": "Sword",
+		"uniqueTo": "Terran Dominion",
+		"replaces": "Trebuchet",
+		"movement": 2,
+		"strength": 20,
+		//"rangedStrength": 14,
+		"cost": 100,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Flight",
+		"uniques": [
+		"[-1] Sight",
+		"Can transform to [Siege Tank Siege_mode]",
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Siege Tank Siege_mode",//攻城坦克-攻城模式
+		"unitType": "Siege",
+		"uniqueTo": "Terran Dominion",
+		"movement": 1,
+		"strength": 15,
+		"range": 3,
+		"rangedStrength": 20,
+		"cost": 120,
+		"promotions": ["Indirect Fire"],
+		"uniques": [
+		"[+1] Sight",
+		"[+200]% Strength <vs cities> <when attacking>",
+		"Cannot move",
+		"Can see over obstacles",
+		"Can transform to [Siege Tank March_mode]",
+		"Unbuildable",
+		],
+		"attackSound": "cannon"
+	},
+
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	//"Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"
 
