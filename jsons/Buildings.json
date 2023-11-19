@@ -59,6 +59,50 @@
 		"uniques": ["Destroyed when the city is captured","Discover [Information_era]","Only available <starting from the [Information era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
 	},
 	*/
+	//发现资源科技建筑
+	{
+		"name": "Discovering Resources Horses",//发现马
+		"cost":0,
+		"requiredTech": "Animal Husbandry",
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Horses]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+	},
+	{
+		"name": "Discovering Resources_Iron",//发现铁
+		"cost":0,
+		"requiredTech": "Iron Working",
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Iron]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+	},
+	{
+		"name": "Discovering Resources_Coal",//发现煤
+		"cost":0,
+		"requiredTech": "Industrialization",
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Coal]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+	},
+	{
+		"name": "Discovering Resources_Oil",//发现石油
+		"cost":0,
+		"requiredTech": "Biology",
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Oil]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+	},
+	{
+		"name": "Discovering Resources_Aluminum",//发现铝
+		"cost":0,
+		"requiredTech": "Electricity",
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Aluminum]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+	},
+	{
+		"name": "Discovering Resources_Uranium",//发现铀
+		"cost":0,
+		"requiredTech": "Atomic Theory",
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Uranium]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+	},
+	
+	
+	
+	
+	
+	
+	
 	//通用转换
 		    {
         "name":"A_P_C_1",
@@ -573,7 +617,7 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":[
-        "[+33]% [Faith] <in cities with at least [10] [Population]> <before discovering [Atomic_era]>",
+        "[+33]% [Faith] <in cities with at least [6] [Population]> <before discovering [Atomic_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -601,7 +645,7 @@
         "requiredResource":"C_P",
         "uniques":["[+1 Science, +1 Culture] from every [Library] <before discovering [Atomic_era]>",
         "[+2 Science, +1 Culture] from every [University] <before discovering [Atomic_era]>",
-        "[+25]% [Science] <in cities with at least [12] [Population]> <before discovering [Atomic_era]>",
+        "[+25]% [Science] <in cities with at least [8] [Population]> <before discovering [Atomic_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -616,7 +660,7 @@
         "requiredResource":"C_P",
         "uniques":["[+2 Gold] from every [Market] <before discovering [Atomic_era]>",
         "[+2 Gold] from every [Bank] <before discovering [Atomic_era]>",
-        "[+33]% [Gold] <in cities with at least [10] [Population]>",
+        "[+33]% [Gold] <in cities with at least [5] [Population]>",
         "[+1 Gold] from each Trade Route <before discovering [Atomic_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
@@ -677,7 +721,7 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":["[+2 Culture] from every [Library] <before discovering [Information_era]>",
-        "[+50]% [Culture] <in cities with at least [20] [Population]> <before discovering [Information_era]>",
+        "[+50]% [Culture] <in cities with at least [10] [Population]> <before discovering [Information_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -2582,13 +2626,27 @@
 		],
 		"requiredTech": "Bronze Working"
 	},
+	{
+		"name": "Smelting house",//冶炼屋
+		"uniqueTo": "Hittite",
+		"replaces": "Forge",
+		"maintenance": 1,
+		"cost":70,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Bronze Working",
+		"uniques": [
+		"Provides [1] [Iron]",
+			"[+10]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"]
+	},
 	
 	
 	
 	
 	
-	
-	
+	//Smelting house = 冶炼屋
+
+    
 	
 	//Ancient_era
 //Classical_era

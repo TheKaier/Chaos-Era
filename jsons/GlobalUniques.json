@@ -26,7 +26,12 @@
         // "[+20]% [Production] [in cities connected via railroad]"
         // something something unit supply
         
-        
+
+        /*"Discover [Discovering Resources_Horses] <after discovering [Animal Husbandry]>",//立刻发现马
+        "Discover [Discovering Resources_Iron] <after discovering [Iron Working]>",//立刻发现铁
+        "Discover [Discovering Resources_Coal] <after discovering [Industrialization]>",//立刻发现煤
+        "Discover [Discovering Resources_Aluminum] <after discovering [Electricity]>",//立刻发现铝
+        "Discover [Discovering Resources_Uranium] <after discovering [Atomic Theory]>",//立刻发现铀*/
 
         
     ]

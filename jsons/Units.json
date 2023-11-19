@@ -2444,6 +2444,22 @@
 		],
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Iron horse drawn chariot",
+		"unitType": "Archery",
+		"uniqueTo": "Hittite",
+		"replaces": "Chariot Archer",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 65,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty","[+20]% Strength <vs cities> <when attacking>","Consumes [1] [Iron]"],
+		"attackSound": "arrow"
+	},
 
 	
 	
@@ -2453,7 +2469,7 @@
 	
 	
 	
-	
+	//Iron horse drawn chariot = 铁造马拉战车
 	//"Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"
 
 	//"promotions": [""],

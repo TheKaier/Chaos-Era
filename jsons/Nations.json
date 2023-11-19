@@ -2035,15 +2035,37 @@
 		],
 		"cities": ["Terran",],
     },
+    {
+		"name": "Hittite",//赫梯
+		"leaderName": "Šuppiluliuma I",
+		"adjective": ["Hittite"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+        "outerColor": [255, 240, 10],
+        "innerColor": [25,215,65],
+		"uniqueName": "Hittite",
+		"uniques": [
+		"Discover [Discovering Resources_Iron]",
+		],
+		"cities": ["Hittite",],
+    },
     
     
     
     
     
     
-    
-    
-    
+
+
     
     //"Production to [Gold] conversion in cities changed by [+25]%",
 
