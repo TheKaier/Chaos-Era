@@ -12,6 +12,18 @@
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": ["Starting tech"]
 			},
+			{
+				"name": "Ancient_era",//政策科技_远古
+				"cost": 0,
+				"row": 15,
+				//"prerequisites": ["Future Tech"],
+				"uniques": [
+				"Only available <after discovering [Future Tech]>",
+				"Enables Defensive Pacts",
+				"Enables Open Borders agreements",
+				],
+				"quote": "'您开启了远古时代的政策卡"
+			},
 			
 		]
 	},
@@ -150,6 +162,15 @@
 				"prerequisites": ["Masonry","The Wheel"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			},
+			{
+				"name": "Classical_era",//政策科技_古典
+				"cost":0,
+				"row": 16,
+				//"prerequisites": ["Future Tech"],
+				"uniques": ["Only available <after discovering [Future Tech]>",],
+				"quote": "'您开启了古典时代的政策卡"
+			},
+			
 		]
 	},
 	{
@@ -234,6 +255,15 @@
 				"prerequisites": ["Engineering","Iron Working"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			},
+			{
+				"name": "Medieval_era",//政策科技_中古
+				"cost":0,
+				"row": 17,
+				//"prerequisites": ["Future Tech"],
+				"uniques": ["Only available <after discovering [Future Tech]>",],
+				"quote": "'您开启了中古时代的政策卡"
+			},
+			
 		]
 	},
 	{
@@ -321,6 +351,14 @@
 				"row": 10,
 				"prerequisites": ["Physics","Steel"],
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+			},
+			{
+				"name": "Renaissance_era",//政策科技_启蒙
+				"cost":0,
+				"row": 18,
+				//"prerequisites": ["Future Tech"],
+				"uniques": ["Only available <after discovering [Future Tech]>",],
+				"quote": "您开启了启蒙时代的政策卡'"
 			},
 			
 		]
@@ -417,6 +455,15 @@
 				],
 				"quote": "'您发现了战略资源_煤"
 			},
+			{
+				"name": "Industrial_era",//政策科技_工业
+				"cost":0,
+				"row": 19,
+				//"prerequisites": ["Future Tech"],
+				"uniques": ["Only available <after discovering [Future Tech]>",],
+				"quote": "您开启了工业时代的政策卡'"
+			},
+			
 		]
 	},
 	{
@@ -510,6 +557,14 @@
 				"prerequisites": ["Steam Power","Dynamite"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			},
+			{
+				"name": "Modern_era",//政策科技_电气
+				"cost":0,
+				"row": 20,
+				//"prerequisites": ["Future Tech"],
+				"uniques": ["Only available <after discovering [Future Tech]>",],
+				"quote": "'您开启了电气时代的政策卡"
+			},
 			
 		]
 	},
@@ -587,6 +642,15 @@
 				],
 				"quote": "'您发现了战略资源_铀"
 			},
+			{
+				"name": "Atomic_era",//政策科技_原子
+				"cost":0,
+				"row": 21,
+				//"prerequisites": ["Future Tech"],
+				"uniques": ["Only available <after discovering [Future Tech]>",],
+				"quote": "您开启了原子时代的政策卡'"
+			},
+			
 		]
 	},
 	{
@@ -666,7 +730,14 @@
 				"prerequisites": ["Computers"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			},
-			
+			{
+				"name": "Information_era",//政策科技_信息
+				"cost":0,
+				"row": 22,
+				//"prerequisites": ["Future Tech"],
+				"uniques": ["Only available <after discovering [Future Tech]>",],
+				"quote": "您开启了信息时代的政策卡'"
+			},
 		]
 	},
 
@@ -724,74 +795,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
-			{
-				"name": "Ancient_era",//政策科技_远古
-				"cost": 0,
-				"row": 15,
-				//"prerequisites": ["Future Tech"],
-				"uniques": [
-				"Only available <after discovering [Future Tech]>",
-				"Enables Defensive Pacts",
-				"Enables Open Borders agreements",
-				],
-				"quote": "'您开启了远古时代的政策卡"
-			},
-			{
-				"name": "Classical_era",//政策科技_古典
-				"cost":0,
-				"row": 16,
-				//"prerequisites": ["Future Tech"],
-				"uniques": ["Only available <after discovering [Future Tech]>",],
-				"quote": "'您开启了古典时代的政策卡"
-			},
-			{
-				"name": "Medieval_era",//政策科技_中古
-				"cost":0,
-				"row": 17,
-				//"prerequisites": ["Future Tech"],
-				"uniques": ["Only available <after discovering [Future Tech]>",],
-				"quote": "'您开启了中古时代的政策卡"
-			},
-			{
-				"name": "Renaissance_era",//政策科技_启蒙
-				"cost":0,
-				"row": 18,
-				//"prerequisites": ["Future Tech"],
-				"uniques": ["Only available <after discovering [Future Tech]>",],
-				"quote": "您开启了启蒙时代的政策卡'"
-			},
-			{
-				"name": "Industrial_era",//政策科技_工业
-				"cost":0,
-				"row": 19,
-				//"prerequisites": ["Future Tech"],
-				"uniques": ["Only available <after discovering [Future Tech]>",],
-				"quote": "您开启了工业时代的政策卡'"
-			},
-			{
-				"name": "Modern_era",//政策科技_电气
-				"cost":0,
-				"row": 20,
-				//"prerequisites": ["Future Tech"],
-				"uniques": ["Only available <after discovering [Future Tech]>",],
-				"quote": "'您开启了电气时代的政策卡"
-			},
-			{
-				"name": "Atomic_era",//政策科技_原子
-				"cost":0,
-				"row": 21,
-				//"prerequisites": ["Future Tech"],
-				"uniques": ["Only available <after discovering [Future Tech]>",],
-				"quote": "您开启了原子时代的政策卡'"
-			},
-			{
-				"name": "Information_era",//政策科技_信息
-				"cost":0,
-				"row": 22,
-				//"prerequisites": ["Future Tech"],
-				"uniques": ["Only available <after discovering [Future Tech]>",],
-				"quote": "您开启了信息时代的政策卡'"
-			},
+			
 		]
 	}
 ]

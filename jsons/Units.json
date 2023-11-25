@@ -2382,14 +2382,14 @@
 		"name": "Camp_of_Divine_Machinery",//神机营
 		"unitType": "Gunpowder",
 		"uniqueTo": "China_Ming",
-		"replaces": "Musketman",
+		"replaces": "Longswordsman",
 		"movement": 3,
-		"strength": 26,
-		"cost": 120,
+		"strength": 25,
+		"cost": 100,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Transfer Movement to [Worker]","[+10]% Strength when stacked with [Great General]","[+10]% Strength when stacked with [Worker]"],
+		"uniques": ["[+10]% Strength when stacked with [Great General]","[+10]% Strength when stacked with [Worker]"],
 		"attackSound": "shot"
 	},
 	{
@@ -2412,14 +2412,15 @@
 		"unitType": "Sword",
 		"uniqueTo": "Terran Dominion",
 		"replaces": "Trebuchet",
-		"movement": 2,
-		"strength": 20,
+		"movement": 3,
+		"strength": 23,
 		//"rangedStrength": 14,
 		"cost": 100,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Flight",
 		"uniques": [
 		"[-1] Sight",
+		"Rough terrain penalty",
 		"Can transform to [Siege Tank Siege_mode]",
 		],
 		"attackSound": "cannon"
@@ -2428,8 +2429,8 @@
 		"name": "Siege Tank Siege_mode",//攻城坦克-攻城模式
 		"unitType": "Siege",
 		"uniqueTo": "Terran Dominion",
-		"movement": 1,
-		"strength": 15,
+		"movement": 2,
+		"strength": 17,
 		"range": 3,
 		"rangedStrength": 20,
 		"cost": 120,
@@ -2445,14 +2446,14 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Iron horse drawn chariot",
+		"name": "Iron horse drawn chariot",//铁造马拉战车
 		"unitType": "Archery",
 		"uniqueTo": "Hittite",
 		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
-		"cost": 65,
+		"cost": 56,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",

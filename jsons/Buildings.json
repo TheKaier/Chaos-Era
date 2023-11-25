@@ -1,5 +1,5 @@
 [
-//第913行特色政策卡
+//第906行特色政策卡
 //额外的胜利方式
 	//远见胜利
 	{
@@ -7,7 +7,7 @@
 		"uniqueTo": "Visionary nation",		
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["Consumes [1000] [Visionary]","Can only be built [in capital]",],		
+		"uniques": ["Consumes [1200] [Visionary]","Can only be built [in capital]","[+5 Gold, +5 Production, +5 Culture, +5 Science, +5 Food] [in all cities]","[+25]% [Culture]","[+25]% [Science]","[+25]% [Gold]"],		
 	},
 	//政策研发科技
 	{
@@ -960,7 +960,7 @@
         "uniqueTo": "China_Ming",
         "requiredResource":"M_P",
         "uniques":[
-        "Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Industrial_era]>",
+        "Enemy [All] units must spend [1] extra movement points when inside your territory",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
@@ -976,8 +976,8 @@
         "uniqueTo": "China_Ming",
         "requiredResource":"E_P",
         "uniques":[
-        "[+1 Production] [in all cities] <before discovering [Industrial_era]>",
-        "[-2 Production] [in all coastal cities] <before discovering [Industrial_era]>",
+        "[+2 Production] [in all cities] <before discovering [Industrial_era]>",
+        "[-3 Production] [in all coastal cities] <before discovering [Industrial_era]>",
         "[+1 Gold, +1 Culture] from each Trade Route <before discovering [Industrial_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
