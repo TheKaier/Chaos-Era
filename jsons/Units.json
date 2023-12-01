@@ -2434,12 +2434,12 @@
 		"range": 3,
 		"rangedStrength": 20,
 		"cost": 120,
-		"promotions": ["Indirect Fire"],
 		"uniques": [
 		"[+1] Sight",
 		"[+200]% Strength <vs cities> <when attacking>",
 		"Cannot move",
 		"Can see over obstacles",
+		"Ranged attacks may be performed over obstacles",
 		"Can transform to [Siege Tank March_mode]",
 		"Unbuildable",
 		],
@@ -2461,6 +2461,37 @@
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty","[+20]% Strength <vs cities> <when attacking>","Consumes [1] [Iron]"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Sword in the Stone",//石中剑
+		"unitType": "Civilian",
+		"uniqueTo": "Sword in the Stone",
+		"replaces": "Settler",
+		"movement": 3,
+		"cost": 100,
+		"uniques": [
+		"Cannot move",
+		"Can transform to [Settler]",
+		],
+	},
+	{
+		"name": "Sword in the Stone_guard",//石中剑守卫
+		"unitType": "Archery",
+		"uniqueTo": "Sword in the Stone",
+		"replaces": "Warrior",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 4,
+		"cost": 50,
+		"uniques": [
+		"[+3] Sight",
+		"Cannot move",
+		"Can see over obstacles",
+		"[2] additional attacks per turn",
+		"Ranged attacks may be performed over obstacles",
+		],
+		"attackSound": "arrow"
+	},
 
 	
 	
@@ -2469,7 +2500,7 @@
 	
 	
 	
-	
+	//Sword in the Stone
 	//Iron horse drawn chariot = 铁造马拉战车
 	//"Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"
 

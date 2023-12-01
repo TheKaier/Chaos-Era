@@ -2061,7 +2061,29 @@
 		],
 		"cities": ["Hittite",],
     },
-    
+    {
+		"name": "Sword in the Stone",//石中剑
+		"leaderName": "Sword in the Stone",
+		"adjective": ["Sword in the Stone"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+        "outerColor": [90, 240, 10],
+        "innerColor": [5,25,10],
+		"uniqueName": "Sword in the Stone",
+		"uniques": [
+		
+		],
+		"cities": ["Sword in the Stone",],
+    },
     
     
     

@@ -4,9 +4,16 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Beastground
+  rotate: false
+  xy: 4, 12
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 BuildingIcons/Forest Camp
   rotate: false
-  xy: 1036, 1044
+  xy: 1044, 524
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
@@ -18,13 +25,6 @@ LeaderIcons/Slime King
   orig: 1024, 1024
   offset: 0, 0
   index: -1
-NationIcons/Hittite
-  rotate: false
-  xy: 524, 12
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
 NationIcons/Jungle country
   rotate: false
   xy: 1044, 4
@@ -32,16 +32,16 @@ NationIcons/Jungle country
   orig: 512, 512
   offset: 0, 0
   index: -1
-UnitIcons/Fly Scout
+UnitIcons/Camp_of_Divine_Machinery
   rotate: false
-  xy: 4, 12
+  xy: 1036, 1044
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-UnitIcons/Iron horse drawn chariot
+UnitIcons/Fly Scout
   rotate: false
-  xy: 1044, 524
+  xy: 524, 12
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
@@ -52,13 +52,6 @@ size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Smelting house
-  rotate: false
-  xy: 1044, 469
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
 NationIcons/Beidi
   rotate: false
   xy: 797, 161
@@ -131,7 +124,28 @@ NationIcons/Rosbin City
   index: -1
 NationIcons/Shenzhou
   rotate: false
-  xy: 4, 469
+  xy: 524, 469
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Sword in the Stone
+  rotate: false
+  xy: 1044, 469
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitIcons/Sword in the Stone
+  rotate: false
+  xy: 1044, 469
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitIcons/Sword in the Stone_guard
+  rotate: false
+  xy: 1044, 469
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
@@ -297,6 +311,13 @@ UnitIcons/Medium Infantry
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Nuclear Infantry
+  rotate: false
+  xy: 4, 469
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/Nvwa
   rotate: false
   xy: 1760, 310
@@ -309,20 +330,6 @@ UnitIcons/Self-propelled artillery
   xy: 1652, 202
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Siege Tank March_mode
-  rotate: false
-  xy: 524, 469
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-UnitIcons/Siege Tank Siege_mode
-  rotate: false
-  xy: 524, 469
-  size: 512, 512
-  orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/Skeleton 1
