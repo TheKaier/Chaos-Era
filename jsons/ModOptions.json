@@ -1,6 +1,9 @@
 {
-    "isBaseRuleset": true,
-    "maxXPfromBarbarians": 40,
+"constants": {
+        "maxXPfromBarbarians": 40,
     "pantheonBase": 10,
     "pantheonGrowth": 0,
+    },
+    "isBaseRuleset": true,
+    
 }

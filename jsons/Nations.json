@@ -1505,7 +1505,6 @@
 		"tradeRequest": " ",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
-                "favoredReligion": "Slime God",
 		"uniqueName": "Slime",
 		"uniques": ["[+3 Happiness]  <when not at war>","[+5 Happiness]  <during a Golden Age>","[+3 Happiness] <after discovering [Theology]>","[+3 Happiness] <after discovering [Printing Press]>","[+5 Happiness] <after discovering [Rifling]>","[3] Happiness from each type of luxury resource",],
 		"cities": ["The Kingdom of slime","Farmer Slime","Blacksmith Slime","Hunter Slime","Businessman Slime","Judge Slime","Fisherman Slime","Guide Slime","Nurse Slime","General Slime","Wizard Slime","Slime 12","Slime 13","Slime 14","Slime 15","Slime 16","Slime 17","Slime 18","Slime 19","Slime 20","Slime 21"]
@@ -1527,9 +1526,8 @@
 		"tradeRequest": " ",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0, 102, 102],
-                "favoredReligion": "Underground",
 		"uniqueName": "Underground",
-		"uniques": ["[-3 Happiness]  <when not at war>","[-2 Happiness]  <during a Golden Age>","[3] Happiness from each type of luxury resource","[+120]% [Food] [in all cities] <when below [0] Happiness>"],
+		"uniques": ["[-3 Happiness]  <when not at war>","[-2 Happiness]  <during a Golden Age>","[3] Happiness from each type of luxury resource","[+100]% growth [in all cities] <when below [0] Happiness>"],
 		"cities": ["Lorain","Lament the cave","Mirkwood","Thunder ruins","Graka","Dragonian lair","The Doll Cave","The stone giant tower","Dark corridors","The Palace of light","The hanging city","The Troll Jungle","Purgatory","Extreme daylight","The first spine","The second spine","The veil forbids the earth","Lava pits","The Labyrinth of Shadows","The remains of the king","The entrance to the dark city"]
 	},
 {
@@ -1549,7 +1547,6 @@
 		"tradeRequest": " ",
 		"outerColor": [102, 0, 0],
 		"innerColor": [0, 202, 102],
-                "favoredReligion": "Giant",
 		"uniqueName": "Giant",
 		"uniques": ["Free Social Policy","[+25]% [Production] [in all cities]","[+25]% [Science] [in all cities]","[-66]% growth [in all cities]","[+75]% Unhappiness from [Population] [in all cities]", "[Military] units gain the [Medic] promotion","[Land] units gain the [Amphibious] promotion","[Military] units gain the [Giant] promotion","[-30]% Production when constructing [Military] units [in all cities]","[+25]% [Culture] [in all cities] <during a Golden Age>","[+20]% [Production] [in all cities] <during a Golden Age>","[+20]% [Science] [in all cities] <during a Golden Age>",],
 		"cities": ["Giant"]
@@ -1652,7 +1649,6 @@
 		"tradeRequest": " ",
 		"outerColor": [77, 100, 0],
 		"innerColor": [255, 0, 60],
-                "favoredReligion": "Dark",
 		"uniqueName": "Dark",
 		"uniques": ["[Dark] units gain the [Dark hidden] promotion","[2] XP gained from combat",],
 		"cities": ["Dark World","Courtesy","loyalty","wisdom","temperance","courage","justice","generosity","compassion","kindness","gratitude","modesty","simplicity","tolerance","purity","sincerity","humor","love","industry","tenacity"]
