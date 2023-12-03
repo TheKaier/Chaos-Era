@@ -486,3 +486,29 @@ UnitPromotionIcons/Wood
   orig: 100, 100
   offset: 0, 0
   index: -1
+
+Protoss.png
+size: 173, 173
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Protoss
+  rotate: false
+  xy: 15, 15
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+
+Stalker.png
+size: 246, 246
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Stalker
+  rotate: false
+  xy: 0, 0
+  size: 246, 246
+  orig: 246, 246
+  offset: 0, 0
+  index: -1
