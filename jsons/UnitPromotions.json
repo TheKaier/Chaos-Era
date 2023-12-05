@@ -806,13 +806,13 @@
 		"name": "Dark capture",//这个是抓人的
 		"prerequisites": ["Shock II","Drill II",],
 		"unitTypes": ["Dark"],
-		"uniques": ["When defeating a [Military] unit, earn [0] Gold and recruit it"]
+		"uniques": ["[+15]% Strength <when attacking>","Heals [15] damage if it kills a unit","[+1] Movement",]
         "column": 0,
         "row": 5,
 	},//我在这里自言自语，会有人看到吗？
 	{
 		"name": "Barbarians",//逆天蛮子
-		"uniques": ["[+1000]% Strength <vs [Barbarian] units>","When defeating a [Military] unit, earn [200] Gold and recruit it","Heals [100] damage if it kills a unit","Earn [150]% of the damage done to [All] units as [Science]","Earn [150]% of the damage done to [All] units as [Culture]"]
+		"uniques": ["[+100]% Strength <vs [Barbarian] units>","Heals [10] damage if it kills a unit","Earn [15]% of the damage done to [All] units as [Science]","Earn [15]% of the damage done to [All] units as [Culture]"]
 	},
 	//剑灵的那些金木水火土晋升
 	{
@@ -924,10 +924,22 @@
 	},
 	{
 		"name": "Visionary nation",//远见国
-		"uniques": ["[-1] Sight","Can see over obstacles","Instantly provides [2] [Visionary]<upon defeating a [Wounded] unit>","[+1] Sight <when above [150] [Visionary]>","[+5]% Strength <when above [300] [Visionary]>","[+1] Sight <when above [450] [Visionary]>"],
+		"uniques": ["[-1] Sight","Can see over obstacles","Instantly provides [2] [Visionary] <upon defeating a [Wounded] unit>","[+1] Sight <when above [150] [Visionary]>","[+5]% Strength <when above [300] [Visionary]>","[+1] Sight <when above [450] [Visionary]>"],
         "column": 31,
         "row": 1
 	},
+	{
+		"name": "Khala",//卡拉
+		"uniques": [
+		"May Paradrop up to [100] tiles from inside friendly territory",
+		"[-10] HP when healing <in [Foreign Land] tiles>",
+		],
+        "column": 32,
+        "row": 1
+	},
+	
+	
+	
 
 //<when above [300] [Visionary]>
 ]

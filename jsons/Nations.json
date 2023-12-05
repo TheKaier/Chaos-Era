@@ -1647,8 +1647,8 @@
 		"neutralHello": " ",
 		"hateHello": " ",
 		"tradeRequest": " ",
-		"outerColor": [77, 100, 0],
-		"innerColor": [255, 0, 60],
+		"outerColor": [53, 68, 0],
+		"innerColor": [255, 76, 118],
 		"uniqueName": "Dark",
 		"uniques": ["[Dark] units gain the [Dark hidden] promotion","[2] XP gained from combat",],
 		"cities": ["Dark World","Courtesy","loyalty","wisdom","temperance","courage","justice","generosity","compassion","kindness","gratitude","modesty","simplicity","tolerance","purity","sincerity","humor","love","industry","tenacity"]
@@ -1690,8 +1690,8 @@
 		"neutralHello": " ",
 		"hateHello": " ",
 		"tradeRequest": " ",
-		"outerColor": [30,144,255],
-        "innerColor": [135,206,250],
+		"outerColor": [24,115,204],
+        "innerColor": [159,215,251],
         "uniqueText": "每进入一个时代获得一个剑灵，每个剑灵提供科文加成。",
 		"uniqueName": "Blade Soul",
 		"uniques": ["Provides [1] [Blade Soul] <starting from the [Classical era]>","Provides [1] [Blade Soul] <starting from the [Medieval era]>","Provides [1] [Blade Soul] <starting from the [Renaissance era]>","Provides [1] [Blade Soul] <starting from the [Industrial era]>","Provides [1] [Blade Soul] <starting from the [Modern era]>","Provides [1] [Blade Soul] <starting from the [Atomic era]>","[+5]% [Culture] <when above [0] [Blade Soul]>","[+5]% [Science] <when above [0] [Blade Soul]>","[+5]% [Culture] <when above [1] [Blade Soul]>","[+5]% [Science] <when above [1] [Blade Soul]>","[+5]% [Culture] <when above [2] [Blade Soul]>","[+5]% [Science] <when above [2] [Blade Soul]>","[+5]% [Culture] <when above [3] [Blade Soul]>","[+5]% [Science] <when above [3] [Blade Soul]>","[+5]% [Culture] <when above [4] [Blade Soul]>","[+5]% [Science] <when above [4] [Blade Soul]>","[+5]% [Culture] <when above [5] [Blade Soul]>","[+5]% [Science] <when above [5] [Blade Soul]>","[+5]% [Culture] <when above [6] [Blade Soul]>","[+5]% [Science] <when above [6] [Blade Soul]>","[+5]% [Culture] <when above [7] [Blade Soul]>","[+5]% [Science] <when above [7] [Blade Soul]>","[+5]% [Culture] <when above [8] [Blade Soul]>","[+5]% [Science] <when above [8] [Blade Soul]>","[+5]% [Culture] <when above [9] [Blade Soul]>","[+5]% [Science] <when above [9] [Blade Soul]>","[+5]% [Culture] <when above [10] [Blade Soul]>","[+5]% [Science] <when above [10] [Blade Soul]>","[+5]% [Culture] <when above [11] [Blade Soul]>","[+5]% [Science] <when above [11] [Blade Soul]>","[+5]% [Culture] <when above [12] [Blade Soul]>","[+5]% [Science] <when above [12] [Blade Soul]>","[+5]% [Culture] <when above [13] [Blade Soul]>","[+5]% [Science] <when above [13] [Blade Soul]>","[+5]% [Culture] <when above [14] [Blade Soul]>","[+5]% [Science] <when above [14] [Blade Soul]>","[+5]% [Culture] <when above [15] [Blade Soul]>","[+5]% [Science] <when above [15] [Blade Soul]>","[+5]% [Culture] <when above [16] [Blade Soul]>","[+5]% [Science] <when above [16] [Blade Soul]>","[+5]% [Culture] <when above [17] [Blade Soul]>","[+5]% [Science] <when above [17] [Blade Soul]>","[+5]% [Culture] <when above [18] [Blade Soul]>","[+5]% [Science] <when above [18] [Blade Soul]>","[+5]% [Culture] <when above [19] [Blade Soul]>","[+5]% [Science] <when above [19] [Blade Soul]>","[+5]% [Culture] <when above [20] [Blade Soul]>","[+5]% [Science] <when above [20] [Blade Soul]>",]
@@ -1767,8 +1767,8 @@
 		"neutralHello": "The weather is fine. I wish our people a good day",
 		"hateHello": "I didn't expect you to be such a person",
 		"tradeRequest": "Take what you need",
-		"outerColor": [249,206,82],
-        "innerColor": [49,130,172],
+		"outerColor": [249,208,90],
+        "innerColor": [46,123,163],
 		"uniqueName": "Loulan",
 		"uniques": ["[+1 Food] from [Desert] tiles without [Flood plains] [in all cities]",]
 		"cities": ["Loulan"],
@@ -1787,8 +1787,8 @@
 		"neutralHello": "I am the Zerg",
 		"hateHello": "I am the Zerg",
 		"tradeRequest": "Zerg",
-		"outerColor": [75,0,130],
-        "innerColor": [148,0,211],
+		"outerColor": [60,0,104],
+        "innerColor": [169,51,219],
 		"uniqueName": "Zerg",
         "uniqueText": "异虫有着其独特的基因序列，不断的发展会获得更多的DNA。\nDNA进化总览\n后肢肌肉，+1移\n视觉感知，+1视野\n神经改良，33%撤退，需要，视觉感知，后肢肌肉\n穿透感知，视线穿过障碍，需要，视觉感知\n四肢肌肉，+1移，需要，后肢肌肉\n肌腱改良，+1射程，需要，后肢肌肉，神经改良，与迅捷打击冲突\n迅捷打击，额外攻击1次，需要，后肢肌肉，神经改良，与肌腱改良冲突\n机体强化，+1移+5%力，需要，肌腱改良\n几丁质利刃，+10%力\n几丁质外壳，防御+15%力，需要，几丁质利刃\n外骨骼优化，+15%力，需要，几丁质外壳\n快速吞噬，杀死单位+15血攻击+15%力，需要，神经改良，几丁质利刃",
 		"uniques": ["Provides [1] [DNA] <if [Palace] is constructed>","Provides [1] [DNA] <if [Temple of Artemis] is constructed>","Provides [1] [DNA] <if [Stonehenge] is constructed>","Provides [1] [DNA] <if [The Great Library] is constructed>","Provides [1] [DNA] <if [The Pyramids] is constructed>","Provides [1] [DNA] <if [Mausoleum of Halicarnassus] is constructed>","Provides [1] [DNA] <if [Statue of Zeus] is constructed>","Provides [1] [DNA] <if [The Great Lighthouse] is constructed>","Provides [1] [DNA] <if [Circus Maximus] is constructed>","Provides [1] [DNA] <if [Hanging Gardens] is constructed>","Provides [1] [DNA] <if [Colosseum] is constructed>","Provides [1] [DNA] <if [Terracotta Army] is constructed>","Provides [1] [DNA] <if [National College] is constructed>","Provides [1] [DNA] <if [The Oracle] is constructed>","Provides [1] [DNA] <if [National Epic] is constructed>","Provides [1] [DNA] <if [Petra] is constructed>","Provides [1] [DNA] <if [Great Wall] is constructed>","Provides [1] [DNA] <if [Heroic Epic] is constructed>","Provides [1] [DNA] <if [Colossus] is constructed>","Provides [1] [DNA] <if [Hagia Sophia] is constructed>","Provides [1] [DNA] <if [Great Mosque of Djenne] is constructed>","Provides [1] [DNA] <if [Grand Temple] is constructed>","Provides [1] [DNA] <if [Chichen Itza] is constructed>","Provides [1] [DNA] <if [National Treasury] is constructed>","Provides [1] [DNA] <if [Machu Picchu] is constructed>","Provides [1] [DNA] <if [Oxford University] is constructed>","Provides [1] [DNA] <if [Angkor Wat] is constructed>","Provides [1] [DNA] <if [Alhambra] is constructed>","Provides [1] [DNA] <if [Ironworks] is constructed>","Provides [1] [DNA] <if [Notre Dame] is constructed>","Provides [1] [DNA] <if [Sistine Chapel] is constructed>",]
@@ -1958,7 +1958,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
 
-        "outerColor": [240, 250, 45],
+        "outerColor": [143, 149, 27],
         "innerColor": [255,255,255],
 
 		"favouredReligion": "Taoism",
@@ -1996,8 +1996,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-        "outerColor": [200, 105, 25],
-        "innerColor": [50,205,80],
+        "outerColor": [160, 84, 20],
+        "innerColor": [91,215,115],
 		"uniqueName": "Jungle first",
 		"uniques": [
 		"[+1 Production] from every [Jungle]",
@@ -2023,7 +2023,7 @@
 		"hateHello": "",
 		"tradeRequest": "",
         "outerColor": [0, 0, 0],
-        "innerColor": [150,15,20],
+        "innerColor": [165,51,55],
 		"uniqueName": "Terran",
 		"uniques": [
 		"[+1] Movement <for [Civilian] units>",
@@ -2048,8 +2048,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-        "outerColor": [255, 240, 10],
-        "innerColor": [25,215,65],
+        "outerColor": [255, 244, 83],
+        "innerColor": [17,150,45],
 		"uniqueName": "Hittite",
 		"uniques": [
 		"Discover [Discovering Resources_Iron]",
@@ -2080,14 +2080,59 @@
 		],
 		"cities": ["Sword in the Stone",],
     },
-    
-    
+    {
+		"name": "Protoss",//星灵
+		"leaderName": "Artanis",
+		"adjective": ["Protoss"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+        "outerColor": [240, 187, 25],
+        "innerColor": [34, 88, 229],
+		"uniqueName": "Son of God",
+		"uniques": [
+		"[All] units gain the [Khala] promotion",
+		"[+1 Science] from every [Mountain]",
+		],
+		"cities": ["Aiur",],
+    },
+    {
+		"name": "The blade of evil",//邪魔的利刃
+		"leaderName": "The blade of evil",
+		"adjective": ["The blade of evil"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+        "outerColor": [255, 255, 255],
+        "innerColor": [0,0,0],
+		"uniqueName": "The blade of evil",
+		"uniques": [
+		
+		],
+		"cities": ["The blade of evil",],
+    },
     
     
     
 
 
-    
+    //"May Paradrop up to [3] tiles from inside friendly territory",
     //"Production to [Gold] conversion in cities changed by [+25]%",
 
 ]

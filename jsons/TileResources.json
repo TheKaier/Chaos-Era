@@ -608,6 +608,14 @@
 		"Cannot be traded"//不能交易
 		]
 	},
-	
+	{
+		"name": "Coefficient of collapse",//坍缩系数
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
 	
 ]

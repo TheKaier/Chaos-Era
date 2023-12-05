@@ -1888,7 +1888,7 @@
 		"hurryCostModifier": 10,
 	},
 {
-		"name": "Joint command",//联合指挥
+		"name": "joint command",//联合指挥
 		"unitType": "Civilian",
 		"uniqueTo": "Giant",
 
@@ -2492,19 +2492,83 @@
 		],
 		"attackSound": "arrow"
 	},
-
+	{
+		"name": "Stalker",//追猎者
+		"unitType": "Sword",
+		"uniqueTo": "Protoss",
+		"replaces": "Pikeman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Civil Service",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>",
+		"Heal this unit by [10] HP <for [1] movement> <[3] times>",
+		],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Marine",//陆战队员
+		"unitType": "Sword",
+		"uniqueTo": "Terran Dominion",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 46,
+		"promotions": ["Amphibious","Drill I"],
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Heal this unit by [20] HP <for [0] movement> <[1] times>",],
+	},
+	{
+		"name": "Stargate",//星门
+		"unitType": "Archery",
+		"uniqueTo": "The blade of evil",
+		"replaces": "Settler",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 100,
+		"uniques": [
+		"All adjacent units heal [+5] HP when healing"
+		"Cannot move",
+		],
+	},
+	{
+		"name": "The blade of evil",//邪魔的利刃
+		"unitType": "Sword",
+		"uniqueTo": "The blade of evil",
+		"replaces": "Warrior",
+		"movement": 4,
+		"strength": 16,
+		"cost": 100,
+		"uniques": [
+		"[+2] Sight",
+		"[1] additional attacks per turn",
+		"Instantly provides [2] [Coefficient of collapse] <upon defeating a [Wounded] unit>",
+		"Instantly consumes [5] [Coefficient of collapse]",
+		"[1] free [The blade of evil] units appear <when above [0] [Coefficient of collapse]> <upon being defeated>",
+		],
+		"attackSound": "arrow"
+	},
 	
 	
 	
 	
 	
-	
-	
-	//Sword in the Stone
-	//Iron horse drawn chariot = 铁造马拉战车
+	//"Instantly consumes [10] [Horses]",
+	//"Instantly provides [5] [Horses]",
+	//<upon being defeated>
+	//<when above [300] [Coefficient of collapse]>
+	//"Heal this unit by [5] HP",
+	//"This Unit gains [2] XP",
+	//<for [1] movement> <[3] times>"
 	//"Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"
-
-	//"promotions": [""],
+	//"promotions": ["Amphibious"],
 	//"Will not be displayed in Civilopedia"
 	//<during a Golden Age>
 ]
