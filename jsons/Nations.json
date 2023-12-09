@@ -1653,9 +1653,8 @@
 		"uniques": ["[Dark] units gain the [Dark hidden] promotion","[2] XP gained from combat",],
 		"cities": ["Dark World","Courtesy","loyalty","wisdom","temperance","courage","justice","generosity","compassion","kindness","gratitude","modesty","simplicity","tolerance","purity","sincerity","humor","love","industry","tenacity"]
 	},
-	//超级国家野蛮人
-	{
-		"name": "Barbarians 1",
+	/*{
+		"name": "The King of War",//战争之王
 		"leaderName": "Barbarians",
 		"adjective": ["Barbarians"],
 		"preferredVictoryType": "Domination",
@@ -1671,11 +1670,13 @@
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
 		"uniqueName": "Domination",
-		"uniques": ["Can only heal by pillaging","[All] units gain the [Barbarians] promotion","[15] XP gained from combat"]
-		"cities": ["Barbarians"],
-	},
+		"uniques": ["[All] units gain the [The King of War] promotion","[30] XP gained from combat",
+		"[+200]% Production when constructing [Military] units [in all cities]",
+		"Cannot build [Settler] units",
+		]
+		"cities": ["The King of War"],
+	},*/
 //剑灵
-//懒得做呀，懒得做呀
 	{
 		"name": "Blade Soul",
 		"leaderName": "Blade Soul",

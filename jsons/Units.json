@@ -2105,7 +2105,7 @@
 		"strength": 10,
 		"cost": 65,
 		"uniques" : ["Destroys tile improvements when attacking","[+60]% Strength <during the [Classical era]>","[+90]% Strength <during the [Medieval era]>","[+120]% Strength <during the [Renaissance era]>","[+200]% Strength <during the [Industrial era]>","[+350]% Strength <during the [Modern era]>","[+500]% Strength <during the [Atomic era]>","Double movement in [Fallout]"],
-		"hurryCostModifier": 7,
+		"hurryCostModifier": 10,
 		"attackSound": "nonmetalhit",
 		
 	},
@@ -2386,7 +2386,7 @@
 		"movement": 3,
 		"strength": 25,
 		"cost": 100,
-		"requiredTech": "Gunpowder",
+		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+10]% Strength when stacked with [Great General]","[+10]% Strength when stacked with [Worker]"],

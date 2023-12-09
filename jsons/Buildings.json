@@ -1,5 +1,6 @@
 [
 //第906行特色政策卡
+//第1490行原版建筑
 //额外的胜利方式
 	//远见胜利
 	{
@@ -994,6 +995,498 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+{//军事-纪律(反蛮子卡)
+        "name":"Mil.jilv",//纪律
+        "cost":0,
+        "requiredResource":"M_P",
+        "uniques":["[+20]% Strength <for [Military] units> <vs [Barbarians] units> <before discovering [Renaissance_era]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [M_P]>",
+        "Only available <after discovering [Ancient_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Renaissance_era]>",
+        "Provides [1] [M_P] <after discovering [Renaissance_era]>",
+        ],
+    },
+    {//军事-调查(早期斗狗)
+        "name":"Mil.diaocha",//调查
+        "cost":0,
+        "requiredResource":"M_P",
+        "uniques":["[100]% XP gained from combat <for [Scout] units> <before discovering [Renaissance_era]>",
+        "[75]% XP gained from combat <for [Warrior] units> <before discovering [Renaissance_era]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [M_P]>",
+        "Only available <after discovering [Ancient_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Renaissance_era]>",
+        "Provides [1] [M_P] <after discovering [Renaissance_era]>",
+        ],
+    },
+    {
+        "name":"Mil.sibadajiaoyu",//斯巴达教育
+        "cost":0,
+        "requiredResource":"M_P",
+        "uniques":["[+15]% Production when constructing [Sword] units [in all cities] <before discovering [Renaissance_era]>",
+        "[+15]% Production when constructing [Archery] units [in all cities] <after discovering [Renaissance_era]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [M_P]>",
+        "Only available <after discovering [Ancient_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Renaissance_era]>",
+        "Provides [1] [M_P] <after discovering [Renaissance_era]>",
+        ],
+    },
+    {
+        "name":"Mil.haiyunye",//海运业
+        "cost":0,
+        "requiredResource":"M_P",
+        "uniques":["[+50]% Production when constructing [Melee Water] units [in all cities] <before discovering [Renaissance_era]>",
+        "[+50]% Production when constructing [Ranged Water] units [in all cities] <before discovering [Renaissance_era]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [M_P]>",
+        "Only available <after discovering [Ancient_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Renaissance_era]>",
+        "Provides [1] [M_P] <after discovering [Renaissance_era]>",],
+    },
+    {
+        "name":"Mil.yanxi",//演习
+        "cost":0,
+        "requiredResource":"M_P",
+        "uniques":["[+20]% Production when constructing [Mounted] units [in all cities] <before discovering [Industrial_era]>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <with [M_P]>",
+        "Only available <after discovering [Classical_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Industrial_era]>",
+        "Provides [1] [M_P] <after discovering [Industrial_era]>",],
+    },
+    /*
+    {
+        "name":"Mil.zhengbing",//征兵
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Maintenance fees for all military units -1",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.Mobilization]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.NationalLaborForce"
+    },
+    {
+        "name":"Mil.bianfangjun",//边防军
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+1 Production, +1 Happiness] [in all cities with a garrison]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <in cities without a [Mil.lengbao]>",
+        "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.EarlyEmpire"
+    },
+    {
+        "name":"Mil.saodang",//扫荡
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["No movement cost to pillage <for [UnitType.MeleeInfantry] units>",
+        "No movement cost to pillage <for [UnitType.AntiCavalry] units>",
+        "No movement cost to pillage <for [UnitType.ShortRangedNaval] units>",
+        "Limited to [1] per Civilization",
+        "Can only be built [in capital]",
+        "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.MilitaryTraining"
+    },
+    {
+        "name":"Mil.jingyan",//经验
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+30]% Production when constructing [Class.DistrictBuilding.MilitaryEncampment] buildings [in all cities]",
+        "[+30]% Production when constructing [Class.DistrictBuilding.Port] buildings [in all cities]",
+        "Limited to [1] per Civilization",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.MilitaryTraining"
+    },
+    {
+        "name":"Mil.qishijieji",//骑士阶级
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Provides [2] [Resource.Horse]",
+        "Provides [2] [Resource.Iron]",
+        "Limited to [1] per Civilization",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.MilitaryTraining"
+    },
+    {
+        "name":"Mil.lengbao",//棱堡
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+34]% Strength for cities <when defending>",
+        "Limited to [1] per Civilization",
+        "Only available <in cities without a [Mil.bianfangjun]>",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.DefensiveTactics"
+    },
+    {
+        "name":"Mil.bianjie",//边界
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+100]% Production when constructing [Building.ClassificationWall] buildings [in all cities]",
+        "Limited to [1] per Civilization",
+        "Can only be built [in capital]",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.DefensiveTactics"
+    },
+    {
+        "name":"Mil.fengjianqiyue",//封建契约
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":[
+        "[+50]% Production when constructing [{Era.Ancient} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Ancient} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Classical} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Classical} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Medieval} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.AntiCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Renaissance} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.AntiCavalry}] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.Nationalism]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "replacementTextForUniques":"+50% productivity when producing Renaissance and previous melee, ranged, and anti-cavalry units",
+        "requiredTech":"Civic.Feudalism"
+    },
+    {
+        "name":"Mil.shicong",//侍从
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+2 Happiness] [in all cities with a garrison]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.MassMedia]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Administration"
+    },
+    {
+        "name":"Mil.zhiyejundui",//职业军队
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[-50]% Gold cost of upgrading",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.Urbanization]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Mercenaries"
+    },
+    {
+        "name":"Mil.gongjiang",//工匠
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+100]% Yield from every [Class.IndustrialZone]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.Ideology]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.TheWorkersUnion"
+    },
+    {
+        "name":"Mil.qishijingshen",//骑士精神
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+50]% Production when constructing [{Era.Ancient} {UnitType.LightCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Ancient} {UnitType.HeavyCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Classical} {UnitType.LightCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Classical} {UnitType.HeavyCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Medieval} {UnitType.LightCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Medieval} {UnitType.HeavyCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Renaissance} {UnitType.LightCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Renaissance} {UnitType.HeavyCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Industrial} {UnitType.LightCavalry}] units [in all cities]",
+        "[+50]% Production when constructing [{Era.Industrial} {UnitType.HeavyCavalry}] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.Ideology]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "replacementTextForUniques":"+50% productivity when producing light and heavy cavalry units of the Industrial Age and earlier",
+        "requiredTech":"Civic.DivinRightOfKings"
+    },
+    {
+        "name":"Mil.qiangzhengruwu",//强征入伍
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+100]% Production when constructing [{Era.Ancient} {Military} {Water}] units [in all cities]",
+        "[+100]% Production when constructing [{Era.Classical} {Military} {Water}] units [in all cities]",
+        "[+100]% Production when constructing [{Era.Medieval} {Military} {Water}] units [in all cities]",
+        "[+100]% Production when constructing [{Era.Renaissance} {Military} {Water}] units [in all cities]",
+        "[+100]% Production when constructing [{Era.Industrial} {Military} {Water}] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.ColdWar]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "replacementTextForUniques":"+100% productivity when producing industrial age and pre-industrial naval units",
+        "requiredTech":"Civic.Exploration"
+    },
+    {
+        "name":"Mil.houqin",//后勤
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Mercantilism"
+    },
+    {
+        "name":"Mil.xunlianshouce",//训练手册
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Provides [2] [Resource.Niter]",
+        "Provides [2] [Resource.Coal]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Mercantilism"
+    },
+    {
+        "name":"Mil.bentuzhengfu",//本土政府
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Earn [20]% of killed [Military] unit's [Strength] as [Gold]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Colonialism"
+    },
+    {
+        "name":"Mil.dajuntuan",//大军团
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":[
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Ancient} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities]",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Classical} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities]",
+            "[+50]% Production when constructing [{Era.Medieval} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.AntiCavalry}] units [in all cities]",
+            "[+50]% Production when constructing [{Era.Renaissance} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.AntiCavalry}] units [in all cities]",
+            "[+50]% Production when constructing [{Era.Industrial} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Industrial} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Industrial} {UnitType.AntiCavalry}] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.EmergencyDeployment]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "replacementTextForUniques":"+50% productivity when producing melee, ranged and anti-cavalry units of the Industrial Age and before",
+        "requiredTech":"Civic.Nationalism"
+    },
+    {
+        "name":"Mil.guojiarentong",//国家认同
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Damage is ignored when determining unit Strength",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.EmergencyDeployment]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Nationalism"
+    },
+    {
+        "name":"Mil.junshiyanjiu",//军事研究
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+2 Science] from every [Building.MilitaryAcademy]",
+        "[+2 Science] from every [Building.Dock]",
+        "[+2 Science] from every [Building.RenaissanceWalls]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Only available <before discovering [Civic.SpaceRace]>",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Urbanization"
+    },
+    {
+        "name":"Mil.junduixiandaihua",//军队现代化
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[-75]% Gold cost of upgrading",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Urbanization"
+    },
+    {
+        "name":"Mil.quanmianzhanzheng",//全面战争
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["No movement cost to pillage <for [UnitType.MeleeInfantry] units>",
+        "No movement cost to pillage <for [UnitType.AntiCavalry] units>",
+        "No movement cost to pillage <for [UnitType.ShortRangedNaval] units>",
+        "No movement cost to pillage <for [UnitType.RangedInfantry] units>",
+        "No movement cost to pillage <for [UnitType.Siege] units>",
+        "No movement cost to pillage <for [UnitType.LongRangedNaval] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.ScorchedEarthStrategy"
+    },
+    {
+        "name":"Mil.ziyuanguanli",//资源管理
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Provides [2] [Resource.Aluminum]",
+        "Provides [2] [Resource.Oil]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.EarthProtection"
+    },
+    {
+        "name":"Mil.xuanchuanjigou",//宣传机构
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+25]% Unhappiness from [Population] [in all non-occupied cities]",
+        "[-25]% Unhappiness from [Population] [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.MassMedia"
+    },
+    {
+        "name":"Mil.quanmindongyuan",//全民动员
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Maintenance fees for all military units -1",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Mobilization"
+    },
+    {
+        "name":"Mil.shandianzhan",//闪电战
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+50]% Production when constructing [UnitType.LightCavalry] units [in all cities]",
+        "[+50]% Production when constructing [UnitType.HeavyCavalry] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Ideology"
+    },
+    {
+        "name":"Mil.disanxuanze",//第三选择
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+2 Culture] from every [Building.ResearchLab]",
+        "[+2 Culture] from every [Building.MilitaryAcademy]",
+        "[+2 Culture] from every [Class.Building.PowerPlant]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Tolalitarianism"
+    },
+    {
+        "name":"Mil.gonghai",//公海
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+100]% Production when constructing [{Military} {Water}] units [in all cities]",
+        "[-100]% Production when constructing [UnitType.AircraftCarrier] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.ColdWar"
+    },
+    {
+        "name":"Mil.ercigongjinengli",//二次攻击能力
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["Nuclear device maintenance fee reduced by 50%",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.ColdWar"
+    },
+    {
+        "name":"Mil.xingdongzongjiebaogao",//行动总计报告
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+50]% XP gained from combat <for [Military] units>",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.EmergencyDeployment"
+    },
+    {
+        "name":"Mil.xianjunzhengce",//先军政策
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+50]% Production when constructing [UnitType.MeleeInfantry] units [in all cities]",
+        "[+50]% Production when constructing [UnitType.RangedInfantry] units [in all cities]",
+        "[+50]% Production when constructing [UnitType.AntiCavalry] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.EmergencyDeployment"
+    },
+    {
+        "name":"Mil.yitihuakongjianjigou",//一体化空间机构
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+8]% [Production] from every [Building.MilitaryAcademy]",
+        "[+8]% [Production] from every [Building.Dock]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.SpaceRace"
+    },
+    {
+        "name":"Mil.zhanlvekongjun",//战略空军
+        "cost":0,
+        "requiredResource":"Resource.MilitaryPolicySlot",
+        "uniques":["[+100]% Production when constructing [Air] units [in all cities]",
+        "[+100]% Production when constructing [UnitType.AircraftCarrier] units [in all cities]",
+        "Can only be built [in capital]",
+        "Limited to [1] per Civilization",
+        "Destroyed when the city is captured",
+        "Class.Policy.Military"],
+        "requiredTech":"Civic.Globalization"
+    },
+	
+	*/
 	
 	
 	

@@ -22,7 +22,7 @@
                 "name": "Aristocracy",
                 "uniques": [
                     "[+20]% Production when constructing [All] wonders [in all cities]",
-                    "[+1 Happiness] per [4] population [in all cities]",
+                    "[+1 Happiness, +1 Culture] per [4] population [in all cities]",
                     "[+1 Gold] per [3] population [in all cities]"
                 ],
                 "row": 1,
@@ -61,7 +61,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+2 Gold, +2 Happiness, +2 Food] per [3] population [in capital]"
+                    "[+2 Gold, +2 Happiness, +2 Food, +1 Culture] per [3] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -167,17 +167,17 @@
             "Only available <before adopting [Liberty]>",
             "Only available <before adopting [Tradition]>",
             "Only available <before adopting [Usas]>",
-            "[+50]% Strength <vs [Barbarian] units>",
-            "Earn [125]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "[+45]% Strength <vs [Barbarian] units>",
+            "Earn [120]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments",
             "[+1 Gold] [in all cities]",
-            "Provides [1] [A_P]"
+            "Provides [1] [M_P]"
         ],
         "policies": [
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+15]% Production when constructing [Military] units [in all cities]",
+                    "[+10]% Production when constructing [Military] units [in all cities]",
                     "Provides a [Courthouse] in your first [8] cities for free"
                     "Free [Great General] appears"
                 ],
@@ -230,8 +230,8 @@
                 "name": "Honor Complete",
                 "uniques": [
                 "Provides [1] [A_P]",
-                    "Earn [35]% of killed [Military] unit's [Cost] as [Gold]",
-                    "Earn [30]% of killed [Military] unit's [Cost] as [Science]",
+                    "Earn [30]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [25]% of killed [Military] unit's [Cost] as [Science]",
                     "Earn [20]% of killed [Military] unit's [Cost] as [Culture]"
                 ]
             }

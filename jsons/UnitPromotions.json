@@ -811,8 +811,8 @@
         "row": 5,
 	},//我在这里自言自语，会有人看到吗？
 	{
-		"name": "Barbarians",//逆天蛮子
-		"uniques": ["[+100]% Strength <vs [Barbarian] units>","Heals [10] damage if it kills a unit","Earn [15]% of the damage done to [All] units as [Science]","Earn [15]% of the damage done to [All] units as [Culture]"]
+		"name": "The King of War",//战争之王
+		"uniques": ["[+1000]% Strength <vs [Barbarian] units>","Heals [100] damage if it kills a unit","Earn [300]% of the damage done to [All] units as [Science]","Earn [300]% of the damage done to [All] units as [Culture]","[+1] Movement","[+1] Movement <during a Golden Age>","May withdraw before melee ([90]%)"]
 	},
 	//剑灵的那些金木水火土晋升
 	{
