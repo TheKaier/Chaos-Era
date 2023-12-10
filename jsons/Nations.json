@@ -1883,10 +1883,10 @@
         "startIntroPart1": "",
         "startIntroPart2": "",
 
-        "declaringWar": "",
-		"attacked": "",
+        "declaringWar": "Dare to violate the power of heaven, I will send the army to destroy your temple, destroy the people, nothing relays!",
+		"attacked": "War is war, I will help you into a war!",
 		"defeated": "",
-		"introduction": "",
+		"introduction": "Today, you come also, its desire to view the mountains and rivers of Qin, I am the Lord of Qin also.",
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
@@ -1951,10 +1951,10 @@
         "startIntroPart1": "",
         "startIntroPart2": "",
 
-        "declaringWar": "",
+        "declaringWar": "It is not my wish, but there is no other way.",
 		"attacked": "",
 		"defeated": "",
-		"introduction": "",
+		"introduction": "I, Yongle Emperor also, the merchant ship is my friend, against my rule, will there ever be a day?",
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
@@ -2128,7 +2128,36 @@
 		],
 		"cities": ["The blade of evil",],
     },
-    
+    {
+		"name": "Holy Egyptian Empire",//神圣埃及帝国
+		"leaderName": "Pharaoh",
+		"adjective": ["Holy Egyptian Empire"],
+		"startBias": ["Avoid [Forest]"],
+		"preferredVictoryType": "Cultural",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [255, 252, 3],
+		"innerColor": [83, 0, 208],
+		"favoredReligion": "Islam",
+		"uniqueName": "Pharaoh",
+		"uniques": [
+		"[+1 Faith] per [1] population [in all cities]",
+		"May not generate great prophet equivalents naturally",
+		],
+		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+			   "Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris",
+			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
     
     
 
