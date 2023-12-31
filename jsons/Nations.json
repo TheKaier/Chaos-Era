@@ -1901,7 +1901,6 @@
 		"Provides [1] [C_P]",
 		"[+15]% Production when constructing [Worker] units [in all cities]",
 		"[+20]% Strength <in [The_Great_Wall_Qin] tiles>",
-		"Double movement in [The_Great_Wall_Qin]",
 		],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
