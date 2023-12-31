@@ -937,9 +937,35 @@
         "column": 32,
         "row": 1
 	},
+	{
+		"name": "Blood of Iron",//铁血
+		"uniques": [
+		"Instantly provides [1] [Blood of Iron] <upon defeating a [Wounded] unit>",
+		"Instantly consumes [2] [Blood of Iron] <upon being defeated>",
+		"[+5]% Strength <when above [5] [Blood of Iron]>",
+		"[+5]% Strength <when above [10] [Blood of Iron]>",
+		"[+5]% Strength <when above [20] [Blood of Iron]>",
+		"[+5]% Strength <when above [35] [Blood of Iron]>",
+		"[-5]% Strength <when below [-5] [Blood of Iron]>",
+		"[-5]% Strength <when below [-15] [Blood of Iron]>",
+		"[-5]% Strength <when below [-40] [Blood of Iron]>",
+		"Instantly consumes [1] [Blood of Iron] <upon defeating a [Barbarian] unit> <when above [10] [Blood of Iron]>",
+		],
+        "column": 33,
+        "row": 1
+	},
+	{
+		"name": "Steel of Heart",//钢心
+		"uniques": [
+		"Instantly provides [1] [Blood of Iron] <upon defeating a [Wounded] unit>",
+		"Instantly consumes [1] [Blood of Iron] <upon being defeated>",
+		"[+5]% Strength <when above [50] [Blood of Iron]>",
+		"[-5]% Strength <when below [-50] [Blood of Iron]>",
+		],
+        "column": 34,
+        "row": 1
+	},
 	
-	
-	
-
+//Steel of Heart
 //<when above [300] [Visionary]>
 ]

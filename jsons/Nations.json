@@ -101,7 +101,7 @@
 
     },
 	{
-		"name": "Egypt",
+		"name": "Egypt",//埃及
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
@@ -133,7 +133,7 @@
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
 	{
-		"name": "England",
+		"name": "England",//英国
 		"leaderName": "Elizabeth",
 		"adjective": ["English"],
 		"startBias": ["Coast"],
@@ -161,7 +161,7 @@
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
 	{
-		"name": "France",
+		"name": "France",//法国
 		"leaderName": "Napoleon",
 		"adjective": ["French"],
 		"preferredVictoryType": "Cultural",
@@ -190,7 +190,7 @@
         "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
     },
 	{
-		"name": "Russia",
+		"name": "Russia",//俄罗斯
 		"leaderName": "Catherine",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
@@ -220,7 +220,7 @@
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
     },
 	{
-		"name": "Rome",
+		"name": "Rome",//罗马
 		"leaderName": "Augustus Caesar",
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
@@ -1555,7 +1555,7 @@
 	//我是不是应该给他们弄翻译？
 	//懒得编城市名字了（）
 {
-		"name": "Rosbin City",
+		"name": "Rosbin City",//罗斯宾市
 		"leaderName": "Kaier",
 		"adjective": ["Rosbin City"],
 		"startBias": ["Grassland","Plains"],
@@ -1900,7 +1900,8 @@
 		"uniques": [
 		"Provides [1] [C_P]",
 		"[+15]% Production when constructing [Worker] units [in all cities]",
-		"[+20]% Strength <in [The_Great_Wall_Qin] tiles>"
+		"[+20]% Strength <in [The_Great_Wall_Qin] tiles>",
+		"Double movement in [The_Great_Wall_Qin]",
 		],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -2132,7 +2133,7 @@
 		"name": "Holy Egyptian Empire",//神圣埃及帝国
 		"leaderName": "Pharaoh",
 		"adjective": ["Holy Egyptian Empire"],
-		"startBias": ["Avoid [Forest]"],
+		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -2150,6 +2151,8 @@
 		"uniques": [
 		"[+1 Faith] per [1] population [in all cities]",
 		"May not generate great prophet equivalents naturally",
+		"May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost",
+		// <before the [Renaissance era]>
 		],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -2158,7 +2161,48 @@
 			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
-    
+    {
+    "name": "Iron Blood British Empire",//铁血大英帝国
+		"leaderName": "Commander",
+		"adjective": ["Iron Blood British Empire"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [109, 2, 0],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Hearts of Iron",
+		"uniques": [
+		"[Military] units gain the [Blood of Iron] promotion",
+		//"Instantly provides [1] [Blood of Iron] <when above [-3] [Blood of Iron]>",
+		//"Instantly consumes [1] [Blood of Iron] <when above [3] [Blood of Iron]>",
+		"[+10]% [Production] [in all cities] <when above [15] [Blood of Iron]>",
+		"[+10]% [Culture] [in all cities] <when above [25] [Blood of Iron]>",
+		"[+10]% [Science] [in all cities] <when above [25] [Blood of Iron]>",
+		"[+10]% [Gold] [in all cities] <when above [25] [Blood of Iron]>",
+		"[+1 Production] from every [Atoll]", 
+		"[+1 Production] from every [Fishing Boats] <after discovering [Metal Casting]>",
+		"[+1 Production, +1 Food] from every [Fishing Boats] <after discovering [Compass]>",
+		
+		],//Steel of Heart
+		"civilopediaText":[
+        {"text": "Blood of Iron","link": "Promotion/Blood of Iron"},
+        {"text": "Steel of Heart","link": "Promotion/Steel of Heart"},
+    ],
+		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
     
 
 

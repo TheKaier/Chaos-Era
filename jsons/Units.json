@@ -2572,33 +2572,54 @@
 	},
 	{
 		"name": "Pharaoh",//法老神迹
-		"unitType": "Sword",
+		"unitType": "Civilian",
 		"uniqueTo": "Holy Egyptian Empire",
 		"movement": 3,
-		"strength": 10,
 		"replaces": "Great General",
-		"promotions": ["精英单位"],
-		"uniques": ["Unbuildable", "Uncapturable","[+15]% Strength bonus for [Military] units within [3] tiles",
+		//"promotions": ["精英单位"],
+		"uniques": ["Unbuildable","Uncapturable","[+15]% Strength bonus for [Military] units within [3] tiles",
 		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
-	"Empire enters a [6]-turn Golden Age <by consuming this unit>",
-	"Earn [-25]% of killed [Military] unit's [Strength] as [Faith]",
+	"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+	/*"Earn [-25]% of killed [Military] unit's [Strength] as [Faith]",
 	"Earn [-25]% of killed [Military] unit's [Strength] as [Faith] <when above [450] [Faith]>",
 	"[+1] Sight <when above [50] [Faith]>",
 	"[+50]% Strength <when above [150] [Faith]>",
 	"[+50]% Strength <when above [500] [Faith]>",
-	"Great Person - [War]", 
 	"[+30]% Strength <during the [Classical era]> <hidden from users>",
 	"[+100]% Strength <during the [Medieval era]> <hidden from users>",
 	"[+130]% Strength <during the [Renaissance era]> <hidden from users>",
 	"[+300]% Strength <during the [Industrial era]> <hidden from users>",
 	"[+440]% Strength <during the [Modern era]> <hidden from users>",
 	"[+580]% Strength <during the [Atomic era]> <hidden from users>",
-	"[+900]% Strength <during the [Information era]> <hidden from users>",
+	"[+900]% Strength <during the [Information era]> <hidden from users>",*/
+		"Great Person - [War]", 
 	],
-"civilopediaText": [
-			{"text": "随着时代不断增加战斗力"}
-		]
+/*"civilopediaText": [
+			{"text": "随着时代不断增加战斗力"}*/
+		
 	},
+	{
+		"name": "tank_IBBE",
+		"unitType": "Sword",
+		"uniqueTo": "Iron Blood British Empire",
+		"replaces": "Knight",
+		"movement": 3,
+		"strength": 30,
+		"cost": 110,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		//"upgradesTo": "Cavalry",
+		"uniques": ["No defensive terrain bonus","[-50]% Strength <when attacking>",
+		"Instantly provides [2] [Blood of Iron] <upon being defeated>",
+		"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"All adjacent units heal [+10] HP when healing"
+		],
+	},
+	
+	
+	
+	
+	
 	
 	
 	//"Instantly consumes [10] [Horses]",

@@ -319,16 +319,36 @@
 		"turnsToBuild": 7,
 		"techRequired": "Masonry",
 		"uniques": [
+		"Cannot be built on [Bonus resource] tiles",
+		"Cannot be built on [Luxury resource] tiles",
+		"Cannot be built on [Strategic resource] tiles",
 		"[+1 Food] <with [1] to [1] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
 		"[+1 Food, +1 Production] <with [2] to [2] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
-		"[+1 Culture, +1 Gold, +1 Production, +1 Food] <with [3] to [3] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
+		"[+1 Gold, +1 Production, +1 Food] <with [3] to [3] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
 		"[-1 Culture, -1 Gold, -1 Production, -1 Food] <with [4] to [6] neighboring [The_Great_Wall_Qin] tiles> <for [China_Qin]>",
 		"Adjacent enemy units ending their turn take [5] damage",
             ],
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Sphinx",//狮身人面像
+		"uniqueTo": "Holy Egyptian Empire",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"food": -3,
+		"production": -3,
+		"gold": -2,
+		"culture": -2,
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+		"[+2 Food, +2 Production, +1 Gold, +1 Culture] <with [0] to [6] neighboring [Sphinx] tiles> <for [Holy Egyptian Empire]>",
+		"[+3 Food, +3 Production, +2 Gold, +2 Culture] <with [0] to [6] neighboring [Sphinx] tiles> <for [Holy Egyptian Empire]>",
+		"[-3 Food, -3 Production, -2 Gold, -2 Culture] <with [1] to [6] neighboring [Sphinx] tiles> <for [Holy Egyptian Empire]>",
+		//"Comment [[-3 Food, -3 Production, -2 Gold, -2 Culture] <with [1] to [6] neighboring [Sphinx] tiles> <for [Holy Egyptian Empire]>]",
+            ],
+		"shortcutKey": "F"
+	},
 	
-	
-	
+	//<hidden from users>
 	//<with [1] to [1] neighboring [The_Great_Wall_Qin] tiles>
 ]

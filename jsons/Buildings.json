@@ -1001,7 +1001,7 @@
 	
 	
 	
-{//军事-纪律(反蛮子卡)
+{
         "name":"Mil.jilv",//纪律
         "cost":0,
         "requiredResource":"M_P",
@@ -1015,7 +1015,7 @@
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
         ],
     },
-    {//军事-调查(早期斗狗)
+    {
         "name":"Mil.diaocha",//调查
         "cost":0,
         "requiredResource":"M_P",
@@ -1035,7 +1035,7 @@
         "cost":0,
         "requiredResource":"M_P",
         "uniques":["[+15]% Production when constructing [Sword] units [in all cities] <before discovering [Renaissance_era]>",
-        "[+15]% Production when constructing [Archery] units [in all cities] <after discovering [Renaissance_era]>",
+        "[+15]% Production when constructing [Archery] units [in all cities] <before discovering [Renaissance_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
@@ -3140,7 +3140,14 @@
 			"[+10]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
-	
+	{
+		"name": "Paradox engine",//悖论引擎
+		"uniqueTo": "Iron Blood British Empire",		
+		"isWonder": true,
+		"cost": 700,
+		"requiredTech": "Industrialization",
+		"uniques": ["Provides [1] [Blood of Iron] <when below [20] [Blood of Iron]>","[Military] units gain the [Steel of Heart] promotion","[+3 Production] [in all cities]","[+25]% Golden Age length",],		
+	},
 	
 	
 	

@@ -617,5 +617,14 @@
 		"Stockpiled"//库存
 		]
 	},
+	{
+		"name": "Blood of Iron",//铁血
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
 	
 ]
