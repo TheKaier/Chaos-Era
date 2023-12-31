@@ -3148,14 +3148,21 @@
 		"requiredTech": "Industrialization",
 		"uniques": ["Provides [1] [Blood of Iron] <when below [20] [Blood of Iron]>","[Military] units gain the [Steel of Heart] promotion","[+3 Production] [in all cities]","[+25]% Golden Age length",],		
 	},
-	
+	{
+		"name": "The sun rises in the east",//旭日东升
+		"uniqueTo": "The Empire of Rising Sun",		
+		"cost": 30,
+		"happiness": 1,
+		"gold": 1,
+		"uniques": ["[1] free [Solar corona] units appear","Destroyed when the city is captured","Unsellable"],		
+	},
 	
 	
 	
 	//Smelting house = 冶炼屋
 
     
-	
+	//The sun rises in the east
 	//Ancient_era
 //Classical_era
 //Medieval_era

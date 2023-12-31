@@ -486,7 +486,7 @@
         "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
     },
 	{
-		"name": "Persia",
+		"name": "Persia",//波斯
 		"leaderName": "Darius I",
 		"adjective": ["Persian"],
 		"preferredVictoryType": "Scientific",
@@ -2202,7 +2202,37 @@
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
-    
+    {
+		"name": "The Empire of Rising Sun",//旭日帝国
+		"leaderName": "Mikado",
+		"adjective": ["The Empire of Rising Sun"],
+		//"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [255, 255, 255],
+		"innerColor": [184, 0, 0],
+		"favoredReligion": "Shinto",
+		"uniqueName": "The sun rises in the east",
+		"uniques": [
+		"Gain a free [The sun rises in the east] [in capital]",
+		"[+1 Culture] from every [Mountain]",
+		"[+25]% Golden Age length",
+		"[+2] Sight <for [Civilian] units> <for [1] turns>",
+		],
+		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
+        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
+    },
 
 
     //"May Paradrop up to [3] tiles from inside friendly territory",

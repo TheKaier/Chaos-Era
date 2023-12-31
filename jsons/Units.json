@@ -2615,13 +2615,54 @@
 		"All adjacent units heal [+10] HP when healing"
 		],
 	},
+	{
+		"name": "Solar corona",
+		"unitType": "Archery",
+		"uniqueTo": "The Empire of Rising Sun",
+		"movement": 1,
+		"strength": 2,
+		"range": 20,
+		"rangedStrength": 5,
+		"cost": 1000,
+		"uniques": [
+		"Cannot move",
+		"Unbuildable",
+		"[+100]% Strength <during the [Classical era]> <hidden from users>",
+	"[+150]% Strength <during the [Medieval era]> <hidden from users>",
+	"[+200]% Strength <during the [Renaissance era]> <hidden from users>",
+	"[+400]% Strength <during the [Industrial era]> <hidden from users>",
+	"[+800]% Strength <during the [Modern era]> <hidden from users>",
+	"[+1100]% Strength <during the [Atomic era]> <hidden from users>",
+	"[+1300]% Strength <during the [Information era]> <hidden from users>",
+		],
+		"civilopediaText": [
+			{"text": "随着时代不断增加战斗力"}
+			]
+	},
+	{
+		"name": "Rising Sun Power armor",
+		"unitType": "Sword",
+		"uniqueTo": "The Empire of Rising Sun",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 25,
+		"cost": 110,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques" : [
+		"[+1] Movement <during a Golden Age>",
+		"[+15]% Strength <during a Golden Age>",
+		"Can build [Remove Forest] improvements on tiles",
+		"Can build [Remove Jungle] improvements on tiles",
+		"Empire enters a [1]-turn Golden Age <upon being defeated>",
+		],
+	},
 	
 	
 	
-	
-	
-	
-	
+	//Rising Sun Power armor
+	//Solar corona
 	//"Instantly consumes [10] [Horses]",
 	//"Instantly provides [5] [Horses]",
 	//<upon being defeated>
