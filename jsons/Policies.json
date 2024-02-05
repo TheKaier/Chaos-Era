@@ -14,7 +14,7 @@
             "Only available <before adopting [Liberty]>",
             "Only available <before adopting [Usas]>",
             "[+4 Culture] [in capital]",
-            "[-30]% Culture cost of natural border growth [in all cities]",
+            "[-25]% Culture cost of natural border growth [in all cities]",
             "Provides [1] [C_P]",
         ],
         "policies": [
@@ -119,7 +119,7 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+70]% Production when constructing [Settler] units [in capital]",
+                    "[+60]% Production when constructing [Settler] units [in capital]",
                     "[+1 Culture] [in all cities]",
                     "Free [Settler] appears"
                 ],
@@ -181,7 +181,7 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[+15]% Production when constructing [Military] units [in all cities]",
-                    "Provides a [Courthouse] in your first [8] cities for free"
+                    "Provides a [Courthouse] in your first [7] cities for free"
                     "Free [Great General] appears"
                 ],
                 "row": 1,
@@ -214,7 +214,7 @@
                 "name": "Discipline",
                 "uniques": [
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-                    
+                    "[+1 Food] from every [Granary]",
                 ],
                 "requires": ["Professional Army"],
                 
@@ -224,7 +224,7 @@
             {
             "name": "Military Caste",//
                 "uniques": [
-                    "[-66]% Gold cost of upgrading <for [Military] units>",
+                    "[-60]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Science, +1 Culture] from every [Barracks]",
                 ],
                 "requires": ["Discipline"],
@@ -235,8 +235,8 @@
                 "name": "Honor Complete",
                 "uniques": [
                 "Provides [1] [A_P]",
-                    "Earn [30]% of killed [Military] unit's [Cost] as [Gold]",
-                    "Earn [25]% of killed [Military] unit's [Cost] as [Science]",
+                    "Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [20]% of killed [Military] unit's [Cost] as [Science]",
                     "Earn [20]% of killed [Military] unit's [Cost] as [Culture]"
                 ]
             }
@@ -253,8 +253,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+120]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+120]% Production when constructing [Temple] buildings [in all cities]",
+            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+1 Faith] [in capital]",
             "Only available <before adopting [Rationalism]>",
             "Provides [1] [E_P]"
@@ -264,7 +264,7 @@
                 "name": "Organized Religion",
                 "uniques": [
                     "[+1 Faith, +1 Culture] from every [Shrine]",
-                    "[+2 Faith, +1 Culture] from every [Temple]"
+                    "[+1 Faith, +1 Culture] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
@@ -289,8 +289,8 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+30]% [Culture] [in all cities with a world wonder]",
-                    "[+20]% [Science] [in all cities with a world wonder]",
+                    "[+25]% [Culture] [in all cities with a world wonder]",
+                    "[+25]% [Science] [in all cities with a world wonder]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Organized Religion"],
@@ -311,7 +311,7 @@
                 "uniques": [
                 "Provides [1] [A_P]",
                     "[Faith] cost of purchasing items in cities [-25]%",
-                    "[+4 Gold, +4 Culture] from every [Holy site]",
+                    "[+5 Gold, +4 Culture] from every [Holy site]",
                     "[+10]% Spread Religion Strength",
                     "Free [Great Prophet] appears"
                 ]
