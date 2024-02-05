@@ -238,8 +238,16 @@
 		"uniqueTo": "Polynesia",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 2,
-		"turnsToBuild": 3,
-		"uniques": ["[+1 Culture] for each adjacent [Moai]", "[+2 Gold] <after discovering [Flight]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"turnsToBuild": 5,
+		"uniques": [
+		//"[+1 Culture] for each adjacent [Moai]", 
+		"[+1 Culture] <with [1] to [6] neighboring [Moai] tiles>",
+		"[+1 Culture, +1 Gold] <with [3] to [6] neighboring [Moai] tiles>",
+		"[+1 Culture] <with [4] to [6] neighboring [Moai] tiles>",
+		"[+1 Culture, +1 Production] <with [5] to [6] neighboring [Moai] tiles>",
+		"[+1 Gold, +1 Faith] <after discovering [Banking]>", 
+		"Pillaging this improvement yields approximately [+5 Gold]",
+		],
 		"shortcutKey": "M"
 	},
 	{
