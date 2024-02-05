@@ -942,13 +942,13 @@
 		"uniques": [
 		"Instantly provides [1] [Blood of Iron] <upon defeating a [Wounded] unit>",
 		"Instantly consumes [2] [Blood of Iron] <upon being defeated>",
-		"[+5]% Strength <when above [5] [Blood of Iron]>",
-		"[+5]% Strength <when above [10] [Blood of Iron]>",
-		"[+5]% Strength <when above [20] [Blood of Iron]>",
-		"[+5]% Strength <when above [35] [Blood of Iron]>",
-		"[-5]% Strength <when below [-5] [Blood of Iron]>",
-		"[-5]% Strength <when below [-15] [Blood of Iron]>",
-		"[-5]% Strength <when below [-40] [Blood of Iron]>",
+		"[+5]% Strength <when above [4] [Blood of Iron]>",
+		"[+5]% Strength <when above [9] [Blood of Iron]>",
+		"[+5]% Strength <when above [19] [Blood of Iron]>",
+		"[+5]% Strength <when above [34] [Blood of Iron]>",
+		"[-5]% Strength <when below [-4] [Blood of Iron]>",
+		"[-5]% Strength <when below [-14] [Blood of Iron]>",
+		"[-5]% Strength <when below [-39] [Blood of Iron]>",
 		"Instantly consumes [1] [Blood of Iron] <upon defeating a [Barbarian] unit> <when above [10] [Blood of Iron]>",
 		],
         "column": 33,
@@ -959,13 +959,60 @@
 		"uniques": [
 		"Instantly provides [1] [Blood of Iron] <upon defeating a [Wounded] unit>",
 		"Instantly consumes [1] [Blood of Iron] <upon being defeated>",
-		"[+5]% Strength <when above [50] [Blood of Iron]>",
-		"[-5]% Strength <when below [-50] [Blood of Iron]>",
+		"[+5]% Strength <when above [49] [Blood of Iron]>",
+		"[-5]% Strength <when below [-49] [Blood of Iron]>",
 		],
         "column": 34,
         "row": 1
 	},
+	{
+		"name": "Desert yellow sand",//大漠黄沙
+		"uniques": [
+		"[+1] Movement <in [Desert] tiles>",
+		"Unit will heal every turn, even if it performs an action <during a Golden Age>",
+		"Can transform to [Golden armor] <when above [0] [Inheritance of Loulan]> <for [Warrior] units>",
+		],
+        "column": 35,
+        "row": 1
+	},
+	{
+		"name": "Nightmare in the North",//北境梦魇
+		"uniques": [
+		"Invisible to non-adjacent units <in [Open terrain] tiles>",
+		"Transfer Movement to [Great General]",
+		],
+        "column": 36,
+        "row": 1
+	},
+	{
+		"name": "The wrath of the sun God",//太阳神之怒
+		"uniques": [
+		//"Double movement in [Forest]","Double movement in [Jungle]",
+		"[+1] Movement <in [Forest] tiles>",
+		"[+1] Movement <in [Jungle] tiles>",
+		"Invisible to non-adjacent units <in [Forest] tiles>",
+		"Invisible to non-adjacent units <in [Jungle] tiles>",
+		],
+        "column": 37,
+        "row": 1
+	},
+	{
+		"name": "Music Game Master",//音乐游戏大师
+		"uniques": [
+		"Instantly provides [1] [Music Note] <upon losing at least [0] HP in a single attack>",
+		],
+        "column": 38,
+        "row": 1
+	},
 	
-//Steel of Heart
-//<when above [300] [Visionary]>
+	
+	
+	
+	//Music Game Master
+	//The wrath of the sun God
+	//Nightmare in the North
+	//Inheritance of Loulan
+	//Desert yellow sand
+	//Steel of Heart
+	//<when above [300] [Visionary]>
 ]
