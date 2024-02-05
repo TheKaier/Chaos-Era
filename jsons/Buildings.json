@@ -2,6 +2,42 @@
 //第906行特色政策卡
 //第1490行原版建筑
 //额外的胜利方式
+/*模组专属模式开关隐藏建筑*/
+    {//启用传奇模式
+        "name": "Legend mode",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {//启用传奇模式-如果你的文明有对应的传奇模式
+        "name": "Legend_mode",
+        "cost": 0,
+        "uniques":[
+        "Unsellable"//无法出售
+        //"Can only be built [in capital]",
+        "Automatically built in all cities where it is buildable",
+        "Hidden when [Legend mode] Victory is disabled",
+        "Will not be displayed in Civilopedia"]
+    },
+    {//启用BOSS抑制器
+        "name": "BOSS Suppresser",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
+    {//启用BOSS抑制器
+        "name": "BOSS_Suppresser",
+        "cost": 0,
+        "uniques":[
+        "Unsellable"//无法出售
+        //"Can only be built [in capital]",
+        "Automatically built in all cities where it is buildable",
+        "Hidden when [BOSS Suppresser] Victory is disabled",
+        "Will not be displayed in Civilopedia"]
+    },
+    
 	//远见胜利
 	{
 		"name": "To the sky",//向那天空进发
@@ -15,49 +51,80 @@
 		"name": "Ancient_era",//远古政策
 		"cost":0,
 		//"requiredBuilding": "",	
-		"uniques": ["Destroyed when the city is captured","Discover [Ancient_era]","Only available <starting from the [Ancient era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Discover [Ancient_era]","Only available <before discovering [Ancient_era]>",
+        //"Remove [Ancient_era] [in this city] <hidden from users>",
+		"Hidden when [Visionary win] Victory is disabled",
+		"Only available <starting from the [Ancient era]>",
+		"Provides [100] [C_P]",
+        "Provides [100] [E_P]",
+        "Provides [100] [M_P]",
+        "Provides [100] [A_P]",
+		]
 	},
+	//"Only available <before discovering [Ancient_era]>",
+        //"Remove [Ancient_era] [in this city] <hidden from users>",
+	
+	
 		{
 		"name": "Classical_era",//古典政策
 		"cost":0,
-		"requiredBuilding": "Ancient_era",	
-		"uniques": ["Destroyed when the city is captured","Discover [Classical_era]","Only available <starting from the [Classical era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		//"requiredBuilding": "Ancient_era",	
+		"uniques": ["Discover [Classical_era]","Only available <before discovering [Classical_era]>",
+        "Remove [Classical_era] [in this city] <hidden from users>",
+        "Only available <starting from the [Classical era]>",
+        ]
 	},
 	{
 		"name": "Medieval_era",//中古政策
 		"cost":0,
-		"requiredBuilding": "Classical_era",	
-		"uniques": ["Destroyed when the city is captured","Discover [Medieval_era]","Only available <starting from the [Medieval era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		//"requiredBuilding": "Classical_era",	
+		"uniques": ["Discover [Medieval_era]","Only available <before discovering [Medieval_era]>",
+        "Remove [Medieval_era] [in this city] <hidden from users>",
+        "Only available <starting from the [Medieval era]>",
+        ]
 	},
 	{
 		"name": "Renaissance_era",//启蒙政策
 		"cost":0,
-		"requiredBuilding": "Medieval_era",	
-		"uniques": ["Destroyed when the city is captured","Discover [Renaissance_era]","Only available <starting from the [Renaissance era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		//"requiredBuilding": "Medieval_era",	
+		"uniques": ["Discover [Renaissance_era]","Only available <before discovering [Renaissance_era]>",
+        "Remove [Renaissance_era] [in this city] <hidden from users>",
+        "Only available <starting from the [Renaissance era]>",
+        ]
 	},
 	{
 		"name": "Industrial_era",//工业政策
 		"cost":0,
-		"requiredBuilding": "Renaissance_era",	
-		"uniques": ["Destroyed when the city is captured","Discover [Industrial_era]","Only available <starting from the [Industrial era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		//"requiredBuilding": "Renaissance_era",	
+		"uniques": ["Discover [Industrial_era]","Only available <before discovering [Industrial_era]>",
+        "Remove [Industrial_era] [in this city] <hidden from users>",
+        "Only available <starting from the [Industrial era]>",
+        ]
 	},
 	{
 		"name": "Modern_era",//电气政策
 		"cost":0,
-		"requiredBuilding": "Industrial_era",	
-		"uniques": ["Destroyed when the city is captured","Discover [Modern_era]","Only available <starting from the [Modern era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		//"requiredBuilding": "Industrial_era",	
+		"uniques": ["Discover [Modern_era]","Only available <before discovering [Modern_era]>",
+        "Remove [Modern_era] [in this city] <hidden from users>",
+        "Only available <starting from the [Modern era]>",
+        ]
 	},
     {
 		"name": "Atomic_era",//原子政策
 		"cost":0,
-		"requiredBuilding": "Modern_era",	
-		"uniques": ["Destroyed when the city is captured","Discover [Atomic_era]","Only available <starting from the [Atomic era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		//"requiredBuilding": "Modern_era",	
+		"uniques": ["Discover [Atomic_era]","Only available <before discovering [Atomic_era]>",
+        "Remove [Atomic_era] [in this city] <hidden from users>",
+        "Only available <starting from the [Atomic era]>",
+        ]
 	},
 /*	{
 		"name": "Information_era",//信息政策
 		"cost":0,
 		"requiredBuilding": "Atomic_era",	
-		"uniques": ["Destroyed when the city is captured","Discover [Information_era]","Only available <starting from the [Information era]>","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Discover [Information_era]","Only available <before discovering [Information_era]>",
+        "Remove [Information_era] [in this city] <hidden from users>",]
 	},
 	*/
 	//发现资源科技建筑
@@ -332,7 +399,7 @@
         "requiredResource":"E_P",
         "uniques":[
         "[+1 Culture] <before discovering [Renaissance_era]>",
-        "[+2 Gold] <before discovering [Renaissance_era]>",
+        "[+1 Gold] <before discovering [Renaissance_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -360,7 +427,7 @@
         "name":"E_fuyi",
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+30]% Production when constructing [Worker] units [in all cities] <before discovering [Renaissance_era]>",
+        "uniques":["[+35]% Production when constructing [Worker] units [in all cities] <before discovering [Renaissance_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -388,7 +455,7 @@
         "name":"E_qiangpolaoyi",//强迫劳动
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[-25]% construction time for [All] improvements <before discovering [Renaissance_era]>",
+        "uniques":["[-33]% construction time for [All] improvements <before discovering [Renaissance_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -403,7 +470,7 @@
         "name":"E_tudiceliangyuan",//土地测量员
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[-20]% Gold cost of acquiring tiles [in all cities] <before discovering [Industrial_era]>",
+        "uniques":["[-30]% Gold cost of acquiring tiles [in all cities] <before discovering [Industrial_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -431,7 +498,7 @@
         "name":"E_loufang",//楼房
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+1 Food] from every [Granary] <before discovering [Industrial_era]>",
+        "uniques":["[+2 Food] from every [Granary] <before discovering [Industrial_era]>",
         "[+1 Food] from every [Monument]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
@@ -461,7 +528,7 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":["[+1 Science] from every [Shrine] <before discovering [Industrial_era]>",
-        "[+2 Culture] from every [Temple] <before discovering [Industrial_era]>",
+        "[+1 Culture] from every [Temple] <before discovering [Industrial_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -475,7 +542,7 @@
         "name":"E_haijunjichusheshi",//海军基础设施
         "cost":0,
         "requiredResource":"M_P",
-        "uniques":["New [Melee Water] units start with [10] Experience [in this city] <before discovering [Industrial_era]>",
+        "uniques":["New [Melee Water] units start with [15] Experience [in this city] <before discovering [Industrial_era]>",
         "[+20]% Production when constructing [Water] units [in all cities] <before discovering [Industrial_era]>"
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
@@ -505,7 +572,7 @@
         "name":"E_minjianweiwang",//民间威望
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+1 Happiness, +2 Food, -2 Production] [in all cities] <before discovering [Modern_era]>",
+        "uniques":["[+1 Happiness, +2 Food, -1 Production] [in all cities] <before discovering [Modern_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -631,7 +698,7 @@
         "name":"E_sanjiaomaoyi",//三角贸易
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+2 Gold, +1 Culture, +1 Food] from each Trade Route <before discovering [Atomic_era]>",
+        "uniques":["[+3 Gold, +1 Culture, +1 Food] from each Trade Route <before discovering [Atomic_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -662,7 +729,7 @@
         "uniques":["[+2 Gold] from every [Market] <before discovering [Atomic_era]>",
         "[+2 Gold] from every [Bank] <before discovering [Atomic_era]>",
         "[+33]% [Gold] <in cities with at least [5] [Population]>",
-        "[+1 Gold] from each Trade Route <before discovering [Atomic_era]>",
+        "[+2 Gold] from each Trade Route <before discovering [Atomic_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -677,7 +744,7 @@
         "requiredResource":"C_P",
         "uniques":["[-15]% Culture cost of natural border growth [in all cities] <before discovering [Atomic_era]>",
         "[+10]% Production when constructing [All] buildings [in all cities] <before discovering [Atomic_era]>",
-        "[+1 Culture] from each Trade Route <before discovering [Atomic_era]>",
+        "[+2 Culture] from each Trade Route <before discovering [Atomic_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -751,7 +818,7 @@
         "name":"E_shichangjingji",
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+1 Gold, +2 Culture] from [Luxury resource] tiles [in all cities]",
+        "uniques":["[+2 Gold, +2 Culture] from [Luxury resource] tiles [in all cities]",
         "[+1 Gold, +2 Science] from [Strategic resource] tiles [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
@@ -770,7 +837,7 @@
         "uniques":["[+25]% [Culture] from Trade Routes",
         "[+20]% [Science] from Trade Routes"
         "[+35]% [Gold] from Trade Routes",
-        "[+2 Culture, +2 Science] from each Trade Route",
+        "[+2 Culture, +3 Science] from each Trade Route",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -785,11 +852,11 @@
         "name":"E_wunianjihua",//五年计划
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+1 Gold, +3 Production] from every specialist [in all cities]",
-        "[+10]% [Production] [in all cities]",
+        "uniques":["[+2 Gold, +3 Production] from every specialist [in all cities]",
+        "[+15]% [Production] [in all cities]",
         "Can only be built [in capital]",
         "[+15]% Production towards any buildings that already exist in the Capital",
-        "[-20]% Gold cost of acquiring tiles [in all cities]",
+        "[-25]% Gold cost of acquiring tiles [in all cities]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Modern_era]>",
@@ -804,7 +871,7 @@
         "cost":0,
         "requiredResource":"C_P",
         "uniques":["[+1 Happiness] [in all cities]",
-        "[+3 Science, +1 Happiness] per [7] population [in all cities]",
+        "[+3 Science, +1 Happiness] per [6] population [in all cities]",
         "[-33]% maintenance on road & railroads",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
@@ -820,8 +887,8 @@
         "name":"E_jitihua",//集体化
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+3 Food, +3 Production] [in all cities connected to capital]",
-        "[+1 Culture, +1 Science] from each Trade Route",
+        "uniques":["[+3 Food, +4 Production] [in all cities connected to capital]",
+        "[+2 Culture, +2 Science] from each Trade Route",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -838,7 +905,7 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":["[+15]% [Culture] [in all cities]",
-        "[+2 Culture, +2 Gold] from each Trade Route",
+        "[+2 Culture, +3 Gold] from each Trade Route",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -854,7 +921,7 @@
         "uniques":[
         "[+2 Happiness] from every [Stadium]",
         "[+50]% Production when constructing [Stadium] units [in all cities]",
-        "[+1 Culture, +2 Science] from every specialist [in all cities]",
+        "[+2 Culture, +2 Science] from every specialist [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -868,7 +935,7 @@
         "cost":0,
         "requiredResource":"C_P",
         "uniques":["[+15]% [Culture] [in all cities]",
-        "[+3 Culture, +1 Production] from every specialist [in all cities]",
+        "[+4 Culture, +2 Production] from every specialist [in all cities]",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -881,7 +948,7 @@
         "name":"E_dianzishangwu",//电子商务
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+2 Production, +5 Gold] from each Trade Route",
+        "uniques":["[+2 Production, +7 Gold] from each Trade Route",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -894,8 +961,8 @@
         "name":"E_zaixianshequ",//在线社区
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["Gain [150] [Culture] <upon declaring friendship>",
-        "[+1 Culture, +1 Happiness] from each Trade Route",
+        "uniques":["Gain [250] [Culture] <upon declaring friendship>",
+        "[+3 Culture, +1 Happiness] from each Trade Route",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -943,7 +1010,7 @@
         "uniqueTo": "China_Han",
         "requiredResource":"E_P",
         "uniques":["Provides [1] [Official salt] <before discovering [Renaissance_era]>",
-        "Provides [2] [Iron] <before discovering [Renaissance_era]>",
+        "Provides [3] [Iron] <before discovering [Renaissance_era]>",
         "[+1 Production, +2 Gold] from every [Iron] <before discovering [Renaissance_era]>",
         "[+1 Production] [in all cities] <before discovering [Renaissance_era]>",
         "Can only be built [in capital]",
@@ -961,7 +1028,7 @@
         "uniqueTo": "China_Ming",
         "requiredResource":"M_P",
         "uniques":[
-        "Enemy [All] units must spend [1] extra movement points when inside your territory",
+        "Enemy [All] units must spend [2] extra movement points when inside your territory",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
@@ -978,8 +1045,8 @@
         "requiredResource":"E_P",
         "uniques":[
         "[+2 Production] [in all cities] <before discovering [Industrial_era]>",
-        "[-3 Production] [in all coastal cities] <before discovering [Industrial_era]>",
-        "[+1 Gold, +1 Culture] from each Trade Route <before discovering [Industrial_era]>",
+        "[-2 Production] [in all coastal cities] <before discovering [Industrial_era]>",
+        "[+2 Gold, +1 Culture] from each Trade Route <before discovering [Industrial_era]>",
         "Can only be built [in capital]",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -1566,7 +1633,9 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","Provides [1] [DNA] <for [Zerg]>",]
+		"uniques": ["Destroyed when the city is captured","Provides [1] [DNA] <for [Zerg]>",
+		
+		]
 	},
 	{
 		"name": "Stele",
@@ -2108,11 +2177,11 @@
 		"name": "Wat",
 		"replaces": "University",
 		"uniqueTo": "Siam",
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 2},
-		"culture": 3,
+		"culture": 4,
 		"requiredBuilding": "Library",
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Education"
@@ -2854,7 +2923,7 @@
 	},
 //接下来是罗斯宾市，希望错误呢，也能用
 //悲报，错误又崩溃了，2023年8月22日
-{
+/*{
 		"name": "lab 1",
 		"replaces": "Library",
 		"uniqueTo": "Rosbin City",
@@ -2888,7 +2957,7 @@
 		"specialistSlots": {"Engineer": 3},
 		"maintenance": 0,
 		"requiredTech": "Education"
-	},
+	},*/
 //我大印度帝国，竟然只有一个奇观，真是可悲！
 	{
 		"name": "Ultimate nuclear material processing plant",
@@ -3108,13 +3177,24 @@
 		"name": "Beidi-food",//北狄-粮食
 				"uniqueTo": "Beidi",
 					"cost":0,
-		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]","[+1 Food] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-production]>","Cannot be purchased","Will not be displayed in Civilopedia","Destroyed when the city is captured"]	
+		"uniques": [
+		"[+1 Food] from [Pasture] tiles [in this city]",
+		"[+1 Food] from [Camp] tiles [in this city]",
+		"[-1 Food] from [Pasture] tiles [in this city] <if [Legend_mode] is constructed>",
+		"[-1 Food] from [Camp] tiles [in this city] <if [Legend_mode] is constructed>",
+		"Only available <in cities without a [Beidi-production]>","Cannot be purchased","Destroyed when the city is captured"
+		]	
 	},
 			{
 		"name": "Beidi-production",//北狄-产能
 				"uniqueTo": "Beidi",
 					"cost":0,
-		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Production] from [Camp] tiles [in this city]","Only available <in cities without a [Beidi-food]>","Cannot be purchased","Will not be displayed in Civilopedia","Destroyed when the city is captured"]	
+		"uniques": [
+		"[+1 Production] from [Pasture] tiles [in this city]",
+		"[+1 Production] from [Camp] tiles [in this city]",
+		"[-1 Production] from [Pasture] tiles [in this city] <if [Legend_mode] is constructed>",
+		"[-1 Production] from [Camp] tiles [in this city] <if [Legend_mode] is constructed>",
+		"Only available <in cities without a [Beidi-food]>","Cannot be purchased","Destroyed when the city is captured"]	
 	},
 	{
 		"name": "Forest Camp",//林间营
@@ -3132,11 +3212,11 @@
 		"uniqueTo": "Hittite",
 		"replaces": "Forge",
 		"maintenance": 1,
-		"cost":70,
+		"cost":65,
 		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredTech": "Bronze Working",
+		//"requiredTech": "Bronze Working",
 		"uniques": [
-		"Provides [1] [Iron]",
+		"Provides [2] [Iron]",
 			"[+10]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
@@ -3156,12 +3236,49 @@
 		"gold": 1,
 		"uniques": ["[1] free [Solar corona] units appear","Destroyed when the city is captured","Unsellable"],		
 	},
-	
-	
+	{
+		"name": "Caiser base station",//凯撒基站
+		"uniqueTo": "Caesar",
+		"replaces": "Amphitheater",
+		"culture": 3,
+		"science": 1,
+		"production": 1,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 30,
+		"uniques": ["Destroyed when the city is captured",
+		"Free [Caesar's Legion] appears",
+		"Provides [1] [Iron]",
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Primitive Granary",
+		"uniqueTo": "Primitive humans",
+		"replaces": "Granary",
+		"food": 3,
+		//"maintenance": 1,
+		"cost": 40,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Primitive Shrine",
+		"uniqueTo": "Primitive humans",
+		"replaces": "Shrine",
+		"faith": 2,
+		"cost": 30,
+		//"maintenance": 1,
+		//"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"]
+	},
 	
 	//Smelting house = 冶炼屋
 
-    
+    //"Remove [Mil.Hide] [in this city] <hidden from users>",
 	//The sun rises in the east
 	//Ancient_era
 //Classical_era
