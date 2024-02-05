@@ -32,7 +32,37 @@
         "Discover [Discovering Resources_Coal] <after discovering [Industrialization]>",//立刻发现煤
         "Discover [Discovering Resources_Aluminum] <after discovering [Electricity]>",//立刻发现铝
         "Discover [Discovering Resources_Uranium] <after discovering [Atomic Theory]>",//立刻发现铀*/
-
         
+        
+        
+        //政策关闭
+        "Provides [-100] [C_P]",
+        "Provides [-100] [E_P]",
+        "Provides [-100] [M_P]",
+        "Provides [-100] [A_P]",
+        //政策修正在[远古政策]
+        
+        
+        
+        
+        //"Nullifies [Science] [in all cities]",
+        
+        
+        
+        
+        
+        
+        
+        
+        " \n北境梦魇\n \n代替原文明能力\n",
+//防报错
+        " \n大漠黄沙\n ",
+        " \n太阳神之怒\n ",
+        " \n永恒其一•繁育丰饶",
+        " \n永恒其二•智识渴求",
+        " \n永恒其三•不灭荣光",
+        " \n永恒其四•无尽征伐",
+        " \n永恒其五•虔诚信仰",
+        " \n永恒其六•探索无垠",
     ]
 }
