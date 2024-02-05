@@ -32,7 +32,9 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit",
+		"[+1] Sight <after adopting [Nature seeker]>"
+		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -44,7 +46,9 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects","Can transform to [Warrior Blade Soul]",],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects",
+		//"Can transform to [Warrior Blade Soul]",
+		],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging er."}
@@ -633,12 +637,12 @@
 		"replaces": "Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
-		"strength": 25,
-		"cost": 120,
+		"strength": 26,
+		"cost": 100,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+60]% Strength <vs [Mounted] units>","[-25]% Strength <vs cities> <when attacking>"],
 		"attackSound": "elephant"
 	},
 	{
@@ -756,7 +760,9 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques" : ["Can transform to [Longswordsman Blade Soul]"],
+		"uniques" : [
+		//"Can transform to [Longswordsman Blade Soul]"
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1643,7 +1649,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can [Spread Religion] [4] times",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
@@ -1682,7 +1688,8 @@
 	{
 		"name": "Missionary",
 		"unitType": "Civilian",
-		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+		"uniques": ["Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
 		"movement": 4,
@@ -1692,8 +1699,8 @@
 		"name": "Inquisitor",
 		"unitType": "Civilian",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [1] times",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
@@ -1818,7 +1825,7 @@
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 10,
-		"cost": 35,
+		"cost": 32,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Zombies 2",
 		"uniques": ["[-33]% Strength <while the empire is happy>","Consumes [2] [Underground]"],
@@ -1831,7 +1838,7 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 17,
-		"cost": 70,
+		"cost": 65,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"uniques": ["[-40]% Strength <while the empire is happy>","Consumes [4] [Underground]"],
@@ -1913,8 +1920,7 @@
 	},
 	
 	//不过注释还是要弄一下的
-	//反正接下来就是另外一个模组的了
-	//总是忘了切语音输入，真无语
+/*
 {
 		"name": "Low-level infantry",
 		"unitType": "Sword",
@@ -1960,7 +1966,6 @@
 ,"May Paradrop up to [5] tiles from inside friendly territory" ],
 		"attackSound": "tankshot"
 	},
-	//怎么这些括号总会粘在一起？
 	{
 		"name": "Self-propelled artillery",
 		"unitType": "Archery",
@@ -1973,7 +1978,7 @@
 		"obsoleteTech": "Steam Power",
 					"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action","Can build [All Road] improvements on tiles", ],
 		"attackSound": "tankshot"
-	},
+	},*/
 
 //一定要没有bug啊！
 //接下来是印度帝国的单位
@@ -2148,7 +2153,7 @@
 		"attackSound": "metalhit"
 	},
 	//接下来是剑灵啦
-	{
+	/*{
 		"name": "Warrior Blade Soul",
 		"unitType": "Sword",
 		"movement": 2,
@@ -2165,7 +2170,7 @@
 		"cost": 40,
 		"uniques" : ["[+300]% Strength <vs [Blade Soul] units>","Unbuildable",],
 		"attackSound": "nonmetalhit",
-	},
+	},*/
 	{
 		"name": "Iron Sword",//铁剑
 		"unitType": "Blade Soul",
@@ -2184,7 +2189,7 @@
 		"replaces": "Swordsman",
 		"movement": 3,
 		"strength": 15,
-		"cost": 68,
+		"cost": 65,
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Lava Sword",
@@ -2196,7 +2201,7 @@
 		"replaces": "Longswordsman",
 		"movement": 2,
 		"strength": 20,
-		"cost": 105,
+		"cost": 100,
 		"requiredTech": "Steel",
 		"upgradesTo": "Broken Steel Sword",
 		"uniques" : ["Can transform to [The night Sword]",],//变成永夜刃
@@ -2227,7 +2232,7 @@
 		"movement": 4,
 		"strength": 23,
 		"cost": 110,
-		"uniques" : ["Will not be displayed in Civilopedia","Unbuildable","[+50]% Strength <vs cities>","Unit will heal every turn, even if it performs an action","[+50]% Strength <when above [50] HP>","[2] additional attacks per turn <when below [90] HP>","May Paradrop up to [6] tiles from inside friendly territory","May capture killed [Sword] units","Consumes [3] [Iron]","Consumes [2] [Horses]"],
+		"uniques" : ["Will not be displayed in Civilopedia","Unbuildable","[+50]% Strength <vs cities>","Unit will heal every turn, even if it performs an action","[+50]% Strength <when above [45] HP>","[2] additional attacks per turn <when below [90] HP>","May Paradrop up to [6] tiles from inside friendly territory","May capture killed [Sword] units","Consumes [3] [Iron]","Consumes [2] [Horses]"],
 	},
 	//希望你能记住，你可以说所有的文明都没有做完
 	//以后慢慢做吧
@@ -2288,12 +2293,12 @@
 		"uniqueTo": "Shenzhou",
 		"movement": 3,
 		"strength": 90,
-		"cost": 100000,
+		"cost": 1000,
 		"rangedStrength": 100,
 		"range": 10,
 		"interceptRange": 10,
 		"promotions": ["英雄单位"],
-		"uniques" : ["Unbuildable","[2] additional attacks per turn","Heals [10] damage if it kills a unit","[2] Movement <during a Golden Age>","[1] additional attacks per turn <during a Golden Age>","[5] Range <during a Golden Age>","[+25]% Strength <during a Golden Age>","[+25]% Strength <during the [Modern era]>","[+50]% Strength <during the [Atomic era]>","[+100]% Strength <during the [Information era]>","[+150]% Strength <during the [Future era]>","Will not be displayed in Civilopedia"],
+		"uniques" : ["Unbuildable","[2] additional attacks per turn","Heals [10] damage if it kills a unit","[2] Movement <during a Golden Age>","[1] additional attacks per turn <during a Golden Age>","[5] Range <during a Golden Age>","[+30]% Strength <during a Golden Age>","[+30]% Strength <during the [Modern era]>","[+55]% Strength <during the [Atomic era]>","[+110]% Strength <during the [Information era]>","[+160]% Strength <during the [Future era]>","Will not be displayed in Civilopedia"],
 		"promotions": ["Great Generals II","Quick Study"],
 		"attackSound": "gdrAttack"
 	},
@@ -2305,7 +2310,7 @@
 		"strength": 23,
 		"cost": 110,
 		"requiredTech": "Steel",
-		"uniques": ["Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+300]% Strength <during the [Future era]>","Consumes [2] [Power]"],
+		"uniques": ["Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+310]% Strength <during the [Future era]>","Consumes [2] [Power]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -2332,7 +2337,8 @@
 		"interceptRange": 6,
 		"cost": 255,
 		"requiredTech": "Physics",
-		"uniques": ["[+50]% Strength <during a Golden Age>","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+300]% Strength <during the [Future era]>","Consumes [3] [Power]"],
+		"uniques": ["[+50]% Strength <during a Golden Age>","[+3] Range <during a Golden Age>",
+		"[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+155]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+310]% Strength <during the [Future era]>","Consumes [3] [Power]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -2452,13 +2458,13 @@
 		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 56,
+		"rangedStrength": 11,
+		"cost": 50,
 		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
+		"requiredResource": "Iron",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty","[+20]% Strength <vs cities> <when attacking>","Consumes [1] [Iron]"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty","[+20]% Strength <vs cities> <when attacking>",],
 		"attackSound": "arrow"
 	},
 	{
@@ -2510,7 +2516,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Marine",//陆战队员
+		"name": "Marine_TD",//陆战队员
 		"unitType": "Sword",
 		"uniqueTo": "Terran Dominion",
 		"replaces": "Spearman",
@@ -2521,7 +2527,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Heal this unit by [20] HP <for [0] movement> <[1] times>",],
+		"uniques": ["Heal this unit by [20] HP <for [0] movement> <[1] times>","[+50]% Strength <vs [Mounted] units>"],
 	},
 	{
 		"name": "Stargate",//星门
@@ -2531,11 +2537,12 @@
 		"movement": 2,
 		"strength": 15,
 		"rangedStrength": 10,
-		"range": 1,
-		"cost": 100,
+		"range": 3,
+		"cost": 1000,
 		"uniques": [
-		"All adjacent units heal [+5] HP when healing"
+		"All adjacent units heal [+50] HP when healing"
 		"Cannot move",
+		"Founds a new city",
 		],
 	},
 	{
@@ -2545,13 +2552,13 @@
 		"replaces": "Warrior",
 		"movement": 4,
 		"strength": 16,
-		"cost": 100,
+		"cost": 50,
 		"uniques": [
 		"[+2] Sight",
 		"[1] additional attacks per turn",
-		"Instantly provides [2] [Coefficient of collapse] <upon defeating a [Wounded] unit>",
-		"Instantly consumes [5] [Coefficient of collapse]",
-		"[1] free [The blade of evil] units appear <when above [0] [Coefficient of collapse]> <upon being defeated>",
+		//"Instantly provides [20] [Coefficient of collapse] <upon defeating a [Wounded] unit>",
+		//"Instantly consumes [5] [Coefficient of collapse]",
+		//"[1] free [The blade of evil] units appear <upon being defeated>",
 		],
 		"attackSound": "arrow"
 	},
@@ -2599,7 +2606,7 @@
 		
 	},
 	{
-		"name": "tank_IBBE",
+		"name": "tank_IBBE",//水箱
 		"unitType": "Sword",
 		"uniqueTo": "Iron Blood British Empire",
 		"replaces": "Knight",
@@ -2616,31 +2623,39 @@
 		],
 	},
 	{
-		"name": "Solar corona",
+		"name": "Solar corona",//日冕
 		"unitType": "Archery",
 		"uniqueTo": "The Empire of Rising Sun",
 		"movement": 1,
 		"strength": 2,
-		"range": 20,
+		"range": 5,
 		"rangedStrength": 5,
 		"cost": 1000,
 		"uniques": [
 		"Cannot move",
 		"Unbuildable",
-		"[+100]% Strength <during the [Classical era]> <hidden from users>",
+		"Ranged attacks may be performed over obstacles",
+		"[+3] Range <during the [Classical era]> <hidden from users>",
+		"[+60]% Strength <during the [Classical era]> <hidden from users>",
 	"[+150]% Strength <during the [Medieval era]> <hidden from users>",
+	"[+5] Range <during the [Medieval era]> <hidden from users>",
 	"[+200]% Strength <during the [Renaissance era]> <hidden from users>",
+	"[+7] Range <during the [Renaissance era]> <hidden from users>",
 	"[+400]% Strength <during the [Industrial era]> <hidden from users>",
+	"[+10] Range <during the [Industrial era]> <hidden from users>",
 	"[+800]% Strength <during the [Modern era]> <hidden from users>",
+	"[+10] Range <during the [Modern era]> <hidden from users>",
 	"[+1100]% Strength <during the [Atomic era]> <hidden from users>",
+	"[+10] Range <during the [Atomic era]> <hidden from users>",
 	"[+1300]% Strength <during the [Information era]> <hidden from users>",
+	"[+10] Range <during the [Information era]> <hidden from users>",
 		],
 		"civilopediaText": [
 			{"text": "随着时代不断增加战斗力"}
 			]
 	},
 	{
-		"name": "Rising Sun Power armor",
+		"name": "Rising Sun Power armor",//旭日动力甲
 		"unitType": "Sword",
 		"uniqueTo": "The Empire of Rising Sun",
 		"replaces": "Longswordsman",
@@ -2658,9 +2673,80 @@
 		"Empire enters a [1]-turn Golden Age <upon being defeated>",
 		],
 	},
+	{
+		"name": "Caesar's Legion",//凯撒军团
+		"unitType": "Sword",
+		"uniqueTo": "Caesar",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"uniques" : [
+		"[+1] Movement <for [All] units> <during a Golden Age>", 
+		"[+10]% Strength <for [All] units> <during a Golden Age>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Augustus drone Sleep_mode",//奥古斯都无人机-休眠模式
+		"unitType": "Sword",
+		"uniqueTo": "Caesar",
+		"movement": 3,
+		"strength": 20,
+		"cost": 125,
+		"requiredTech": "Printing Press",
+		"obsoleteTech": "Steam Power",
+		"uniques": [
+		"Invisible to non-adjacent units",
+		"Cannot attack",
+		"Ignores terrain cost",
+		"Rough terrain penalty",
+		"Can transform to [Augustus drone Activation_mode]",
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Augustus drone Activation_mode",//奥古斯都无人机-激活模式
+		"unitType": "Siege",
+		"uniqueTo": "Caesar",
+		"movement": 1,
+		"strength": 15,
+		"range": 4,
+		"rangedStrength": 60,
+		"cost": 200,
+		"uniques": [
+		"[+2] Sight",
+		"[-50]% Strength <vs cities> <when attacking>",
+		"Cannot move",
+		"Self-destructs when attacking",
+		"Unbuildable",
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Golden armor",//黄金甲
+		"unitType": "Sword",
+		"uniqueTo": "Loulan",
+		"movement": 2,
+		"strength": 14,
+		"cost": 100,
+		"requiredResource": "Inheritance of Loulan",
+		"uniques": [
+		"Empire enters a [2]-turn Golden Age <upon defeating a [Wounded] unit>",
+		"[+10]% Strength bonus for [Military] units within [2] tiles",
+		"Unbuildable",
+		],
+	},
 	
 	
 	
+	//"[+1] Range"
+	//Golden armor
 	//Rising Sun Power armor
 	//Solar corona
 	//"Instantly consumes [10] [Horses]",
