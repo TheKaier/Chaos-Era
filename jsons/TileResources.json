@@ -626,5 +626,24 @@
 		"Stockpiled"//库存
 		]
 	},
+	{
+		"name": "Inheritance of Loulan",//楼兰传承
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
+	},
+	{
+		"name": "Music Note",//音符
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
 	
+	//Music Note
+	//Inheritance of Loulan
 ]
