@@ -56,9 +56,26 @@
     },
         {
         "name": "Visionary win",
+        "hiddenInVictoryScreen":true,
         "victoryScreenHeader": "build To the sky to win!",
         "milestones": ["Build [To the sky]"],
         "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
+    
+    {//启用传奇模式
+        "name":"Legend mode",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [Legend mode]"
+        ]
+    },
+    {//启用BOSS抑制器
+        "name":"BOSS Suppresser",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [BOSS Suppresser]"
+        ]
+    },
+    
 ]
