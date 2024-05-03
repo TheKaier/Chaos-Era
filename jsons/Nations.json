@@ -32,9 +32,9 @@
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
-		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing]>", "[Great Scientist] is earned [66]% faster"],
+		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing]>", "[Great Scientist] is earned [100]% faster"],
 		"civilopediaText":[
-        {"text": "t1，被加强的原版强者"},
+        {"text": "t1"},
     ],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
@@ -68,7 +68,7 @@
 		"uniqueName": "Hellenic League",
 		"uniques": ["[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory"],
 		"civilopediaText":[
-        {"text": "t2，原版11常见文明，没有改动"},
+        {"text": "t2"},
     ],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
@@ -99,9 +99,11 @@
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "Art of War",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [66]% faster","Free Great Person <after discovering [Civil Service]>","[+1 Culture] <when at war>","[+1 Science] <when not at war>",],
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [100]% faster",
+		//"Free Great Person <after discovering [Civil Service]>",
+		"[+1 Culture] <when at war>","[+3 Science] <when not at war>",],
 		"civilopediaText":[
-        {"text": "t1，被加强的原版强者，我中华天下无敌啊！"},
+        {"text": "t1"},
     ],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -134,9 +136,11 @@
 		"innerColor": [83, 0, 208],
 		"favoredReligion": "Islam",
 		"uniqueName": "Monument Builders",
-		"uniques": ["[+30]% Production when constructing [All] wonders [in all cities]"],
+		"uniques": ["[+25]% Production when constructing [All] wonders [in all cities]",
+		"[+7]% Production when constructing [All] buildings [in all cities]"
+		],
 		"civilopediaText":[
-        {"text": "t2，原版对决中常出现，强度不错"},
+        {"text": "t2"},
     ],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -168,7 +172,7 @@
 		"uniqueName": "Sun Never Sets",
 		"uniques": ["[+3] Movement <for [Water] units>"],
 		"civilopediaText":[
-        {"text": "t3，原版中就不受追捧，现在…"},
+        {"text": "t3"},
     ],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
@@ -198,9 +202,9 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Ancien Régime",
-		"uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
+		"uniques": ["[+2 Culture] [in all cities]"],
 		"civilopediaText":[
-        {"text": "t2，被加强的原版强者，文化大国"},
+        {"text": "t2"},
     ],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
@@ -233,7 +237,7 @@
 		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
 			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced"],
 			"civilopediaText":[
-        {"text": "t2，原版中还不错，现在也是？"},
+        {"text": "t2"},
     ],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
@@ -263,9 +267,9 @@
 		"innerColor": [240, 199, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Glory of Rome",
-		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["[+30]% Production towards any buildings that already exist in the Capital"],
 		"civilopediaText":[
-        {"text": "t2，原版强者？没变就是强！"},
+        {"text": "t2"},
     ],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
@@ -294,9 +298,11 @@
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced"],
+		"uniques": ["[+2 Gold] from each Trade Route", "Double quantity of [Oil] produced",
+		"[2] Happiness from each type of luxury resource",
+		],
 		"civilopediaText":[
-        {"text": "t3，原版：不是你哪位？"},
+        {"text": "t3"},
     ],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
@@ -326,9 +332,9 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-66]% Gold cost of acquiring tiles [in all cities]","[-20]% Culture cost of natural border growth [in all cities]"],
+		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-66]% Gold cost of acquiring tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]"],
 		"civilopediaText":[
-        {"text": "t3，让美国再次伟大，买买买地"},
+        {"text": "t3"},
     ],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
@@ -359,9 +365,11 @@
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["Damage is ignored when determining unit Strength","[+20]% Strength <with [1] to [6] neighboring [Coast] tiles>","[+1] Movement <with [1] to [6] neighboring [Coast] tiles>","[Land] units gain the [Amphibious] promotion"],
+		"uniques": ["Damage is ignored when determining unit Strength","[+23]% Strength <with [1] to [6] neighboring [Coast] tiles>","[+1] Movement <with [1] to [6] neighboring [Coast] tiles>",
+		"[+1] Movement <with [3] to [6] neighboring [Coast] tiles>",
+		"[Land] units gain the [Amphibious] promotion"],
 		"civilopediaText":[
-        {"text": "t3，不管怎样，待在海边就是胜利"},
+        {"text": "t3"},
     ],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -392,9 +400,9 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
-		"uniques": ["[+75]% unhappiness from the number of cities", "[-66]% Unhappiness from [Population] [in all cities]","[+2 Happiness]"],
+		"uniques": ["[+75]% unhappiness from the number of cities", "[-66]% Unhappiness from [Population] [in all cities]","[+4 Happiness]"],
 		"civilopediaText":[
-        {"text": "t2，原版可能是废物，现在可能有点用吧"},
+        {"text": "t2"},
     ],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
@@ -421,10 +429,10 @@
 		"innerColor": [37, 43, 33],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
-		"uniques": ["When conquering an encampment, earn [40] Gold and recruit a Barbarian unit <with [100]% chance>",
-			"[-50]% maintenance costs <for [Land] units>","Notified of new Barbarian encampments"],
+		"uniques": ["When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <with [50]% chance>",
+			"[-33]% maintenance costs <for [Land] units>","Notified of new Barbarian encampments"],
 			"civilopediaText":[
-        {"text": "t2，全面增强"},
+        {"text": "t2"},
     ],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
@@ -458,10 +466,10 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
-		"uniques": ["[-66]% maintenance costs <for [Water] units>",
-			"When defeating a [{Barbarian} {Water}] unit, earn [25] Gold and recruit it <with [50]% chance>"],
+		"uniques": ["[-75]% maintenance costs <for [Water] units>",
+			"When defeating a [{Barbarian} {Water}] unit, earn [75] Gold and recruit it <with [50]% chance>"],
 			"civilopediaText":[
-        {"text": "t3，我怎么感觉没见过你？"},
+        {"text": "t3"},
     ],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
@@ -491,9 +499,9 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
-        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
+        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+3 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
         "civilopediaText":[
-        {"text": "t2，你应该对得起你的名次，对吧？"},
+        {"text": "t2"},
     ],
 		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
 			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
@@ -526,7 +534,7 @@
 		"uniqueName": "The Great Warpath",
 		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
 		"civilopediaText":[
-        {"text": "t3，好像没怎么见过"},
+        {"text": "t3"},
     ],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
@@ -556,9 +564,11 @@
 
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemenid Legacy",
-		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+12]% Strength <for [All] units> <during a Golden Age>",
+		"Empire enters golden age <upon declaring war with a major Civilization>"
+		],
 		"civilopediaText":[
-        {"text": "t2，原版强者，没有更改证明了含金量"},
+        {"text": "t1"},
     ],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
@@ -592,11 +602,12 @@
 		"uniqueName": "Wayfinding",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>",
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
-            "[+1] Sight <for [Embarked] units>",  "[+15]% Strength <within [3] tiles of a [Moai]>",
-            "[+1 Production] from every [Fishing Boats]",
+            "[+2] Sight <for [Embarked] units>",
+              "[+15]% Strength <within [3] tiles of a [Moai]>",
+            "[+1 Production, +1 Culture] from every [Fishing Boats]",
             ],
             "civilopediaText":[
-        {"text": "t2，被加强的，满地的文化，小子以及不错的加力"},
+        {"text": "t2"},
     ],
 		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
 			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
@@ -625,9 +636,9 @@
 		"innerColor": [177, 8, 3],
 		"favoredReligion": "Buddhism",
 		"uniqueName": "Father Governs Children",
-		"uniques": ["[+100]% [Food] from City-States","[+100]% [Culture] from City-States","[+100]% [Faith] from City-States","Military Units gifted from City-States start with [+15] XP"],
+		"uniques": ["[+100]% [Food] from City-States","[+100]% [Culture] from City-States","[+100]% [Faith] from City-States","Military Units gifted from City-States start with [+30] XP"],
 		"civilopediaText":[
-        {"text": "t3，没见过你"},
+        {"text": "t3"},
     ],
 		"cities": ["Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
@@ -657,9 +668,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Seven Cities of Gold",
 		"uniques": ["100 Gold for discovering a Natural Wonder (bonus enhanced to 500 Gold if first to discover it)",
-			"[+1 Happiness] for every known Natural Wonder", "[+100]% Yield from every [Natural Wonder]"],
+			"[+2 Happiness] for every known Natural Wonder", "[+100]% Yield from every [Natural Wonder]"],
 			"civilopediaText":[
-        {"text": "t3，在不谈奇观的情况下，应该就这点了"},
+        {"text": "t3"},
     ],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
@@ -690,7 +701,7 @@
 		"uniqueName": "River Warlord",
 		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Defense bonus when embarked <for [All] units>", "[{Military} {Land}] units gain the [Amphibious] promotion"],
 		"civilopediaText":[
-        {"text": "t3，没见过"},
+        {"text": "t3"},
     ],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
 			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
@@ -718,9 +729,9 @@
 		"innerColor": [255,120,0],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+1] Movement <for [Mounted] units>"],
+		"uniques": ["[+35]% Strength <vs [City-States]>", "[+1] Movement <for [Mounted] units>"],
 		"civilopediaText":[
-        {"text": "t3，原汁原味"},
+        {"text": "t3"},
     ],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -760,7 +771,7 @@
 		"[All] units gain the [The wrath of the sun God] promotion <if [Legend_mode] is constructed>",
 		],
 		"civilopediaText":[
-        {"text": "t2，被加强的原版强者，荣誉混虔诚，启动"},
+        {"text": "t2"},
         {"text": "The wrath of the sun God","link": "Promotion/The wrath of the sun God"},
     ],
 		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
@@ -810,7 +821,7 @@
 			"No Maintenance costs for improvements in [Forest] tiles"
 			],
 			"civilopediaText":[
-        {"text": "t2，被加强的，玩玩不错"},
+        {"text": "t2"},
     ],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
@@ -841,10 +852,10 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
-		"uniques": ["[+1] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
+		"uniques": ["[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
 			"No movement cost to pillage <for [Melee] units>"],
 			"civilopediaText":[
-        {"text": "t3，我只在报错里看过你"},
+        {"text": "t3"},
     ],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
@@ -876,9 +887,9 @@
 
         "favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [3] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
 		"civilopediaText":[
-        {"text": "t1，原版强者呀！"},
+        {"text": "t1"},
     ],
 		"cities": ["Attila's Court"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
@@ -904,9 +915,9 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Dutch East India Company",
-		"uniques": ["Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
+		"uniques": ["Retain [100]% of the happiness from a luxury after the last copy has been traded away"],
 		"civilopediaText":[
-        {"text": "t3，没见过，只能说卖我东西，还拿回去一份"},
+        {"text": "t3"},
     ],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
         "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
@@ -934,9 +945,12 @@
 		"innerColor": [249, 247, 3],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
-		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
+		"uniques": ["Gain [1000] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [100]% boost to great person generation",
+		"Resting point for Influence with City-States is increased by [100]",
+		"[+10000]% Production when constructing [All] wonders [in all cities] <for [AI player]> <hidden from users>",
+		],
 		"civilopediaText":[
-        {"text": "t3，诺贝尔奖好耶"},
+        {"text": "t3，该文明不建议使用"},
     ],
 		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
             "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
@@ -970,9 +984,9 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [0] turns."],
 		"civilopediaText":[
-        {"text": "t3，不行啊"},
+        {"text": "t3"},
     ],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
@@ -1004,7 +1018,7 @@
 		"uniqueName": "Phoenician Heritage",
 		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned"],
 		"civilopediaText":[
-        {"text": "t3，港口应该不错"},
+        {"text": "t3"},
     ],
 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
@@ -1033,9 +1047,15 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Faith] [in all cities]","[+2 Faith] from each Trade Route"],
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Faith] [in all cities]","[+1 Faith] [in all cities] <starting from the [Classical era]>","[+2 Faith] from each Trade Route",
+		" \n东罗马帝国\n ",
+		"[+1 Faith] [in all cities] <if [Legend_mode] is constructed>",
+		//"[+1 Happiness] from each Trade Route <if [Legend_mode] is constructed>",
+		"May choose [1] additional belief(s) of any type when [founding] a religion <if [Legend_mode] is constructed>",
+		//<if [Legend_mode] is constructed>
+		],
 		"civilopediaText":[
-        {"text": "t2，被加强的原版文明，宗教文明一把手？"},
+        {"text": "t2"},
     ],
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
@@ -1079,7 +1099,7 @@
 			"[+3 Faith] [in all cities] <with [3] to [4] neighboring [Forest] tiles>",
 			"[+4 Faith] [in all cities] <with [5] to [6] neighboring [Forest] tiles>"],
 			"civilopediaText":[
-        {"text": "t2，宗教文明二把手吧"},
+        {"text": "t2"},
     ],
 		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
@@ -1122,7 +1142,7 @@
 		"uniqueName": "Spirit of Adwa",
 		"uniques": ["[+15]% Strength <when fighting units from a Civilization with more Cities than you>","[+5]% Strength","Starts with [Pottery]"],
 		"civilopediaText":[
-        {"text": "t2，单纯的加力而已，你们宗教文明把手真多"},
+        {"text": "t2"},
     ],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
@@ -1166,7 +1186,7 @@
 		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 			"civilopediaText":[
-        {"text": "t2，长历法，伟人来"},
+        {"text": "t2"},
     ],
  		// Parameters: tech, comment, amount, comment. Compare "Free [Great General] appears" as used by policies
 		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
@@ -1598,7 +1618,7 @@
         "innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging"]
 	},
-//接下来就是额外的东西了（你怎么敢说模组的东西是额外的？（谴责你））
+
 {
 		"name": "The Kingdom of slime",//史莱姆王国
 		"leaderName": "Slime King",
@@ -1617,9 +1637,13 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 0, 0],
 		"uniqueName": "Slime",
-		"uniques": ["[+3 Happiness]  <when not at war>","[+5 Happiness]  <during a Golden Age>","[+3 Happiness] <after discovering [Theology]>","[+3 Happiness] <after discovering [Printing Press]>","[+5 Happiness] <after discovering [Rifling]>","[3] Happiness from each type of luxury resource",],
+		"uniques": [
+		"[+3 Happiness]",
+		"[+3 Happiness]  <when not at war>",
+		"[+4 Happiness]  <during a Golden Age>",
+		"[+3 Happiness] <after discovering [Theology]>","[+3 Happiness] <after discovering [Printing Press]>","[+2 Happiness] <after discovering [Rifling]>","[2] Happiness from each type of luxury resource",],
 		"civilopediaText":[
-        {"text": "t1，越来越强，越来越强，古典强到工业\n投稿人：凯尔"},
+        {"text": "t1\n投稿人：凯尔"},
     ],
 		"cities": ["The Kingdom of slime","Farmer Slime","Blacksmith Slime","Hunter Slime","Businessman Slime","Judge Slime","Fisherman Slime","Guide Slime","Nurse Slime","General Slime","Wizard Slime","Slime 12","Slime 13","Slime 14","Slime 15","Slime 16","Slime 17","Slime 18","Slime 19","Slime 20","Slime 21"]
 	},
@@ -1641,14 +1665,14 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0, 102, 102],
 		"uniqueName": "Underground",
-		"uniques": ["[-4 Happiness]  <when not at war>","[-2 Happiness]  <during a Golden Age>","[3] Happiness from each type of luxury resource","[+120]% growth [in all cities] <when below [0] Happiness>"],
+		"uniques": ["[-7 Happiness]","[3] Happiness from each type of luxury resource","[+125]% growth [in all cities] <when below [0] Happiness>"],
 		"civilopediaText":[
-        {"text": "t2，可能没有那么强吧，测试太少了\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Lorain","Lament the cave","Mirkwood","Thunder ruins","Graka","Dragonian lair","The Doll Cave","The stone giant tower","Dark corridors","The Palace of light","The hanging city","The Troll Jungle","Purgatory","Extreme daylight","The first spine","The second spine","The veil forbids the earth","Lava pits","The Labyrinth of Shadows","The remains of the king","The entrance to the dark city"]
 	},
 {
-		"name": "Giant",//捷安特
+		"name": "Giant",//捷安特巨人
 		"leaderName": "Consul Flette Prehn",
 		"adjective": ["Giant"],
 		"startBias": ["Grassland","Plains"],
@@ -1665,16 +1689,18 @@
 		"outerColor": [102, 0, 0],
 		"innerColor": [0, 202, 102],
 		"uniqueName": "Giant",
-		"uniques": ["Free Social Policy","[+25]% [Production] [in all cities]","[+25]% [Science] [in all cities]","[-66]% growth [in all cities]","[+75]% Unhappiness from [Population] [in all cities]", "[Military] units gain the [Medic] promotion","[Land] units gain the [Amphibious] promotion","[Military] units gain the [Giant] promotion","[-30]% Production when constructing [Military] units [in all cities]","[+25]% [Culture] [in all cities] <during a Golden Age>","[+20]% [Production] [in all cities] <during a Golden Age>","[+20]% [Science] [in all cities] <during a Golden Age>",],
+		"uniques": [
+		"[1] Free Social Policies",
+		"[+25]% [Production] [in all cities]","[+25]% [Science] [in all cities]","[-50]% growth [in all cities]","[+50]% Unhappiness from [Population] [in all cities]", "[Military] units gain the [Medic] promotion","[Land] units gain the [Amphibious] promotion","[Military] units gain the [Giant] promotion","[-30]% Production when constructing [Military] units [in all cities]","[+35]% [Culture] [in all cities] <during a Golden Age>","[+30]% [Production] [in all cities] <during a Golden Age>","[+25]% [Science] [in all cities] <during a Golden Age>",],
 		"civilopediaText":[
-        {"text": "t1，一代版本，一代神，代代版本削巨人\n投稿人：罗马公社"},
+        {"text": "t1\n投稿人：罗马公社"},
     ],
 		"cities": ["Giant"]
 	},
 	//下面是罗斯宾市和错误，希望能够用吧
 	//我是不是应该给他们弄翻译？
 	//懒得编城市名字了（）
-/*{
+{
 		"name": "Rosbin City",//罗斯宾市
 		"leaderName": "Weien",
 		"adjective": ["Rosbin City"],
@@ -1718,10 +1744,10 @@
 		"[+2 Production, +2 Gold] from every [Plains] <after discovering [Banking]>",
 		],
 		"civilopediaText":[
-        {"text": "t-1，若无必要，不选，此文明\n投稿人：凯尔"},
+        {"text": "t0\n投稿人：凯尔"},
     ],
 		"cities": ["Rosbin City","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
-	},*/
+	},
 //接下来是印度帝国
 	{
 		"name": "Indian Empire",//印度帝国
@@ -1746,10 +1772,12 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Mad Gandhi",
-        "uniqueText": "战争期间，加33%科文\n和平期间，减33%科文",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities","Population loss from nuclear attacks [-95]% [in all cities]","[-33]% [Culture] <when not at war>","[-33]% [Science] <when not at war>","[+33]% [Culture] <when at war>","[+33]% [Science] <when at war>","[+2 Food, +2 Production] from [Fallout] tiles [in all cities]","[+20]% Strength <in [Fallout] tiles>"],
+        //"uniqueText": "战争期间，加33%科文\n和平期间，减33%科文",
+		"uniques": [
+		//"Receive triple Gold from Barbarian encampments and pillaging Cities",
+		"Population loss from nuclear attacks [-95]% [in all cities]","[-45]% [Culture] <when not at war>","[-45]% [Science] <when not at war>","[+15]% [Culture] <when at war>","[+15]% [Science] <when at war>","[+2 Food, +1 Production] from [Fallout] tiles [in all cities]","[+10]% Strength <in [Fallout] tiles>"],
 		"civilopediaText":[
-        {"text": "t0，随蘑菇云一起消散\n投稿人：凯尔"},
+        {"text": "t1\n投稿人：凯尔"},
     ],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
@@ -1776,9 +1804,9 @@
 		"outerColor": [53, 68, 0],
 		"innerColor": [255, 76, 118],
 		"uniqueName": "Dark",
-		"uniques": ["[Dark] units gain the [Dark hidden] promotion","[2] XP gained from combat",],
+		"uniques": ["[Dark] units gain the [Dark hidden] promotion","[3] XP gained from combat",],
 		"civilopediaText":[
-        {"text": "t2，测试太少了呀，应该没有那么强\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Dark World","Courtesy","loyalty","wisdom","temperance","courage","justice","generosity","compassion","kindness","gratitude","modesty","simplicity","tolerance","purity","sincerity","humor","love","industry","tenacity"]
 	},
@@ -1828,7 +1856,7 @@
 		//所以说这些有什么办法可以让他变少吗？这么多代码
 		//代码又要膨胀咯，小小叠了20层
 		"civilopediaText":[
-        {"text": "t1，叠buff还是不错的\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Blade Soul"],
 	},
@@ -1858,7 +1886,7 @@
         //"uniqueText": "电将军的部队使用特有的战略资源，并且为改良设施提供加成",
 		"uniques": ["[+1 Production] from [Farm] tiles [in all cities]","[+1 Food] from [Mine] tiles [in all cities]","[+1 Science] from [Fishing Boats] tiles [in all cities]","[+1 Gold] from [Pasture] tiles [in all cities]"],
 		"civilopediaText":[
-        {"text": "t1，朴实无华\n投稿人：凯尔"},
+        {"text": "t1\n投稿人：凯尔"},
     ],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -1887,7 +1915,7 @@
         //"uniqueText": "集各类极端组织于一体而产生的奇迹",
 		"uniques": ["[-1 Production] from [Mine] tiles [in all cities] <after discovering [Mining]>","[+1 Production] from [Hill] tiles [in all cities] <after discovering [Mining]>","[+1 Production] from [Hill] tiles [in all cities] <after discovering [Metal Casting]>","[-1 Gold, +1 Production, +1 Food] from [Plantation] tiles [in all cities] <after discovering [Calendar]>","[+1 Culture, +2 Gold] from [Plantation] tiles [in all cities] <after discovering [Theology]>","[-1 Food] from [Farm] tiles [in all cities] <after discovering [Pottery]>","[+1 Food] from [Grassland] tiles [in all cities] <after discovering [Pottery]>","[+1 Gold] from [Farm] tiles [in all cities] <after discovering [Civil Service]>","[+1 Production] from [Grassland] tiles [in all cities] <after discovering [Civil Service]>","[+1 Food, +1 Gold] from [Plains] tiles [in all cities] <after discovering [Civil Service]>","[+2 Production, +1 Gold, -1 Food] from [Fishing Boats] tiles [in all cities] <after discovering [Sailing]>","[+1 Culture, +1 Science, +1 Food] from [Fishing Boats] tiles [in all cities] <after discovering [Astronomy]>",]
 		"civilopediaText":[
-        {"text": "t0，最好不要选这个文明\n投稿人：凯尔"},
+        {"text": "t0\n投稿人：凯尔"},
     ],
 		"cities": ["Extreme city"],
 	},
@@ -1917,7 +1945,7 @@
 		"Provides [1] [Inheritance of Loulan] <if [Legend_mode] is constructed>",
 		]
 		"civilopediaText":[
-        {"text": "t2，人口多\n投稿人：大松饼"},
+        {"text": "t2\n投稿人：大松饼"},
     ],
 		"cities": ["Loulan"],
 	},
@@ -1938,10 +1966,12 @@
 		"outerColor": [60,0,104],
         "innerColor": [169,51,219],
 		"uniqueName": "Zerg",
-        "uniqueText": "异虫有着其独特的基因序列，不断的发展会获得更多的DNA。\nDNA进化总览\n后肢肌肉，+1移\n视觉感知，+1视野\n神经改良，33%撤退，需要，视觉感知，后肢肌肉\n穿透感知，视线穿过障碍，需要，视觉感知\n四肢肌肉，+1移，需要，后肢肌肉\n肌腱改良，+1射程，需要，后肢肌肉，神经改良，与迅捷打击冲突\n迅捷打击，额外攻击1次，需要，后肢肌肉，神经改良，与肌腱改良冲突\n机体强化，+1移+5%力，需要，肌腱改良\n几丁质利刃，+10%力\n几丁质外壳，防御+15%力，需要，几丁质利刃\n外骨骼优化，+15%力，需要，几丁质外壳\n快速吞噬，杀死单位+15血攻击+15%力，需要，神经改良，几丁质利刃",
-		"uniques": ["Provides [1] [DNA] <if [Palace] is constructed>","Provides [1] [DNA] <if [Temple of Artemis] is constructed>","Provides [1] [DNA] <if [Stonehenge] is constructed>","Provides [1] [DNA] <if [The Great Library] is constructed>","Provides [1] [DNA] <if [The Pyramids] is constructed>","Provides [1] [DNA] <if [Mausoleum of Halicarnassus] is constructed>","Provides [1] [DNA] <if [Statue of Zeus] is constructed>","Provides [1] [DNA] <if [The Great Lighthouse] is constructed>","Provides [1] [DNA] <if [Circus Maximus] is constructed>","Provides [1] [DNA] <if [Hanging Gardens] is constructed>","Provides [1] [DNA] <if [Colosseum] is constructed>","Provides [1] [DNA] <if [Terracotta Army] is constructed>","Provides [1] [DNA] <if [National College] is constructed>","Provides [1] [DNA] <if [The Oracle] is constructed>","Provides [1] [DNA] <if [National Epic] is constructed>","Provides [1] [DNA] <if [Petra] is constructed>","Provides [1] [DNA] <if [Great Wall] is constructed>","Provides [1] [DNA] <if [Heroic Epic] is constructed>","Provides [1] [DNA] <if [Colossus] is constructed>","Provides [1] [DNA] <if [Hagia Sophia] is constructed>","Provides [1] [DNA] <if [Great Mosque of Djenne] is constructed>","Provides [1] [DNA] <if [Grand Temple] is constructed>","Provides [1] [DNA] <if [Chichen Itza] is constructed>","Provides [1] [DNA] <if [National Treasury] is constructed>","Provides [1] [DNA] <if [Machu Picchu] is constructed>","Provides [1] [DNA] <if [Oxford University] is constructed>","Provides [1] [DNA] <if [Angkor Wat] is constructed>","Provides [1] [DNA] <if [Alhambra] is constructed>","Provides [1] [DNA] <if [Ironworks] is constructed>","Provides [1] [DNA] <if [Notre Dame] is constructed>","Provides [1] [DNA] <if [Sistine Chapel] is constructed>",]
+        "uniqueText": "异虫有着其独特的基因序列，建造纪念碑/工厂/部分奇观会获得更多的DNA。\nDNA进化总览\n后肢肌肉，+1移\n视觉感知，+1视野\n神经改良，33%撤退，需要，视觉感知，后肢肌肉\n穿透感知，视线穿过障碍，需要，视觉感知\n四肢肌肉，+1移，需要，后肢肌肉\n肌腱改良，+1射程，需要，后肢肌肉，神经改良，与迅捷打击冲突\n迅捷打击，额外攻击1次，需要，后肢肌肉，神经改良，与肌腱改良冲突\n机体强化，+1移+5%力，需要，肌腱改良\n几丁质利刃，+10%力\n几丁质外壳，防御+15%力，需要，几丁质利刃\n外骨骼优化，+15%力，需要，几丁质外壳\n快速吞噬，杀死单位+15血攻击+15%力，需要，神经改良，几丁质利刃",
+		"uniques": ["Provides [1] [DNA] <if [Palace] is constructed>","Provides [1] [DNA] <if [Temple of Artemis] is constructed>","Provides [1] [DNA] <if [Stonehenge] is constructed>","Provides [1] [DNA] <if [The Great Library] is constructed>","Provides [1] [DNA] <if [The Pyramids] is constructed>","Provides [1] [DNA] <if [Mausoleum of Halicarnassus] is constructed>","Provides [1] [DNA] <if [Statue of Zeus] is constructed>","Provides [1] [DNA] <if [The Great Lighthouse] is constructed>","Provides [1] [DNA] <if [Circus Maximus] is constructed>","Provides [1] [DNA] <if [Hanging Gardens] is constructed>","Provides [1] [DNA] <if [Colosseum] is constructed>","Provides [1] [DNA] <if [Terracotta Army] is constructed>",
+		//"Provides [1] [DNA] <if [National College] is constructed>","Provides [1] [DNA] <if [The Oracle] is constructed>","Provides [1] [DNA] <if [National Epic] is constructed>","Provides [1] [DNA] <if [Petra] is constructed>","Provides [1] [DNA] <if [Great Wall] is constructed>","Provides [1] [DNA] <if [Heroic Epic] is constructed>","Provides [1] [DNA] <if [Colossus] is constructed>","Provides [1] [DNA] <if [Hagia Sophia] is constructed>","Provides [1] [DNA] <if [Great Mosque of Djenne] is constructed>","Provides [1] [DNA] <if [Grand Temple] is constructed>","Provides [1] [DNA] <if [Chichen Itza] is constructed>","Provides [1] [DNA] <if [National Treasury] is constructed>","Provides [1] [DNA] <if [Machu Picchu] is constructed>","Provides [1] [DNA] <if [Oxford University] is constructed>","Provides [1] [DNA] <if [Angkor Wat] is constructed>","Provides [1] [DNA] <if [Alhambra] is constructed>","Provides [1] [DNA] <if [Ironworks] is constructed>","Provides [1] [DNA] <if [Notre Dame] is constructed>","Provides [1] [DNA] <if [Sistine Chapel] is constructed>",
+		]
 		"civilopediaText":[
-        {"text": "t0，按理来说，他会越来越强的\n投稿人：凯尔"},
+        {"text": "t0\n投稿人：凯尔"},
     ],
 		"cities": ["Char"],
 	},
@@ -1964,10 +1994,10 @@
 		"innerColor": [0, 0, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Usas Empire",
-        "uniqueText": "乌萨斯帝国拥有特殊的政策",
+        //"uniqueText": "乌萨斯帝国拥有特殊的政策",
 		"uniques": ["Starts with [Usas] adopted"],
 		"civilopediaText":[
-        {"text": "t0，可怕的战争政策\n投稿人：凯尔"},
+        {"text": "t0\n投稿人：凯尔"},
     ],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
@@ -2006,7 +2036,7 @@
 		"[Military] units gain the [Nightmare in the North] promotion",
 		],
 		"civilopediaText":[
-        {"text": "t2，你愿意的话，把它理解为小匈人\n投稿人：大松饼"},
+        {"text": "t2\n投稿人：大松饼"},
         {"text": "Beidi-production","link": "Building/Beidi-food"},
         {"text": "Beidi-production","link": "Building/Beidi-production"},
         {"text": "Nightmare in the North","link": "Promotion/Nightmare in the North"},
@@ -2030,19 +2060,19 @@
 		"outerColor": [146, 22, 8],
 		"innerColor": [255, 215, 55],
 		"uniqueName": "Visionary",
-		"uniques": ["[All] units gain the [Visionary nation] promotion","[+40]% Production when constructing [Culture] buildings [in all cities]","[+40]% Production when constructing [Science] buildings [in all cities]","Provides the cheapest [Culture] building in your first [1] cities for free",
+		"uniques": ["[All] units gain the [Visionary nation] promotion","[+30]% Production when constructing [Culture] buildings [in all cities]","[+30]% Production when constructing [Science] buildings [in all cities]","Provides the cheapest [Culture] building in your first [1] cities for free",
 		"Free [Great Scientist] appears <upon discovering [Civil Service]>",
 		"Free [Great Artist] appears <upon discovering [Metal Casting]>",
-		"Instantly provides [7] [Visionary]<upon constructing [All]>",
-		"Instantly provides [90] [Visionary]<upon constructing [Wonder]>",
-		"[+2 Production, +1 Gold] [in all cities] <when above [130] [Visionary]>",
-		"[+1 Gold, +3 Science] from each Trade Route <when above [330] [Visionary]>",
-		"[+2 Production] [in all cities]<when above [500] [Visionary]>",
-		"[+3 Gold] [in all cities] <when above [750] [Visionary]>",
-		"[+4 Production] [in all cities] <when above [1000] [Visionary]>",
+		"Instantly provides [5] [Visionary]<upon constructing [All]>",
+		"Instantly provides [80] [Visionary]<upon constructing [Wonder]>",
+		"[+1 Production, +1 Gold] [in all cities] <when above [150] [Visionary]>",
+		"[+1 Gold, +2 Science] from each Trade Route <when above [350] [Visionary]>",
+		"[+2 Production] [in all cities]<when above [550] [Visionary]>",
+		"[+2 Gold] [in all cities] <when above [750] [Visionary]>",
+		"[+3 Production] [in all cities] <when above [1100] [Visionary]>",
 		],
 		"civilopediaText":[
-        {"text": "t2，时间会给出答案\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Visionary nation", "progress"],
     },
@@ -2068,14 +2098,14 @@
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "Great Unification",
-		"uniqueText": "初始获得一个建设槽位\n组建工人时，加15%产能",
+		//"uniqueText": "初始获得一个建设槽位\n组建工人时，加15%产能",
 		"uniques": [
 		"Provides [1] [C_P]",
 		"[+15]% Production when constructing [Worker] units [in all cities]",
 		"[+20]% Strength <in [The_Great_Wall_Qin] tiles>",
 		],
 		"civilopediaText":[
-        {"text": "t1，长城虽然说不断的更改削弱，但还是被认为有这个实力\n投稿人：凯尔"},
+        {"text": "t1\n投稿人：凯尔"},
     ],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -2106,13 +2136,13 @@
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "All inputs are levelled",
-		"uniqueText": "初始获得一个经济槽位",
+		//"uniqueText": "初始获得一个经济槽位",
 		"uniques": [
 		"Provides [1] [E_P]",
-		"[+10]% Production when constructing [Settler] units [in all cities]",
+		"[+20]% Production when constructing [Settler] units [in all cities]",
 		],
 		"civilopediaText":[
-        {"text": "t？，只不过是因为缺少测试而已\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -2141,20 +2171,23 @@
         "innerColor": [255,255,255],
 
 		"favouredReligion": "Taoism",
-		"uniqueName": "Frontier trade",
-		"uniqueText": "以3:1的比例，将产能转化为科技文化金钱信仰",
+		"uniqueName": "Lining nail",
+		//"uniqueText": "以3:1的比例，将产能转化为科技文化金钱信仰\n城市达到十人口时+4信仰快乐+7产能金钱科技文化",
 		"uniques": [
+		"[+4 Production, +5 Gold, +4 Science, +4 Culture, +3 Happiness] per [9] population [in all cities]",
+		//"[+4 Faith, +7 Production, +7 Gold, +7 Science, +7 Culture, +5 Happiness] <in cities with at least [9] [Population]>",
 		"Enables conversion of city production to [Gold]",
 		"Enables conversion of city production to [Faith]",
+		//"Enables conversion of city production to [Food]",
 		"Enables conversion of city production to [Science] <starting from the [Classical era]>",
 		"Enables conversion of city production to [Culture] <starting from the [Medieval era]>",
-		"Production to [Gold] conversion in cities changed by [+25]%",
-		"Production to [Faith] conversion in cities changed by [+25]%",
-		"Production to [Science] conversion in cities changed by [-25]%",
-		"Production to [Culture] conversion in cities changed by [-50]%",
+		"Production to [Gold] conversion in cities changed by [+100]%",
+		"Production to [Faith] conversion in cities changed by [+100]%",
+		//"Production to [Science] conversion in cities changed by [-25]%",
+		//"Production to [Culture] conversion in cities changed by [-50]%",
 		],
 		"civilopediaText":[
-        {"text": "t？，缺少必须的测试\n投稿人：凯尔"},
+        {"text": "t1\n投稿人：凯尔"},
     ],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -2166,6 +2199,7 @@
 		"name": "Jungle country",//丛林国
 		"leaderName": "Akatsuki",
 		"adjective": ["Jungle country"],
+		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
 
         "startIntroPart1": "",
@@ -2182,12 +2216,12 @@
         "innerColor": [91,215,115],
 		"uniqueName": "Jungle first",
 		"uniques": [
-		"[+1 Production] from every [Jungle]",
-		"[+1 Production] from [Jungle] tiles [in all cities] <after discovering [Calendar]>",
+		"[+2 Production] from every [Jungle]",
+		//"[+1 Production] from [Jungle] tiles [in all cities] <after discovering [Calendar]>",
 		"[+2 Happiness] [in all cities] <with [1] to [6] neighboring [Jungle] tiles>",
 		],
 		"civilopediaText":[
-        {"text": "t2，开局有几个丛林是真的不错，单位能够很好的控图\n投稿人：大松饼"},
+        {"text": "t2\n投稿人：大松饼"},
     ],
 		"cities": ["Jungle country",],
     },
@@ -2212,12 +2246,12 @@
 		"uniqueName": "Terran",
 		"uniques": [
 		"[+1] Movement <for [Civilian] units>",
-		"[+1] Sight <for [Civilian] units>",
-		"[+5]% Production when constructing [Civilian] units [in all cities]",
-		"[+3 Food] [in all cities] <for [15] turns> <after [5] turns>",
+		"[+2] Sight <for [Civilian] units>",
+		"[+10]% Production when constructing [Civilian] units [in all cities]",
+		"[+3 Food] [in all cities] <for [28] turns> <after [3] turns>",
 		],
 		"civilopediaText":[
-        {"text": "t2，该文明缺少测试\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Terran",],
     },
@@ -2242,10 +2276,11 @@
 		"uniques": [
 		"Discover [Discovering Resources_Iron]",
 		"Discover [Discovering Resources_Horses]",
-		"[+1 Food] from [Iron] tiles [in all cities]"
+		"Double quantity of [Iron] produced",
+		"[+2 Food, +1 Culture, +1 Gold] from [Iron] tiles [in all cities]"
 		],
 		"civilopediaText":[
-        {"text": "t3，很神奇吧，一个文明从来都没有被使用过\n投稿人：大松饼"},
+        {"text": "t3\n投稿人：大松饼"},
     ],
 		"cities": ["Hittite",],
     },
@@ -2293,10 +2328,10 @@
 		"uniqueName": "Son of God",
 		"uniques": [
 		"[All] units gain the [Khala] promotion",
-		"[+1 Science] from every [Mountain]",
+		"[+2 Science] from every [Mountain]",
 		],
 		"civilopediaText":[
-        {"text": "t1，什么叫做全图投送兵力\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Aiur",],
     },
@@ -2323,10 +2358,12 @@
 		"Nullifies [Culture] [in all cities]",
 		"Nullifies [Gold] [in all cities]",
 		"Nullifies [Faith] [in all cities]",
+		"Nullifies [Production] [in all cities]",
+		"Free [The blade of evil] appears <for [AI player]> <with [20]% chance> <upon turn end>",
 		"Cannot build [Settler] units",
 		],
 		"civilopediaText":[
-        {"text": "t4，该文明建议AI使用，除非你真想挑战一下\n投稿人：凯尔"},
+        {"text": "t4，该文明建议AI使用\n投稿人：凯尔"},
     ],
 		"cities": ["The blade of evil",],
     },
@@ -2352,11 +2389,16 @@
 		"uniques": [
 		"[+1 Faith] per [1] population [in all cities]",
 		"May not generate great prophet equivalents naturally",
-		"May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost",
+		"Free [Great Prophet] appears <upon discovering [Theology]>",
+		"May buy [Worker] units with [Faith] for [1] times their normal Production cost",
+		"May buy [Work Boats] units with [Faith] for [1] times their normal Production cost",
+		"May buy [{Military} {Water}] units with [Faith] for [1] times their normal Production cost",
+		"May buy [{Military} {Land}] units with [Faith] for [1] times their normal Production cost",//备份
+		//"Reveals the entire map"
 		// <before the [Renaissance era]>
 		],
 		"civilopediaText":[
-        {"text": "t2，信仰至少可以买兵\n投稿人：凯尔"},
+        {"text": "t1\n投稿人：凯尔"},
     ],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -2388,16 +2430,16 @@
 		"[Military] units gain the [Blood of Iron] promotion",
 		//"Instantly provides [1] [Blood of Iron] <when above [-3] [Blood of Iron]>",
 		//"Instantly consumes [1] [Blood of Iron] <when above [3] [Blood of Iron]>",
-		"[+10]% [Production] [in all cities] <when above [9] [Blood of Iron]>",
+		"[+15]% [Production] [in all cities] <when above [9] [Blood of Iron]>",
 		"[+10]% [Culture] [in all cities] <when above [19] [Blood of Iron]>",
 		"[+10]% [Science] [in all cities] <when above [19] [Blood of Iron]>",
-		"[+10]% [Gold] [in all cities] <when above [19] [Blood of Iron]>",
+		"[+15]% [Gold] [in all cities] <when above [19] [Blood of Iron]>",
 		"[+1 Production] from every [Atoll]", 
 		"[+1 Production] from every [Fishing Boats] <after discovering [Metal Casting]>",
 		"[+1 Production, +1 Food] from every [Fishing Boats] <after discovering [Compass]>",
 		],
 		"civilopediaText":[
-        {"text": "t1，只要有士气就是无敌的\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
         {"text": "Blood of Iron","link": "Promotion/Blood of Iron"},
         {"text": "Steel of Heart","link": "Promotion/Steel of Heart"},
     ],
@@ -2429,11 +2471,11 @@
 		"uniques": [
 		"Gain a free [The sun rises in the east] [in capital]",
 		"[+1 Culture] from every [Mountain]",
-		"[+25]% Golden Age length",
-		"[+2] Sight <for [Civilian] units> <for [1] turns>",
+		"[+20]% Golden Age length",
+		"[+1] Sight <for [Civilian] units> <for [3] turns>",
 		],
 		"civilopediaText":[
-        {"text": "t1，开局送个小弓\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -2469,10 +2511,10 @@
 		"[+25]% [Production] [in all cities] <during a Golden Age>",
 		"[+25]% [Food] [in all cities] <during a Golden Age>",
 		"[+25]% [Gold] [in all cities] <during a Golden Age>",
-		"[+2 Production, +1 Happiness] [in all cities] <during a Golden Age>",
+		"[+3 Production, +2 Happiness] [in all cities] <during a Golden Age>",
 		],
 		"civilopediaText":[
-        {"text": "t？\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
@@ -2569,8 +2611,8 @@
 		"Provides [1] [A_P]",
 		//"Units ignore terrain costs when moving into any tile with Hills <when below [600] [Science]>",
 		"No Maintenance costs for improvements in [Rough terrain] tiles",
-		"[-50]% Production when constructing [Primitive Granary] buildings [in all cities] <when above [600] [Science]>",
-		"[-50]% Production when constructing [Primitive Shrine] buildings [in all cities] <when above [600] [Science]>",
+		"[-75]% Production when constructing [Primitive Granary] buildings [in all cities] <when above [600] [Science]>",
+		"[-75]% Production when constructing [Primitive Shrine] buildings [in all cities] <when above [600] [Science]>",
 		"Provides [1] [A_P] <after discovering [Medieval_era]>",
 		"[+1 Happiness, +1 Culture, +1 Faith] from each Trade Route <when above [100] [Science]>",
 		],
@@ -2579,7 +2621,316 @@
     ],
 		"cities": ["Primitive",],
     },
+    {
+		"name": "Kanhan",//坎寒
+		"leaderName": "Awater",
+		"adjective": ["Kanhan"],
+		//"startBias":["Avoid [Tundra]","Avoid [Desert]"],
+		"preferredVictoryType": "Scientific",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [154,255,207],
+		"innerColor": [74,231,255],
+		//"favoredReligion": "Christianity",
+		"uniqueName": "Men of talent come out in succession",
+		"uniques": [
+		"可以通过消耗一个通用点数来建造一下设施\n坎寒_食物 +4食物\n坎寒_产能 +3产能\n坎寒_金钱 +5金钱\n坎寒_文化 +4文化\n坎寒_科技 +4科技\n坎寒_信仰 +4信仰\n坎寒_快乐 +3快乐",
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：大松饼"},
+    ],
+		"cities": ["Kanhan","坎为水","水天讼","水地比","水雷屯","水风井","水泽节","水山蹇","水火既济",],
+    },   
+   {
+		"name": "Kamikaze",//神风宗
+		"leaderName": "Dai Li",
+		"adjective": ["Kamikaze"],
+		//"startBias":["Avoid [Tundra]","Avoid [Desert]"],
+		"preferredVictoryType": "Scientific",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [0,139,139],
+		"innerColor": [240,35,0],
+		//"favoredReligion": "Christianity",
+		"uniqueName": "God walks with the wind",
+		"uniques": [
+		"Improves movement speed on roads",
+		"[-50]% maintenance on road & railroads",
+		//"Can build [Road] improvements on tiles <for [Military] units>",
+		"[Military] units gain the [Kamikaze] promotion",
+		"[+1 Production, +1 Culture] from each Trade Route",
+		"[+1 Food, +1 Science] from each Trade Route <starting from the [Classical era]>",
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：大松饼"},
+        {"text": "Kamikaze","link": "Promotion/Kamikaze"},
+    ],
+		"cities": ["Kamikaze",],
+    },   
+    {
+		"name": "Monster Sui",//BOSS岁兽
+		"leaderName": "Monster Sui",
+		"adjective": ["Monster Sui"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [244,232,54],
+		"innerColor": [24,115,204],
+		"uniqueName": "Monster Sui Rune",
+		"uniques": [
+		
+		"Provides [1] [Chongyue] <every [1] turns>",
+		"Provides [1] [Shu] <every [1] turns>",
+		"Provides [1] [Dusk] <every [1] turns>",
+		"Provides [1] [Nian] <every [1] turns>",
+		"Provides [1] [Ling] <every [1] turns>",
+		],
+		"civilopediaText":[
+        {"text": "BOSS\n投稿人：凯尔"},
+    ],
+		"cities": ["Monster Sui","Chongyue","Shu","Dusk","Nian","Ling"],
+    },
+    {
+		"name": "Sheep People",//直立羊
+		"leaderName": "Sheep People",
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "绵，绵，绵！",
+		"attacked": "绵，绵，绵！",
+		"defeated": "绵，绵，绵！",
+		"introduction": "绵，绵，绵！",
+
+		"neutralHello": "绵!",
+		"hateHello": "绵？",
+
+		"tradeRequest": "绵，",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		//"favoredReligion": "Christianity",
+		"uniqueName": "Sheep People",
+		//"uniqueText": "羊，马，牛地块粮食减2产能加2，农场粮食加1，所有单位获得人羊晋升(在平原,草原地块移动力翻倍，攻击后可移动，对城市攻击力-25%)",
+		"uniques": ["[+2 Production] from [Sheep] tiles [in this city]","[+2 Production] from [Cattle] tiles [in this city]","[-2 Food] from [Sheep] tiles [in this city]","[-2 Food] from [Cattle] tiles [in this city]","[+1 Food] from [Farm] tiles [in this city]","[All] units gain the [People of Sheep] promotion"],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：甘地"},
+    ],
+		"cities": ["Babylon","Beijing","Thebes","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
+    },
+    {
+		"name": "maimai",//
+		"leaderName": "辣滴熊",
+		"adjective": ["maimai"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [13,247,255],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "难度确定",
+		"uniqueText": "ua介绍\n拥有 谱面难度计数器\n每8t+1谱面难度\n拥有五个阶段\n绿:大于0时所有城市+5%产能\n黄:大于6时所有军事单位+10%战斗力\n红:大于9时所有城市获得一个免费的竞技场\n紫:大于11时获得两个长枪兵\n白:进入40t黄金时代",
+		"uniques": [
+		"Provides [1] [谱面难度] <every [8] turns> <upon turn end>",
+		//"Provides [1] [谱面难度] <when above [11] [谱面难度]> <every [16] turns> <upon turn end>",
+		
+		"[+5]% [Production] [in all cities] <when above [0] [谱面难度]>",
+		"[+10]% Strength <when above [6] [谱面难度]>",
+		"Provides a [Colosseum] in your first [2048] cities for free <when above [9] [谱面难度]>",
+		//"Free [Pikeman] appears <when above [11] [谱面难度]> <when below [13] [谱面难度]> <upon turn end>",//1112
+		//"[2] free [Great Scientist] units appear",
+		//"[2] free [Pikeman] units appear <when above [11] [谱面难度]> <when below [13] [谱面难度]> <upon turn end>",//1112
+		//"Provides [1] [谱面难度] <when above [11] [谱面难度]> <when below [13] [谱面难度]> <upon turn end>",//1112
+		"Empire enters a [5]-turn Golden Age <when above [14] [谱面难度]> <when below [16] [谱面难度]>  <upon turn end>",//1415
+		//"Provides [1] [谱面难度] <when above [14] [谱面难度]> <when below [16] [谱面难度]> <upon turn end>",//1415
+		"Provides [-1] [谱面难度] <when above [16] [谱面难度]> <upon turn end> <hidden from users>",
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：大松饼"},
+    ],
+		"cities": ["maimai",],
+    },
+    {
+		"name": "Soviet Union",
+		"leaderName": "Stalin",
+		"adjective": ["Order"],
+		//"startBias": ["air"],
+		//"preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "Humanism",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [146, 22, 8],
+		"innerColor": [255, 215, 55],
+		"style": "",
+		"uniqueName": "Order",
+		"uniques": [
+		"[-2 Happiness] [in all cities]",
+		"[+66]% Culture cost of adopting new Policies",
+			"Adopt [Order]",
+			"Adopt [United Front]",
+			"Adopt [Planned Economy]",
+			"Adopt [Socialism]",
+			"Adopt [Nationalism]",
+			//"Adopt [Communism]",
+		],
+		"cities": [
+			"Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
+        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"
+		]
+	},
+    {
+		"name": "Desertization",//沙漠化
+		"leaderName": "Desert bishop",
+		"adjective": ["Desert"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [230, 172, 0],
+		"innerColor": [146, 22, 8],
+		"uniqueName": "Desertization",
+		"uniques": [
+		"[+1 Food, +1 Production] from every [Desert]",
+		"[-1 Food, +1 Production] from [Flood plains] tiles [in all cities]",
+		"[+1 Food, -1 Production] from [Hill] tiles [in all cities] <in [Marsh] tiles>",
+		"[-1 Food, -1 Production] from [Oasis] tiles [in all cities]",
+		"[Civilian] units gain the [Desertization] promotion",
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：凯尔"},
+    ],
+		"cities": ["Desert bishop","Desert"],
+    },
+    {
+		"name": "Putrefaction Marsh",//腐败沼泽
+		"leaderName": "Grimer",
+		"adjective": ["Grimer"],
+		"startBias": ["Marsh"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [70, 138, 216],
+		"innerColor": [0, 163, 0],
+		"uniqueName": "Grimer",
+		"uniques": [
+		"[+1 Food, +1 Production] from every [Marsh]",
+		/*"[-1 Food, +1 Production] from [Flood plains] tiles [in all cities]",
+		"[+1 Food, -1 Production] from [Hill] tiles [in all cities]",
+		"[-1 Food, -1 Production] from [Oasis] tiles [in all cities]",*/
+		"[All] units gain the [Grimer] promotion",
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：凯尔"},
+    ],
+		"cities": ["Putrefaction Marsh","Grimer"],
+    },
+    {
+		"name": "China_Tang",//唐朝
+		"leaderName": "Li Shimin",
+		"adjective": ["China_Tang"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You are mine.",
+		"attacked": "Just so so",
+		"defeated": "I am senior on you.",
+		"introduction": "there is a empire.",
+		"neutralHello": "How dare you today?",
+		"hateHello": "Oh. It's raining right?",
+		"tradeRequest": "what do you want?",
+
+        "outerColor": [51,204,255],
+        "innerColor": [204,51,0],
+
+		"favouredReligion": "Taoism",
+		"uniqueName": "Khan of Heaven",
+		"uniques": ["[+1 Gold, +1 Food] from every [Farm] <after discovering [Construction]>","[+1] Movement <for [Mounted] units>","Provides [1] [M_P]","[+50]% Production when constructing [Barracks] buildings [in all cities]",
+		//"[+15]% Production when constructing [Military] buildings [in all cities]",//没有军事建筑
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：百分之一百亿"},
+    ],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
     
+    
+    //Desert bishop = 沙漠主教
+    //Desertization = 沙漠化
+    /*"Discover [Resource Technology]"//开资源
+		"Instantly provides [1] [Magic power]"//拿魔力
+		"Provides [1] [Magic power]<every [1] turns>"//回合魔
+		"Provides [-24] [Magic power]<every [24] turns>"//清空*/
+    /*Monster Sui = BOSS岁兽
+Monster Sui Rune = 岁兽标记
+Chongyue = 重岳
+Shu = 黍
+Dusk = 夕
+Nian = 年
+Ling = 令*/
     //Rough terrain
     //<if [BOSS_Suppresser] is constructed>
     //Eternal kingdom = 永恒国度

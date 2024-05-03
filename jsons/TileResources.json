@@ -635,7 +635,16 @@
 		]
 	},
 	{
-		"name": "Music Note",//音符
+		"name": "Universe Point",//通用点数
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Chongyue",//
 		"resourceType": "Strategic",
 		"revealedBy": "Future Tech",
 		"uniques": [
@@ -643,7 +652,59 @@
 		"Stockpiled"//库存
 		]
 	},
-	
+	{
+		"name": "Shu",//
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Nian",//
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Ling",//
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Dusk",//
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name":"谱面难度",//
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	/*Monster Sui = BOSS岁兽
+Monster Sui Rune = 岁兽标记
+Chongyue = 重岳
+Shu = 黍
+Dusk = 夕
+Nian = 年
+Ling = 令*/
+	//Universe Point
 	//Music Note
 	//Inheritance of Loulan
 ]

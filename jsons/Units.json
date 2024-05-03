@@ -22,7 +22,9 @@
 		"cost": 106,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
-			"[+1] Movement <after adopting [Colonization time is up]>"],
+			"[+1] Movement <after adopting [Colonization time is up]>",
+		"[+2] Movement <before [2] turns>",
+			],
 		"hurryCostModifier": 20
 	},
 	{
@@ -278,7 +280,7 @@
 		"movement": 3,
 		"strength": 10,
 		"rangedStrength": 12,
-		"cost": 70,
+		"cost": 56,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -312,7 +314,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Persian Immortal",
+		"name": "Persian Immortal",//波斯长生军
 		"unitType": "Sword",
 		"replaces": "Spearman",
 		"uniqueTo": "Persia",
@@ -327,7 +329,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Battering Ram",
+		"name": "Battering Ram",//攻城锤
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Spearman",
 		"uniqueTo": "The Huns",
@@ -561,10 +563,10 @@
 		"replaces": "Pikeman",
 		"uniqueTo": "Germany",
 		"movement": 2,
-		"strength": 18,
+		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+66]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -1608,10 +1610,10 @@
 		"attackSound": "bombing"
 	},
 
-	/* Great people */
+	/* Great people *///伟人
 
 	{
-		"name": "Great Artist",
+		"name": "Great Artist",//大艺术家
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
@@ -1620,7 +1622,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Scientist",
+		"name": "Great Scientist",//大科学家
 		"unitType": "Civilian",
 		"uniques": [
             "Can hurry technology research",
@@ -1629,23 +1631,25 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Merchant",
+		"name": "Great Merchant",//大商人
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence",
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable",
+			],
 		"movement": 2
 	},
 	{
-		"name": "Great Engineer",
+		"name": "Great Engineer",//大工程师
 		"unitType": "Civilian",
 		"uniques": ["Can speed up construction of a building",
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+            "Great Person - [Production]", "Unbuildable", "Uncapturable",
+            ],
 		"movement": 2
 	},
 	{
-		"name": "Great Prophet",
+		"name": "Great Prophet",//大预言家
 		"unitType": "Civilian",
 		"uniques": [
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
@@ -1655,18 +1659,20 @@
             "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"],
+			"Takes your religion over the one in their birth city",
+		],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Great General",
+		"name": "Great General",//大军事家
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]", "Unbuildable", "Uncapturable",
+			],
 		"movement": 2
 	},
 	{
@@ -1758,7 +1764,7 @@
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 6,
-		"cost": 35,
+		"cost": 36,
 		"obsoleteTech": "Bronze Working",
 		"upgradesTo": "Slime 2",
 		"uniques": ["[+50]% Strength <while the empire is happy>","Consumes [1] [Slime]"],
@@ -1815,7 +1821,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",		"obsoleteTech": "Machinery",
 		"upgradesTo": "Sharp Slime",
-		"uniques": ["[+110]% Strength <while the empire is happy>","Consumes [2] [Slime]","[+1] Range <during a Golden Age>"],
+		"uniques": ["[+100]% Strength <while the empire is happy>","Consumes [2] [Slime]","[+1] Range <during a Golden Age>"],
 	},
 	//记住，接下来就是地下王国的了
 	{
@@ -1824,8 +1830,8 @@
 		"uniqueTo": "The underground kingdom",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 10,
-		"cost": 32,
+		"strength": 9,
+		"cost": 40,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Zombies 2",
 		"uniques": ["[-33]% Strength <while the empire is happy>","Consumes [2] [Underground]"],
@@ -1838,7 +1844,7 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 17,
-		"cost": 65,
+		"cost": 72,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"uniques": ["[-40]% Strength <while the empire is happy>","Consumes [4] [Underground]"],
@@ -1847,37 +1853,40 @@
 		"name": "Skeletons 1",
 		"unitType": "Archery",
 		"uniqueTo": "The underground kingdom",
+		"replaces": "Archer",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 8,
 		"cost": 35,
 		"requiredTech": "Archery",		"obsoleteTech": "Construction",
 		"upgradesTo": "Skeletons 2",
-		"uniques": ["[-33]% Strength <while the empire is happy>","Consumes [2] [Underground]"],
+		"uniques": ["[-40]% Strength <while the empire is happy>","Consumes [2] [Underground]"],
 	},
 	{
 		"name": "Skeletons 2",
 		"unitType": "Archery",
 		"uniqueTo": "The underground kingdom",
+		"replaces": "Composite Bowman",
 		"movement": 2,
 		"strength": 9,
 		"rangedStrength": 13,
 		"cost": 70,
 		"requiredTech": "Construction",		"obsoleteTech": "Machinery",
-		"uniques": ["[-33]% Strength <while the empire is happy>","Consumes [3] [Underground]"],
+		"uniques": ["[-37]% Strength <while the empire is happy>","Consumes [3] [Underground]"],
 
 
 	},
-	//有没有一种可能，这些都是同一个模组？
 	{
 		"name": "Royal Guard Slime",
 		"unitType": "Sword",
 		"uniqueTo": "The Kingdom of slime",
 
-		"movement": 3,
-		"strength": 17,
+		"movement": 2,
+		"strength": 13,
 		"promotions"
-: ["Shock I","Drill I","Cover I","精英单位"],		"uniques": ["[+55]% Strength <while the empire is happy>","[+55]% Strength <during a Golden Age>","[+1] Movement <while the empire is happy>","[+1] Movement <during a Golden Age>","Unbuildable","Will not be displayed in Civilopedia"],
+: ["Shock I","Drill I","Cover I","精英单位"],		"uniques": ["[+40]% Strength <while the empire is happy>","[+35]% Strength <during a Golden Age>","[+1] Movement <while the empire is happy>","[+1] Movement <during a Golden Age>","Unbuildable","Will not be displayed in Civilopedia",
+"Consumes [5] [Slime]"
+],
 
 	},
 {
@@ -1920,7 +1929,7 @@
 	},
 	
 	//不过注释还是要弄一下的
-/*
+
 {
 		"name": "Low-level infantry",
 		"unitType": "Sword",
@@ -1978,7 +1987,7 @@
 		"obsoleteTech": "Steam Power",
 					"uniques": ["Can move after attacking","Unit will heal every turn, even if it performs an action","Can build [All Road] improvements on tiles", ],
 		"attackSound": "tankshot"
-	},*/
+	},
 
 //一定要没有bug啊！
 //接下来是印度帝国的单位
@@ -1988,9 +1997,9 @@
 		"unitType": "Armored",
 		"uniqueTo": "Indian Empire",
 		"movement": 5,
-		"strength": 70,
-		"rangedStrength": 35,
-		"cost": 99999,
+		"strength": 100,
+		"rangedStrength": 100,
+		"cost": 999,
 		"promotions": ["领袖单位"],
 		"uniques": [ "Can carry [3] [Aircraft] units","Destroys tile improvements when attacking","Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "tankshot"
@@ -2122,7 +2131,7 @@
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 9,
-		"cost": 45,
+		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Dark Swordsman",
 	},
@@ -2133,7 +2142,7 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 14,
-		"cost": 78,
+		"cost": 68,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Dark Longswordsman",
 		"obsoleteTech": "Steel",
@@ -2146,7 +2155,7 @@
 		"replaces": "Longswordsman",
 		"movement": 3,
 		"strength": 20,
-		"cost": 125,
+		"cost": 108,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
@@ -2251,7 +2260,9 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques" : ["[+60]% Strength <while the empire is happy>","[+1] Movement <while the empire is happy>","Consumes [4] [Slime]","[+30]% Strength <during a Golden Age>","[+1] Movement <during a Golden Age>",],
+		"uniques" : ["[+55]% Strength <while the empire is happy>","[+1] Movement <while the empire is happy>","Consumes [4] [Slime]","[+25]% Strength <during a Golden Age>",
+		//"[+1] Movement <during a Golden Age>",
+		],
 	},
 	{
 		"name": "Sharp Slime",//尖锐史莱姆
@@ -2260,11 +2271,13 @@
 		"movement": 2,
 		"strength": 10,
 		"rangedStrength": 13,
-		"cost": 130,
+		"cost": 135,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques" : ["[+50]% Strength <while the empire is happy>","Consumes [3] [Slime]","[+50]% Strength <during a Golden Age>","[+1] Movement <during a Golden Age>",],
+		"uniques" : ["[+50]% Strength <while the empire is happy>","Consumes [3] [Slime]","[+50]% Strength <during a Golden Age>",
+		//"[+1] Movement <during a Golden Age>",
+		],
 		"attackSound": "crossbow"
 	},
 	{
@@ -2273,7 +2286,7 @@
 		"uniqueTo": "The Kingdom of slime",
 		"movement": 1,
 		"strength": 25,
-		"cost": 1000,
+		"cost": 500,
 		"promotions": ["领袖单位"],
 		"uniques" : ["Unbuildable","Unit will heal every turn, even if it performs an action","[+30]% Strength <when below [50] HP>","[+50]% Strength <while the empire is happy>","[+2] Movement <while the empire is happy>","[+50]% Strength <during a Golden Age>","[+2] Movement <during a Golden Age>","[+70]% Strength <when below [0] Happiness>","[+3] Movement <when below [0] Happiness>","Invisible to non-adjacent units <when below [0] Happiness>","Can move after attacking <when below [0] Happiness>","Heals [20] damage if it kills a unit","[+20]% Strength bonus for [Military] units within [2] tiles","Will not be displayed in Civilopedia"],
 	},
@@ -2292,14 +2305,20 @@
 		"unitType": "Fighter",
 		"uniqueTo": "Shenzhou",
 		"movement": 3,
-		"strength": 90,
-		"cost": 1000,
-		"rangedStrength": 100,
-		"range": 10,
-		"interceptRange": 10,
+		"strength": 50,
+		"cost": 100,
+		"rangedStrength": 70,
+		"range": 9,
+		"interceptRange": 9,
 		"promotions": ["英雄单位"],
-		"uniques" : ["Unbuildable","[2] additional attacks per turn","Heals [10] damage if it kills a unit","[2] Movement <during a Golden Age>","[1] additional attacks per turn <during a Golden Age>","[5] Range <during a Golden Age>","[+30]% Strength <during a Golden Age>","[+30]% Strength <during the [Modern era]>","[+55]% Strength <during the [Atomic era]>","[+110]% Strength <during the [Information era]>","[+160]% Strength <during the [Future era]>","Will not be displayed in Civilopedia"],
-		"promotions": ["Great Generals II","Quick Study"],
+		"uniques" : ["Unbuildable","[1] additional attacks per turn",
+		//"Heals [10] damage if it kills a unit",
+		"[2] Movement <during a Golden Age>",
+		//"[1] additional attacks per turn <during a Golden Age>",
+		"[5] Range <during a Golden Age>","[+30]% Strength <during a Golden Age>","[+30]% Strength <during the [Modern era]>","[+55]% Strength <during the [Atomic era]>","[+110]% Strength <during the [Information era]>","[+160]% Strength <during the [Future era]>",
+		//"Will not be displayed in Civilopedia"
+		],
+		"promotions": ["Great Generals I","Quick Study"],
 		"attackSound": "gdrAttack"
 	},
 	{
@@ -2312,6 +2331,7 @@
 		"requiredTech": "Steel",
 		"uniques": ["Can move after attacking","All tiles cost 1 movement","Ignores Zone of Control","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+310]% Strength <during the [Future era]>","Consumes [2] [Power]"],
 		"attackSound": "tankshot"
+		"hurryCostModifier": 5
 	},
 	{
 		"name": "Houyi mecha",//后羿机甲
@@ -2325,6 +2345,7 @@
 		"requiredTech": "Machinery",
 		"uniques": ["[1] Movement <during a Golden Age>","[1] additional attacks per turn <during a Golden Age>","Ranged attacks may be performed over obstacles","[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+150]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+300]% Strength <during the [Future era]>","Consumes [2] [Power]"],
 		"attackSound": "gdrAttack"
+		"hurryCostModifier": 5
 	},
 	{
 		"name": "Nvwa",//女娲战斗机
@@ -2340,6 +2361,7 @@
 		"uniques": ["[+50]% Strength <during a Golden Age>","[+3] Range <during a Golden Age>",
 		"[+50]% Strength <during the [Industrial era]>","[+125]% Strength <during the [Modern era]>","[+155]% Strength <during the [Atomic era]>","[+300]% Strength <during the [Information era]>","[+310]% Strength <during the [Future era]>","Consumes [3] [Power]"],
 		"attackSound": "machinegun"
+		"hurryCostModifier": 5
 	},
 	{
 		"name": "Loulan Cavalry",//楼兰古骑
@@ -2570,8 +2592,10 @@
 		"movement": 2,
 		"strength": 7,
 		"cost": 35,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
 		"uniques": [
-		"Earn [-25]% of killed [Military] unit's [Strength] as [Faith]",
+		"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
 		"[+1] Sight <when above [20] [Faith]>",
 		"[+25]% Strength <when above [10] [Faith]>",
 		],
@@ -2628,27 +2652,27 @@
 		"uniqueTo": "The Empire of Rising Sun",
 		"movement": 1,
 		"strength": 2,
-		"range": 5,
+		"range": 4,
 		"rangedStrength": 5,
-		"cost": 1000,
+		"cost": 10,
 		"uniques": [
 		"Cannot move",
 		"Unbuildable",
 		"Ranged attacks may be performed over obstacles",
-		"[+3] Range <during the [Classical era]> <hidden from users>",
+		"[+2] Range <during the [Classical era]> <hidden from users>",
 		"[+60]% Strength <during the [Classical era]> <hidden from users>",
 	"[+150]% Strength <during the [Medieval era]> <hidden from users>",
-	"[+5] Range <during the [Medieval era]> <hidden from users>",
+	"[+4] Range <during the [Medieval era]> <hidden from users>",
 	"[+200]% Strength <during the [Renaissance era]> <hidden from users>",
-	"[+7] Range <during the [Renaissance era]> <hidden from users>",
+	"[+5] Range <during the [Renaissance era]> <hidden from users>",
 	"[+400]% Strength <during the [Industrial era]> <hidden from users>",
-	"[+10] Range <during the [Industrial era]> <hidden from users>",
+	"[+7] Range <during the [Industrial era]> <hidden from users>",
 	"[+800]% Strength <during the [Modern era]> <hidden from users>",
-	"[+10] Range <during the [Modern era]> <hidden from users>",
+	"[+9] Range <during the [Modern era]> <hidden from users>",
 	"[+1100]% Strength <during the [Atomic era]> <hidden from users>",
-	"[+10] Range <during the [Atomic era]> <hidden from users>",
-	"[+1300]% Strength <during the [Information era]> <hidden from users>",
-	"[+10] Range <during the [Information era]> <hidden from users>",
+	"[+9] Range <during the [Atomic era]> <hidden from users>",
+	"[+1200]% Strength <during the [Information era]> <hidden from users>",
+	"[+9] Range <during the [Information era]> <hidden from users>",
 		],
 		"civilopediaText": [
 			{"text": "随着时代不断增加战斗力"}
@@ -2718,7 +2742,7 @@
 		"strength": 15,
 		"range": 4,
 		"rangedStrength": 60,
-		"cost": 200,
+		"cost": 20,
 		"uniques": [
 		"[+2] Sight",
 		"[-50]% Strength <vs cities> <when attacking>",
@@ -2734,7 +2758,7 @@
 		"uniqueTo": "Loulan",
 		"movement": 2,
 		"strength": 14,
-		"cost": 100,
+		"cost": 10,
 		"requiredResource": "Inheritance of Loulan",
 		"uniques": [
 		"Empire enters a [2]-turn Golden Age <upon defeating a [Wounded] unit>",
@@ -2742,9 +2766,230 @@
 		"Unbuildable",
 		],
 	},
+	{
+		"name": "Knight fleet",
+		"unitType": "Melee Water",
+		"uniqueTo": "Kanhan",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 11,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Can move after attacking",],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Kamikaze ride",//神风骑
+		"unitType": "Mounted",
+		"uniqueTo": "Kamikaze",
+		"replaces": "Horseman",
+		"movement": 6,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Shu",//黍
+		"unitType": "Sword",
+		"uniqueTo": "Monster Sui",
+		"movement": 3,
+		"strength": 10,
+		"cost": 25,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"[+25] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+35] HP when healing",
+		"[+15]% Strength bonus for [Military] units within [3] tiles",
+		"Never appears as a Barbarian unit",
+		"Unbuildable", 
+		"Uncapturable",
+		"[+60]% Strength <during the [Classical era]> <hidden from users>",
+	"[+120]% Strength <during the [Medieval era]> <hidden from users>",
+	"[+180]% Strength <during the [Renaissance era]> <hidden from users>",
+	"[+360]% Strength <during the [Industrial era]> <hidden from users>",
+	"[+510]% Strength <during the [Modern era]> <hidden from users>",
+	"[+700]% Strength <during the [Atomic era]> <hidden from users>",
+	"[+1100]% Strength <during the [Information era]> <hidden from users>",
+		],
+		//"promotions": ["Ignore terrain cost"],
+	},
+	{
+		"name": "Chongyue",//重岳
+		"unitType": "Sword",
+		"uniqueTo": "Monster Sui",
+		"movement": 4,
+		"strength": 12,
+		"cost": 25,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"Heals [50] damage if it kills a unit",
+		"Invisible to non-adjacent units",
+		"[+25]% Strength bonus for [Military] units within [1] tiles",
+		"Never appears as a Barbarian unit",
+		"Unbuildable", 
+		"Uncapturable",
+		"[+60]% Strength <during the [Classical era]> <hidden from users>",
+	"[+120]% Strength <during the [Medieval era]> <hidden from users>",
+	"[+180]% Strength <during the [Renaissance era]> <hidden from users>",
+	"[+360]% Strength <during the [Industrial era]> <hidden from users>",
+	"[+510]% Strength <during the [Modern era]> <hidden from users>",
+	"[+700]% Strength <during the [Atomic era]> <hidden from users>",
+	"[+1100]% Strength <during the [Information era]> <hidden from users>",
+		],
+		//"promotions": ["Ignore terrain cost"],
+	},
+	{
+		"name": "Dusk",//夕
+		"unitType": "Archery",
+		"uniqueTo": "Monster Sui",
+		"range": 3,
+		"rangedStrength": 10,
+		"movement": 3,
+		"strength": 10,
+		"cost": 25,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"[2] additional attacks per turn", "Can move after attacking",
+		"[+5]% Strength bonus for [Military] units within [5] tiles",
+		"Never appears as a Barbarian unit",
+		"Unbuildable", 
+		"Uncapturable",
+		"[+60]% Strength <during the [Classical era]> <hidden from users>",
+	"[+120]% Strength <during the [Medieval era]> <hidden from users>",
+	"[+180]% Strength <during the [Renaissance era]> <hidden from users>",
+	"[+360]% Strength <during the [Industrial era]> <hidden from users>",
+	"[+510]% Strength <during the [Modern era]> <hidden from users>",
+	"[+700]% Strength <during the [Atomic era]> <hidden from users>",
+	"[+1100]% Strength <during the [Information era]> <hidden from users>",
+		],
+		//"promotions": ["Ignore terrain cost"],
+	},
+	{
+		"name": "Nian",//年
+		"unitType": "Sword",
+		"uniqueTo": "Monster Sui",
+		"movement": 2,
+		"strength": 17,
+		"cost": 25,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"Heals [100] damage if it kills a unit",
+		"[+250]% Strength <vs cities> <when attacking>",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
+		"Never appears as a Barbarian unit",
+		"Unbuildable", 
+		"Uncapturable",
+		"[+60]% Strength <during the [Classical era]> <hidden from users>",
+	"[+120]% Strength <during the [Medieval era]> <hidden from users>",
+	"[+180]% Strength <during the [Renaissance era]> <hidden from users>",
+	"[+360]% Strength <during the [Industrial era]> <hidden from users>",
+	"[+510]% Strength <during the [Modern era]> <hidden from users>",
+	"[+700]% Strength <during the [Atomic era]> <hidden from users>",
+	"[+1100]% Strength <during the [Information era]> <hidden from users>",
+		],
+		//"promotions": ["Ignore terrain cost"],
+	},
+	{
+		"name": "Ling",//令
+		"unitType": "Fighter",
+		"uniqueTo": "Monster Sui",
+		"movement": 4,
+		"strength": 25,
+		"rangedStrength": 20,
+		"range": 12,
+		"interceptRange": 15,
+		"cost": 25,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"Heals [10] damage if it kills a unit",
+		"[1] additional attacks per turn", "Can move after attacking",
+		"Never appears as a Barbarian unit",
+		"Unbuildable", 
+		"Uncapturable",
+		"[+60]% Strength <during the [Classical era]> <hidden from users>",
+	"[+120]% Strength <during the [Medieval era]> <hidden from users>",
+	"[+180]% Strength <during the [Renaissance era]> <hidden from users>",
+	"[+360]% Strength <during the [Industrial era]> <hidden from users>",
+	"[+510]% Strength <during the [Modern era]> <hidden from users>",
+	"[+700]% Strength <during the [Atomic era]> <hidden from users>",
+	"[+1100]% Strength <during the [Information era]> <hidden from users>",
+		],
+		//"promotions": ["Ignore terrain cost"],
+	},
+	{
+		"name": "出勤人",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "maimai",
+		"movement": 2,
+		"strength": 20,
+		"cost": 90,
+		"requiredResource": "Iron",
+		"requiredTech": "Civil Service",
+		"uniques": [],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		
+		
+	},
+	{
+		"name": "Kunpeng battleship",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 20,
+		"cost": 120,
+		"range": 3,
+		"replaces": "Galleass",
+		"uniqueTo": "Shenzhou",
+		"requiredTech": "Compass",
+		//"obsoleteTech": "Navigation",
+		//"upgradesTo": "Frigate",
+		"uniques": [
+		"Can move after attacking",
+		"Ranged attacks may be performed over obstacles",
+		"Invisible to non-adjacent units",
+		"[+70]% Strength <during the [Industrial era]>","[+165]% Strength <during the [Modern era]>","[+300]% Strength <during the [Atomic era]>","[+350]% Strength <during the [Information era]>","[+350]% Strength <during the [Future era]>","Consumes [2] [Power]"
+		],
+		"hurryCostModifier": 10
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Black Armor Force",//玄甲军
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"replaces": "Knight",
+		"uniqueTo": "China_Tang",
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
+		"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+		],
+		"attackSound": "horse"
+	},
 	
 	
 	
+	
+	//Kunpeng battleship
+	/*Monster Sui = BOSS岁兽
+Monster Sui Rune = 岁兽标记
+Chongyue = 重岳
+Shu = 黍
+Dusk = 夕
+Nian = 年
+Ling = 令*/
 	//"[+1] Range"
 	//Golden armor
 	//Rising Sun Power armor

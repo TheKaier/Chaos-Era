@@ -749,7 +749,9 @@
 	},
 	{
 		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10] HP when healing"]
+		"uniques": ["[+10] HP when healing",
+		//"Empire enters a [1]-turn Golden Age <upon being defeated>",
+		]
 	},
 	{
 		"name": "[Conquistador] ability",
@@ -795,18 +797,21 @@
     //接下来就是模组的东西了啦
    	{
 		"name": "Giant",//巨人晋升
-		"uniques": ["[+1] Movement","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength", "[-25]% Strength <vs [Archery] units>","[-55]% Strength <for [Archery] units>","[+20]% Strength <during a Golden Age>","[+1] Movement <during a Golden Age>"]
+		"uniques": ["[+1] Movement","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","[+10]% Strength", "[-35]% Strength <vs [Archery] units>","[-60]% Strength <for [Archery] units>",
+		//"[+20]% Strength <during a Golden Age>",
+		//"[+1] Movement <during a Golden Age>"
+		]
 	},
 //阴暗帝国的东西
    	{
 		"name": "Dark hidden",//你说这样子是不是根本打不死人？
-		"uniques": ["Invisible to non-adjacent units <when below [40] HP>",]
+		"uniques": ["Invisible to non-adjacent units",]
 	},//阴暗帝国都是些逆天玩意，对吧？
    	{
 		"name": "Dark capture",//这个是抓人的
 		"prerequisites": ["Shock II","Drill II",],
 		"unitTypes": ["Dark"],
-		"uniques": ["[+15]% Strength <when attacking>","Heals [15] damage if it kills a unit","[+1] Movement",]
+		"uniques": ["[+20]% Strength <when attacking>","Heals [20] damage if it kills a unit","[+1] Movement",]
         "column": 0,
         "row": 5,
 	},//我在这里自言自语，会有人看到吗？
@@ -996,18 +1001,57 @@
         "column": 37,
         "row": 1
 	},
-	{
+	/*{
 		"name": "Music Game Master",//音乐游戏大师
 		"uniques": [
 		"Instantly provides [1] [Music Note] <upon losing at least [0] HP in a single attack>",
 		],
         "column": 38,
         "row": 1
+	},*/
+	{
+		"name": "Kamikaze",//神风宗
+		"uniques": [
+		"Can build [Road] improvements on tiles",
+		],
+        "column": 39,
+        "row": 1
+	},
+	{
+		"name": "People of Sheep",//人羊晋升
+		"uniques": [
+			"[-25]% Strength <vs cities>","Can move after attacking",
+			"[-12]% Strength",
+			"[+1] Movement",
+			]
+			"column": 40,
+        "row": 1
+	},
+	{
+		"name": "Desertization",//沙漠化
+		"uniques": [
+			"Turn this tile into a [Desert] tile <[3] times> <for [2] movement> <in tiles without [Desert]>",
+			]
+			"column": 41,
+        "row": 1
+	},
+	{
+		"name": "Grimer",//臭泥
+		"uniques": [
+		"This Unit takes [20] damage <[10] times> <for [1] movement>",
+			"Turn this tile into a [Marsh] tile <when below [90] HP> <in tiles without [Marsh]> <upon turn end>",
+			"Unit will heal every turn, even if it performs an action <in [Marsh] tiles>",
+			"[+15]% Strength <in [Marsh] tiles>",
+			"Double movement in [Marsh]"
+			]
+			"column": 42,
+        "row": 1
 	},
 	
 	
-	
-	
+	//Grimer
+	//Desertization
+	//"Can build [Road] improvements on tiles <for [Military] units>",
 	//Music Game Master
 	//The wrath of the sun God
 	//Nightmare in the North

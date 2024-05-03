@@ -1,8 +1,9 @@
 {
 "constants": {
-        "maxXPfromBarbarians": 40,
+        "maxXPfromBarbarians": 35,
     "pantheonBase": 10,
     "pantheonGrowth": 0,
+    //"Can trade civilization introductions for [30] Gold"
     },
     "isBaseRuleset": true,
     

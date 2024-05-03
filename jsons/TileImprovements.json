@@ -277,9 +277,11 @@
 
 	// Unbuildable improvements
 	{
-		"name": "Ancient ruins",
+		"name": "Ancient ruins",//远古遗迹
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", 
+		//"Unbuildable"
+		]
 	},
 	{
 		"name": "City ruins",
@@ -309,6 +311,7 @@
 		"uniqueTo": "Loulan",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
+		//"replaces": "Farm",
 		"turnsToBuild": 6,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
@@ -346,7 +349,7 @@
 		"production": -3,
 		"gold": -2,
 		"culture": -2,
-		"turnsToBuild": 8,
+		"turnsToBuild": 6,
 		"techRequired": "Masonry",
 		"uniques": [
 		"[+2 Food, +2 Production, +1 Gold, +1 Culture] <with [0] to [6] neighboring [Sphinx] tiles> <for [Holy Egyptian Empire]>",
@@ -356,7 +359,101 @@
             ],
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Kanhan_Food",//坎寒_食物
+		"uniqueTo": "Kanhan",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[-3 Food] <when below [0] [Universe Point]>",
+		"Provides [-1] [Universe Point]",
+            "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Kanhan_Production",//坎寒_产能
+		"uniqueTo": "Kanhan",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[-3 Production] <when below [0] [Universe Point]>",
+		"Provides [-1] [Universe Point]",
+            "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Kanhan_Gold",//坎寒_金钱
+		"uniqueTo": "Kanhan",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[-4 Gold] <when below [0] [Universe Point]>",
+		"Provides [-1] [Universe Point]",
+            "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Kanhan_Culture",//坎寒_文化
+		"uniqueTo": "Kanhan",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[-3 Culture] <when below [0] [Universe Point]>",
+		"Provides [-1] [Universe Point]",
+            "Pillaging this improvement yields approximately [+4 Culture]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Kanhan_Science",//坎寒_科技
+		"uniqueTo": "Kanhan",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[-3 Science] <when below [0] [Universe Point]>",
+		"Provides [-1] [Universe Point]",
+            "Pillaging this improvement yields approximately [+4 Science]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Kanhan_Faith",//坎寒_信仰
+		"uniqueTo": "Kanhan",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[-3 Faith] <when below [0] [Universe Point]>",
+		"Provides [-1] [Universe Point]",
+            "Pillaging this improvement yields approximately [+4 Faith]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Kanhan_Happiness",//坎寒_快乐
+		"uniqueTo": "Kanhan",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"happiness": 3,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[-3 Happiness] <when below [0] [Universe Point]>",
+		"Provides [-1] [Universe Point]",
+            "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
 	
+	
+	
+	//<when below [0] [Universe Point]>
 	//<hidden from users>
 	//<with [1] to [1] neighboring [The_Great_Wall_Qin] tiles>
 ]

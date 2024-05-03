@@ -1,6 +1,6 @@
 [
-//第906行特色政策卡
-//第1490行原版建筑
+//第1048行特色政策卡
+//第1652行原版建筑
 //额外的胜利方式
 /*模组专属模式开关隐藏建筑*/
     {//启用传奇模式
@@ -14,13 +14,13 @@
         "name": "Legend_mode",
         "cost": 0,
         "uniques":[
-        "Unsellable"//无法出售
-        //"Can only be built [in capital]",
+        "Unsellable",//无法出售
+        //"Can only be built <in [in capital] cities>",
         "Automatically built in all cities where it is buildable",
         "Hidden when [Legend mode] Victory is disabled",
         "Will not be displayed in Civilopedia"]
     },
-    {//启用BOSS抑制器
+   /* {//启用BOSS抑制器
         "name": "BOSS Suppresser",
         "cost": 0,
         "uniques":[
@@ -32,19 +32,19 @@
         "cost": 0,
         "uniques":[
         "Unsellable"//无法出售
-        //"Can only be built [in capital]",
+        //"Can only be built <in [in capital] cities>",
         "Automatically built in all cities where it is buildable",
         "Hidden when [BOSS Suppresser] Victory is disabled",
         "Will not be displayed in Civilopedia"]
-    },
+    },*/
     
 	//远见胜利
-	{
+	{//"Can only be built <in [in capital] cities>",
 		"name": "To the sky",//向那天空进发
 		"uniqueTo": "Visionary nation",		
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["Consumes [1200] [Visionary]","Can only be built [in capital]","[+5 Gold, +5 Production, +5 Culture, +5 Science, +5 Food] [in all cities]","[+25]% [Culture]","[+25]% [Science]","[+25]% [Gold]"],		
+		"uniques": ["Consumes [1500] [Visionary]","Can only be built <in [in capital] cities>","[+5 Gold, +5 Production, +5 Culture, +5 Science, +5 Food] [in all cities]","[+25]% [Culture]","[+25]% [Science]","[+25]% [Gold]"],		
 	},
 	//政策研发科技
 	{
@@ -55,10 +55,10 @@
         //"Remove [Ancient_era] [in this city] <hidden from users>",
 		"Hidden when [Visionary win] Victory is disabled",
 		"Only available <starting from the [Ancient era]>",
-		"Provides [100] [C_P]",
-        "Provides [100] [E_P]",
-        "Provides [100] [M_P]",
-        "Provides [100] [A_P]",
+		//"Provides [100] [C_P]",
+        //"Provides [100] [E_P]",
+        //"Provides [100] [M_P]",
+        //"Provides [100] [A_P]",
 		]
 	},
 	//"Only available <before discovering [Ancient_era]>",
@@ -72,6 +72,7 @@
 		"uniques": ["Discover [Classical_era]","Only available <before discovering [Classical_era]>",
         "Remove [Classical_era] [in this city] <hidden from users>",
         "Only available <starting from the [Classical era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
 	},
 	{
@@ -81,6 +82,7 @@
 		"uniques": ["Discover [Medieval_era]","Only available <before discovering [Medieval_era]>",
         "Remove [Medieval_era] [in this city] <hidden from users>",
         "Only available <starting from the [Medieval era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
 	},
 	{
@@ -90,6 +92,7 @@
 		"uniques": ["Discover [Renaissance_era]","Only available <before discovering [Renaissance_era]>",
         "Remove [Renaissance_era] [in this city] <hidden from users>",
         "Only available <starting from the [Renaissance era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
 	},
 	{
@@ -99,6 +102,7 @@
 		"uniques": ["Discover [Industrial_era]","Only available <before discovering [Industrial_era]>",
         "Remove [Industrial_era] [in this city] <hidden from users>",
         "Only available <starting from the [Industrial era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
 	},
 	{
@@ -108,6 +112,7 @@
 		"uniques": ["Discover [Modern_era]","Only available <before discovering [Modern_era]>",
         "Remove [Modern_era] [in this city] <hidden from users>",
         "Only available <starting from the [Modern era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
 	},
     {
@@ -117,6 +122,7 @@
 		"uniques": ["Discover [Atomic_era]","Only available <before discovering [Atomic_era]>",
         "Remove [Atomic_era] [in this city] <hidden from users>",
         "Only available <starting from the [Atomic era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
 	},
 /*	{
@@ -124,7 +130,9 @@
 		"cost":0,
 		"requiredBuilding": "Atomic_era",	
 		"uniques": ["Discover [Information_era]","Only available <before discovering [Information_era]>",
-        "Remove [Information_era] [in this city] <hidden from users>",]
+        "Remove [Information_era] [in this city] <hidden from users>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ]
 	},
 	*/
 	//发现资源科技建筑
@@ -132,37 +140,37 @@
 		"name": "Discovering Resources Horses",//发现马
 		"cost":0,
 		"requiredTech": "Animal Husbandry",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Horses]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Horses]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
 	},
 	{
 		"name": "Discovering Resources_Iron",//发现铁
 		"cost":0,
 		"requiredTech": "Iron Working",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Iron]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Iron]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
 	},
 	{
 		"name": "Discovering Resources_Coal",//发现煤
 		"cost":0,
 		"requiredTech": "Industrialization",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Coal]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Coal]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
 	},
 	{
 		"name": "Discovering Resources_Oil",//发现石油
 		"cost":0,
 		"requiredTech": "Biology",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Oil]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Oil]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
 	},
 	{
 		"name": "Discovering Resources_Aluminum",//发现铝
 		"cost":0,
 		"requiredTech": "Electricity",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Aluminum]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Aluminum]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
 	},
 	{
 		"name": "Discovering Resources_Uranium",//发现铀
 		"cost":0,
 		"requiredTech": "Atomic Theory",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Uranium]","Limited to [1] per Civilization","Can only be built [in capital]","Unsellable"]
+		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Uranium]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
 	},
 	
 	
@@ -178,12 +186,13 @@
         "requiredResource":"A_P",
         //"requiredBuilding": "A_P_C_1",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -192,12 +201,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_C_1",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -206,12 +216,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_C_2",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -220,12 +231,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_C_3",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -234,12 +246,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_C_4",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 		{
@@ -248,12 +261,13 @@
         "requiredResource":"A_P",
        // "requiredBuilding": "A_P_E_1",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 {
@@ -262,12 +276,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_E_1",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -276,12 +291,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_E_2",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -290,12 +306,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_E_3",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -304,12 +321,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_E_4",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -318,12 +336,13 @@
         "requiredResource":"A_P",
        // "requiredBuilding": "A_P_M_1",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -332,12 +351,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_M_1",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -346,12 +366,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_M_2",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -360,12 +381,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_M_3",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	{
@@ -374,12 +396,13 @@
         "requiredResource":"A_P",
         "requiredBuilding": "A_P_M_4",
         "uniques":[
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Unsellable"
+        "Hidden when [Visionary win] Victory is disabled",
+        //"Unsellable"
 ],
     },
 	
@@ -398,15 +421,18 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":[
+        //"Reveals the entire map"
         "[+1 Culture] <before discovering [Renaissance_era]>",
+        "[+1 Science] <before discovering [Renaissance_era]>",
         "[+1 Gold] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
 ],
     },
 	    {//经济-城市规划
@@ -414,27 +440,29 @@
         "cost":0,
         "requiredResource":"C_P",
         "uniques":["[+1 Production] [in all cities] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {//经济-服役
         "name":"E_fuyi",
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+35]% Production when constructing [Worker] units [in all cities] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[+20]% Production when constructing [Worker] units [in all cities] <before discovering [Renaissance_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -442,27 +470,30 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":["[+2 Gold] from each Trade Route <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "[+2 Gold] <before discovering [Renaissance_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
         "name":"E_qiangpolaoyi",//强迫劳动
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[-33]% construction time for [All] improvements <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[-25]% construction time for [All] improvements <before discovering [Renaissance_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     //Classical_era
@@ -470,43 +501,46 @@
         "name":"E_tudiceliangyuan",//土地测量员
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[-30]% Gold cost of acquiring tiles [in all cities] <before discovering [Industrial_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[-33]% Gold cost of acquiring tiles [in all cities] <before discovering [Industrial_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [C_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
     },
     {
         "name":"E_zhimin",//殖民
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+33]% Production when constructing [Settler] units [in all cities] <before discovering [Industrial_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[+37]% Production when constructing [Settler] units [in all cities] <before discovering [Industrial_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
         "name":"E_loufang",//楼房
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+2 Food] from every [Granary] <before discovering [Industrial_era]>",
-        "[+1 Food] from every [Monument]",
-        "Can only be built [in capital]",
+        "uniques":["[+1 Food] from every [Granary] <before discovering [Industrial_era]>",
+        "[+1 Food] from every [Monument] <before discovering [Industrial_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [C_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -514,28 +548,30 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":["[+1 Culture, +1 Gold] from [Jungle] tiles [in all cities] <before discovering [Industrial_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
         "name":"E_jingwen",//经文
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+1 Science] from every [Shrine] <before discovering [Industrial_era]>",
-        "[+1 Culture] from every [Temple] <before discovering [Industrial_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[+1 Culture] from every [Shrine] <before discovering [Industrial_era]>",
+        "[+1 Science] from every [Temple] <before discovering [Industrial_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -544,13 +580,14 @@
         "requiredResource":"M_P",
         "uniques":["New [Melee Water] units start with [15] Experience [in this city] <before discovering [Industrial_era]>",
         "[+20]% Production when constructing [Water] units [in all cities] <before discovering [Industrial_era]>"
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [M_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -558,13 +595,14 @@
         "cost":0,
         "requiredResource":"C_P",
         "uniques":["[+2] Movement <for [Worker] units> <before discovering [Industrial_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [C_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     //Medieval_era
@@ -572,81 +610,93 @@
         "name":"E_minjianweiwang",//民间威望
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+1 Happiness, +2 Food, -1 Production] [in all cities] <before discovering [Modern_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[+2 Happiness, +1 Food, -2 Production] [in all cities] <before discovering [Modern_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Medieval_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [E_P] <after discovering [Modern_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
         "name":"E_maoyilianmeng",//贸易联盟
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+1 Science, +1 Culture] from each Trade Route <before discovering [Modern_era]>",
-        "Can only be built [in capital]",
+        "uniques":[
+        "[-25]% maintenance on road & railroads <before discovering [Modern_era]>",
+        "[+2 Science, +1 Culture] from each Trade Route <before discovering [Modern_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Medieval_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
-        "Provides [1] [E_P] <after discovering [Modern_era]>"
+        "Provides [1] [E_P] <after discovering [Modern_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
         "name":"E_meixue",//美学
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+50]% Yield from every [Landmark] <before discovering [Modern_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[+100]% Yield from every [Landmark] <before discovering [Modern_era]>",
+        "[+1 Science, +1 Gold] from [Landmark] tiles [in all cities] <before discovering [Modern_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Medieval_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
-        "Provides [1] [E_P] <after discovering [Modern_era]>",]
+        "Provides [1] [E_P] <after discovering [Modern_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ]
     },
     {
         "name":"E_gulaochengqu",//古老城区
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+2 Culture] [in all cities] <before discovering [Modern_era]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <with [C_P]>",
-        "Only available <after discovering [Medieval_era]>",
-        "Destroyed when the city is captured",
-        "Only available <before discovering [Modern_era]>",
-        "Provides [1] [C_P] <after discovering [Modern_era]>",]
-    },
-    {
-        "name":"E_chengzhentexuzhuang",//城镇特许状
-        "cost":0,
-        "requiredResource":"C_P",
-        "uniques":["[+100]% Yield from every [Manufactory] <before discovering [Modern_era]>",
-        "Can only be built [in capital]",
-        "Limited to [1] per Civilization",
-        "Only available <with [C_P]>",
-        "Only available <after discovering [Medieval_era]>",
-        "Destroyed when the city is captured",
-        "Only available <before discovering [Modern_era]>",
-        "Provides [1] [C_P] <after discovering [Modern_era]>",]
-    },
-    {
-        "name":"E_geteshijianzhu",//哥特式建筑
-        "cost":0,
-        "requiredResource":"C_P",
-        "uniques":["[+15]% Production when constructing [All] buildings [in all cities] <before discovering [Modern_era]>",
-        "Can only be built [in capital]",
+        "uniques":["[+1 Culture, +1 Science] [in all cities] <before discovering [Modern_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Medieval_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [C_P] <after discovering [Modern_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ]
+    },
+    {
+        "name":"E_chengzhentexuzhuang",//城镇特许状
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[+50]% Yield from every [Manufactory] <before discovering [Modern_era]>",
+        "Can only be built <in [in capital] cities>",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        "Only available <after discovering [Medieval_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Modern_era]>",
+        "Provides [1] [C_P] <after discovering [Modern_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ]
+    },
+    {
+        "name":"E_geteshijianzhu",//哥特式建筑
+        "cost":0,
+        "requiredResource":"C_P",
+        "uniques":["[+10]% Production when constructing [All] buildings [in all cities] <before discovering [Modern_era]>",
+        "Can only be built <in [in capital] cities>",
+        "Limited to [1] per Civilization",
+        "Only available <with [C_P]>",
+        "Only available <after discovering [Medieval_era]>",
+        "Destroyed when the city is captured",
+        "Only available <before discovering [Modern_era]>",
+        "Provides [1] [C_P] <after discovering [Modern_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ]
     },
     //Renaissance_era
@@ -655,88 +705,100 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":[
-        "[+25]% [Gold] [in all cities] <before discovering [Atomic_era]>",
-        "Can only be built [in capital]",
+        "[+33]% [Gold] [in all cities] <before discovering [Atomic_era]>",
+        "[+1 Gold] from each Trade Route <before discovering [Modern_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Renaissance_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [E_P] <after discovering [Atomic_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
         "name":"E_zongjiaojiaopai",//宗教教派
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+20]% Natural religion spread [in all cities]",
+        "uniques":["[+25]% Natural religion spread [in all cities]",
         "[+1 Faith] from every [Shrine] <before discovering [Atomic_era]>",
         "[+1 Faith] from every [Temple] <before discovering [Atomic_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Renaissance_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
-        "Provides [1] [E_P] <after discovering [Atomic_era]>",],
+        "Provides [1] [E_P] <after discovering [Atomic_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     {
         "name":"E_gongxiangjiaotang",//共享教堂
         "cost":0,
         "requiredResource":"E_P",
         "uniques":[
-        "[+33]% [Faith] <in cities with at least [6] [Population]> <before discovering [Atomic_era]>",
-        "Can only be built [in capital]",
+        "[+33]% [Faith] <in cities with at least [5] [Population]> <before discovering [Atomic_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Renaissance_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
-        "Provides [1] [E_P] <after discovering [Atomic_era]>",],
+        "Provides [1] [E_P] <after discovering [Atomic_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     {
         "name":"E_sanjiaomaoyi",//三角贸易
         "cost":0,
         "requiredResource":"E_P",
         "uniques":["[+3 Gold, +1 Culture, +1 Food] from each Trade Route <before discovering [Atomic_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Renaissance_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
-        "Provides [1] [E_P] <after discovering [Atomic_era]>",],
+        "Provides [1] [E_P] <after discovering [Atomic_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     {
         "name":"E_lixingzhuyi",//理性主义
         "cost":0,
         "requiredResource":"C_P",
         "uniques":["[+1 Science, +1 Culture] from every [Library] <before discovering [Atomic_era]>",
-        "[+2 Science, +1 Culture] from every [University] <before discovering [Atomic_era]>",
-        "[+25]% [Science] <in cities with at least [8] [Population]> <before discovering [Atomic_era]>",
-        "Can only be built [in capital]",
+        "[+1 Science, +1 Culture] from every [University] <before discovering [Atomic_era]>",
+        "[+20]% [Science] <in cities with at least [8] [Population]> <before discovering [Atomic_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Renaissance_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
-        "Provides [1] [C_P] <after discovering [Atomic_era]>",],
+        "Provides [1] [C_P] <after discovering [Atomic_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     {
         "name":"E_ziyoushichang",//自由市场
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+2 Gold] from every [Market] <before discovering [Atomic_era]>",
-        "[+2 Gold] from every [Bank] <before discovering [Atomic_era]>",
-        "[+33]% [Gold] <in cities with at least [5] [Population]>",
+        "uniques":["[+1 Gold] from every [Market] <before discovering [Atomic_era]>",
+        "[+1 Gold] from every [Bank] <before discovering [Atomic_era]>",
+        "[+33]% [Gold] <in cities with at least [6] [Population]>",
         "[+2 Gold] from each Trade Route <before discovering [Atomic_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Renaissance_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
-        "Provides [1] [C_P] <after discovering [Atomic_era]>",],
+        "Provides [1] [C_P] <after discovering [Atomic_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     {
         "name":"E_ziyouzhuyi",//自由主义
@@ -745,13 +807,15 @@
         "uniques":["[-15]% Culture cost of natural border growth [in all cities] <before discovering [Atomic_era]>",
         "[+10]% Production when constructing [All] buildings [in all cities] <before discovering [Atomic_era]>",
         "[+2 Culture] from each Trade Route <before discovering [Atomic_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Renaissance_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
-        "Provides [1] [C_P] <after discovering [Atomic_era]>",],
+        "Provides [1] [C_P] <after discovering [Atomic_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     //Industrial_era
     
@@ -761,13 +825,14 @@
         "requiredResource":"E_P",
         "uniques":["[+100]% Production when constructing [Worker] units [in all cities] <before discovering [Information_era]>",
         "[+1] Movement <for [Worker] units>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Industrial_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
         "Provides [1] [E_P] <after discovering [Information_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -776,13 +841,15 @@
         "requiredResource":"C_P",
         "uniques":["[+10]% Production when constructing [All] wonders [in all cities] <before discovering [Information_era]>",
         "[+10]% Production when constructing [All] buildings [in all cities] <before discovering [Information_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Industrial_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
-        "Provides [1] [C_P] <after discovering [Information_era]>",],
+        "Provides [1] [C_P] <after discovering [Information_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     {
         "name":"E_ziyoushichang",//自由市场
@@ -790,13 +857,15 @@
         "requiredResource":"E_P",
         "uniques":["[+2 Culture] from every [Library] <before discovering [Information_era]>",
         "[+50]% [Culture] <in cities with at least [10] [Population]> <before discovering [Information_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Industrial_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
-        "Provides [1] [E_P] <after discovering [Information_era]>",],
+        "Provides [1] [E_P] <after discovering [Information_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
         
     },
     {
@@ -804,13 +873,15 @@
         "cost":0,
         "requiredResource":"C_P",
         "uniques":["[-40]% Gold cost of acquiring tiles [in all cities] <before discovering [Information_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Industrial_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
-        "Provides [1] [C_P] <after discovering [Information_era]>",],
+        "Provides [1] [C_P] <after discovering [Information_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
 
     },
     //Modern_era
@@ -820,13 +891,14 @@
         "requiredResource":"E_P",
         "uniques":["[+2 Gold, +2 Culture] from [Luxury resource] tiles [in all cities]",
         "[+1 Gold, +2 Science] from [Strategic resource] tiles [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Modern_era]>",
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [E_P] <after discovering [Future_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -838,13 +910,14 @@
         "[+20]% [Science] from Trade Routes"
         "[+35]% [Gold] from Trade Routes",
         "[+2 Culture, +3 Science] from each Trade Route",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Modern_era]>",
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [E_P] <after discovering [Future_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -854,7 +927,7 @@
         "requiredResource":"C_P",
         "uniques":["[+2 Gold, +3 Production] from every specialist [in all cities]",
         "[+15]% [Production] [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "[+15]% Production towards any buildings that already exist in the Capital",
         "[-25]% Gold cost of acquiring tiles [in all cities]",
         "Limited to [1] per Civilization",
@@ -863,6 +936,7 @@
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [C_P] <after discovering [Future_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -873,13 +947,14 @@
         "uniques":["[+1 Happiness] [in all cities]",
         "[+3 Science, +1 Happiness] per [6] population [in all cities]",
         "[-33]% maintenance on road & railroads",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Modern_era]>",
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [C_P] <after discovering [Future_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -889,13 +964,14 @@
         "requiredResource":"C_P",
         "uniques":["[+3 Food, +4 Production] [in all cities connected to capital]",
         "[+2 Culture, +2 Science] from each Trade Route",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Modern_era]>",
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [C_P] <after discovering [Future_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -906,11 +982,12 @@
         "requiredResource":"E_P",
         "uniques":["[+15]% [Culture] [in all cities]",
         "[+2 Culture, +3 Gold] from each Trade Route",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -922,11 +999,12 @@
         "[+2 Happiness] from every [Stadium]",
         "[+50]% Production when constructing [Stadium] units [in all cities]",
         "[+2 Culture, +2 Science] from every specialist [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -936,11 +1014,12 @@
         "requiredResource":"C_P",
         "uniques":["[+15]% [Culture] [in all cities]",
         "[+4 Culture, +2 Production] from every specialist [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -949,11 +1028,12 @@
         "cost":0,
         "requiredResource":"E_P",
         "uniques":["[+2 Production, +7 Gold] from each Trade Route",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -963,11 +1043,12 @@
         "requiredResource":"E_P",
         "uniques":["Gain [250] [Culture] <upon declaring friendship>",
         "[+3 Culture, +1 Happiness] from each Trade Route",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
         
     },
@@ -979,13 +1060,14 @@
         "requiredResource":"C_P",
         "uniques":["[+1 Production, +1 Gold] [in all cities] <before discovering [Renaissance_era]>",
         "[+5]% [Production] [in all cities] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
 	{//汉朝
@@ -994,14 +1076,15 @@
         "uniqueTo": "China_Han",
         "requiredResource":"E_P",
         "uniques":["[+1 Faith] from every [Shrine] <before discovering [Renaissance_era]>",
-        "[+1 Faith] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "[+2 Faith] <before discovering [Renaissance_era]>",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
 	{
@@ -1010,16 +1093,17 @@
         "uniqueTo": "China_Han",
         "requiredResource":"E_P",
         "uniques":["Provides [1] [Official salt] <before discovering [Renaissance_era]>",
-        "Provides [3] [Iron] <before discovering [Renaissance_era]>",
-        "[+1 Production, +2 Gold] from every [Iron] <before discovering [Renaissance_era]>",
+        "Provides [5] [Iron] <before discovering [Renaissance_era]>",
+        "[+2 Production, +2 Gold] from every [Iron] <before discovering [Renaissance_era]>",
         "[+1 Production] [in all cities] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
 		{
@@ -1028,14 +1112,15 @@
         "uniqueTo": "China_Ming",
         "requiredResource":"M_P",
         "uniques":[
-        "Enemy [All] units must spend [2] extra movement points when inside your territory",
-        "Can only be built [in capital]",
+        "Enemy [All] units must spend [1] extra movement points when inside your territory",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [M_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
 	{
@@ -1047,13 +1132,14 @@
         "[+2 Production] [in all cities] <before discovering [Industrial_era]>",
         "[-2 Production] [in all coastal cities] <before discovering [Industrial_era]>",
         "[+2 Gold, +1 Culture] from each Trade Route <before discovering [Industrial_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
 	
@@ -1073,13 +1159,14 @@
         "cost":0,
         "requiredResource":"M_P",
         "uniques":["[+20]% Strength <for [Military] units> <vs [Barbarians] units> <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -1088,13 +1175,14 @@
         "requiredResource":"M_P",
         "uniques":["[100]% XP gained from combat <for [Scout] units> <before discovering [Renaissance_era]>",
         "[75]% XP gained from combat <for [Warrior] units> <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -1103,13 +1191,14 @@
         "requiredResource":"M_P",
         "uniques":["[+15]% Production when constructing [Sword] units [in all cities] <before discovering [Renaissance_era]>",
         "[+15]% Production when constructing [Archery] units [in all cities] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
         ],
     },
     {
@@ -1118,26 +1207,30 @@
         "requiredResource":"M_P",
         "uniques":["[+50]% Production when constructing [Melee Water] units [in all cities] <before discovering [Renaissance_era]>",
         "[+50]% Production when constructing [Ranged Water] units [in all cities] <before discovering [Renaissance_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
         "Only available <after discovering [Ancient_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
-        "Provides [1] [M_P] <after discovering [Renaissance_era]>",],
+        "Provides [1] [M_P] <after discovering [Renaissance_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     {
         "name":"Mil.yanxi",//演习
         "cost":0,
         "requiredResource":"M_P",
         "uniques":["[+20]% Production when constructing [Mounted] units [in all cities] <before discovering [Industrial_era]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [M_P]>",
         "Only available <after discovering [Classical_era]>",
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
-        "Provides [1] [M_P] <after discovering [Industrial_era]>",],
+        "Provides [1] [M_P] <after discovering [Industrial_era]>",
+        "Hidden when [Visionary win] Victory is disabled",
+        ],
     },
     /*
     {
@@ -1145,7 +1238,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["Maintenance fees for all military units -1",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.Mobilization]>",
         "Destroyed when the city is captured",
@@ -1157,7 +1250,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+1 Production, +1 Happiness] [in all cities with a garrison]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <in cities without a [Mil.lengbao]>",
         "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
@@ -1173,7 +1266,7 @@
         "No movement cost to pillage <for [UnitType.AntiCavalry] units>",
         "No movement cost to pillage <for [UnitType.ShortRangedNaval] units>",
         "Limited to [1] per Civilization",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Only available <before discovering [Civic.ScorchedEarthStrategy]>",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1186,7 +1279,7 @@
         "uniques":["[+30]% Production when constructing [Class.DistrictBuilding.MilitaryEncampment] buildings [in all cities]",
         "[+30]% Production when constructing [Class.DistrictBuilding.Port] buildings [in all cities]",
         "Limited to [1] per Civilization",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
         "requiredTech":"Civic.MilitaryTraining"
@@ -1198,7 +1291,7 @@
         "uniques":["Provides [2] [Resource.Horse]",
         "Provides [2] [Resource.Iron]",
         "Limited to [1] per Civilization",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
         "requiredTech":"Civic.MilitaryTraining"
@@ -1210,7 +1303,7 @@
         "uniques":["[+34]% Strength for cities <when defending>",
         "Limited to [1] per Civilization",
         "Only available <in cities without a [Mil.bianfangjun]>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
         "requiredTech":"Civic.DefensiveTactics"
@@ -1221,7 +1314,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+100]% Production when constructing [Building.ClassificationWall] buildings [in all cities]",
         "Limited to [1] per Civilization",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
         "requiredTech":"Civic.DefensiveTactics"
@@ -1235,7 +1328,7 @@
         "[+50]% Production when constructing [{Era.Classical} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Classical} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities]",
         "[+50]% Production when constructing [{Era.Medieval} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.AntiCavalry}] units [in all cities]",
         "[+50]% Production when constructing [{Era.Renaissance} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.AntiCavalry}] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.Nationalism]>",
         "Destroyed when the city is captured",
@@ -1248,7 +1341,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+2 Happiness] [in all cities with a garrison]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.MassMedia]>",
         "Destroyed when the city is captured",
@@ -1291,7 +1384,7 @@
         "[+50]% Production when constructing [{Era.Renaissance} {UnitType.HeavyCavalry}] units [in all cities]",
         "[+50]% Production when constructing [{Era.Industrial} {UnitType.LightCavalry}] units [in all cities]",
         "[+50]% Production when constructing [{Era.Industrial} {UnitType.HeavyCavalry}] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.Ideology]>",
         "Destroyed when the city is captured",
@@ -1308,7 +1401,7 @@
         "[+100]% Production when constructing [{Era.Medieval} {Military} {Water}] units [in all cities]",
         "[+100]% Production when constructing [{Era.Renaissance} {Military} {Water}] units [in all cities]",
         "[+100]% Production when constructing [{Era.Industrial} {Military} {Water}] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.ColdWar]>",
         "Destroyed when the city is captured",
@@ -1321,7 +1414,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1333,7 +1426,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["Provides [2] [Resource.Niter]",
         "Provides [2] [Resource.Coal]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1344,7 +1437,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["Earn [20]% of killed [Military] unit's [Strength] as [Gold]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1360,7 +1453,7 @@
             "[+50]% Production when constructing [{Era.Medieval} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Medieval} {UnitType.AntiCavalry}] units [in all cities]",
             "[+50]% Production when constructing [{Era.Renaissance} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Renaissance} {UnitType.AntiCavalry}] units [in all cities]",
             "[+50]% Production when constructing [{Era.Industrial} {UnitType.MeleeInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Industrial} {UnitType.RangedInfantry}] units [in all cities]","[+50]% Production when constructing [{Era.Industrial} {UnitType.AntiCavalry}] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.EmergencyDeployment]>",
         "Destroyed when the city is captured",
@@ -1373,7 +1466,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["Damage is ignored when determining unit Strength",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.EmergencyDeployment]>",
         "Destroyed when the city is captured",
@@ -1387,7 +1480,7 @@
         "uniques":["[+2 Science] from every [Building.MilitaryAcademy]",
         "[+2 Science] from every [Building.Dock]",
         "[+2 Science] from every [Building.RenaissanceWalls]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <before discovering [Civic.SpaceRace]>",
         "Destroyed when the city is captured",
@@ -1399,7 +1492,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[-75]% Gold cost of upgrading",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1415,7 +1508,7 @@
         "No movement cost to pillage <for [UnitType.RangedInfantry] units>",
         "No movement cost to pillage <for [UnitType.Siege] units>",
         "No movement cost to pillage <for [UnitType.LongRangedNaval] units>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1427,7 +1520,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["Provides [2] [Resource.Aluminum]",
         "Provides [2] [Resource.Oil]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1439,7 +1532,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+25]% Unhappiness from [Population] [in all non-occupied cities]",
         "[-25]% Unhappiness from [Population] [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1450,7 +1543,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["Maintenance fees for all military units -1",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1462,7 +1555,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+50]% Production when constructing [UnitType.LightCavalry] units [in all cities]",
         "[+50]% Production when constructing [UnitType.HeavyCavalry] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1475,7 +1568,7 @@
         "uniques":["[+2 Culture] from every [Building.ResearchLab]",
         "[+2 Culture] from every [Building.MilitaryAcademy]",
         "[+2 Culture] from every [Class.Building.PowerPlant]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1487,7 +1580,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+100]% Production when constructing [{Military} {Water}] units [in all cities]",
         "[-100]% Production when constructing [UnitType.AircraftCarrier] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1498,7 +1591,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["Nuclear device maintenance fee reduced by 50%",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1509,7 +1602,7 @@
         "cost":0,
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+50]% XP gained from combat <for [Military] units>",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1522,7 +1615,7 @@
         "uniques":["[+50]% Production when constructing [UnitType.MeleeInfantry] units [in all cities]",
         "[+50]% Production when constructing [UnitType.RangedInfantry] units [in all cities]",
         "[+50]% Production when constructing [UnitType.AntiCavalry] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1534,7 +1627,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+8]% [Production] from every [Building.MilitaryAcademy]",
         "[+8]% [Production] from every [Building.Dock]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1546,7 +1639,7 @@
         "requiredResource":"Resource.MilitaryPolicySlot",
         "uniques":["[+100]% Production when constructing [Air] units [in all cities]",
         "[+100]% Production when constructing [UnitType.AircraftCarrier] units [in all cities]",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Destroyed when the city is captured",
         "Class.Policy.Military"],
@@ -1665,7 +1758,9 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled",
+		 "Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Pyramid",
@@ -1676,7 +1771,9 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled",
+		 "Destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Temple of Artemis",
@@ -1792,17 +1889,24 @@
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
 	{
-		"name": "Mausoleum of Halicarnassus",
+		"name": "Mausoleum of Halicarnassus",//摩索拉斯王陵墓
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Provides a sum of gold each time you spend a Great Person",
-			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]",
+			//"Provides a random bonus when entered",
+			//"Provides a random bonus when entered",
+			//"Provides a random bonus when entered",
+			//"Creates a [Ancient ruins] improvement on a specific tile",
+			//"Creates a [Ancient ruins] improvement on a specific tile",
+			"Creates a [Ancient ruins] improvement on a specific tile",
+			],
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{
-		"name": "Barracks",
+		"name": "Barracks",//兵营
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
@@ -1820,10 +1924,11 @@
 	},
 	{
 		"name": "Statue of Zeus",//宙斯像
-		"culture": 1,
+		"culture": 2,
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>",
-		"Provides [1] [M_P]",
+		"uniques": ["[+20]% Strength <for [All] units> <vs cities> <when attacking>",
+		//"Provides [1] [M_P]",
+		"Free [Great General] appears",
 		],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -1921,7 +2026,9 @@
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
-		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"uniques": ["Doubles Gold given to enemy if city is captured",
+		 "Destroyed when the city is captured"
+		],
 		"faith": 2,
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
@@ -2031,7 +2138,7 @@
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
 	},
 	{
-		"name": "Heroic Epic",
+		"name": "Heroic Epic",//英雄史诗
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -2117,7 +2224,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles",
-		"Provides [1] [E_P]",
+		//"Provides [1] [E_P]",
 		],
 		"requiredTech": "Guilds",
 		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
@@ -2348,7 +2455,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]",
-		"Provides [1] [C_P]",
+		//"Provides [1] [C_P]",
 		],
 		"requiredTech": "Banking",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
@@ -2511,7 +2618,7 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
 		"uniques": ["[Gold] cost of purchasing items in cities [-15]%",
-		"Provides [1] [E_P]",
+		//"Provides [1] [E_P]",
 		],
 		"requiredTech": "Industrialization",
 		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
@@ -2810,13 +2917,16 @@
 		"uniqueTo": "The Kingdom of slime",
 
 		"isWonder": true,
-		"gold": 2,		"production": 2,		"cost": 150,
+		"gold": 3,		"production": 2,		
+		"cost": 130,
 
-		"uniques": ["Free Great Person","Provides [10] [Slime]"],
+		"uniques": [
+		//"Free Great Person",
+		"Provides [20] [Slime]"],
 		"requiredTech": "Construction"
 	},
 {		"name": "Slime Supplies",
-		"uniqueTo": "The Kingdom of slime",		"food": 1,		"production": 1,		"cost": 40,
+		"uniqueTo": "The Kingdom of slime",		"food": 1,		"production": 1,		"cost": 42,
 
 
 		"uniques": ["Provides [5] [Slime]"],},{
@@ -2824,15 +2934,17 @@
 		"uniqueTo": "The Kingdom of slime",
 
 
-		"isWonder": true,		"happiness": 2,		"gold": 2,
-		"culture": 2,		"science": 2,		"cost": 300,
+		"isWonder": true,		//"happiness": 1,		//"gold": 2,
+		"culture": 1,		"science": 1,	
+		"cost": 200,
 
 		"uniques": ["Consumes [15] [Slime]","Free [Royal Guard Slime] appears"],
 		"requiredTech": "Mathematics"
 	},
 {
 		"name": "Slime shack",
-		"uniqueTo": "The Kingdom of slime",		"food": 2,		"production": 2,		"cost": 60,
+		"uniqueTo": "The Kingdom of slime",		"food": 1,		"production": 1,		
+		"cost": 72,
 
 
 		"uniques": ["Provides [5] [Slime]"],		"requiredTech": "Masonry"
@@ -2844,7 +2956,7 @@
 		"culture": 1,
 
 
-		"science": 1,		"cost": 50,
+		"science": 1,		"cost": 48,
 
 
 		"uniques": ["Provides [5] [Underground]"],		"requiredTech": "Mining"
@@ -2854,26 +2966,28 @@
 		"isWonder": true,
 		"culture": 2,
 		"faith": 1,
-		"science": 3,
-		"production": 3,		"cost": 150,
-		"uniques": ["Provides [15] [Underground]"],		"requiredTech": "Masonry"
+		"science": 2,
+		"production": 2,		"cost": 140,
+		"uniques": ["Provides [10] [Underground]",
+		"Gain a free [Cemeteries] [in this city]"
+		],		"requiredTech": "Masonry"
 	},
 {		"name": "Cemeteries",
 		"uniqueTo": "The underground kingdom",
 		"cityStrength": 2,
 		"faith": 1,
 		"science": 1,
-		"production": 1,
-		"cost": 70,
+		//"production": 1,
+		"cost": 54,
 		"uniques": ["Provides [5] [Underground]"],		"requiredTech": "Masonry"
 	},
 {		"name": "College of Giants",
 		"uniqueTo": "Giant",
 		"replaces": "Library",
 		"science": 4,
-		"production": 3,
-"maintenance": 1,
-		"cost": 125,
+		"production": 2,
+"maintenance": 2,
+		"cost": 105,
 
 		
 "requiredTech": "Writing"
@@ -2882,10 +2996,10 @@
 		"uniqueTo": "Giant",
 		"replaces": "University",
 		"requiredBuilding": "College of Giants",
-		"science": 6,
-		"production": 3,
+		"science": 5,
+		"production": 2,
 		"percentStatBonus": {"science": 10},
-"maintenance": 1,
+"maintenance": 2,
 		"cost": 220,
 "requiredTech": "Education"
 	},
@@ -2893,8 +3007,8 @@
 		"uniqueTo": "Giant",
 		"replaces": "Public School",
 		"requiredBuilding": "The Giant's Institute of Technology",
-		"science": 10,
-		"production": 5,
+		"science": 8,
+		"production": 4,
 "maintenance": 2,
 		"cost": 420,	
 "requiredTech": "Scientific Theory"
@@ -2908,22 +3022,22 @@
 		"requiredPolicies": "Liberty",
 		"cost": 145,
 
-		"uniques": ["Requires a [College of Giants] in all cities", "Cost increases by [50] per owned city","[+25]% [Culture]","[+10]% [Food] [in all cities]","[+10]% [Production] [in all cities]","[+2 Culture, +2 Production] per [2] population [in all cities]","[+1 Science] per [2] population [in all cities]","Provides [6] [Guarder]"],
+		"uniques": ["Requires a [College of Giants] in all cities", "Cost increases by [85] per owned city","[+10]% [Culture]","[+10]% [Food] [in all cities]","[+5]% [Production] [in all cities]","[+1 Culture, +1 Production] per [3] population [in all cities]","[+1 Science] per [2] population [in all cities]","Provides [6] [Guarder]"],
 "requiredTech": "Philosophy"
 	},
 {		"name": "Joint workshop",
 		"uniqueTo": "Giant",
 		"replaces": "Armory",
 		"requiredBuilding": "The Giant's Institute of Technology",
-"maintenance": 1,
-		"cost": 170,
+"maintenance": 2,
+		"cost": 180,
 		"uniques": ["New [Military] units start with [20] Experience [in this city]", "Destroyed when the city is captured","Provides [1] [Guarder]"]
 		
 "requiredTech": "Iron Working"
 	},
 //接下来是罗斯宾市，希望错误呢，也能用
 //悲报，错误又崩溃了，2023年8月22日
-/*{
+{
 		"name": "lab 1",
 		"replaces": "Library",
 		"uniqueTo": "Rosbin City",
@@ -2957,7 +3071,7 @@
 		"specialistSlots": {"Engineer": 3},
 		"maintenance": 0,
 		"requiredTech": "Education"
-	},*/
+	},
 //我大印度帝国，竟然只有一个奇观，真是可悲！
 	{
 		"name": "Ultimate nuclear material processing plant",
@@ -2977,39 +3091,39 @@
 {
 		"name": "The Slime storage room",//史莱姆储藏室
 		"uniqueTo": "The Kingdom of slime",		
-		"science": 2,
-		"culture": 2,		
+		"science": 1,
+		"culture": 1,		
 		"production": 2,		
-		"cost": 100,
+		"cost": 110,
 		"uniques": ["Provides [5] [Slime]"],		"requiredTech": "Guilds"//行会
 	},
 {
 		"name": "The Slime Treasury",//史莱姆宝库
 		"uniqueTo": "The Kingdom of slime",		
-		"science": 3,
-		"culture": 3,		
-		"happiness": 2,		
-		"cost": 180,
-		"uniques": ["Provides [10] [Slime]"],		
+		"science": 1,
+		"culture": 1,		
+		"happiness": 1,		
+		"cost": 150,
+		"uniques": ["Provides [5] [Slime]"],		
 		"requiredTech": "Chivalry"//骑士制度
 	},
 	{
 		"name": "Royal Temple of Heaven",//皇家天坛
 		"uniqueTo": "The Kingdom of slime",
 		"isWonder": true,
-		"happiness": 3,
+		"happiness": 2,
 		"cost":500,
 		"requiredTech": "Printing Press",//印刷术
-		"uniques": ["Free [King Slime] appears","Provides [25] [Slime]"]
+		"uniques": ["Free [King Slime] appears","Provides [10] [Slime]"]
 	},
 	{
 		"name": "Essence gel",//精华凝胶
 		"uniqueTo": "The Kingdom of slime",
 		"isWonder": true,
-		"happiness": 5,
+		"happiness": 3,
 		"cost":900,
 		"requiredTech": "Industrialization",//工业化
-		"uniques": ["Free [Queen Slime] appears","Provides [35] [Slime]"]
+		"uniques": ["Free [Queen Slime] appears","Provides [20] [Slime]"]
 	},
 	//接下来的几个都是人口电力系列
 	//要不是不能按人头给战略
@@ -3031,7 +3145,7 @@
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_2",	
-		"uniques": ["Provides [1] [Power]","Requires at least [3] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
+		"uniques": ["Provides [2] [Power]","Requires at least [3] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_4",//人口电力
@@ -3084,84 +3198,98 @@
 	},
 	//人口电力系列可以结束了
 {
-		"name": "Thousand machine gun",//千机重炮
+		"name": "Thousand machine",//千机阵列
 		"uniqueTo": "Shenzhou",		
 		"isWonder": true,
-		"cost": 800,
-		"uniques": ["Consumes [50] [Power]","Triggers a global alert upon build start","Free [Thousand machine gun] appears","[+5 Gold, +5 Production, +5 Culture, +5 Science, +5 Food] [in all cities]","[+25]% [Culture]","[+25]% [Science]","[+25]% [Gold]"],		
+		"cost": 750,
+		"uniques": ["Reveals the entire map","Consumes [40] [Power]","Triggers a global alert upon build start","Free [Thousand machine gun] appears","[+3 Gold, +5 Production, +3 Culture, +3 Science, +3 Food] [in all cities]","[+20]% [Culture]","[+20]% [Science]","[+30]% [Gold]"],		
 	},
 	{
 		"name": "Muscle of hindlimb_B",//后肢肌肉
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [Muscle of hindlimb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Muscle of hindlimb] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Destroyed when the city is captured",
+		//"[+1 Production]"
+		]
 	},
 	{
 		"name": "visual perception_B",//视觉感知
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [visual perception] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [visual perception] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Destroyed when the city is captured",
+		//"[+1 Production]"
+		]
 	},	
 	{
 		"name": "A chitin blade_B",//几丁质利刃
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [A chitin blade] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [A chitin blade] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Destroyed when the city is captured",
+		//"[+1 Production]"
+		]
 	},	
 	{
 		"name": "Muscle of limb_B",//四肢肌肉
 		"uniqueTo": "Zerg",
 		"cost":0,
 		"requiredBuilding": "Muscle of hindlimb_B",	
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Muscle of limb] promotion","Can only be built [in capital]","Cannot be purchased","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Muscle of limb] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Destroyed when the city is captured",
+		//"[+1 Production]"
+		]
 	},	
 	{
 		"name": "neuromodification_B",//神经改良
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [neuromodification] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of hindlimb_B]>","Only available <in cities with a [visual perception_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [neuromodification] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [Muscle of hindlimb_B]>","Only available <in cities with a [visual perception_B]>","Destroyed when the city is captured",
+		//"[+1 Production]"
+		]
 	},	
 	{
 		"name": "Penetration perception_B",//穿透感知
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Penetration perception] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [visual perception_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Penetration perception] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [visual perception_B]>","Destroyed when the city is captured",
+		//"[+1 Production]"
+		]
 	},	
 	{
 		"name": "The chitin shell_B",//几丁质外壳
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [1] [DNA]","[All] units gain the [The chitin shell] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [A chitin blade_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [1] [DNA]","[All] units gain the [The chitin shell] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [A chitin blade_B]>","Destroyed when the city is captured",
+		//"[+1 Production]"
+		]
 	},	
 	{
 		"name": "Tendon improvement_B",//肌腱改良
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Tendon improvement] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification_B]>","Only available <in cities without a [Quick strike_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Tendon improvement] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [Muscle of limb]>","Only available <in cities with a [neuromodification_B]>","Only available <in cities without a [Quick strike_B]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Quick strike_B",//迅捷打击
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Quick strike] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Muscle of limb_B]>","Only available <in cities with a [neuromodification_B]>","Only available <in cities without a [Tendon improvement_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Quick strike] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [Muscle of limb_B]>","Only available <in cities with a [neuromodification_B]>","Only available <in cities without a [Tendon improvement_B]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Exoskeleton optimization_B",//外骨骼优化
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Exoskeleton optimization] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [The chitin shell_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [2] [DNA]","[All] units gain the [Exoskeleton optimization] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [The chitin shell_B]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Body strengthening_B",//机体强化
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Body strengthening] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [Tendon improvement_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Body strengthening] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [Tendon improvement_B]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 	{
 		"name": "Rapid phagocytosis_B",//快速吞噬
 		"uniqueTo": "Zerg",
 		"cost":0,
-		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built [in capital]","Cannot be purchased","Only available <in cities with a [neuromodification_B]>","Only available <in cities with a [A chitin blade_B]>","Destroyed when the city is captured","[+1 Production]"]
+		"uniques": ["Consumes [3] [DNA]","[All] units gain the [Rapid phagocytosis] promotion","Can only be built <in [in capital] cities>","Cannot be purchased","Only available <in cities with a [neuromodification_B]>","Only available <in cities with a [A chitin blade_B]>","Destroyed when the city is captured","[+1 Production]"]
 	},	
 		{
 		"name": "Beastground",//兽场
@@ -3231,7 +3359,7 @@
 	{
 		"name": "The sun rises in the east",//旭日东升
 		"uniqueTo": "The Empire of Rising Sun",		
-		"cost": 30,
+		"cost": 45,
 		"happiness": 1,
 		"gold": 1,
 		"uniques": ["[1] free [Solar corona] units appear","Destroyed when the city is captured","Unsellable"],		
@@ -3273,11 +3401,160 @@
 		"cost": 30,
 		//"maintenance": 1,
 		//"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled",
+		 "Destroyed when the city is captured"
+		]
 	},
-	
+	{
+		"name": "Great Man Tablet",//伟人碑
+		"uniqueTo": "Kanhan",
+		"cost": 40,
+		//"maintenance": 1,
+		//"requiredTech": "Pottery",
+		"uniques": ["Destroyed when the city is captured",
+		"Provides [1] [Universe Point]",
+		]
+	},
+	{
+		"name": "Monster Sui Altar",//岁兽坛
+		"uniqueTo": "Monster Sui",
+		//"replaces": "Monument",
+		"cost": 0,
+		"greatPersonPoints": {"Shu": 1, "Chongyue": 2, "Dusk": 2, "Nian": 1, "Ling": 2},	
+		"specialistSlots": {"Shu": 1, "Chongyue": 1, "Dusk": 1, "Nian": 1, "Ling": 1},
+		"uniques": ["Destroyed when the city is captured",
+		]
+	},
+	{
+		"name": "Chongyue",//重岳
+		"uniqueTo": "Monster Sui",		
+		"cost": 0,
+		"uniques": [
+		"Consumes [35] [Chongyue]",
+		"Remove [Chongyue] [in this city] <hidden from users>",
+		"[1] free [Chongyue] units appear",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly consumes [35] [Chongyue]"
+		],		
+	},
+	{
+		"name": "Shu",//黍
+		"uniqueTo": "Monster Sui",		
+		"cost": 0,
+		"uniques": [
+		"Consumes [25] [Shu]",
+		"Remove [Shu] [in this city] <hidden from users>",
+		"[1] free [Shu] units appear",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly consumes [25] [Shu]"
+		],		
+	},
+	{
+		"name": "Dusk",//夕
+		"uniqueTo": "Monster Sui",		
+		"cost": 0,
+		"uniques": [
+		"Consumes [30] [Dusk]",
+		"Remove [Dusk] [in this city] <hidden from users>",
+		"[1] free [Dusk] units appear",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly consumes [30] [Dusk]"
+		],		
+	},
+	{
+		"name": "Nian",//年
+		"uniqueTo": "Monster Sui",		
+		"cost": 0,
+		"uniques": [
+		"Consumes [30] [Nian]",
+		"Remove [Nian] [in this city] <hidden from users>",
+		"[1] free [Nian] units appear",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly consumes [30] [Nian]"
+		],		
+	},
+	{
+		"name": "Ling",//令
+		"uniqueTo": "Monster Sui",		
+		"cost": 0,
+		"uniques": [
+		"Consumes [40] [Ling]",
+		"Remove [Ling] [in this city] <hidden from users>",
+		"[1] free [Ling] units appear",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly consumes [40] [Ling]",
+		],		
+	},
+	{
+		"name": "People Control",//人圈
+		"uniqueTo": "Sheep People",
+		"happiness": 2,
+		"cost": 140,
+		"replaces": "Stable",
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Food] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "舞萌IIDX",//
+		"uniqueTo": "maimai",		
+		"cost": 100,
+		"replaces": "Colosseum",
+		"requiredTech": "Construction"
+		"uniques": [
+		"[-25]% Unhappiness from [Population] [in this city]",
+		"Destroyed when the city is captured",
+		],		
+	},
+	{
+		"name": "maimai",//
+		"uniqueTo": "maimai",		
+		"cost": 0,
+		//"replaces": "Colosseum",
+		//"requiredTech": "Construction"
+		"uniques": [
+		"Unsellable",
+		"Automatically built in all cities where it is buildable",
+		"Can only be built <in [in capital] cities>",
+		"Only available  <when above [11] [谱面难度]> <hidden from users>",
+		"[2] free [Pikeman] units appear",//1112
+		],		
+	},
+	{
+		"name": "Stalin",//
+		"uniqueTo": "Soviet Union",		
+		"cost": 0,
+		//"replaces": "Colosseum",
+		//"requiredTech": "Construction"
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Automatically built in all cities where it is buildable",
+		"Destroyed when the city is captured",
+		"Adopt [Communism]",
+		"Only available <after [30] turns>",
+		],		
+	},
+	//"Adopt [Communism]",
+	/*Monster Sui = BOSS岁兽
+Monster Sui Rune = 岁兽标记
+Chongyue = 重岳
+Shu = 黍
+Dusk = 夕
+Nian = 年
+Ling = 令*/
 	//Smelting house = 冶炼屋
-
+	//"greatPersonPoints": {"Great Scientist": 1},
+	//"percentStatBonus": {"science": 50},
+	//"specialistSlots": {"Scientist": 2},
     //"Remove [Mil.Hide] [in this city] <hidden from users>",
 	//The sun rises in the east
 	//Ancient_era

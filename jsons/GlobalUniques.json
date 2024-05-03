@@ -1,7 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
+        "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
         "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
@@ -36,24 +36,68 @@
         
         
         //政策关闭
-        "Provides [-100] [C_P]",
-        "Provides [-100] [E_P]",
-        "Provides [-100] [M_P]",
-        "Provides [-100] [A_P]",
+        //"Provides [-100] [C_P]",
+        //"Provides [-100] [E_P]",
+        //"Provides [-100] [M_P]",
+        //"Provides [-100] [A_P]",
         //政策修正在[远古政策]
         
         
         
+        //<when below [0] [A_P]>
+        //通用政策槽bug惩罚
+        "Nullifies [Production] [in all cities] <when below [0] [A_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [A_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [A_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [A_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [A_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [A_P]>",
+		
+		"Nullifies [Production] [in all cities] <when below [0] [C_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [C_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [C_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [C_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [C_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [C_P]>",
         
+        "Nullifies [Production] [in all cities] <when below [0] [E_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [E_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [E_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [E_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [E_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [E_P]>",
+        
+        "Nullifies [Production] [in all cities] <when below [0] [M_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [M_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [M_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [M_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [M_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [M_P]>",
+        
+        
+        //"Can trade civilization introductions for [30] Gold",
         //"Nullifies [Science] [in all cities]",
         
         
         
+        //AI政策卡全解锁
+        "Provides [100] [C_P] <for [AI player]>",
+        "Provides [100] [E_P] <for [AI player]>",
+        "Provides [100] [M_P] <for [AI player]>",
         
         
         
         
         
+        
+        
+        
+        
+        
+        "可以通过消耗一个通用点数来建造一下设施\n坎寒_食物 +4食物\n坎寒_产能 +3产能\n坎寒_金钱 +5金钱\n坎寒_文化 +4文化\n坎寒_科技 +4科技\n坎寒_信仰 +4信仰\n坎寒_快乐 +3快乐",
+        
+        
+        " \n东罗马帝国\n ",
         " \n北境梦魇\n \n代替原文明能力\n",
 //防报错
         " \n大漠黄沙\n ",

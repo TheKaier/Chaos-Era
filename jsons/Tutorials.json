@@ -1,0 +1,184 @@
+[
+    {
+        "name":"-模组当前版本v20240413\n如果您希望获得最新版本，请前往QQ群926974044",
+        "civilopediaText":[
+        {
+                "text": "QQ群",
+                "link":"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=n5kSrQkBDFsn5IjmAu6661BsE13c55fV&authKey=hJ1cPa07t%2FinofSycTrK9AyLl0T58heMT%2FQx5pr5%2BBHaGe2dTtGy1chMxEGxDL%2Ff&noverify=0&group_code=926974044",
+                "size":20,
+                "starred":true,
+                "color":"#FFFF00"
+            },
+            /*{ 
+                "text": "v20240302更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.新增文明[maimai]"
+                "size":20
+            },
+            { 
+                "text": "v20240224更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.调整"
+                "size":20
+            },
+            { 
+                "text": "v20240217更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.[Tradition]政策调整"
+                "size":20
+            },
+            { 
+                "text": "v20240214更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.调整文明[Arabia]\n2.[Tradition]政策调整\n3.新增[Byzantium][Legend mode]"
+                "size":20
+            },
+            { 
+                "text": "v20240213_2更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.调整文明[Sheep People]"
+                "size":20
+            },
+            { 
+                "text": "v20240213_1更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.调整文明[China_Ming]2.新增文明[Sheep People]"
+                "size":20
+            },
+            { 
+                "text": "v20240212_1更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.调整万神殿[Dance of the Aurora]2.[Settler]在前2t +2移动力3.[India]增强\n特色单位[War Elephant]所需产能减少"
+                "size":20
+            },
+            { 
+                "text": "v20240211更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.调整文明[Monster Sui][Byzantium]"
+                "size":20
+            },
+            { 
+                "text": "v20240210_2更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.新增文明[Monster Sui]\n2.调整文明[Kamikaze][Persia]"
+                "size":20
+            },
+        { 
+                "text": "v20240210_1更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.新增文明[Kamikaze]\n2.修复[Kanhan]特色改良效果不生效的问题\n3.调整文明[The Kingdom of slime][Zerg][Kanhan]"
+                "size":20
+            },
+        { 
+                "text": "v20240207_2更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.新增文明[Kanhan]\n2.[The underground kingdom]调整\n文明能力当不处于战争时减4快乐更改为减5快乐\n人口增长加85%增加至100%\n特色建筑所需产能降低\n3.取消所有奇观的提供政策槽位\n宙斯像增强\n4.通用政策卡可以使用于不同类型的政策\n5.1.新增文明[Rosbin City]"
+                "size":20
+            },
+        { 
+                "text": "v20240207_1更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.[Jungle country]起始偏好调整\n偏好无调整为偏好丛林\n2.[Dark World]加强\n文明能力单位额外从战斗中获得2XP增加为3XP\n特色单位所需产能减少\n[Dark hidden]单位非相邻不可见所需血量由40调整至60\n[Dark capture]当进攻时增加15%战斗力调整至20%杀死单位回复15HP调整至20HP\n3.[The underground kingdom]削弱\n特色单位造价提高\n文明能力人口增长加120%减少至85%\n4.[The Empire of Rising Sun]削弱\n特色建筑[The sun rises in the east]所需产能30提升至45\n特色单位[Solar corona]基础射程5减少至4随时代增长射程/战斗力减少"
+                "size":20
+            },
+        { 
+                "text": "v20240205更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.调整政策卡（包括特色政策卡）\n2.新增文明[Primitive humans]\n3.远古四政策调整\n4.[Polynesia]调整\n5.[The underground kingdom]调整"
+                "size":20
+            },
+        { 
+                "text": "v20240202更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.削弱单位[Solar corona]-降低射程降低随时代增加的战斗力\n2.重置文明[The blade of evil]\n3.增强一批信仰词条\n4.降低剑灵单位造价\n5.增强神州特色单位\n6.调整毛利特色改良"
+                "size":20
+            },
+        { 
+                "text": "v20240128更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.新增文明[Eternal kingdom]\n2.新增[Pantheon][Nature seeker]\n3.加强[Pantheon][Sacred Path]\n4.可启用BOSS抑制器，通过开启/关闭胜利方式[BOSS Suppresser]调整"
+                "size":20
+            },
+        { 
+                "text": "v20240127_3更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.新增[Aztecs][Legend mode]"
+                "size":20
+            },
+        { 
+                "text": "v20240127_2更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.修复[Loulan][Legend mode][Golden armor]单位能力不能生效的问题\n2.新增[Beidi][Legend mode]\n3.增强文明[Terran Dominion] 特色单位[Marine_TD]对战骑乘单位加50%战斗力"
+                "size":20
+            },
+        { 
+                "text": "v20240127_1更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.[Iron Blood British Empire]特色能力所需[Blood of Iron]数减少\n2.[Aztecs]推行新政策[Culture]增长-10%\n3.新增[Loulan][Legend mode]\n4.[Discipline]每个[Granary]加1[Food]"
+                "size":20
+            },
+        
+        { 
+                "text": "v20240112更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.新增文明[Caesar]\n2.政策卡可关闭/开启，通过开启/关闭胜利方式[远见胜利/政策卡]"
+                "size":20
+            },
+        
+            { 
+                "text": "v20240107更新日志",
+                "size":30
+            },
+            { 
+                "text": "1.增添文明排行\n2.增强文明[Hittite] 特色单位[Iron horse drawn chariot]造价56→50 远程战斗力10→11 无需[Horses] 特色建筑[Smelting house]造价70→65 提供1个[Iron]→提供2个[Iron] 前置科技[Bronze Working]→无 文明能力[Hittite] 新增每个[Iron]资源加+1[Food]"
+                "size":20
+            },*/
+
+            {
+                "separator":true,
+                "color":"#FFFFFF",
+                "size":1
+            },
+        ]
+    }
+    
+    
+]
