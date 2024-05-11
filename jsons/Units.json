@@ -2923,7 +2923,7 @@
 		],
 		//"promotions": ["Ignore terrain cost"],
 	},
-	{
+	/*{
 		"name": "出勤人",
 		"unitType": "Sword",
 		"replaces": "Pikeman",
@@ -2938,7 +2938,7 @@
 		"obsoleteTech": "Metallurgy",
 		
 		
-	},
+	},*/
 	{
 		"name": "Kunpeng battleship",
 		"unitType": "Ranged Water",

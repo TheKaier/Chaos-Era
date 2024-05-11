@@ -2681,7 +2681,7 @@
     ],
 		"cities": ["Kamikaze",],
     },   
-    {
+   {
 		"name": "Monster Sui",//BOSS岁兽
 		"leaderName": "Monster Sui",
 		"adjective": ["Monster Sui"],
@@ -2715,20 +2715,15 @@
 		"name": "Sheep People",//直立羊
 		"leaderName": "Sheep People",
 		"preferredVictoryType":"Diplomatic",
-
 		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "绵，绵，绵！",
-		"attacked": "绵，绵，绵！",
-		"defeated": "绵，绵，绵！",
-		"introduction": "绵，绵，绵！",
-
-		"neutralHello": "绵!",
-		"hateHello": "绵？",
-
-		"tradeRequest": "绵，",
-
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
 		"outerColor": [255, 255, 255],
 		"innerColor": [65, 141, 254],
 		//"favoredReligion": "Christianity",
@@ -2745,7 +2740,7 @@
 			"Patras","Lamia","Nafplion","Apolyton"],
         "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
     },
-    {
+    /*{
 		"name": "maimai",//
 		"leaderName": "辣滴熊",
 		"adjective": ["maimai"],
@@ -2782,9 +2777,9 @@
         {"text": "t？\n投稿人：大松饼"},
     ],
 		"cities": ["maimai",],
-    },
+    },*/
     {
-		"name": "Soviet Union",
+		"name": "Soviet Union",//苏联
 		"leaderName": "Stalin",
 		"adjective": ["Order"],
 		//"startBias": ["air"],
@@ -2842,9 +2837,9 @@
 		"uniques": [
 		"[+1 Food, +1 Production] from every [Desert]",
 		"[-1 Food, +1 Production] from [Flood plains] tiles [in all cities]",
-		"[+1 Food, -1 Production] from [Hill] tiles [in all cities] <in [Marsh] tiles>",
+		"[+1 Food, -1 Production] from [Hill] tiles [in all cities] <in [Desert] tiles>",
 		"[-1 Food, -1 Production] from [Oasis] tiles [in all cities]",
-		"[Civilian] units gain the [Desertization] promotion",
+		"[Civilian] units gain the [Desertization] promotion <upon turn end>",
 		],
 		"civilopediaText":[
         {"text": "t？\n投稿人：凯尔"},
@@ -2874,7 +2869,7 @@
 		/*"[-1 Food, +1 Production] from [Flood plains] tiles [in all cities]",
 		"[+1 Food, -1 Production] from [Hill] tiles [in all cities]",
 		"[-1 Food, -1 Production] from [Oasis] tiles [in all cities]",*/
-		"[All] units gain the [Grimer] promotion",
+		"[All] units gain the [Grimer] promotion <upon turn end>",
 		],
 		"civilopediaText":[
         {"text": "t？\n投稿人：凯尔"},
@@ -2916,21 +2911,46 @@
         "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
 
     },
+    {
+		"name": "Phantom dust",//幻尘
+		"leaderName": "Void monarch",
+		"adjective": ["Void monarch"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [72,109,195],
+		"innerColor": [130,26,205],
+		"uniqueName": "Illusory resonance",
+		"uniques": [
+		"[+15]% Production when constructing [Military] units [in all cities with a garrison]",
+        "[-1 Production] [in all cities with a garrison]",
+        "[+1 Production] [in all cities] <after discovering [Writing]>",
+		"[Swordsman] units gain the [Illusory resonance] promotion <upon turn end>",
+		"[Composite Bowman] units gain the [Illusory resonance] promotion <upon turn end>",
+		"[Horseman] units gain the [Illusory resonance] promotion <upon turn end>",
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：大松饼"},
+    ],
+		"cities": ["Putrefaction Marsh","Grimer"],
+    },
     
     
-    //Desert bishop = 沙漠主教
-    //Desertization = 沙漠化
+    //Phantom dust = 幻尘
+//Void monarch = 虚无君主
+//Illusory resonance = 虚幻共鸣
+//Resonance altar = 共鸣坛
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力
 		"Provides [1] [Magic power]<every [1] turns>"//回合魔
 		"Provides [-24] [Magic power]<every [24] turns>"//清空*/
-    /*Monster Sui = BOSS岁兽
-Monster Sui Rune = 岁兽标记
-Chongyue = 重岳
-Shu = 黍
-Dusk = 夕
-Nian = 年
-Ling = 令*/
     //Rough terrain
     //<if [BOSS_Suppresser] is constructed>
     //Eternal kingdom = 永恒国度
@@ -2940,7 +2960,6 @@ Ling = 令*/
     //Music Note = 音符
     //<if [Legend_mode] is constructed>
     //<during a Golden Age>
-    //Caesar
     //"May Paradrop up to [3] tiles from inside friendly territory",
     //"Production to [Gold] conversion in cities changed by [+25]%",
 

@@ -1047,10 +1047,26 @@
 			"column": 42,
         "row": 1
 	},
+	{
+		"name": "Illusory resonance",//虚幻共鸣
+		"uniques": [
+		"Can transform to [Composite Bowman] <for [Swordsman] units> <after discovering [Construction]>",
+		"Can transform to [Horseman] <for [Swordsman] units> <after discovering [Horseback Riding]>",
+		"Can transform to [Swordsman] <for [Composite Bowman] units> <after discovering [Iron Working]>",
+		"Can transform to [Horseman] <for [Composite Bowman] units> <after discovering [Horseback Riding]>",
+		"Can transform to [Swordsman] <for [Horseman] units> <after discovering [Iron Working]>",
+		"Can transform to [Composite Bowman] <for [Horseman] units> <after discovering [Construction]>",
+			]
+			"column": 43,
+        "row": 1
+	},
 	
 	
-	//Grimer
-	//Desertization
+	//<after discovering [Iron Working]>
+	//<after discovering [Construction]>
+	//<after discovering [Horseback Riding]>
+	//
+	//
 	//"Can build [Road] improvements on tiles <for [Military] units>",
 	//Music Game Master
 	//The wrath of the sun God

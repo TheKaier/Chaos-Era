@@ -3514,7 +3514,7 @@
 		"Destroyed when the city is captured",
 		],		
 	},
-	{
+	/*{
 		"name": "maimai",//
 		"uniqueTo": "maimai",		
 		"cost": 0,
@@ -3527,7 +3527,7 @@
 		"Only available  <when above [11] [谱面难度]> <hidden from users>",
 		"[2] free [Pikeman] units appear",//1112
 		],		
-	},
+	},*/
 	{
 		"name": "Stalin",//
 		"uniqueTo": "Soviet Union",		
@@ -3542,6 +3542,16 @@
 		"Adopt [Communism]",
 		"Only available <after [30] turns>",
 		],		
+	},
+	{
+		"name": "Resonance altar",//共鸣坛
+		"replaces": "Library",
+		"uniqueTo": "Phantom dust",
+		"hurryCostModifier": 20,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+		"[+2]% [Science] [in all cities]",
+		],
+		"requiredTech": "Writing"
 	},
 	//"Adopt [Communism]",
 	/*Monster Sui = BOSS岁兽

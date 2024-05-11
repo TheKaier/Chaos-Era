@@ -14,9 +14,9 @@
 				"Enables Defensive Pacts",
 				"Enables Open Borders agreements",
 				]
-				"civilopediaText":[
+				/*"civilopediaText":[
         {"text": "本规则集文明分为t-1至t4，一共6个等级。t0及以上，基本可以作为ban位。t1，根据个人喜好ban选。t4，从游戏上考虑，不建议选择"},
-    ],
+    ],*/
 			},
 			{
 				"name": "Ancient_era",//政策科技_远古
