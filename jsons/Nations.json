@@ -852,10 +852,14 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Viking Fury",
-		"uniques": ["[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
-			"No movement cost to pillage <for [Melee] units>"],
+		"uniques": [
+		//"[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
+		"Receive triple Gold from Barbarian encampments and pillaging Cities",
+			"No movement cost to pillage <for [All] units>",
+			"[All] units gain the [Pillaging] promotion <upon turn end>",
+			],
 			"civilopediaText":[
-        {"text": "t3"},
+        {"text": "t?"},
     ],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
@@ -2174,7 +2178,7 @@
 		"uniqueName": "Lining nail",
 		//"uniqueText": "以3:1的比例，将产能转化为科技文化金钱信仰\n城市达到十人口时+4信仰快乐+7产能金钱科技文化",
 		"uniques": [
-		"[+4 Production, +5 Gold, +4 Science, +4 Culture, +3 Happiness] per [9] population [in all cities]",
+		"[+4 Production, +4 Gold, +4 Science, +3 Culture, +3 Happiness] per [9] population [in all cities]",
 		//"[+4 Faith, +7 Production, +7 Gold, +7 Science, +7 Culture, +5 Happiness] <in cities with at least [9] [Population]>",
 		"Enables conversion of city production to [Gold]",
 		"Enables conversion of city production to [Faith]",
@@ -2387,11 +2391,11 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Pharaoh",
 		"uniques": [
-		"[+1 Faith] per [1] population [in all cities]",
+		"[+2 Faith] per [2] population [in all cities]",
 		"May not generate great prophet equivalents naturally",
 		"Free [Great Prophet] appears <upon discovering [Theology]>",
-		"May buy [Worker] units with [Faith] for [1] times their normal Production cost",
-		"May buy [Work Boats] units with [Faith] for [1] times their normal Production cost",
+		"May buy [Worker] units with [Faith] for [2] times their normal Production cost",
+		"May buy [Work Boats] units with [Faith] for [2] times their normal Production cost",
 		"May buy [{Military} {Water}] units with [Faith] for [1] times their normal Production cost",
 		"May buy [{Military} {Land}] units with [Faith] for [1] times their normal Production cost",//备份
 		//"Reveals the entire map"
@@ -2943,22 +2947,14 @@
     },
     
     
-    //Phantom dust = 幻尘
-//Void monarch = 虚无君主
-//Illusory resonance = 虚幻共鸣
-//Resonance altar = 共鸣坛
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力
 		"Provides [1] [Magic power]<every [1] turns>"//回合魔
 		"Provides [-24] [Magic power]<every [24] turns>"//清空*/
-    //Rough terrain
     //<if [BOSS_Suppresser] is constructed>
     //Eternal kingdom = 永恒国度
     //Dante Angela = 但丁•安吉拉
     //Twelve Laws of Eternity = 永恒十二律令
-    //Music Game Master = 音乐游戏大师
-    //Music Note = 音符
-    //<if [Legend_mode] is constructed>
     //<during a Golden Age>
     //"May Paradrop up to [3] tiles from inside friendly territory",
     //"Production to [Gold] conversion in cities changed by [+25]%",
