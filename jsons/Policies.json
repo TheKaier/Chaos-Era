@@ -16,7 +16,7 @@
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>",
             "[+4 Culture] [in capital]",
-            "[-20]% Culture cost of natural border growth [in all cities]",
+            "[-15]% Culture cost of natural border growth [in all cities]",
             "Provides [1] [C_P]",
         ],
         "policies": [
@@ -290,9 +290,9 @@
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[75]% of excess happiness converted to [Culture]",
-                "[75]% of excess happiness converted to [Science]",
-                "[75]% of excess happiness converted to [Faith]"],
+                "uniques": ["[66]% of excess happiness converted to [Culture]",
+                "[66]% of excess happiness converted to [Science]",
+                "[50]% of excess happiness converted to [Faith]"],
                 "row": 1,
                 "column": 5
             },
@@ -874,4 +874,44 @@
         ]
     },
 ]
+//Tradition
+//Aristocracy
+//Legalism
+//Oligarchy
+//Landed Elite
+//Monarchy
+//
+//Liberty
+//Republic
+//Citizenship
+//Collective Rule
+//Representation
+//Meritocracy
+//
+//Honor
+//Warrior Code
+//Professional Army
+//Military Tradition
+//Discipline
+//Military Caste
+//
+//
+/*"Remove [Tradition] and refund [50]% of its cost",
+"Remove [Aristocracy] and refund [50]% of its cost",
+"Remove [Legalism] and refund [50]% of its cost",
+"Remove [Oligarchy] and refund [50]% of its cost",
+"Remove [Landed Elite] and refund [50]% of its cost",
+"Remove [Monarchy] and refund [50]% of its cost",
+"Remove [Liberty] and refund [50]% of its cost",
+"Remove [Republic] and refund [50]% of its cost",
+"Remove [Citizenship] and refund [50]% of its cost",
+"Remove [Collective Rule] and refund [50]% of its cost",
+"Remove [Representation] and refund [50]% of its cost",
+"Remove [Meritocracy] and refund [50]% of its cost",
+"Remove [Honor] and refund [50]% of its cost",
+"Remove [Warrior Code] and refund [50]% of its cost",
+"Remove [Professional Army] and refund [50]% of its cost",
+"Remove [Military Tradition] and refund [50]% of its cost",
+"Remove [Discipline] and refund [50]% of its cost",
+"Remove [Military Caste] and refund [50]% of its cost",*/
 //            "Only available <before adopting [Usas]>",

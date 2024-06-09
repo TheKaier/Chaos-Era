@@ -1,0 +1,166 @@
+[//"Triggers a [事件名] event"
+    {
+        "name":"Event.New universe",//宇宙创生
+        "text":"Our instruments have made some modifications to the universe",
+        "choices":[
+        {
+        "text":"Change the basic law",
+        "triggeredUniques":[
+        "Triggers a [Event.New universe-Remove policy] event <hidden from users>"
+		    ],
+        },
+        {
+        "text":"Create a spectacle",
+        "triggeredUniques":[
+        "Empire enters golden age <hidden from users>"
+            ],
+        },
+        {
+        "text":"Change the structure of the material",
+        "triggeredUniques":[
+        "Gain [5]-[25] [Faith] <when number of [Faith] is less than [Gold]> <hidden from users>",
+        "Gain [15]-[50] [Faith] <when number of [Faith] is less than [Gold]> <after discovering [Classical_era]> <hidden from users>",
+        "Gain [30]-[100] [Faith] <when number of [Faith] is less than [Gold]> <after discovering [Medieval_era]> <hidden from users>",
+        
+        
+        "Gain [50]-[125] [Gold] <when number of [Gold] is less than [Faith]> <hidden from users>",
+        "Gain [75]-[175] [Gold] <when number of [Gold] is less than [Faith]> <after discovering [Classical_era]> <hidden from users>",
+        "Gain [100]-[225] [Gold] <when number of [Gold] is less than [Faith]> <after discovering [Medieval_era]> <hidden from users>",
+        
+        "Gain [35]-[65] [Science] <when number of [Science] is less than [Culture]> <hidden from users>",
+        "Gain [50]-[100] [Science] <when number of [Science] is less than [Culture]> <after discovering [Classical_era]> <hidden from users>",
+        "Gain [150]-[300] [Science] <when number of [Science] is less than [Culture]> <after discovering [Medieval_era]> <hidden from users>",
+        
+        "Gain [10]-[25] [Culture] <when number of [Culture] is less than [Science]> <hidden from users>",
+        "Gain [25]-[50] [Culture] <when number of [Culture] is less than [Science]> <after discovering [Classical_era]> <hidden from users>",
+        "Gain [50]-[100] [Culture] <when number of [Culture] is less than [Science]> <after discovering [Medieval_era]> <hidden from users>",
+            ],
+        }
+        ]
+    },
+    {
+        "name":"Event.New universe-Remove policy",//宇宙创生-移除政策
+        "text":"Our instruments have made some modifications to the universe",
+        "choices":[
+        {
+        "text":"Tradition",
+        "triggeredUniques":[
+        "Remove [Tradition] and refund [75]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Aristocracy",
+        "triggeredUniques":[
+        "Remove [Aristocracy] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Legalism",
+        "triggeredUniques":[
+        "Remove [Legalism] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Oligarchy",
+        "triggeredUniques":[
+        "Remove [Oligarchy] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Landed Elite",
+        "triggeredUniques":[
+        "Remove [Landed Elite] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Monarchy",
+        "triggeredUniques":[
+        "Remove [Monarchy] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Liberty",
+        "triggeredUniques":[
+        "Remove [Liberty] and refund [75]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Republic",
+        "triggeredUniques":[
+        "Remove [Republic] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Citizenship",
+        "triggeredUniques":[
+        "Remove [Citizenship] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Collective Rule",
+        "triggeredUniques":[
+        "Remove [Collective Rule] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Representation",
+        "triggeredUniques":[
+        "Remove [Representation] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Meritocracy",
+        "triggeredUniques":[
+        "Remove [Meritocracy] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Honor",
+        "triggeredUniques":[
+        "Remove [Honor] and refund [75]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Warrior Code",
+        "triggeredUniques":[
+        "Remove [Warrior Code] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Professional Army",
+        "triggeredUniques":[
+        "Remove [Professional Army] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Military Tradition",
+        "triggeredUniques":[
+        "Remove [Military Tradition] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Discipline",
+        "triggeredUniques":[
+        "Remove [Discipline] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Military Caste",
+        "triggeredUniques":[
+        "Remove [Military Caste] and refund [50]% of its cost <hidden from users>",
+		    ],
+        },
+        ]
+    },
+        
+    
+
+]
+    //<hidden from users>
+    //<with [20]% chance>
+    //<after [40] turns>
+    //<when at war>
+    //<when not at war>
+    //<for [28] turns>
+    //<every [8] turns>
+    //<when number of [Stability] is less than [Faith]>

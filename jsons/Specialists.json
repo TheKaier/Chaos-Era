@@ -58,4 +58,11 @@
 		"greatPersonPoints": {"Ling":5},
 		"color": [0,0,255]
 	},
+	{
+		"name":"Universe Genesis",//
+		"food":-4,
+		"science":10,
+		"greatPersonPoints": {"Great Scientist":2},
+		"color": [0,0,255]
+	},
 ]

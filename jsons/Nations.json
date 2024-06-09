@@ -170,7 +170,9 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Sun Never Sets",
-		"uniques": ["[+3] Movement <for [Water] units>"],
+		"uniques": ["[+3] Movement <for [Water] units>",
+		"Gain an extra spy <upon entering the [Renaissance era]>"
+		],
 		"civilopediaText":[
         {"text": "t3"},
     ],
@@ -400,9 +402,9 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Growth",
-		"uniques": ["[+75]% unhappiness from the number of cities", "[-66]% Unhappiness from [Population] [in all cities]","[+4 Happiness]"],
+		"uniques": ["[-75]% Unhappiness from [Population] [in all cities]"],
 		"civilopediaText":[
-        {"text": "t2"},
+        {"text": "t？"},
     ],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
@@ -499,7 +501,7 @@
 		"innerColor": [255,0,0],
 		"favoredReligion": "Confucianism",
 		"uniqueName": "Scholars of the Jade Hall",
-        "uniques": ["[+2 Science] from every specialist [in all cities]", "[+3 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
+        "uniques": ["[+3 Science] from every specialist [in all cities]", "[+4 Science, +1 Culture, +1 Gold] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
         "civilopediaText":[
         {"text": "t2"},
     ],
@@ -566,6 +568,10 @@
 		"uniqueName": "Achaemenid Legacy",
 		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+12]% Strength <for [All] units> <during a Golden Age>",
 		"Empire enters golden age <upon declaring war with a major Civilization>"
+		
+		//"Triggers a [Event.New universe] event <upon declaring war with a major Civilization>"//测试
+		
+		
 		],
 		"civilopediaText":[
         {"text": "t1"},
@@ -2391,18 +2397,18 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Pharaoh",
 		"uniques": [
-		"[+2 Faith] per [2] population [in all cities]",
+		"[+1 Faith] per [2] population [in all cities]",
 		"May not generate great prophet equivalents naturally",
 		"Free [Great Prophet] appears <upon discovering [Theology]>",
-		"May buy [Worker] units with [Faith] for [2] times their normal Production cost",
-		"May buy [Work Boats] units with [Faith] for [2] times their normal Production cost",
+		"May buy [Worker] units with [Faith] for [1] times their normal Production cost",
+		"May buy [Work Boats] units with [Faith] for [1] times their normal Production cost",
 		"May buy [{Military} {Water}] units with [Faith] for [1] times their normal Production cost",
 		"May buy [{Military} {Land}] units with [Faith] for [1] times their normal Production cost",//备份
 		//"Reveals the entire map"
 		// <before the [Renaissance era]>
 		],
 		"civilopediaText":[
-        {"text": "t1\n投稿人：凯尔"},
+        {"text": "t？\n投稿人：凯尔"},
     ],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -2617,7 +2623,7 @@
 		"No Maintenance costs for improvements in [Rough terrain] tiles",
 		"[-75]% Production when constructing [Primitive Granary] buildings [in all cities] <when above [600] [Science]>",
 		"[-75]% Production when constructing [Primitive Shrine] buildings [in all cities] <when above [600] [Science]>",
-		"Provides [1] [A_P] <after discovering [Medieval_era]>",
+		"Gain an extra spy <upon entering the [Medieval era]>"
 		"[+1 Happiness, +1 Culture, +1 Faith] from each Trade Route <when above [100] [Science]>",
 		],
 		"civilopediaText":[
@@ -2787,7 +2793,7 @@
 		"leaderName": "Stalin",
 		"adjective": ["Order"],
 		//"startBias": ["air"],
-		//"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Diplomatic",
 		//"favoredReligion": "Humanism",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -2855,7 +2861,7 @@
 		"leaderName": "Grimer",
 		"adjective": ["Grimer"],
 		"startBias": ["Marsh"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
         "startIntroPart1": "",
         "startIntroPart2": "",
         "declaringWar": "",
@@ -2943,9 +2949,39 @@
 		"civilopediaText":[
         {"text": "t？\n投稿人：大松饼"},
     ],
-		"cities": ["Putrefaction Marsh","Grimer"],
+		"cities": ["Phantom dust",],
     },
-    
+    {
+		"name": "Universe Genesis",//宇宙创生
+		"leaderName": "player",
+		"adjective": ["Universe Genesis"],
+		"preferredVictoryType": "Scientific",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [2,139,205],
+		"innerColor": [230,216,101],
+		"uniqueName": "Universe Genesis",
+		"uniques": [
+		"Triggers a [Event.New universe] event <every [15] turns> <upon turn end>",
+		"Triggers a [Event.New universe] event <upon constructing [Wonder]> <hidden from users>",
+		"Triggers a [Event.New universe] event <upon discovering [Civil Service]> <hidden from users>",
+		"Triggers a [Event.New universe] event <upon discovering [Metal Casting]> <hidden from users>",
+		
+		
+		
+		],
+		"civilopediaText":[
+        {"text": "t？\n投稿人：凯尔"},
+    ],
+		"cities": ["Universe Genesis",],
+    },
     
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力

@@ -3500,7 +3500,9 @@
 		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Food] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
-			"[+1 Food] from [Sheep] tiles [in this city]"],
+			"[+1 Food] from [Sheep] tiles [in this city]",
+			"Destroyed when the city is captured",
+			],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -3541,6 +3543,7 @@
 		"Destroyed when the city is captured",
 		"Adopt [Communism]",
 		"Only available <after [30] turns>",
+		
 		],		
 	},
 	{
@@ -3550,23 +3553,54 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[+1 Science] per [2] population [in this city]",
 		"[+2]% [Science] [in all cities]",
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
 	},
+	{
+		"name": "Contact process machine",//触突凝炼机
+		"uniqueTo": "Universe Genesis",
+		"cost": 40,
+		"specialistSlots": {"Universe Genesis": 1},
+		"uniques": [
+		
+		"[+15]% [Science] [in this city] <in cities with at least [1] [Specialists]>",
+		"Destroyed when the city is captured",
+		],
+	},
+	{
+		"name": "Contact overclocking machine",//触突超频机
+		"uniqueTo": "Universe Genesis",
+		"cost": 60,
+		"specialistSlots": {"Universe Genesis": 1},
+		"requiredBuilding": "Contact process machine",
+		"uniques": [
+		"[+4 Science] [in this city] <in cities with at least [1] [Specialists]>",
+		"[+4 Science] [in this city] <in cities with at least [2] [Specialists]>",
+		"[+15]% [Science] [in this city] <in cities with at least [1] [Specialists]>",
+		"Only available <in cities without a [Contact saver machine]>",
+		"Destroyed when the city is captured",
+		],
+	},
+	{
+		"name": "Contact saver machine",//触突保存机
+		"uniqueTo": "Universe Genesis",
+		"cost": 60,
+		"requiredBuilding": "Contact process machine",
+		"uniques": [
+		"[+2 Food] [in this city] <in cities with at least [1] [Specialists]>",
+		"[+1 Food] [in this city] <in cities with at least [2] [Specialists]>",
+		"Only available <in cities without a [Contact overclocking machine]>",
+		"Destroyed when the city is captured",
+		],
+	},
+	
+	//<in cities with at least [1] [Specialists]>
 	//"Adopt [Communism]",
-	/*Monster Sui = BOSS岁兽
-Monster Sui Rune = 岁兽标记
-Chongyue = 重岳
-Shu = 黍
-Dusk = 夕
-Nian = 年
-Ling = 令*/
-	//Smelting house = 冶炼屋
 	//"greatPersonPoints": {"Great Scientist": 1},
 	//"percentStatBonus": {"science": 50},
 	//"specialistSlots": {"Scientist": 2},
     //"Remove [Mil.Hide] [in this city] <hidden from users>",
-	//The sun rises in the east
 	//Ancient_era
 //Classical_era
 //Medieval_era
