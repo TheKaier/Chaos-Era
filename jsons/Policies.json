@@ -17,6 +17,8 @@
             "Only available <before adopting [Freedom]>",
             "[+4 Culture] [in capital]",
             "[-15]% Culture cost of natural border growth [in all cities]",
+            "[+1 Food] [in capital]",
+            "[+1 Food] [in all cities]",
             "Provides [1] [C_P]",
         ],
         "policies": [
@@ -38,8 +40,8 @@
                 "uniques": [
                 "Only available <before adopting [Honor]>",
             "Only available <before adopting [Liberty]>",
-                    "Provides the cheapest [Culture] building in your first [8] cities for free",
-                    "Provides the cheapest [Gold] building in your first [4] cities for free"
+                    "Provides the cheapest [Culture] building in your first [12] cities for free",
+                    "Provides the cheapest [Gold] building in your first [6] cities for free"
                 ],
                 "row": 1,
                 "column": 3
@@ -50,7 +52,7 @@
                 "Only available <before adopting [Honor]>",
             "Only available <before adopting [Liberty]>",
                     "Units in cities cost no Maintenance",
-                    "[+66]% Strength for cities <with a garrison> <when attacking>",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
                     "[+1 Food] per [3] population [in all cities]"
 
                 ],
@@ -61,7 +63,7 @@
                 "name": "Landed Elite",
                 "uniques": [
                     "[+15]% growth [in capital]",
-                    "[+3 Food] [in capital]"
+                    "[+2 Food] [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -70,7 +72,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Happiness, +2 Food, +1 Gold] per [3] population [in capital]",
+                    "[+1 Happiness, +2 Food, +1 Gold] per [4] population [in capital]",
                     "[+1 Culture] per [3] population [in capital]"
                 ],
                 "requires": ["Legalism"],
@@ -187,6 +189,7 @@
             "Notified of new Barbarian encampments",
             "[+1 Gold] [in all cities]",
             "[+1 Gold] [in capital]",
+            "[6] units cost no maintenance",
             "Provides [1] [M_P]"
         ],
         "policies": [
@@ -207,6 +210,7 @@
                     
                     "[+2 Happiness, +2 Culture]",
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
+                    "[3] free [Horseman] units appear",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
                 ],
                 
@@ -219,6 +223,7 @@
                 "Only available <before adopting [Liberty]>",
             "Only available <before adopting [Tradition]>",
                     "[+66]% XP gained from combat <for [Military] units>",
+                    "[+1 Culture] from every [Monument]",
                     "Provides [4] [Horses]",
                 "Provides [4] [Iron]",
                 ],
@@ -243,7 +248,7 @@
             "name": "Military Caste",//
                 "uniques": [
                     "[-66]% Gold cost of upgrading <for [Military] units>",
-                    "[+2 Science, +1 Culture] from every [Barracks]",
+                    "[+2 Science, +1 Culture, +1 Food] from every [Barracks]",
                 ],
                 "requires": ["Discipline"],
                 "row": 3,
@@ -271,6 +276,7 @@
             "Scientific": 0
         },
         "uniques": [
+        "Gain [5] [Faith]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+1 Faith] [in capital]",
@@ -282,24 +288,27 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith, +1 Culture] from every [Shrine]",
-                    "[+1 Faith, +1 Culture] from every [Temple]"
+                    "[+1 Faith, +1 Culture, +1 Production] from every [Shrine]",
+                    "[+1 Faith, +1 Culture, +1 Production] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Mandate Of Heaven",
-                "uniques": ["[66]% of excess happiness converted to [Culture]",
-                "[66]% of excess happiness converted to [Science]",
-                "[50]% of excess happiness converted to [Faith]"],
+                "uniques": ["[50]% of excess happiness converted to [Culture]",
+                "[50]% of excess happiness converted to [Science]",
+                "[50]% of excess happiness converted to [Faith]",
+                "[+1 Happiness] from every [Shrine]",
+                "[+1 Happiness] from every [Temple]",
+                ],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Theocracy",
-                "uniques": ["[+10]% [Gold] from every [Shrine]",
-                "[+10]% [Gold] from every [Temple]"
+                "uniques": ["[+15]% [Gold] from every [Shrine]",
+                "[+15]% [Gold] from every [Temple]"
                 ],
                 "requires": ["Organized Religion"],
                 "row": 2,
@@ -319,7 +328,7 @@
             {
                 "name": "Free Religion",
                 "uniques": ["[-15]% Culture cost of adopting new Policies",
-                "[+2 Faith] [in all cities]",
+                "[+2 Faith, +2 Gold] [in all cities]",
                 ],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,

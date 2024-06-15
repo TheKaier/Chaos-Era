@@ -594,7 +594,7 @@
         "name":"E_nongnuzhi",//农奴制
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+2] Movement <for [Worker] units> <before discovering [Industrial_era]>",
+        "uniques":["[+1] Movement <for [Worker] units> <before discovering [Industrial_era]>",
         "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -610,7 +610,7 @@
         "name":"E_minjianweiwang",//民间威望
         "cost":0,
         "requiredResource":"E_P",
-        "uniques":["[+2 Happiness, +1 Food, -2 Production] [in all cities] <before discovering [Modern_era]>",
+        "uniques":["[+1 Happiness, +1 Food, -1 Production] [in all cities] <before discovering [Modern_era]>",
         "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [E_P]>",
@@ -673,7 +673,7 @@
         "name":"E_chengzhentexuzhuang",//城镇特许状
         "cost":0,
         "requiredResource":"C_P",
-        "uniques":["[+50]% Yield from every [Manufactory] <before discovering [Modern_era]>",
+        "uniques":["[+33]% Yield from every [Manufactory] <before discovering [Modern_era]>",
         "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",
@@ -771,7 +771,7 @@
         "requiredResource":"C_P",
         "uniques":["[+1 Science, +1 Culture] from every [Library] <before discovering [Atomic_era]>",
         "[+1 Science, +1 Culture] from every [University] <before discovering [Atomic_era]>",
-        "[+20]% [Science] <in cities with at least [8] [Population]> <before discovering [Atomic_era]>",
+        "[+15]% [Science] <in cities with at least [8] [Population]> <before discovering [Atomic_era]>",
         "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
         "Only available <with [C_P]>",

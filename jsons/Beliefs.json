@@ -26,7 +26,7 @@
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
-        "uniques": ["[+15]% growth [in this city]"]
+        "uniques": ["[+20]% growth [in this city]"]
         // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
@@ -44,7 +44,9 @@
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]","[+2 Production] from every [Offshore Platform]"]
+        "uniques": ["[+1 Production] from every [Fishing Boats]","[+2 Production] from every [Offshore Platform]",
+        "[+1 Production] [in all coastal cities]",
+        ]
     },
     {
         "name": "God of War",
@@ -64,12 +66,14 @@
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+35]% Strength for cities <when attacking>"]
+        "uniques": ["[+50]% Strength for cities <when attacking>",
+        //"Units in cities cost no Maintenance",//无法
+        ]
     },
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]"]
+        "uniques": ["[+1 Food, +1 Gold] from every [Camp]"]
     },
     {
         "name": "Messenger of the Gods",
@@ -91,7 +95,7 @@
     {
         "name": "One with Nature",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]","[+1 Gold] from every [Natural Wonder]"]
+        "uniques": ["[+4 Faith] from every [Natural Wonder]","[+2 Gold] from every [Natural Wonder]"]
     },
     {
         "name": "Oral Tradition",
@@ -118,12 +122,17 @@
     {
         "name": "Sacred Waters",
         "type": "Pantheon",
-        "uniques": ["[+2 Happiness] in cities on [River] tiles"]
+        "uniques": [
+        //"[+2 Happiness] in cities on [River] tiles",
+        "[+2 Happiness] in cities on [Fresh water] tiles",
+        
+        
+        ]
     },
     {
         "name": "Stone Circles",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
+        "uniques": ["[+2 Faith, +1 Production] from every [Quarry]"]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
@@ -301,12 +310,15 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["[+75 Faith] whenever a Great Person is expended"]
+        "uniques": ["[+95 Faith] whenever a Great Person is expended"]
     },
 {
         "name": "Religious immigrants",//宗教移民
         "type": "Pantheon",
-        "uniques": ["Free [Settler] appears"]
+        "uniques": ["Free [Settler] appears",
+        "[+25]% Production when constructing [Settler] units [in all cities]"
+        
+        ]
     },
 {
         "name": "The Mighty Army",//神兵
@@ -324,13 +336,15 @@
         "uniques": [
         //"Free Great Person",
         "Free [Great Artist] appears",
-       "Free [Great Merchant] appears",
-        "[+35]% Golden Age length","Empire enters golden age"]
+       //"Free [Great Merchant] appears",
+        "[+33]% Golden Age length",
+        //"Empire enters golden age"
+        ]
     },
 {
         "name": "Ash",//灰烬
         "type": "Founder",
-        "uniques": ["[+66]% XP gained from combat"]
+        "uniques": ["[+50]% XP gained from combat"]
     },
     {
         "name": "Theology",//神学
@@ -340,46 +354,50 @@
     {
         "name": "Mountain Gift Culture",//山之馈赠-文化
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +2 Production, +1 Gold] from every [Mountain]",
+        "uniques": ["[+1 Culture, +2 Production, +2 Gold] from every [Mountain]",
+        "Free [Scout] appears",
         //"Land units may cross [Mountain] tiles after the first [Great General] is earned"
         ]
     },
     {
         "name": "Mountain Gift Science",//山之馈赠-科技
         "type": "Pantheon",
-        "uniques": ["[+1 Science, +2 Production, +1 Gold] from every [Mountain]",
+        "uniques": ["[+1 Science, +2 Production, +2 Gold] from every [Mountain]",
+        "Free [Scout] appears",
         //"Land units may cross [Mountain] tiles after the first [Great General] is earned"
         ]
     },
-    {
+    /*{
         "name": "Colonization time is up",//殖民时间到
         "type": "Pantheon",
         "uniques": ["[+25]% Production when constructing [Settler] units [in all cities]"]
-    },
+    },*/
     {
         "name": "The God of Dampness",//潮湿之神
         "type": "Pantheon",
         "uniques": ["[+1 Science, +1 Production] from every [Marsh]","[+1 Production] from every [Flood plains]","[+1 Production] from every [Oasis]"]
     },
-    {
+    /*{
         "name": "Encourage labor",//鼓励劳动
         "type": "Pantheon",
         "uniques": ["[+15]% Production when constructing [Worker] units [in all cities]"]
-    },
+    },*/
     {
         "name": "Involuntary Servitude",//强制劳役
         "type": "Pantheon",
         "uniques": ["Free [Worker] appears",
+        "[+10]% Production when constructing [Worker] units [in all cities]"
+        
         ]
     },
-    {
+    /*{
         "name": "Nature seeker",//自然探索者
         "type": "Pantheon",
         "uniques": [
         "Free [Scout] appears",
         "Free [Scout] appears",
         ]
-    },
+    },*/
     
     //Nature seeker
     //Encourage labor

@@ -1023,6 +1023,7 @@
 			"[-25]% Strength <vs cities>","Can move after attacking",
 			"[-12]% Strength",
 			"[+1] Movement",
+			"[+12]% Strength <vs [Barbarian] units>",
 			]
 			"column": 40,
         "row": 1

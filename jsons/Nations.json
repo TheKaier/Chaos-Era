@@ -566,7 +566,8 @@
 
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemenid Legacy",
-		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+12]% Strength <for [All] units> <during a Golden Age>",
+		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
+		"[1] free [Persian Immortal] units appear <upon declaring war with a major Civilization>",
 		"Empire enters golden age <upon declaring war with a major Civilization>"
 		
 		//"Triggers a [Event.New universe] event <upon declaring war with a major Civilization>"//测试
@@ -735,9 +736,17 @@
 		"innerColor": [255,120,0],
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
-		"uniques": ["[+35]% Strength <vs [City-States]>", "[+1] Movement <for [Mounted] units>"],
+		"uniques": ["[+40]% Strength <vs [City-States]>",
+		"[+1] Movement <for [Mounted] units>",
+		"[+25]% [Culture] [in pupetted cities]",
+		"[+25]% [Science] [in pupetted cities]",
+		"[+25]% [Food] [in pupetted cities]",
+		"[+50]% [Happiness] [in pupetted cities]",
+		"[+50]% [Faith] [in pupetted cities]",
+		"[+25]% [Gold] [in pupetted cities]",
+		],
 		"civilopediaText":[
-        {"text": "t3"},
+        {"text": "t？"},
     ],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
@@ -771,7 +780,7 @@
 		"uniqueName": "Sacrificial Captives",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
 		"[-10]% Culture cost of adopting new Policies",
-		" \n太阳神之怒\n ",
+		//" \n太阳神之怒\n ",
 		"Earn [100]% of killed [Military] unit's [Strength] as [Science] <if [Legend_mode] is constructed>",
 		"[+1 Production, +1 Happiness] from every [Jungle] <if [Legend_mode] is constructed>",
 		"[All] units gain the [The wrath of the sun God] promotion <if [Legend_mode] is constructed>",
@@ -2398,8 +2407,8 @@
 		"uniqueName": "Pharaoh",
 		"uniques": [
 		"[+1 Faith] per [2] population [in all cities]",
-		"May not generate great prophet equivalents naturally",
-		"Free [Great Prophet] appears <upon discovering [Theology]>",
+		//"May not generate great prophet equivalents naturally",
+		//"Free [Great Prophet] appears <upon discovering [Theology]>",
 		"May buy [Worker] units with [Faith] for [1] times their normal Production cost",
 		"May buy [Work Boats] units with [Faith] for [1] times their normal Production cost",
 		"May buy [{Military} {Water}] units with [Faith] for [1] times their normal Production cost",
@@ -2625,6 +2634,7 @@
 		"[-75]% Production when constructing [Primitive Shrine] buildings [in all cities] <when above [600] [Science]>",
 		"Gain an extra spy <upon entering the [Medieval era]>"
 		"[+1 Happiness, +1 Culture, +1 Faith] from each Trade Route <when above [100] [Science]>",
+		"Gain an extra spy <upon entering the [Classical era]> <if [Legend_mode] is constructed>"
 		],
 		"civilopediaText":[
         {"text": "t？\n投稿人：凯尔"},
@@ -2739,16 +2749,12 @@
 		//"favoredReligion": "Christianity",
 		"uniqueName": "Sheep People",
 		//"uniqueText": "羊，马，牛地块粮食减2产能加2，农场粮食加1，所有单位获得人羊晋升(在平原,草原地块移动力翻倍，攻击后可移动，对城市攻击力-25%)",
-		"uniques": ["[+2 Production] from [Sheep] tiles [in this city]","[+2 Production] from [Cattle] tiles [in this city]","[-2 Food] from [Sheep] tiles [in this city]","[-2 Food] from [Cattle] tiles [in this city]","[+1 Food] from [Farm] tiles [in this city]","[All] units gain the [People of Sheep] promotion"],
+		"uniques": ["[+1 Production] from [Sheep] tiles [in this city]","[+1 Production] from [Cattle] tiles [in this city]","[-1 Food] from [Sheep] tiles [in this city]","[-1 Food] from [Cattle] tiles [in this city]","[+1 Food] from [Farm] tiles [in this city]","[All] units gain the [People of Sheep] promotion"],
 		"civilopediaText":[
         {"text": "t？\n投稿人：甘地"},
     ],
-		"cities": ["Babylon","Beijing","Thebes","Pharsalos","Ephesus","Halicarnassus","Rhodes",
-			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
-			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
-			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
-			"Patras","Lamia","Nafplion","Apolyton"],
-        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
+		"cities": ["Sheep People",],
+        
     },
     /*{
 		"name": "maimai",//
@@ -2908,7 +2914,11 @@
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "Khan of Heaven",
-		"uniques": ["[+1 Gold, +1 Food] from every [Farm] <after discovering [Construction]>","[+1] Movement <for [Mounted] units>","Provides [1] [M_P]","[+50]% Production when constructing [Barracks] buildings [in all cities]",
+		"uniques": [
+		"[+1 Gold, +1 Food] from every [Farm]",
+		//"[+1 Gold, +1 Food] from every [Farm] <after discovering [Construction]>",
+		"[+15]% Strength <for [Mounted] units>",
+		"[+1] Movement <for [Mounted] units>","Provides [1] [M_P]","[+50]% Production when constructing [Barracks] buildings [in all cities]",
 		//"[+15]% Production when constructing [Military] buildings [in all cities]",//没有军事建筑
 		],
 		"civilopediaText":[
