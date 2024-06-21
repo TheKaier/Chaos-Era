@@ -62,7 +62,7 @@
 		"uniqueTo": "Polynesia",
 		"replaces": "Warrior",
 		"movement": 2,
-		"strength": 9,
+		"strength": 8,
 		"cost": 35,
 		"uniques" : ["Can instantly construct a [Moai] improvement <by consuming this unit>"],
 		"obsoleteTech": "Metal Casting",

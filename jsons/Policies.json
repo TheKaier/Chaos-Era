@@ -27,7 +27,7 @@
                 "uniques": [
                 "Only available <before adopting [Honor]>",
             "Only available <before adopting [Liberty]>",
-                    "[+25]% Production when constructing [All] wonders [in all cities]",
+                    "[+20]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness, +1 Culture, +1 Gold] per [5] population [in all cities]",
                     //"[+1 Culture] per [5] population [in all cities]",
                     //"[+1 Gold] per [4] population [in all cities]"
@@ -777,17 +777,18 @@
             "[+2 Culture, +2 Production, +1 Food] [in capital]",
             "[+1 Science, +2 Gold, -2 Happiness]",
             "Provides [1] [E_P]",
-            "Provides [1] [C_P]"
+            "Provides [1] [C_P]",
+            "Provides [1] [M_P]",
         ],
         "policies": [
             {
                 "name": "Imperial tank",//帝国战车
                 "uniques": [
-                    "[+5]% Production when constructing [All] units [in all cities]",
-                    "Free [Great General] appears",
+                    "[+10]% Production when constructing [Military] units [in all cities]",
+                   // "Free [Great General] appears",
                     "[+5]% [Production] [in all cities]",
             //"[+1 Gold] [in all cities]",
-            "[+10]% XP gained from combat"
+           // "[+10]% XP gained from combat"
                 ],
                 "row": 1,
                 "column": 2
@@ -797,9 +798,9 @@
                 "uniques": [
                     "[-33]% Unhappiness from [Population] [in all cities]",
                     "[+1 Culture, +1 Science, +3 Gold, +1 Faith, +2 Happiness]",
-                    "[+7]% [Culture] [in all cities]",
-                    "[+7]% [Science] [in all cities]",
-                    "[+7]% [Gold] [in all cities]",
+                   // "[+7]% [Culture] [in all cities]",
+                    //"[+7]% [Science] [in all cities]",
+                    //"[+7]% [Gold] [in all cities]",
                 ],
                 "row": 1,
                 "column": 4
@@ -808,9 +809,9 @@
                 "name": "The will of Usas",//乌萨斯意志
                 "uniques": [
                     "[+5]% [Production] [in all cities]",
-                    "[+10]% Strength",
-                    "[+10]% Strength <in [Tundra] [Snow] tiles>",
-                    "[1] Movement <in [Tundra] [Snow] tiles>",
+                   // "[+10]% Strength",
+                    //"[+10]% Strength <in [Tundra] [Snow] tiles>",
+                    //"[1] Movement <in [Tundra] [Snow] tiles>",
                     "Earn [15]% of the damage done to [All] units as [Gold]",
                     //"Earn [10]% of the damage done to [All] units as [Culture]",
                     //"Earn [10]% of the damage done to [All] units as [Science]"
@@ -823,7 +824,7 @@
                 "name": "Like the shadow of an empire",//如帝国之影
                 "uniques": [
                     "[+5]% [Production] [in all cities]",
-                    "[+1 Production, +1 Gold] [in all cities]",
+                    //"[+1 Production, +1 Gold] [in all cities]",
                     "Empire enters golden age",
                     "[+10]% Strength <when attacking> <for [Military] units>",
                 ],
@@ -848,7 +849,7 @@
                 "name": "Black snow",//黑色的雪
                 "uniques": [
                     "Empire enters golden age",
-                    "[+1 Production] per [1] population [in all cities]",
+                    "[+1 Production] per [2] population [in all cities]",
                     "[+1 Culture, +1 Science, +1 Gold] per [3] population [in all cities]",
                 ],
                 "requires": ["The will of Usas", "Like the shadow of an empire"],
@@ -866,7 +867,7 @@
                      "[+70]% [Production] [in all cities] <when below [20] Happiness>",
                      "[+5]% [Production] [in all cities]",
                      "[+10]% Production when constructing [All] units [in all cities]",
-                     "[+15]% XP gained from combat",
+                    // "[+15]% XP gained from combat",
                      "[+2 Culture, +1 Production, +2 Science] [in all cities]",
                      "Empire enters golden age",
                 ],
@@ -877,7 +878,7 @@
             {
                 "name": "Usas Complete",
                 "uniques": [
-                     "Provides [2] [A_P]"
+                     "Provides [1] [A_P]"
                 ]
             }
         ]

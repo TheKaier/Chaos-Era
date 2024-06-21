@@ -1,9 +1,9 @@
 [
 //第1048行特色政策卡
-//第1652行原版建筑
+//第1705行原版建筑
 //额外的胜利方式
 /*模组专属模式开关隐藏建筑*/
-    {//启用传奇模式
+    /*{//启用传奇模式
         "name": "Legend mode",
         "cost": 0,
         "uniques":[
@@ -19,7 +19,7 @@
         "Automatically built in all cities where it is buildable",
         "Hidden when [Legend mode] Victory is disabled",
         "Will not be displayed in Civilopedia"]
-    },
+    },*/
    /* {//启用BOSS抑制器
         "name": "BOSS Suppresser",
         "cost": 0,
@@ -1656,6 +1656,53 @@
 	
 	
 	
+	
+	//间谍更新
+	{
+        "name": "Constabulary",
+        "cost": 160,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredTech": "Banking"
+    },
+    {
+        "name": "Police Station",
+        "cost": 300,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredBuilding": "Constabulary",
+        "requiredTech": "Electricity"
+    },
+    {
+        "name": "National Intelligence Agency",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": ["Hidden when espionage is disabled",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy", // Order is significant here
+			"[-15]% enemy spy effectiveness [in this city]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
+        "requiredTech": "Radio"
+    },
+    {
+        "name": "Great Firewall",
+        "isWonder": true,
+        "uniques": ["Hidden when espionage is disabled", "[-99]% enemy spy effectiveness [in this city]",
+            "[-25]% enemy spy effectiveness [in all cities]",],
+        "requiredTech": "Computers"
+    },
+	
+	
+	
+	
+	
+	
+	
 	// Ancient Era
 
 	// Always available
@@ -1893,7 +1940,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]",
 			//"Provides a random bonus when entered",
 			//"Provides a random bonus when entered",
@@ -1975,7 +2022,7 @@
 		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -1983,7 +2030,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]","Destroyed when the city is captured"],
+			"Can only be built <in [Annexed] cities>","Destroyed when the city is captured"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -2053,7 +2100,10 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": [
+		"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+		
+		 "Cost increases by [30] per owned city"],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -2080,7 +2130,9 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"uniques": [
+		"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+		"[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -2142,7 +2194,10 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+		"uniques": [
+		"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+		
+		"All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "Iron Working"
 	},
@@ -2193,8 +2248,10 @@
 		"cost": 125,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"uniques": [
+		"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+		"Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
@@ -2214,7 +2271,9 @@
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": [
+		"Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
+		  "Cost increases by [30] per owned city"],
 		"requiredTech": "Guilds"
 	},
 	{
@@ -2299,7 +2358,9 @@
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [30] per owned city"],
+		"uniques": [
+		"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+		"Free Technology", "Cost increases by [30] per owned city"],
 		"requiredTech": "Education"
 	},
 	{
@@ -2350,7 +2411,9 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": [
+		"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
+		"Cost increases by [30] per owned city"],
 		"requiredTech": "Machinery"
 	},
 	{
@@ -2503,7 +2566,9 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Opera House] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": [
+		"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
+		  "Cost increases by [30] per owned city"],
 		"requiredTech": "Architecture"
 	},
 	{
@@ -3022,7 +3087,9 @@
 		"requiredPolicies": "Liberty",
 		"cost": 145,
 
-		"uniques": ["Requires a [College of Giants] in all cities", "Cost increases by [85] per owned city","[+10]% [Culture]","[+10]% [Food] [in all cities]","[+5]% [Production] [in all cities]","[+1 Culture, +1 Production] per [3] population [in all cities]","[+1 Science] per [2] population [in all cities]","Provides [6] [Guarder]"],
+		"uniques": [
+		"Only available <if [College of Giants] is constructed in all [non-[Puppeted]] cities>",
+		  "Cost increases by [85] per owned city","[+10]% [Culture]","[+10]% [Food] [in all cities]","[+5]% [Production] [in all cities]","[+1 Culture, +1 Production] per [3] population [in all cities]","[+1 Science] per [2] population [in all cities]","Provides [6] [Guarder]"],
 "requiredTech": "Philosophy"
 	},
 {		"name": "Joint workshop",
