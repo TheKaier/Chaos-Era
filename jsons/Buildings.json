@@ -3661,7 +3661,13 @@
 		"Destroyed when the city is captured",
 		],
 	},
-	
+	{
+		"name": "Error experimental project 1",//错误实验项目1
+		"uniqueTo": "Error",
+		"cost":150,
+		"uniques": ["Cannot be purchased","[1] free [Primary mixture] units appear","Consumes [2] [Iron]","Consumes [2] [Horses]","Limited to [1] per Civilization"],
+		"requiredTech": "Metal Casting"
+	},
 	//<in cities with at least [1] [Specialists]>
 	//"Adopt [Communism]",
 	//"greatPersonPoints": {"Great Scientist": 1},

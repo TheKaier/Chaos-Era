@@ -2997,7 +2997,50 @@
     ],
 		"cities": ["Universe Genesis",],
     },
-    
+    //限时复刻蛮子
+    {
+		"name": "Barbarians 1",
+		"leaderName": "Barbarians",
+		"adjective": ["Barbarians"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": " ",
+		"attacked": " ",
+		"defeated": " ",
+		"introduction": " ",
+		"neutralHello": " ",
+		"hateHello": " ",
+		"tradeRequest": " ",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniqueName": "Domination",
+		"uniques": ["Can only heal by pillaging","[All] units gain the [Barbarians] promotion <upon turn end>","[15] XP gained from combat"]
+		"cities": ["Barbarians"],
+	},
+	//限时回归错误
+	{
+		"name": "Error",
+		"leaderName": "PTSD",
+		"adjective": ["Error"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+                "startIntroPart1": "Who are we? Human? Material? Spiritual? Destructive?",
+		"startIntroPart2": "",
+		"declaringWar": "I Am Destruction!",
+		"attacked": "The Spirit is invisible.",
+		"defeated": "Matter can not be destroyed!",
+		"introduction": "Who are we? Human? Material? Spiritual? Destructive?",
+		"neutralHello": "Hello, human.",
+		"hateHello": "You're just a lump of matter.",
+		"tradeRequest": "Just exchanging some stuff.",
+		"outerColor": [10, 250, 56],
+		"innerColor": [50, 50, 50],
+        "favoredReligion": "Buddhism",
+		"uniqueName": "Error",
+		"uniques": ["Gain a free [Market] [in capital]","Gain a free [Aqueduct] [in capital]","[+2 Production, +1 Gold, +2 Food, +1 Happiness, +1 Culture] from every [Tundra]","[+2 Production, +1 Gold, +2 Food, +1 Happiness, +1 Culture] from every [Desert]","Gain a free [Granary] [in all cities]","Gain a free [Monument] [in all cities]" ],
+		"cities": ["Error","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
+	},
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力
 		"Provides [1] [Magic power]<every [1] turns>"//回合魔
