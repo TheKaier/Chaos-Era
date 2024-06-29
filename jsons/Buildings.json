@@ -3212,14 +3212,14 @@
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_2",	
-		"uniques": ["Provides [2] [Power]","Requires at least [3] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
+		"uniques": ["Provides [1] [Power]","Requires at least [3] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_4",//人口电力
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_3",	
-		"uniques": ["Provides [2] [Power]","Requires at least [4] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
+		"uniques": ["Provides [1] [Power]","Requires at least [4] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Population Power_5",//人口电力
@@ -3261,15 +3261,20 @@
 		"uniqueTo": "Shenzhou",
 		"cost":0,
 		"requiredBuilding": "Population Power_9",	
-		"uniques": ["Provides [4] [Power]","Requires at least [10] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
+		"uniques": ["Provides [3] [Power]","Requires at least [10] population","Will not be displayed in Civilopedia","Destroyed when the city is captured"]
 	},
 	//人口电力系列可以结束了
 {
 		"name": "Thousand machine",//千机阵列
 		"uniqueTo": "Shenzhou",		
 		"isWonder": true,
-		"cost": 750,
-		"uniques": ["Reveals the entire map","Consumes [40] [Power]","Triggers a global alert upon build start","Free [Thousand machine gun] appears","[+3 Gold, +5 Production, +3 Culture, +3 Science, +3 Food] [in all cities]","[+20]% [Culture]","[+20]% [Science]","[+30]% [Gold]"],		
+		"cost": 500,
+		"uniques": ["Reveals the entire map","Consumes [35] [Power]",
+		"Provides [1] [Thousand machine]",
+		"Triggers a global alert upon build start",
+		"Free [Thousand machine gun] appears <when above [0] [Thousand machine]> <upon turn end>",
+		"[+2 Gold, +2 Production, +1 Culture, +2 Science] [in all cities]",
+		"[+10]% [Culture]","[+10]% [Science]","[+10]% [Gold]"],		
 	},
 	{
 		"name": "Muscle of hindlimb_B",//后肢肌肉
@@ -3475,7 +3480,9 @@
 	{
 		"name": "Great Man Tablet",//伟人碑
 		"uniqueTo": "Kanhan",
-		"cost": 40,
+		"cost": 60,
+		"culture": 2,
+		"replaces": "Monument",
 		//"maintenance": 1,
 		//"requiredTech": "Pottery",
 		"uniques": ["Destroyed when the city is captured",
@@ -3609,7 +3616,7 @@
 		"Automatically built in all cities where it is buildable",
 		"Destroyed when the city is captured",
 		"Adopt [Communism]",
-		"Only available <after [30] turns>",
+		"Only available <after [20] turns>",
 		
 		],		
 	},
@@ -3674,7 +3681,7 @@
 	//"percentStatBonus": {"science": 50},
 	//"specialistSlots": {"Scientist": 2},
     //"Remove [Mil.Hide] [in this city] <hidden from users>",
-	//Ancient_era
+//Ancient_era
 //Classical_era
 //Medieval_era
 //Renaissance_era

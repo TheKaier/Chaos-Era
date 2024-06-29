@@ -12,9 +12,9 @@
         "uniques": [
             
             "Only available <before adopting [Usas]>",
-            "Only available <before adopting [Order]>",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>",
+            //"Only available <before adopting [Order]>",
+            //"Only available <before adopting [Autocracy]>",
+            //"Only available <before adopting [Freedom]>",
             "[+4 Culture] [in capital]",
             "[-15]% Culture cost of natural border growth [in all cities]",
             "[+1 Food] [in capital]",
@@ -237,7 +237,8 @@
                 "Only available <before adopting [Liberty]>",
             "Only available <before adopting [Tradition]>",
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-                    "[+1 Food] from every [Granary]",
+                    //"[+1 Food] from every [Granary]",
+                    "Provides a [Barracks] in your first [4] cities for free"
                 ],
                 "requires": ["Professional Army"],
                 

@@ -822,35 +822,37 @@
 	//剑灵的那些金木水火土晋升
 	{
 		"name": "Blade Soul Kim",//金
-		"uniques": ["Earn [12]% of the damage done to [All] units as [Gold]","[+5]% Strength"],
+		"uniques": ["Earn [20]% of the damage done to [All] units as [Gold]","[+7]% Strength"],
 		"unitTypes": ["Blade Soul"],
         "column": 10,
         "row": 11
 	},
 	{
 		"name": "Blade Soul Wood",//木
-		"uniques": ["Heals [10] damage if it kills a unit","[+7] HP when healing <in [Foreign Land] tiles>"],
+		"uniques": ["Heals [15] damage if it kills a unit","[+10] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Blade Soul"],
         "column": 10,
         "row": 12
 	},
 	{
 		"name": "Blade Soul Water",//水
-		"uniques": ["[+1] Movement","[+1] Movement <during a Golden Age>"],
+		"uniques": [
+		"[+1] Movement <in [Friendly Land] tiles>",
+		"[+1] Movement <during a Golden Age>"],
 		"unitTypes": ["Blade Soul"],
         "column": 10,
         "row": 13
 	},
 	{
 		"name": "Blade Soul Fire",//火
-		"uniques": ["[+5]% Strength","[+10]% Strength <in [Foreign Land] tiles>","[+5]% Strength <during a Golden Age>"],
+		"uniques": ["[+7]% Strength","[+7]% Strength <in [Foreign Land] tiles>","[+7]% Strength <during a Golden Age>"],
 		"unitTypes": ["Blade Soul"],
         "column": 10,
         "row": 14
 	},
 	{
 		"name": "Blade Soul Soil",//土
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles","[+20]% Strength <vs [Barbarian] units>"],
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles","[+40]% Strength <vs [Barbarian] units>"],
 		"unitTypes": ["Blade Soul"],
         "column": 10,
         "row": 15

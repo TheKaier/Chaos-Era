@@ -6,13 +6,14 @@
         {
         "text":"Change the basic law",
         "triggeredUniques":[
-        "Triggers a [Event.New universe-Remove policy] event <hidden from users>"
+        "Triggers a [Event.New universe-Remove policy] event <hidden from users>",
 		    ],
         },
         {
         "text":"Create a spectacle",
         "triggeredUniques":[
-        "Empire enters golden age <hidden from users>"
+        "Empire enters golden age <hidden from users>",
+        
             ],
         },
         {
@@ -46,108 +47,126 @@
         "text":"Tradition",
         "triggeredUniques":[
         "Remove [Tradition] and refund [75]% of its cost <hidden from users>",
+        //"Only available <after adopting [Tradition]>",
 		    ],
         },
         {
         "text":"Aristocracy",
         "triggeredUniques":[
         "Remove [Aristocracy] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Aristocracy]>",
 		    ],
         },
         {
         "text":"Legalism",
         "triggeredUniques":[
         "Remove [Legalism] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Legalism]>",
 		    ],
         },
         {
         "text":"Oligarchy",
         "triggeredUniques":[
         "Remove [Oligarchy] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Oligarchy]>",
 		    ],
         },
         {
         "text":"Landed Elite",
         "triggeredUniques":[
         "Remove [Landed Elite] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Landed Elite]>",
 		    ],
         },
         {
         "text":"Monarchy",
         "triggeredUniques":[
         "Remove [Monarchy] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Monarchy]>",
 		    ],
         },
         {
         "text":"Liberty",
         "triggeredUniques":[
         "Remove [Liberty] and refund [75]% of its cost <hidden from users>",
+        //"Only available <after adopting [Liberty]>",
 		    ],
         },
         {
         "text":"Republic",
         "triggeredUniques":[
         "Remove [Republic] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Republic]>",
 		    ],
         },
         {
         "text":"Citizenship",
         "triggeredUniques":[
         "Remove [Citizenship] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Citizenship]>",
 		    ],
         },
         {
         "text":"Collective Rule",
         "triggeredUniques":[
         "Remove [Collective Rule] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Collective Rule]>",
 		    ],
         },
         {
         "text":"Representation",
         "triggeredUniques":[
         "Remove [Representation] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Representation]>",
 		    ],
         },
         {
         "text":"Meritocracy",
         "triggeredUniques":[
         "Remove [Meritocracy] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Meritocracy]>",
 		    ],
         },
         {
         "text":"Honor",
         "triggeredUniques":[
         "Remove [Honor] and refund [75]% of its cost <hidden from users>",
+        //"Only available <after adopting [Honor]>",
 		    ],
         },
         {
         "text":"Warrior Code",
         "triggeredUniques":[
         "Remove [Warrior Code] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Warrior Code]>",
 		    ],
         },
         {
         "text":"Professional Army",
         "triggeredUniques":[
         "Remove [Professional Army] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Professional Army]>",
 		    ],
         },
         {
         "text":"Military Tradition",
         "triggeredUniques":[
         "Remove [Military Tradition] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Military Tradition]>",
 		    ],
         },
         {
         "text":"Discipline",
         "triggeredUniques":[
         "Remove [Discipline] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Discipline]>",
 		    ],
         },
         {
         "text":"Military Caste",
         "triggeredUniques":[
         "Remove [Military Caste] and refund [50]% of its cost <hidden from users>",
+        //"Only available <after adopting [Military Caste]>",
 		    ],
         },
         ]

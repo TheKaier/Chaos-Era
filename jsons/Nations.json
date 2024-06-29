@@ -1869,11 +1869,20 @@
 		"tradeRequest": " ",
 		"outerColor": [24,115,204],
         "innerColor": [159,215,251],
-        "uniqueText": "每进入一个时代获得一个剑灵，每个剑灵提供科文加成。",
+        //"uniqueText": "每进入一个时代获得一个剑灵，每个剑灵提供科文加成。",
 		"uniqueName": "Blade Soul",
-		"uniques": ["Provides [1] [Blade Soul] <starting from the [Classical era]>","Provides [1] [Blade Soul] <starting from the [Medieval era]>","Provides [1] [Blade Soul] <starting from the [Renaissance era]>","Provides [1] [Blade Soul] <starting from the [Industrial era]>","Provides [1] [Blade Soul] <starting from the [Modern era]>","Provides [1] [Blade Soul] <starting from the [Atomic era]>","[+5]% [Culture] <when above [0] [Blade Soul]>","[+5]% [Science] <when above [0] [Blade Soul]>","[+5]% [Culture] <when above [1] [Blade Soul]>","[+5]% [Science] <when above [1] [Blade Soul]>","[+5]% [Culture] <when above [2] [Blade Soul]>","[+5]% [Science] <when above [2] [Blade Soul]>","[+5]% [Culture] <when above [3] [Blade Soul]>","[+5]% [Science] <when above [3] [Blade Soul]>","[+5]% [Culture] <when above [4] [Blade Soul]>","[+5]% [Science] <when above [4] [Blade Soul]>","[+5]% [Culture] <when above [5] [Blade Soul]>","[+5]% [Science] <when above [5] [Blade Soul]>","[+5]% [Culture] <when above [6] [Blade Soul]>","[+5]% [Science] <when above [6] [Blade Soul]>","[+5]% [Culture] <when above [7] [Blade Soul]>","[+5]% [Science] <when above [7] [Blade Soul]>","[+5]% [Culture] <when above [8] [Blade Soul]>","[+5]% [Science] <when above [8] [Blade Soul]>","[+5]% [Culture] <when above [9] [Blade Soul]>","[+5]% [Science] <when above [9] [Blade Soul]>","[+5]% [Culture] <when above [10] [Blade Soul]>","[+5]% [Science] <when above [10] [Blade Soul]>","[+5]% [Culture] <when above [11] [Blade Soul]>","[+5]% [Science] <when above [11] [Blade Soul]>","[+5]% [Culture] <when above [12] [Blade Soul]>","[+5]% [Science] <when above [12] [Blade Soul]>","[+5]% [Culture] <when above [13] [Blade Soul]>","[+5]% [Science] <when above [13] [Blade Soul]>","[+5]% [Culture] <when above [14] [Blade Soul]>","[+5]% [Science] <when above [14] [Blade Soul]>","[+5]% [Culture] <when above [15] [Blade Soul]>","[+5]% [Science] <when above [15] [Blade Soul]>","[+5]% [Culture] <when above [16] [Blade Soul]>","[+5]% [Science] <when above [16] [Blade Soul]>","[+5]% [Culture] <when above [17] [Blade Soul]>","[+5]% [Science] <when above [17] [Blade Soul]>","[+5]% [Culture] <when above [18] [Blade Soul]>","[+5]% [Science] <when above [18] [Blade Soul]>","[+5]% [Culture] <when above [19] [Blade Soul]>","[+5]% [Science] <when above [19] [Blade Soul]>","[+5]% [Culture] <when above [20] [Blade Soul]>","[+5]% [Science] <when above [20] [Blade Soul]>",]
-		//所以说这些有什么办法可以让他变少吗？这么多代码
-		//代码又要膨胀咯，小小叠了20层
+		"uniques": [
+		"Provides [1] [Blade Soul] <starting from the [Ancient era]>",
+		"Provides [1] [Blade Soul] <starting from the [Classical era]>",
+		"Provides [1] [Blade Soul] <starting from the [Medieval era]>",
+		"Provides [1] [Blade Soul] <starting from the [Renaissance era]>",
+		"Provides [1] [Blade Soul] <starting from the [Industrial era]>",
+		"Provides [1] [Blade Soul] <starting from the [Modern era]>",
+		"Provides [1] [Blade Soul] <starting from the [Atomic era]>",
+		"Provides [1] [Blade Soul] <starting from the [Information era]>",
+		"[+10]% [Science] <for every [1] [Blade Soul]>",
+		"[+10]% [Culture] <for every [1] [Blade Soul]>",
+		]
 		"civilopediaText":[
         {"text": "t2\n投稿人：凯尔"},
     ],
@@ -2820,8 +2829,9 @@
 		"style": "",
 		"uniqueName": "Order",
 		"uniques": [
-		"[-2 Happiness] [in all cities]",
-		"[+66]% Culture cost of adopting new Policies",
+		//"[-2 Happiness] [in all cities]",
+		"[-1 Culture] [in all cities]",
+		"[+33]% Culture cost of adopting new Policies",
 			"Adopt [Order]",
 			"Adopt [United Front]",
 			"Adopt [Planned Economy]",
@@ -2893,7 +2903,7 @@
 		"[All] units gain the [Grimer] promotion <upon turn end>",
 		],
 		"civilopediaText":[
-        {"text": "t？\n投稿人：凯尔"},
+        {"text": "t2\n投稿人：凯尔"},
     ],
 		"cities": ["Putrefaction Marsh","Grimer"],
     },
@@ -2984,8 +2994,8 @@
 		"innerColor": [230,216,101],
 		"uniqueName": "Universe Genesis",
 		"uniques": [
-		"Triggers a [Event.New universe] event <every [15] turns> <upon turn end>",
-		"Triggers a [Event.New universe] event <upon constructing [Wonder]> <hidden from users>",
+		"Triggers a [Event.New universe] event <every [15] turns> <after [5] turns> <upon turn end>",
+		"Triggers a [Event.New universe] event <upon constructing [Wonder]> <after [5] turns> <hidden from users>",
 		"Triggers a [Event.New universe] event <upon discovering [Civil Service] technology> <hidden from users>",
 		"Triggers a [Event.New universe] event <upon discovering [Metal Casting] technology> <hidden from users>",
 		
@@ -3040,6 +3050,32 @@
 		"uniqueName": "Error",
 		"uniques": ["Gain a free [Market] [in capital]","Gain a free [Aqueduct] [in capital]","[+2 Production, +1 Gold, +2 Food, +1 Happiness, +1 Culture] from every [Tundra]","[+2 Production, +1 Gold, +2 Food, +1 Happiness, +1 Culture] from every [Desert]","Gain a free [Granary] [in all cities]","Gain a free [Monument] [in all cities]" ],
 		"cities": ["Error","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
+	},
+	{
+		"name": "Star of spies",//谍之星
+		"leaderName": "Spy",
+		"adjective": ["Star of spies"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "From ancient times know and others“Exchange” country, want to the world all things. They set up the world regulator to see what was going on.",
+		"startIntroPart2": "The star of spies has been able to use spies since ancient times, and classical times will keep getting new spies. The proper use of spies can be very powerful.",//介绍2
+		"declaringWar": "Hey, you don't look like you're doing anything good. In fact, I know exactly what you did.",
+		"attacked":"I'm not going to panic. The information says it all.",
+		"defeated": "Perhaps, intelligence is not the absolute power of the world...",
+        "introduction": "HMM? Welcome, new friend.",
+        "neutralHello": "Want to buy some information?",
+        "hateHello": "Flip through the papers in hand",
+        "tradeRequest": "I have what you need",
+		"outerColor": [131,131,131],
+		"innerColor": [82,82,82],
+		"uniqueName": "Gray spy fog",
+		"uniques": [
+		"Gain an extra spy <upon entering the [Ancient era]>",
+		"[-25]% enemy spy effectiveness [in all cities]"
+			],
+			"cities": ["World Regulatory Agency","High-level spy agency","The Spy Archive","Intelligence markets"]
+			"spyNames": ["Gorman","Alchemy","Katya","Worde"]
+			
 	},
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力

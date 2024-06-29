@@ -559,6 +559,14 @@
 		]
 	},
 	{
+		"name": "Thousand machine",//
+		"revealedBy": "Future Tech",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		]
+	},
+	{
 		"name": "Official salt",//官盐
 		"revealedBy": "Future Tech",
 		"resourceType": "Luxury"
