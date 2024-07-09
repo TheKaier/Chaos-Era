@@ -2086,10 +2086,11 @@
 		"name": "Mud Pyramid Mosque",
 		"replaces": "Temple",
 		"uniqueTo": "Songhai",
-		"maintenance": 0,
-		"hurryCostModifier": 25,
+		//"maintenance": 0,
+		"hurryCostModifier": 20,
 		"culture": 2,
 		"faith": 2,
+		"gold": 2,
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
 	},
@@ -2302,10 +2303,11 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Iroquois",
 		"cost": 100,
-		"maintenance": 2,
-		"production": 2,
+		"maintenance": 1,
+		"production": 3,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
@@ -3605,7 +3607,7 @@
 		],		
 	},*/
 	{
-		"name": "Stalin",//
+		"name": "Stalin",//斯大林
 		"uniqueTo": "Soviet Union",		
 		"cost": 0,
 		//"replaces": "Colosseum",
@@ -3616,7 +3618,7 @@
 		"Automatically built in all cities where it is buildable",
 		"Destroyed when the city is captured",
 		"Adopt [Communism]",
-		"Only available <after [20] turns>",
+		"Only available <after [25] turns>",
 		
 		],		
 	},
@@ -3674,6 +3676,36 @@
 		"cost":150,
 		"uniques": ["Cannot be purchased","[1] free [Primary mixture] units appear","Consumes [2] [Iron]","Consumes [2] [Horses]","Limited to [1] per Civilization"],
 		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "World Regulatory Agency",
+		"uniqueTo": "Star of spies",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"replaces": "Palace",
+		"uniques": ["Indicates the capital city",
+		"[-75]% enemy spy effectiveness [in this city]"
+		"New spies start with [1] level(s)<upon entering the [Classical era]>",
+        "Promotes all spies [1] time(s)<upon entering the [Classical era]>",
+            
+		]
+	},
+	{
+		"name": "The Spy Academy",
+		"uniqueTo": "Star of spies",
+		"cost": 75,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": [
+		 "Gain an extra spy"
+		"Destroyed when the city is captured",
+		"Unsellable"]
+		"requiredTech": "Engineering"
 	},
 	//<in cities with at least [1] [Specialists]>
 	//"Adopt [Communism]",

@@ -237,7 +237,9 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Siberian Riches",
 		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
-			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced"],
+			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced",
+			"[+1 Production] [in all cities] <for every [10] [Strategic resource]>",
+			],
 			"civilopediaText":[
         {"text": "t2"},
     ],
@@ -334,7 +336,9 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-66]% Gold cost of acquiring tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]"],
+		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-66]% Gold cost of acquiring tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]",
+		"[-10]% Strength <when fighting units from a Civilization with more Cities than you>","[+10]% Strength",
+		],
 		"civilopediaText":[
         {"text": "t3"},
     ],
@@ -468,8 +472,10 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
-		"uniques": ["[-75]% maintenance costs <for [Water] units>",
-			"When defeating a [{Barbarian} {Water}] unit, earn [75] Gold and recruit it <with [50]% chance>"],
+		"uniques": ["[-100]% maintenance costs <for [Water] units>",
+			"When defeating a [{Barbarian} {Water}] unit, earn [75] Gold and recruit it <with [75]% chance>",
+			"Starts with [Sailing]"
+			],
 			"civilopediaText":[
         {"text": "t3"},
     ],
@@ -781,9 +787,9 @@
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
 		"[-10]% Culture cost of adopting new Policies",
 		//" \n太阳神之怒\n ",
-		/*"Earn [100]% of killed [Military] unit's [Strength] as [Science] <if [Legend_mode] is constructed>",
-		"[+1 Production, +1 Happiness] from every [Jungle] <if [Legend_mode] is constructed>",
-		"[All] units gain the [The wrath of the sun God] promotion <if [Legend_mode] is constructed>",*/
+		"Earn [50]% of killed [Military] unit's [Strength] as [Science]",
+		"[+1 Production, +1 Happiness] from every [Jungle]",
+		//"[All] units gain the [The wrath of the sun God] promotion",
 		],
 		"civilopediaText":[
         {"text": "t2"},
@@ -869,6 +875,8 @@
 		"uniqueName": "Viking Fury",
 		"uniques": [
 		//"[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
+		"Defense bonus when embarked"//船运正常防
+	    "May attack when embarked"//船运可攻击
 		"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"No movement cost to pillage <for [All] units>",
 			"[All] units gain the [Pillaging] promotion <upon turn end>",
@@ -1035,7 +1043,9 @@
 		"innerColor": [81, 0, 137],
 		"favoredReligion": "Islam",
 		"uniqueName": "Phoenician Heritage",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned"],
+		"uniques": ["Gain a free [Harbor] [in all coastal cities]",
+		"[+1 Production, +1 Food] from every [Harbor]",
+		"Land units may cross [Mountain] tiles after the first [Great General] is earned"],
 		"civilopediaText":[
         {"text": "t3"},
     ],
@@ -1066,11 +1076,13 @@
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+1 Faith] [in all cities]","[+1 Faith] [in all cities] <starting from the [Classical era]>","[+2 Faith] from each Trade Route",
-		/*" \n东罗马帝国\n ",
-		"[+1 Faith] [in all cities] <if [Legend_mode] is constructed>",
+		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion","[+2 Faith] [in all cities]",
+		//"[+1 Faith] [in all cities] <starting from the [Classical era]>",
+		"[+2 Faith] from each Trade Route",
+		//" \n东罗马帝国\n ",
+		//"[+1 Faith] [in all cities] <if [Legend_mode] is constructed>",
 		//"[+1 Happiness] from each Trade Route <if [Legend_mode] is constructed>",
-		"May choose [1] additional belief(s) of any type when [founding] a religion <if [Legend_mode] is constructed>",*/
+		//"May choose [1] additional belief(s) of any type when [founding] a religion <if [Legend_mode] is constructed>",
 		//<if [Legend_mode] is constructed>
 		],
 		"civilopediaText":[
@@ -1114,9 +1126,10 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Druidic Lore",
-		"uniques": ["[+2 Faith] [in all cities] <with [1] to [2] neighboring [Forest] tiles>",
-			"[+3 Faith] [in all cities] <with [3] to [4] neighboring [Forest] tiles>",
-			"[+4 Faith] [in all cities] <with [5] to [6] neighboring [Forest] tiles>"],
+		"uniques": ["[+2 Faith, +1 Happiness] [in all cities] <with [1] to [2] neighboring [Forest] tiles>",
+			"[+3 Faith, +2 Happiness] [in all cities] <with [3] to [6] neighboring [Forest] tiles>",
+			//"[+4 Faith] [in all cities] <with [5] to [6] neighboring [Forest] tiles>"
+			],
 			"civilopediaText":[
         {"text": "t2"},
     ],
@@ -1203,7 +1216,10 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Long Count",
 		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
-			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+			"[Great Artist] is earned [50]% faster"
+			"[Great Engineer] is earned [50]% faster"
+			],
 			"civilopediaText":[
         {"text": "t2"},
     ],
@@ -1967,10 +1983,10 @@
 		"uniqueName": "Loulan",
 		"uniques": [
 		"[+1 Food] from [Desert] tiles without [Flood plains] [in all cities]",
-		/* "\n大漠黄沙\n ",
-		"[+1 Production] from [Desert] tiles without [Hill] [in all cities] <if [Legend_mode] is constructed>",
-		"[All] units gain the [Desert yellow sand] promotion <if [Legend_mode] is constructed>",
-		"Provides [1] [Inheritance of Loulan] <if [Legend_mode] is constructed>",*/
+		// "\n大漠黄沙\n ",
+		"[+1 Production] from [Desert] tiles without [Hill] [in all cities]",
+		//"[All] units gain the [Desert yellow sand] promotion <if [Legend_mode] is constructed>",
+		//"Provides [1] [Inheritance of Loulan] <if [Legend_mode] is constructed>",
 		]
 		"civilopediaText":[
         {"text": "t2\n投稿人：大松饼"},
@@ -2648,7 +2664,7 @@
 		"[-75]% Production when constructing [Primitive Shrine] buildings [in all cities] <when above [600] [Science]>",
 		"Gain an extra spy <upon entering the [Medieval era]>"
 		"[+1 Happiness, +1 Culture, +1 Faith] from each Trade Route <when above [100] [Science]>",
-		/*"Gain an extra spy <upon entering the [Classical era]> <if [Legend_mode] is constructed>"*/
+		"Gain an extra spy <upon entering the [Classical era]>"
 		],
 		"civilopediaText":[
         {"text": "t？\n投稿人：凯尔"},

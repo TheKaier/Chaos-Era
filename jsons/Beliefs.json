@@ -317,7 +317,7 @@
         "type": "Pantheon",
         "uniques": ["Free [Settler] appears",
         "[+25]% Production when constructing [Settler] units [in all cities]"
-        "Comment [[+1] Movement <after adopting [Religious immigrants]> <for [Settler]>]",
+        //"Comment [[+1] Movement <after adopting [Religious immigrants]> <for [Settler]>]",
         ]
     },
 {
