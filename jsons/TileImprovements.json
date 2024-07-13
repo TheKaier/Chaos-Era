@@ -450,7 +450,16 @@
             "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
-	
+	/*{
+		"name": "Weather controller",//
+		"uniqueTo": "American empire",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 999,
+		"uniques": [
+
+],
+		"shortcutKey": "F"
+	},*/
 	
 	
 	//<when below [0] [Universe Point]>

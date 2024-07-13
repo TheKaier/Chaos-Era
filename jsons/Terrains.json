@@ -544,7 +544,26 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-
-
-
+	
+	////////特殊地块
+	{
+		"name": "Weather machine",
+		"type": "TerrainFeature",
+		//"food": -1,
+		"movementCost": 1,
+		"unbuildable": true,
+		//"defenceBonus": -0.15,
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow",]
+		"uniques": [
+		//"Doesn't generate naturally",
+		],
+	},
+	
+	
+	
+	
+	
+	
+	
+	
 ]

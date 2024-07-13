@@ -238,7 +238,7 @@
 		"uniqueName": "Siberian Riches",
 		"uniques": ["[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
 			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced",
-			"[+1 Production] [in all cities] <for every [10] [Strategic resource]>",
+			//"[+1 Production] [in all cities] <for every [10] [Strategic resource]>",
 			],
 			"civilopediaText":[
         {"text": "t2"},
@@ -3093,6 +3093,72 @@
 			"spyNames": ["Gorman","Alchemy","Katya","Worde"]
 			
 	},
+	{
+		"name": "American empire",//美利坚帝国
+		"leaderName": "George Washington",
+		"adjective": ["American empire"],
+		"preferredVictoryType": "Scientific",
+        "startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": " ",
+		"attacked": " ",
+		"defeated": " ",
+		"introduction": " ",
+		"neutralHello": " ",
+		"hateHello": " ",
+		"tradeRequest": " ",
+        "outerColor": [ 28,51,119],
+        "innerColor": [255,255,255],
+        "favoredReligion": "Christianity",
+		"uniqueName": "Eternal monarch",
+		"uniques": [
+		"Free Technology <upon constructing [Wonder]>",
+		//"Free Technology <upon declaring war with a major Civilization>",
+		"Free Technology <every [20] turns>",
+		"[-33]% enemy spy effectiveness [in all cities]",
+		
+		
+		],
+		"civilopediaText":[
+        {"text": "t？"},
+    ],
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
+	    {
+    "name":"Steam UK",
+    "leaderName":"Victoria",
+    "adjective": ["Steam UK"],
+	"startBias": ["Coast"],
+	"preferredVictoryType": "Diplomatic",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "",
+    "attacked": "",
+    "defeated": "",
+	"introduction": "",
+    "neutralHello": "",
+	"hateHello": "",
+	"tradeRequest": "",
+	"outerColor": [109, 2, 0],
+	"innerColor": [255, 255, 255],
+	"favoredReligion": "Christianity",
+	"uniqueName": "Victoria",
+	"uniques":["[+1 Production] from every [Strategic resource]"],
+	"civilopediaText":[{"text": "t?"},],
+	"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+	"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+	"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+	"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
+    "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力
 		"Provides [1] [Magic power]<every [1] turns>"//回合魔

@@ -35,7 +35,7 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit",
-		"[+1] Sight <after adopting [Nature seeker]>"
+		//"[+1] Sight <after adopting [Nature seeker]>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -3115,8 +3115,83 @@
 		"Uncapturable",
 ]
 },
-	
-	
+	{
+		"name": "Weather controller core",
+		"unitType": "Sword",
+		"uniqueTo": "American empire",
+		"movement": 0,
+		"strength": 30,
+		"cost": 200,
+		"uniques": [
+		"Cannot be purchased",
+		"Cannot attack",
+		"Limited to [1] per Civilization",
+		"Can carry [1] [Missile] units",
+		"[+10]% Strength bonus for [Military] units within [5] tiles",
+		"Gain [-3] [Gold] <upon turn end>",
+		"[1] free [Weather controller] units appear <with [0] to [5] neighboring [Weather machine] tiles> <every [5] turns> <upon turn end>",
+		"[1] free [Weather decree] units appear <with [6] to [6] neighboring [Weather machine] tiles> <every [10] turns> <upon turn end>",
+		//<every [5] turns>
+		
+		]
+	},
+	{
+		"name": "Weather controller",
+		"unitType": "Sword",
+		"uniqueTo": "American empire",
+		"movement": 0,
+		"strength": 30,
+		"cost": 100,
+		"uniques": [
+		"Unbuildable",
+		"Cannot be purchased",
+		"Cannot attack",
+		"Gain [-3] [Gold] <upon turn end>",
+		"Turn this tile into a [Weather machine] tile <upon turn end>",
+		"Turn this tile into a [Snow] tile <upon turn end>",
+		//"Turn this tile into a [Weather machine] tile <for [0] movement>",
+		]
+	},
+	{
+		"name": "Weather decree",
+		"unitType": "Missile",
+		"uniqueTo": "American empire",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 12,
+		"cost": 150,
+		"uniques": [
+		"Limited to [1] per Civilization",
+		"Nuclear weapon of Strength [2]", "Blast radius [3]",
+		"Cannot move",
+		"Unbuildable",
+		"Cannot be purchased",
+		],
+		"attackSound": "nuke"
+	},
+		   {
+		"name": "The frigate Britannia",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "Steam UK",
+		"movement": 5,
+		"strength": 33,
+		"rangedStrength": 43,
+		"cost": 145,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		//"hurryCostModifier": 20,
+		"attackSound": "cannon",
+		},
+	//<with [3] to [6] neighboring [Weather controller] tiles>
+	//Weather decree
+	/*American empire = 美利坚帝国
+Eternal monarch = 永世君主
+Weather controller =天气控制器
+Weather controller core = 天气控制器核心*/
 	//Kunpeng battleship
 	/*Monster Sui = BOSS岁兽
 Monster Sui Rune = 岁兽标记

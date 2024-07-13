@@ -3707,6 +3707,30 @@
 		"Unsellable"]
 		"requiredTech": "Engineering"
 	},
+	    {
+    "name":"World Factory",
+    "replaces":"Factory",
+    "uniqueTo":"Steam UK",
+		"cost": 340,
+		"production": 5,
+		"percentStatBonus": {"production": 20},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		//"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+    {
+    "name":"Gold shipyard",
+    "replaces": "Seaport",
+    "uniqueTo":"Steam UK",
+	"hurryCostModifier": 25,
+    "maintenance": 2,
+	"requiredBuilding": "Harbor",
+	"uniques": ["[+2 Production, +2 Gold] from [Water resource] tiles [in this city]","Must be next to [Coast]", "[+25]% Production when constructing [Water] units [in this city]"],
+	"requiredTech": "Navigation"
+	},
 	//<in cities with at least [1] [Specialists]>
 	//"Adopt [Communism]",
 	//"greatPersonPoints": {"Great Scientist": 1},
