@@ -315,7 +315,8 @@
 {
         "name": "Religious immigrants",//宗教移民
         "type": "Pantheon",
-        "uniques": ["Free [Settler] appears",
+        "uniques": [
+        //"Free [Settler] appears",
         "[+25]% Production when constructing [Settler] units [in all cities]"
         //"Comment [[+1] Movement <after adopting [Religious immigrants]> <for [Settler]>]",
         ]

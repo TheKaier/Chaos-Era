@@ -876,7 +876,7 @@
 		"uniques": [
 		//"[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
 		"Defense bonus when embarked"//船运正常防
-	    "May attack when embarked"//船运可攻击
+	    //"May attack when embarked <for [All] units>"//船运可攻击
 		"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"No movement cost to pillage <for [All] units>",
 			"[All] units gain the [Pillaging] promotion <upon turn end>",
@@ -2596,7 +2596,7 @@
     ],
 		"cities": ["Music Note",],
     },*/
-    /*{
+    {
 		"name": "Eternal kingdom",//永恒国度
 		"leaderName": "Dante Angela",
 		"adjective": ["Eternal kingdom"],
@@ -2614,29 +2614,66 @@
 		"innerColor": [24,115,204],
 		"uniqueName": "Twelve Laws of Eternity",
 		"uniques": [
-		" \n永恒其一•繁育丰饶",
+		//" \n永恒其一•繁育丰饶",
 		"[+2 Food, +2 Production]  <in cities with at least [1] [Specialists]>",
 		"[+10]% [Food] <in cities with at least [1] [Specialists]>",
 		"[+2 Science, +2 Culture]  <in cities with at least [2] [Specialists]>",
 		"[+10]% [Gold] <in cities with at least [2] [Specialists]>",
-        " \n永恒其二•智识渴求",
+        //" \n永恒其二•智识渴求",
         "[+1 Culture, +2 Science] [in all cities]",
         "[+10]% [Culture] [in all cities]",
         "[+10]% [Science] [in all cities]",
-        " \n永恒其三•不灭荣光",
+        //" \n永恒其三•不灭荣光",
+        //"[Military] units gain the [Eternal glory] promotion",
+        "[+100]% Golden Age length",
+        //" \n永恒其四•无尽征伐",
+        "[+20]% Production when constructing [Civilian] units <when not at war> [in all cities]",
+        "[+1] Movement <when not at war> <for [Civilian] units>",
+        "[+20]% Production when constructing [Military] units <when at war> [in all cities]",
+        "[+1] Sight <when at war> <for [Military] units>",
+        //" \n永恒其五•虔诚信仰",
+        "[+1 Faith] <in cities with at least [2] [Population]>",
+        "[+4 Faith] <in cities with at least [5] [Population]>",
+        "May choose [2] additional belief(s) of any type when [founding] a religion",
+        //" \n永恒其六•探索无垠",
+        //"[Scout] units gain the [Explore the immensity] promotion",
+        "[+200]% Yield from every [Natural Wonder]",
+        //7
+        //晋升汪洋浩劫
+        "[+1 Production, +1 Culture] from every [Coast]",
+		"[+1 Production, +1 Culture] from every [Ocean]",
+		"Enables embarkation for land units <starting from the [Ancient era]>",
+        "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+        //8
+        //晋升天空禁行
+        "Land units may cross [Mountain] tiles after the first [Great General] is earned"
+        //9
+        //晋升火钢意志
+        "[+1 Production, +2 Gold] from every [Strategic resource]",
+        //10
+        //晋升一罪百善
         
-        " \n永恒其四•无尽征伐",
+        //11
+        "[+1 Gold] <for every [50] [Gold]>",
+        "[+1 Faith] <for every [50] [Faith]>",
+        //12
+        "[+100]% Production when constructing [All] wonders [in all cities]",
         
-        " \n永恒其五•虔诚信仰",
         
-        " \n永恒其六•探索无垠",
+        
+        
+        
+        
+        //<when not at war>
+        //Civilian
+        //Military
         
 		],
 		"civilopediaText":[
         {"text": "BOSS\n投稿人：凯尔"},
     ],
 		"cities": ["Eternal kingdom",],
-    },*/
+    },
     {
 		"name": "Primitive humans",//原初人类
 		"leaderName": "Primitive",
@@ -3064,7 +3101,13 @@
 		"innerColor": [50, 50, 50],
         "favoredReligion": "Buddhism",
 		"uniqueName": "Error",
-		"uniques": ["Gain a free [Market] [in capital]","Gain a free [Aqueduct] [in capital]","[+2 Production, +1 Gold, +2 Food, +1 Happiness, +1 Culture] from every [Tundra]","[+2 Production, +1 Gold, +2 Food, +1 Happiness, +1 Culture] from every [Desert]","Gain a free [Granary] [in all cities]","Gain a free [Monument] [in all cities]" ],
+		"uniques": [
+		"Gain a free [Market] [in capital]",
+		"Gain a free [Aqueduct] [in capital]",
+		"[+1 Production, +1 Gold, +1 Food, +1 Happiness, +1 Culture] from every [Tundra]",
+		"[+1 Production, +1 Gold, +1 Food, +1 Happiness, +1 Culture] from every [Desert]",
+		"Gain a free [Granary] [in all cities]",
+		"Gain a free [Monument] [in all cities]"],
 		"cities": ["Error","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
 	},
 	{
@@ -3113,9 +3156,9 @@
 		"uniqueName": "Eternal monarch",
 		"uniques": [
 		"Free Technology <upon constructing [Wonder]>",
-		//"Free Technology <upon declaring war with a major Civilization>",
-		"Free Technology <every [20] turns>",
-		"[-33]% enemy spy effectiveness [in all cities]",
+		"Free Technology <upon declaring war with a major Civilization>",
+		"Free Technology <every [16] turns>",
+		"[-50]% enemy spy effectiveness [in all cities]",
 		
 		
 		],
@@ -3151,7 +3194,7 @@
 	"innerColor": [255, 255, 255],
 	"favoredReligion": "Christianity",
 	"uniqueName": "Victoria",
-	"uniques":["[+1 Production] from every [Strategic resource]"],
+	"uniques":["[+2 Production] from every [Strategic resource]"],
 	"civilopediaText":[{"text": "t?"},],
 	"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 	"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",

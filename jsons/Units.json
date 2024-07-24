@@ -3146,7 +3146,7 @@
 		"Unbuildable",
 		"Cannot be purchased",
 		"Cannot attack",
-		"Gain [-3] [Gold] <upon turn end>",
+		"Gain [-1] [Gold] <upon turn end>",
 		"Turn this tile into a [Weather machine] tile <upon turn end>",
 		"Turn this tile into a [Snow] tile <upon turn end>",
 		//"Turn this tile into a [Weather machine] tile <for [0] movement>",

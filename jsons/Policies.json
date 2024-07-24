@@ -25,8 +25,8 @@
             {
                 "name": "Aristocracy",
                 "uniques": [
-                "Only available <before adopting [Honor]>",
-            "Only available <before adopting [Liberty]>",
+                //"Only available <before adopting [Honor]>",
+            //"Only available <before adopting [Liberty]>",
                     "[+20]% Production when constructing [All] wonders [in all cities]",
                     "[+1 Happiness, +1 Culture, +1 Gold] per [5] population [in all cities]",
                     //"[+1 Culture] per [5] population [in all cities]",
@@ -38,8 +38,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                "Only available <before adopting [Honor]>",
-            "Only available <before adopting [Liberty]>",
+                //"Only available <before adopting [Honor]>",
+            //"Only available <before adopting [Liberty]>",
                     "Provides the cheapest [Culture] building in your first [12] cities for free",
                     "Provides the cheapest [Gold] building in your first [6] cities for free"
                 ],
@@ -49,8 +49,8 @@
             {
                 "name": "Oligarchy",
                 "uniques": [
-                "Only available <before adopting [Honor]>",
-            "Only available <before adopting [Liberty]>",
+                //"Only available <before adopting [Honor]>",
+            //"Only available <before adopting [Liberty]>",
                     "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
                     "[+1 Food] per [3] population [in all cities]"
@@ -111,8 +111,8 @@
             {
                 "name": "Republic",
                 "uniques": [
-                "Only available <before adopting [Honor]>",
-            "Only available <before adopting [Tradition]>",
+                //"Only available <before adopting [Honor]>",
+            //"Only available <before adopting [Tradition]>",
                     "[+2 Production] [in all cities]",
                     "[+10]% Production when constructing [All] buildings [in all cities]"
                 ],
@@ -122,8 +122,8 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                "Only available <before adopting [Honor]>",
-            "Only available <before adopting [Tradition]>",
+                //"Only available <before adopting [Honor]>",
+            //"Only available <before adopting [Tradition]>",
                     "[-33]% construction time for [All] improvements",
                     "[+1 Science] [in all cities]",
                     "Free [Worker] appears"
@@ -220,12 +220,12 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                "Only available <before adopting [Liberty]>",
-            "Only available <before adopting [Tradition]>",
-                    "[+66]% XP gained from combat <for [Military] units>",
+                //"Only available <before adopting [Liberty]>",
+            //"Only available <before adopting [Tradition]>",
+                    "[+50]% XP gained from combat <for [Military] units>",
                     "[+1 Culture] from every [Monument]",
-                    "Provides [4] [Horses]",
-                "Provides [4] [Iron]",
+                    "Provides [5] [Horses]",
+                "Provides [5] [Iron]",
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -234,8 +234,8 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                "Only available <before adopting [Liberty]>",
-            "Only available <before adopting [Tradition]>",
+                //"Only available <before adopting [Liberty]>",
+            //"Only available <before adopting [Tradition]>",
                     "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
                     //"[+1 Food] from every [Granary]",
                     "Provides a [Barracks] in your first [4] cities for free"
@@ -281,7 +281,7 @@
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+1 Faith] [in capital]",
-            "Only available <before adopting [Rationalism]>",
+            //"Only available <before adopting [Rationalism]>",
             "Only available <before adopting [Usas]>",
             "Provides [1] [E_P]"
         ],
@@ -425,7 +425,7 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+25]% [Gold] [in capital]",
+        "uniques": ["[+33]% [Gold] [in capital]",
         "Provides [1] [E_P]"
         ],
         "policies": [
@@ -434,7 +434,8 @@
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
                     "[+1] Sight <for [{Military} {Water}] units>",
-                    "Free [Great General] appears"
+                    "Free [Great General] appears",
+                    "[-20]% maintenance on road & railroads",
                     // "[+2] Movement <for [Great Admiral] units>"
                     // ToDo: Should be "Free [Great Admiral] appears"
                 ],
@@ -444,16 +445,16 @@
             {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[-33]% maintenance on road & railroads",
+                    "[-20]% maintenance on road & railroads",
                     "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
+                    "[+2 Gold] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 4
             },
             {
                 "name": "Merchant Navy",
-                "uniques": ["[+3 Production] [in all coastal cities]"],
+                "uniques": ["[+4 Production, +2 Gold] [in all coastal cities]"],
                 "requires": ["Naval Tradition"],
                 "row": 2,
                 "column": 2
@@ -461,11 +462,11 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%",
+                    "[Gold] cost of purchasing items in cities [-33]%",
                     "[+1 Science] from every [Mint]",
                     "[+1 Science] from every [Market]",
-                    "[+1 Science] from every [Bank]",
-                    "[+1 Science] from every [Stock Exchange]"
+                    "[+2 Science] from every [Bank]",
+                    "[+2 Science] from every [Stock Exchange]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -473,7 +474,7 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["[+2] Happiness from each type of luxury resource"],
+                "uniques": ["[+3] Happiness from each type of luxury resource"],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 4
@@ -482,7 +483,7 @@
                 "name": "Commerce Complete",
                 "uniques": [
                 "Provides [1] [A_P]",
-                    "[+1 Gold] from every [Trading post]",
+                    "[+1 Gold, +1 Production] from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -500,15 +501,15 @@
             "Scientific": 60
         },
         "uniques": [
-            "[+15]% [Science] <while the empire is happy>",
-            "Only available <before adopting [Piety]>",
+            "[+20]% [Science] <while the empire is happy>",
+            //"Only available <before adopting [Piety]>",
             "Provides [1] [C_P]"
         ],
         "policies": [
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
+                    "[+2 Science, +1 Food] from every specialist [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -516,6 +517,7 @@
             {
                 "name": "Humanism",
                 "uniques": [
+                "[+1 Happiness] from every [Library]",
                     "[+1 Happiness] from every [University]",
                     "[+1 Happiness] from every [Observatory]",
                     "[+1 Happiness] from every [Public School]"
@@ -526,7 +528,7 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
+                    "[+2 Science] from every [Trading post]",
                     "[+17]% [Science] from every [University]"
                 ],
                 "requires": ["Secularism"],
@@ -542,7 +544,7 @@
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+50]%"],
+                "uniques": ["Science gained from research agreements [+75]%"],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
