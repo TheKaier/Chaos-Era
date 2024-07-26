@@ -260,696 +260,814 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Gold shipyard
+  rotate: false
+  xy: 900, 241
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 BuildingIcons/Great Man Tablet
   rotate: false
-  xy: 1448, 611
+  xy: 1172, 132
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/People Control
   rotate: false
-  xy: 1818, 1540
+  xy: 412, 224
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Sheep People
   rotate: false
-  xy: 1818, 1540
+  xy: 412, 224
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/People of Sheep
   rotate: false
-  xy: 1818, 1540
+  xy: 412, 224
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 BuildingIcons/Resonance altar
   rotate: false
-  xy: 1501, 179
+  xy: 1116, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The sun rises in the east
   rotate: false
-  xy: 524, 991
+  xy: 524, 1012
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
+BuildingIcons/World Factory
+  rotate: false
+  xy: 1036, 212
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Kanhan_Culture
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kanhan_Faith
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kanhan_Food
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kanhan_Gold
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kanhan_Happiness
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kanhan_Production
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kanhan_Science
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Universe Point
   rotate: false
-  xy: 1812, 757
+  xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/The_Great_Wall_Qin
   rotate: false
-  xy: 1044, 1511
+  xy: 1044, 1012
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
+NationIcons/American empire
+  rotate: false
+  xy: 1905, 631
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Weather controller
+  rotate: false
+  xy: 1905, 631
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Weather controller core
+  rotate: false
+  xy: 1905, 631
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Weather decree
+  rotate: false
+  xy: 1905, 631
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 NationIcons/Beidi
   rotate: false
-  xy: 1044, 738
+  xy: 852, 704
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: -1
 NationIcons/Blade Soul
   rotate: false
-  xy: 469, 7
+  xy: 712, 548
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/Blade Soul
+  rotate: false
+  xy: 712, 548
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/China_Han
   rotate: false
-  xy: 1177, 154
+  xy: 1172, 240
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/China_Ming
   rotate: false
-  xy: 741, 4
+  xy: 1280, 240
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/China_Qin
   rotate: false
-  xy: 849, 4
+  xy: 684, 217
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Dark World
   rotate: false
-  xy: 605, 7
+  xy: 1419, 377
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dark hidden
   rotate: false
-  xy: 605, 7
+  xy: 1419, 377
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Desertization
   rotate: false
-  xy: 1352, 719
+  xy: 524, 360
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Error
+  rotate: false
+  xy: 140, 356
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Extreme World Conservation Organization
+  rotate: false
+  xy: 276, 356
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Giant
   rotate: false
-  xy: 1069, 46
+  xy: 900, 133
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Guarder
   rotate: false
-  xy: 1069, 46
+  xy: 900, 133
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Giant
   rotate: false
-  xy: 1069, 46
+  xy: 900, 133
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Indian Empire
   rotate: false
-  xy: 1885, 1216
+  xy: 412, 116
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kamikaze
   rotate: false
-  xy: 1926, 1432
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kanhan
   rotate: false
-  xy: 1704, 750
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Primitive humans
   rotate: false
-  xy: 1312, 583
+  xy: 4, 220
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Protoss
   rotate: false
-  xy: 1731, 865
+  xy: 1870, 363
   size: 173, 173
   orig: 173, 173
   offset: 0, 0
   index: -1
 NationIcons/Putrefaction Marsh
   rotate: false
-  xy: 1312, 447
+  xy: 140, 220
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Rosbin City
   rotate: false
-  xy: 1501, 71
+  xy: 1224, 24
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Soviet Union
   rotate: false
-  xy: 933, 112
+  xy: 276, 220
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Star of spies
+  rotate: false
+  xy: 1555, 220
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+NationIcons/Steam UK
+  rotate: false
+  xy: 1691, 220
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 NationIcons/Sword in the Stone
   rotate: false
-  xy: 524, 1511
+  xy: 1044, 1532
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/Sword in the Stone
   rotate: false
-  xy: 524, 1511
+  xy: 1044, 1532
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/Sword in the Stone_guard
   rotate: false
-  xy: 524, 1511
+  xy: 1044, 1532
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 NationIcons/Terran Dominion
   rotate: false
-  xy: 1564, 1676
+  xy: 1564, 767
   size: 347, 347
   orig: 347, 347
   offset: 0, 0
   index: -1
 NationIcons/The Kingdom of slime
   rotate: false
-  xy: 1912, 892
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The blade of evil
   rotate: false
-  xy: 4, 471
+  xy: 4, 1012
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/The blade of evil
   rotate: false
-  xy: 4, 471
+  xy: 4, 1012
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 NationIcons/The underground kingdom
   rotate: false
-  xy: 1920, 676
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Underground
   rotate: false
-  xy: 1920, 676
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Universe Genesis
-  rotate: false
-  xy: 1664, 574
-  size: 52, 60
-  orig: 52, 60
-  offset: 0, 0
-  index: -1
 NationIcons/Usas Empire
   rotate: false
-  xy: 1920, 568
+  xy: 1604, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Visionary nation
   rotate: false
-  xy: 1044, 1046
+  xy: 1564, 1122
   size: 457, 457
   orig: 457, 457
   offset: 0, 0
   index: -1
 NationIcons/Zerg
   rotate: false
-  xy: 797, 248
+  xy: 1682, 544
   size: 215, 215
   orig: 215, 215
   offset: 0, 0
   index: -1
+ResourceIcons/A_P
+  rotate: false
+  xy: 1428, 876
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/C_P
+  rotate: false
+  xy: 900, 377
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/E_P
+  rotate: false
+  xy: 4, 356
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ResourceIcons/M_P
+  rotate: false
+  xy: 1419, 241
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 ResourceIcons/Monster Nian Rune
   rotate: false
-  xy: 1352, 855
+  xy: 852, 513
   size: 183, 183
   orig: 183, 183
   offset: 0, 0
   index: -1
+ResourceIcons/Power
+  rotate: false
+  xy: 548, 224
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 ResourceIcons/Slime
   rotate: false
-  xy: 469, 143
+  xy: 524, 684
   size: 320, 320
   orig: 320, 320
   offset: 0, 0
   index: -1
 UnitIcons/Slime 1
   rotate: false
-  xy: 469, 143
+  xy: 524, 684
   size: 320, 320
   orig: 320, 320
   offset: 0, 0
   index: -1
 UnitIcons/Slime 2
   rotate: false
-  xy: 469, 143
+  xy: 524, 684
   size: 320, 320
   orig: 320, 320
   offset: 0, 0
   index: -1
 UnitIcons/Slime 3
   rotate: false
-  xy: 469, 143
+  xy: 524, 684
   size: 320, 320
   orig: 320, 320
   offset: 0, 0
   index: -1
 ResourceIcons/Visionary
   rotate: false
-  xy: 4, 6
+  xy: 1564, 1587
   size: 457, 457
   orig: 457, 457
   offset: 0, 0
   index: -1
 UnitIcons/Beast cavalry
   rotate: false
-  xy: 1818, 1432
+  xy: 1919, 906
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chongyue
   rotate: false
-  xy: 1509, 1234
+  xy: 524, 496
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 UnitIcons/Dusk
   rotate: false
-  xy: 1509, 1046
+  xy: 1682, 356
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 UnitIcons/Giant settler
   rotate: false
-  xy: 1177, 46
+  xy: 1388, 133
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/High step combat
   rotate: false
-  xy: 1448, 503
+  xy: 1280, 132
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Houyi mecha
   rotate: false
-  xy: 1448, 395
+  xy: 1827, 119
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Iron Sword
   rotate: false
-  xy: 1885, 1108
+  xy: 520, 116
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kamikaze ride
   rotate: false
-  xy: 1020, 262
+  xy: 1160, 536
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Katana
   rotate: false
-  xy: 1228, 339
+  xy: 1496, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Knight fleet
   rotate: false
-  xy: 1336, 339
+  xy: 1604, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kuafu tank
   rotate: false
-  xy: 1444, 287
+  xy: 1712, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lava Sword
   rotate: false
-  xy: 1285, 231
+  xy: 628, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ling
   rotate: false
-  xy: 1543, 858
+  xy: 1043, 348
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 UnitIcons/Loulan Cavalry
   rotate: false
-  xy: 1285, 123
+  xy: 736, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Low-level infantry
   rotate: false
-  xy: 1285, 15
+  xy: 1008, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Marine_TD
   rotate: false
-  xy: 1044, 470
+  xy: 1160, 744
   size: 260, 260
   orig: 260, 260
   offset: 0, 0
   index: -1
 UnitIcons/Medium Infantry
   rotate: false
-  xy: 1393, 179
+  xy: 844, 25
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Monster Nian
   rotate: false
-  xy: 797, 112
+  xy: 1870, 227
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Nian
   rotate: false
-  xy: 1697, 1234
+  xy: 1231, 348
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 UnitIcons/Nvwa
   rotate: false
-  xy: 1393, 71
+  xy: 1388, 25
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Self-propelled artillery
   rotate: false
-  xy: 1552, 287
+  xy: 1820, 11
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shu
   rotate: false
-  xy: 1697, 1046
+  xy: 712, 325
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 UnitIcons/Skeleton 1
   rotate: false
-  xy: 1609, 179
+  xy: 1928, 11
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skeleton 2
   rotate: false
-  xy: 1609, 71
+  xy: 328, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skeleton 3
   rotate: false
-  xy: 1912, 1000
+  xy: 436, 8
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Solar corona
   rotate: false
-  xy: 4, 1511
+  xy: 4, 1532
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/Stalker
   rotate: false
-  xy: 1564, 1422
+  xy: 1428, 513
   size: 246, 246
   orig: 246, 246
   offset: 0, 0
   index: -1
 UnitIcons/Stargate
   rotate: false
-  xy: 4, 991
+  xy: 524, 1532
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/The guardian of the giants
   rotate: false
-  xy: 1920, 784
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Thousand machine gun
   rotate: false
-  xy: 1812, 649
+  xy: 1496, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/joint command
   rotate: false
-  xy: 1556, 639
+  xy: 1712, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/tank_IBBE
   rotate: false
-  xy: 524, 471
+  xy: 4, 492
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-UnitIcons/zombie 1
-  rotate: false
-  xy: 1556, 531
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/zombie 2
-  rotate: false
-  xy: 1556, 423
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/zombie 3
-  rotate: false
-  xy: 1664, 642
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitPromotionIcons/Barbarians
   rotate: false
-  xy: 1919, 1923
+  xy: 1919, 1014
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blade Soul Fire
   rotate: false
-  xy: 1919, 1815
+  xy: 1919, 798
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blade Soul Kim
   rotate: false
-  xy: 1919, 1707
+  xy: 1428, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blade Soul Soil
   rotate: false
-  xy: 1069, 154
+  xy: 1043, 596
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blade Soul Water
   rotate: false
-  xy: 1488, 747
+  xy: 1555, 405
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blade Soul Wood
   rotate: false
-  xy: 1596, 750
+  xy: 412, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dark capture
   rotate: false
-  xy: 957, 4
+  xy: 792, 217
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Desert yellow sand
-  rotate: false
-  xy: 1664, 516
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-NationIcons/Loulan
-  rotate: false
-  xy: 1664, 516
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
 UnitPromotionIcons/Illusory resonance
   rotate: false
-  xy: 1885, 1324
+  xy: 1935, 119
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Phantom dust
   rotate: false
-  xy: 1885, 1324
+  xy: 1935, 119
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game5.png
+size: 512, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Universe Genesis
+  rotate: false
+  xy: 328, 44
+  size: 52, 60
+  orig: 52, 60
+  offset: 0, 0
+  index: -1
+UnitIcons/zombie 1
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/zombie 2
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/zombie 3
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Desert yellow sand
+  rotate: false
+  xy: 388, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+NationIcons/Loulan
+  rotate: false
+  xy: 388, 54
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
