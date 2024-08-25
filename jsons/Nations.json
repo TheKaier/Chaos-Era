@@ -371,7 +371,7 @@
 		"innerColor": [184, 0, 0],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
-		"uniques": ["Damage is ignored when determining unit Strength","[+23]% Strength <with [1] to [6] neighboring [Coast] tiles>","[+1] Movement <with [1] to [6] neighboring [Coast] tiles>",
+		"uniques": ["No damage penalty for wounded units <for [non-[Air]] units>","[+23]% Strength <with [1] to [6] neighboring [Coast] tiles>","[+1] Movement <with [1] to [6] neighboring [Coast] tiles>",
 		"[+1] Movement <with [3] to [6] neighboring [Coast] tiles>",
 		"[Land] units gain the [Amphibious] promotion"],
 		"civilopediaText":[
@@ -743,13 +743,9 @@
 		"favoredReligion": "Tengriism",
 		"uniqueName": "Mongol Terror",
 		"uniques": ["[+40]% Strength <vs [City-States]>",
+		"[+15]% Strength <for [Mounted] units>",
 		"[+1] Movement <for [Mounted] units>",
-		"[+25]% [Culture] [in pupetted cities]",
-		"[+25]% [Science] [in pupetted cities]",
-		"[+25]% [Food] [in pupetted cities]",
-		"[+50]% [Happiness] [in pupetted cities]",
-		"[+50]% [Faith] [in pupetted cities]",
-		"[+25]% [Gold] [in pupetted cities]",
+		"[+20]% Production when constructing [Mounted] units [in all cities]",
 		],
 		"civilopediaText":[
         {"text": "t？"},
@@ -2020,9 +2016,9 @@
 		"cities": ["Char"],
 	},
 	{
-		"name": "Usas Empire",//乌萨斯帝国
+		"name": "Ursus Empire",//乌萨斯帝国
 		"leaderName": "emperor",
-		"adjective": ["Usas Empire"],
+		"adjective": ["Ursus Empire"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
         "startIntroPart1": "",
@@ -2037,9 +2033,9 @@
 		"outerColor": [239, 180, 0],
 		"innerColor": [0, 0, 0],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Usas Empire",
+		"uniqueName": "Ursus Empire",
         //"uniqueText": "乌萨斯帝国拥有特殊的政策",
-		"uniques": ["Starts with [Usas] adopted"],
+		"uniques": ["Starts with [Ursus] adopted"],
 		"civilopediaText":[
         {"text": "t0\n投稿人：凯尔"},
     ],
@@ -2295,7 +2291,7 @@
 		"[+1] Movement <for [Civilian] units>",
 		"[+2] Sight <for [Civilian] units>",
 		"[+10]% Production when constructing [Civilian] units [in all cities]",
-		"[+3 Food] [in all cities] <for [28] turns> <after [3] turns>",
+		"[+4 Food] [in all cities] <for [23] turns> <after turn number [3]>",
 		],
 		"civilopediaText":[
         {"text": "t2\n投稿人：凯尔"},
@@ -2689,8 +2685,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [198, 141, 99],
-		"innerColor": [245, 14, 50],
+		"outerColor": [212, 169, 137],
+		"innerColor": [183, 10, 37],
 		//"favoredReligion": "Christianity",
 		"uniqueName": "Primitive humans",
 		"uniques": [
@@ -2723,8 +2719,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [154,255,207],
-		"innerColor": [74,231,255],
+		"outerColor": [189,255,223],
+		"innerColor": [48,150,165],
 		//"favoredReligion": "Christianity",
 		"uniqueName": "Men of talent come out in succession",
 		"uniques": [
@@ -2750,8 +2746,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [0,139,139],
-		"innerColor": [240,35,0],
+		"outerColor": [89,179,179],
+		"innerColor": [155,22,0],
 		//"favoredReligion": "Christianity",
 		"uniqueName": "God walks with the wind",
 		"uniques": [
@@ -2945,8 +2941,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [70, 138, 216],
-		"innerColor": [0, 163, 0],
+		"outerColor": [45, 89, 140],
+		"innerColor": [89, 195, 89],
 		"uniqueName": "Grimer",
 		"uniques": [
 		"[+1 Food, +1 Production] from every [Marsh]",
@@ -2977,8 +2973,8 @@
 		"hateHello": "Oh. It's raining right?",
 		"tradeRequest": "what do you want?",
 
-        "outerColor": [51,204,255],
-        "innerColor": [204,51,0],
+        "outerColor": [61,206,255],
+        "innerColor": [193,48,0],
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "Khan of Heaven",
@@ -3013,8 +3009,8 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [72,109,195],
-		"innerColor": [130,26,205],
+		"outerColor": [117,145,210],
+		"innerColor": [97,19,153],
 		"uniqueName": "Illusory resonance",
 		"uniques": [
 		"[+15]% Production when constructing [Military] units [in all cities with a garrison]",
@@ -3043,12 +3039,12 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [2,139,205],
-		"innerColor": [230,216,101],
+		"outerColor": [1,126,184],
+		"innerColor": [232,219,116],
 		"uniqueName": "Universe Genesis",
 		"uniques": [
-		"Triggers a [Event.New universe] event <every [15] turns> <after [5] turns> <upon turn end>",
-		"Triggers a [Event.New universe] event <upon constructing [Wonder]> <after [5] turns> <hidden from users>",
+		"Triggers a [Event.New universe] event <every [15] turns> <after turn number [5]> <upon turn end>",
+		"Triggers a [Event.New universe] event <upon constructing [Wonder]> <after turn number [5]> <hidden from users>",
 		"Triggers a [Event.New universe] event <upon discovering [Civil Service] technology> <hidden from users>",
 		"Triggers a [Event.New universe] event <upon discovering [Metal Casting] technology> <hidden from users>",
 		
@@ -3125,8 +3121,8 @@
         "neutralHello": "Want to buy some information?",
         "hateHello": "Flip through the papers in hand",
         "tradeRequest": "I have what you need",
-		"outerColor": [131,131,131],
-		"innerColor": [82,82,82],
+		"outerColor": [149,149,149],
+		"innerColor": [69,69,69],
 		"uniqueName": "Gray spy fog",
 		"uniques": [
 		"Gain an extra spy <upon entering the [Ancient era]>",
@@ -3157,8 +3153,8 @@
 		"uniques": [
 		"Free Technology <upon constructing [Wonder]>",
 		"Free Technology <upon declaring war with a major Civilization>",
-		"Free Technology <every [16] turns>",
-		"[-50]% enemy spy effectiveness [in all cities]",
+		"Free Technology <every [20] turns>",
+		"[+100]% enemy spy effectiveness [in all cities]",
 		
 		
 		],
@@ -3202,6 +3198,106 @@
 	"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
     "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
+    /*{
+		"name": "Stonecutter",//石匠
+		"leaderName": "Stonecutter",
+		"adjective": ["Stonecutter"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": " ",
+		"attacked": " ",
+		"defeated": " ",
+		"introduction": " ",
+		"neutralHello": " ",
+		"hateHello": " ",
+		"tradeRequest": " ",
+		"outerColor": [100,60,75],
+        "innerColor": [225,15,72],
+		"uniqueName": "Incantation style",
+		"uniques": [
+		"Reveal up to [1] [City center] within a [256] tile radius <upon constructing [All]>",
+		
+		"Reveal up to [1] [Stone] within a [256] tile radius <upon constructing [All]>",
+		"[+1 Food, +1 Culture, +1 Gold, +1 Production] from [Stone] tiles [in all cities]"
+		
+		]
+		"cities": ["Incantation style"],
+	},*/
+    {
+		"name": "Assyria",//亚述
+		"leaderName": "Ashurbanipal",
+		"adjective": ["Assyria"],
+		"preferredVictoryType": "Domination",
+        "startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": " ",
+		"attacked": " ",
+		"defeated": " ",
+		"introduction": " ",
+		"neutralHello": " ",
+		"hateHello": " ",
+		"tradeRequest": " ",
+		"outerColor": [171, 116, 15],
+        "innerColor": [246,236,94],
+		"uniqueName": "Treasures of Nineveh",
+		"uniques": [
+		"[1] free random researchable Tech(s) from the [Ancient era] <during the [Ancient era]> <upon conquering a city>",
+		"[1] free random researchable Tech(s) from the [Classical era] <during the [Classical era]> <upon conquering a city>",
+		"[1] free random researchable Tech(s) from the [Medieval era] <during the [Medieval era]> <upon conquering a city>",
+		"[1] free random researchable Tech(s) from the [Renaissance era] <during the [Renaissance era]> <upon conquering a city>",
+		"[1] free random researchable Tech(s) from the [Industrial era] <during the [Industrial era]> <upon conquering a city>",
+		"[1] free random researchable Tech(s) from the [Modern era] <during the [Modern era]> <upon conquering a city>",
+		"[1] free random researchable Tech(s) from the [Atomic era] <during the [Atomic era]> <upon conquering a city>",
+		"[1] free random researchable Tech(s) from the [Information era] <during the [Information era]> <upon conquering a city>",
+		
+		
+		]
+		"cities": ["Nineveh"],
+	},
+
+    
+    {
+		"name": "Brazil",
+		"leaderName": "Pedro II",
+		"adjective": ["Brazil"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType":"Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [1, 32, 97],
+		"innerColor": [0,156,59],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Carnival",
+		"uniques": [
+		"[+100]% [Culture] [in all cities] <during a Golden Age>",
+		"[Great Artist] is earned [50]% faster <during a Golden Age>",
+		"[Great Artist] is earned [50]% faster",
+		
+		
+		
+		
+		
+		]
+		"cities": ["Brasilia", "Sao Paulo", "Rio de Janeiro", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre", "Belém", "Goiânia", "Guarulhos", "Campinas", "Sao Luis", "Sao Goncalo", "Maceio", "Duque de Caxias", "Natal", "Campo Grande", "Teresina", "Sao Bernardo do Campo", "Nova Iguacu", "João Pessoa", "Santo Andre"],
+        "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+   // <during the [Ancient era]> <upon conquering a city>
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力
 		"Provides [1] [Magic power]<every [1] turns>"//回合魔

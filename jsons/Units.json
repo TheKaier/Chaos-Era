@@ -23,7 +23,7 @@
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population",
 			//"[+1] Movement <after adopting [Colonization time is up]>",
-		"[+2] Movement <before [2] turns>",
+		"[+2] Movement <before turn number [2]>",
 			],
 		"hurryCostModifier": 20
 	},
@@ -443,7 +443,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Catapult",
+		"name": "Catapult",//投石车
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 7,
@@ -816,7 +816,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
+		"uniques": ["[+1] Sight", "Withdraw before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1315,7 +1315,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraw before melee combat <with [80]% chance>","[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 
@@ -2545,7 +2545,7 @@
 		"requiredTech": "Civil Service",
 		"promotions": ["Amphibious"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>",
-		"Heal this unit by [10] HP <for [1] movement> <[3] times>",
+		"[This Unit] heals [10] HP <for [1] movement> <[3] times>",
 		],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -2563,7 +2563,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Heal this unit by [20] HP <for [0] movement> <[1] times>","[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[This Unit] heals [20] HP <for [0] movement> <[1] times>","[+50]% Strength <vs [Mounted] units>"],
 	},
 	{
 		"name": "Stargate",//星门
@@ -3091,7 +3091,7 @@
 		"requiredTech": "Trapping",
 		"obsoleteTech": "Civil Service",
 		"uniques": ["Can only attack [Military] units",
-		"May withdraw before melee ([30]%)",
+		"Withdraw before melee combat <with [30]% chance>"
 		"Unable to capture cities",
 		"May Paradrop up to [6] tiles from inside friendly territory",
 		"Invisible to non-adjacent units",
@@ -3170,14 +3170,14 @@
 		],
 		"attackSound": "nuke"
 	},
-		   {
+    {
 		"name": "The frigate Britannia",
 		"unitType": "Ranged Water",
 		"replaces": "Frigate",
 		"uniqueTo": "Steam UK",
 		"movement": 5,
-		"strength": 33,
-		"rangedStrength": 43,
+		"strength": 30,
+		"rangedStrength": 39,
 		"cost": 145,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
@@ -3186,24 +3186,64 @@
 		//"hurryCostModifier": 20,
 		"attackSound": "cannon",
 		},
+		/*{
+		"name": "Incantation stone statue",//咒文石像
+		"unitType": "Sword",
+		"uniqueTo": "Stonecutter",//石匠
+		"movement": 2,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Mathematics",
+		"uniques": [
+		//"Limited to [7] per Civilization",
+		"This Unit gains [2] movement <upon losing at least [5] HP in a single attack>",
+		//"Unbuildable",
+		"Heals [35] damage if it kills a unit",
+		"Cannot be purchased",
+		"[9] additional attacks per turn",
+		"Can move after attacking",
+		],
+		},*/
+	{
+		"name": "Siege Tower",//攻城塔
+		"unitType": "Sword",
+		"replaces": "Catapult",
+		"uniqueTo": "Assyria",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+		"[+1] Sight", "Can only attack [City] units",
+		"[+50]% Strength bonus for [Military] units within [2] tiles <with [1] to [6] neighboring [City center] tiles> <when fighting in [Foreign Land] tiles>",
+		"[-50]% Strength <with [1] to [6] neighboring [City center] tiles>",
+		],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "FEB",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Brazil",
+		"movement": 2,
+		"strength": 70,
+		"cost": 300,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Empire enters a [2]-turn Golden Age <upon defeating a [Wounded] unit>",
+		],
+		"attackSound": "shot"
+	},
+	
+	
+	
+	
 	//<with [3] to [6] neighboring [Weather controller] tiles>
-	//Weather decree
-	/*American empire = 美利坚帝国
-Eternal monarch = 永世君主
-Weather controller =天气控制器
-Weather controller core = 天气控制器核心*/
-	//Kunpeng battleship
-	/*Monster Sui = BOSS岁兽
-Monster Sui Rune = 岁兽标记
-Chongyue = 重岳
-Shu = 黍
-Dusk = 夕
-Nian = 年
-Ling = 令*/
 	//"[+1] Range"
-	//Golden armor
-	//Rising Sun Power armor
-	//Solar corona
 	//"Instantly consumes [10] [Horses]",
 	//"Instantly provides [5] [Horses]",
 	//<upon being defeated>
@@ -3215,4 +3255,5 @@ Ling = 令*/
 	//"promotions": ["Amphibious"],
 	//"Will not be displayed in Civilopedia"
 	//<during a Golden Age>
+	//"This Unit loses [1] movement",
 ]

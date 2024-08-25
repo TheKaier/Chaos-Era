@@ -30,7 +30,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Dark","Blade Soul",],
         "row": 0,
         "column": 0
@@ -274,7 +274,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraw before melee combat <with [75]% chance>"], // This number is not based on any source
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
@@ -721,7 +721,7 @@
 	},
 	{
 		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
+		"uniques": ["Withdraw before melee combat <with [80]% chance>"]
 	},
 	{
 		"name": "Ignore terrain cost",
@@ -802,24 +802,24 @@
 		//"[+1] Movement <during a Golden Age>"
 		]
 	},
-//阴暗帝国的东西
+//阴暗帝国
    	{
-		"name": "Dark hidden",//你说这样子是不是根本打不死人？
+		"name": "Dark hidden",
 		"uniques": ["Invisible to non-adjacent units",]
-	},//阴暗帝国都是些逆天玩意，对吧？
+	},
    	{
-		"name": "Dark capture",//这个是抓人的
+		"name": "Dark capture",
 		"prerequisites": ["Shock II","Drill II",],
 		"unitTypes": ["Dark"],
 		"uniques": ["[+20]% Strength <when attacking>","Heals [20] damage if it kills a unit","[+1] Movement",]
         "column": 0,
         "row": 5,
-	},//我在这里自言自语，会有人看到吗？
+	},
 	{
 		"name": "The King of War",//战争之王
-		"uniques": ["[+1000]% Strength <vs [Barbarian] units>","Heals [100] damage if it kills a unit","Earn [300]% of the damage done to [All] units as [Science]","Earn [300]% of the damage done to [All] units as [Culture]","[+1] Movement","[+1] Movement <during a Golden Age>","May withdraw before melee ([90]%)"]
+		"uniques": ["[+1000]% Strength <vs [Barbarian] units>","Heals [100] damage if it kills a unit","Earn [300]% of the damage done to [All] units as [Science]","Earn [300]% of the damage done to [All] units as [Culture]","[+1] Movement","[+1] Movement <during a Golden Age>","Withdraw before melee combat <with [90]% chance>"]
 	},
-	//剑灵的那些金木水火土晋升
+	//剑灵
 	{
 		"name": "Blade Soul Kim",//金
 		"uniques": ["Earn [20]% of the damage done to [All] units as [Gold]","[+7]% Strength"],
@@ -883,7 +883,7 @@
 	},
 	{
 		"name": "neuromodification",//神经改良
-		"uniques": ["May withdraw before melee ([33]%)"],
+		"uniques": ["Withdraw before melee combat <with [33]% chance>"],
         "column": 30,
         "row": 5
 	},
@@ -1041,7 +1041,7 @@
 	{
 		"name": "Grimer",//臭泥
 		"uniques": [
-		"This Unit takes [20] damage <[10] times> <for [1] movement>",
+		"[This Unit] takes [20] damage <[10] times> <for [1] movement>",
 			"Turn this tile into a [Marsh] tile <when below [90] HP> <in tiles without [Marsh]> <upon turn end>",
 			"Unit will heal every turn, even if it performs an action <in [Marsh] tiles>",
 			"[+15]% Strength <in [Marsh] tiles>",

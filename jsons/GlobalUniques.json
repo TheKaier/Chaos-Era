@@ -81,14 +81,14 @@
         
         
         //AI政策卡全解锁
-        "Provides [100] [C_P] <for [AI player]>",
-        "Provides [100] [E_P] <for [AI player]>",
-        "Provides [100] [M_P] <for [AI player]>",
+        //"Provides [100] [C_P] <for [AI player]>",
+        //"Provides [100] [E_P] <for [AI player]>",
+        //"Provides [100] [M_P] <for [AI player]>",
         
-        
-        
-        
-        
+        "Provides [1] [A_P] <after discovering [Ancient_era]>",
+        "Provides [1] [A_P] <after discovering [Medieval_era]>",
+        "Provides [1] [A_P] <after discovering [Industrial_era]>",
+        "Provides [1] [A_P] <after discovering [Information_era]>",
         
         
         

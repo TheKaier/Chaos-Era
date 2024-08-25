@@ -9,6 +9,8 @@
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			 //"[+1 Food, +1 Science] <with [1] to [6] neighboring [City center] tiles>",
+ ​                ​//"​[+1 Food, +1 Science] <within [1] tiles of a [City center]> <for [Stonecutter]>​"​, 
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
@@ -27,7 +29,11 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]",
+		//"[+1 Production, +1 Science] <with [1] to [6] neighboring [City center] tiles>",
+		//​"​[+1 Production, +1 Science] <within [1] tiles of a [City center]> <for [Stonecutter]>​"​, 
+		
+		],
 		"shortcutKey": "M"
 	},
 	{
@@ -227,7 +233,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
+        	"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 		]
 	},
@@ -292,7 +298,14 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+		"uniques": [
+		"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+ ​            /*"​[+2 Food, +2 Production] <in [Hill] tiles>​"​, 
+ ​                ​"​[+1 Food, +3 Production] <in [Plains] tiles> <in tiles without [Hill]>​"​, 
+ ​                ​"​[+3 Food, +1 Production] <in [Grassland] tiles> <in tiles without [Hill]>​"​, 
+ ​                ​"​[+3 Food, +1 Production] <in [Desert] tiles> <in [Fresh Water] tiles> <in tiles without [Hill]>​"​, 
+ ​                ​"​[+2 Food, +1 Production, +2 Gold] <in [Tundra] tiles> <in tiles without [Hill]>​"​, 
+ ​                ​"​[+2 Food, +1 Production, +2 Faith] <in [Snow] tiles> <in tiles without [Hill]>​"​,*/
             "Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -450,6 +463,25 @@
             "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Brazilwood Camp",//红木林场
+		"uniqueTo": "Brazil",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"gold": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"[+2 Culture] <after discovering [Acoustics]>",
+            "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+	
+	
+	
+	
+	
+	
+	//
 	/*{
 		"name": "Weather controller",//
 		"uniqueTo": "American empire",
