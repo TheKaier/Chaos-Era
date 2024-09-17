@@ -3,6 +3,13 @@
 //第1705行原版建筑
 //额外的胜利方式
 /*模组专属模式开关隐藏建筑*/
+        {//启用模式的条件建筑
+        "name": "More games",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
     /*{//启用传奇模式
         "name": "Legend mode",
         "cost": 0,
@@ -37,6 +44,17 @@
         "Hidden when [BOSS Suppresser] Victory is disabled",
         "Will not be displayed in Civilopedia"]
     },*/
+        {//启用更多事件
+        "name": "More Events",
+        "cost": 0,
+        "uniques":[
+        //"Unbuildable",
+        "Adopt [More Events]",
+        "Automatically built in all cities where it is buildable",
+        "Can only be built <in [in capital] cities>",
+        "Hidden when [More Events] Victory is disabled",
+        "Will not be displayed in Civilopedia"]
+    },
     
 	//远见胜利
 	{//"Can only be built <in [in capital] cities>",
@@ -172,6 +190,160 @@
 		"requiredTech": "Atomic Theory",
 		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Uranium]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
 	},
+	
+	
+	
+	//领袖新增
+	{
+		"name": "Frederick I",//腓特烈一世
+		"cost": 0,
+		"uniqueTo": "Germany",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [Otto von Bismarck]>",
+		"Destroyed when the city is captured",
+		
+		"[+1 Production] from all [Science] buildings",
+		"[+1 Production] from all [Culture] buildings",
+		],
+	},
+	{
+		"name": "Otto von Bismarck",//
+		"cost": 0,
+		"uniqueTo": "Germany",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [Frederick I]>",
+		"Destroyed when the city is captured",
+		
+		"When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <with [50]% chance>",
+			"[-33]% maintenance costs <for [Land] units>",
+		],
+	},
+	{
+		"name": "trajan",//图拉真
+		"cost": 0,
+		"uniqueTo": "Rome",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [Augustus Caesar]>",
+		"Destroyed when the city is captured",
+		
+		"Provides the cheapest [Culture] building in your first [3] cities for free",
+		"Provides the cheapest [Science] building in your first [3] cities for free",
+		"[+1] Movement <for [Ballista] units>",
+		"Free [Ballista] appears <upon discovering [Mathematics] technology>",
+		"Free [Legion] appears <upon discovering [Iron Working] technology>",
+		],
+	},
+	{
+		"name": "Augustus Caesar",//
+		"cost": 0,
+		"uniqueTo": "Rome",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [trajan]>",
+		"Destroyed when the city is captured",
+		
+		"[+30]% Production towards any buildings that already exist in the Capital"
+		],
+	},
+	{
+		"name": "Khufu",//胡夫
+		"cost": 0,
+		"uniqueTo": "Egypt",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [Ramesses II]>",
+		"Destroyed when the city is captured",
+		
+		"Triggers a [Monument Builders] event <upon constructing [Wonder]>",
+		],
+	},
+	{
+		"name": "Ramesses II",//
+		"cost": 0,
+		"uniqueTo": "Egypt",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [Khufu]>",
+		"Destroyed when the city is captured",
+		
+		"[+25]% Production when constructing [All] wonders [in all cities]",
+		"[+7]% Production when constructing [All] buildings [in all cities]"
+		],
+	},
+	{
+		"name": "First Emperor of Qin",//秦始皇
+		"cost": 0,
+		"uniqueTo": "China",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [Wu Zetian]>",
+		"Destroyed when the city is captured",
+		
+		"Instantly provides [1] [Chasten] <when at war> <after adopting [More Events]> <upon turn end>",
+		"[+1 Science, +1 Culture, +1 Gold, +1 Happiness, +1 Production] from every [Palace]",
+		],
+	},
+	{
+		"name": "Wu Zetian",//
+		"cost": 0,
+		"uniqueTo": "China",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [First Emperor of Qin]>",
+		"Destroyed when the city is captured",
+		
+		"[+1 Culture, +1 Science] <when at war>","[+3 Science] <when not at war>",
+		],
+	},
+	
+	
+	
+	
+	//
+	//"[+1 Culture] <when at war>","[+3 Science] <when not at war>",
+	//
+	/*Roosevelt = 罗斯福
+Frederick I = 腓特烈一世
+Khufu = 胡夫
+trajan = 图拉真*/
+	//First Emperor of Qin = 秦始皇
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -1866,7 +2038,8 @@
 		"uniqueTo": "China",
 		"hurryCostModifier": 20,
 		"gold": 3,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+		],
 		"requiredTech": "Writing"
 	},
 	{

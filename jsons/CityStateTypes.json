@@ -1,55 +1,122 @@
 [
     {
-        "name": "Cultured",
+        "name": "Cultured",//文化
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Medieval era]>",
-            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Culture] <starting from the [Industrial era]>"
+        "[+5]% [Culture] from every [Amphitheater]",
+            "[+4 Culture] <before the [Medieval era]>",
+            "[+7 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+15 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [Medieval era]>",
-            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+        "[+5]% [Culture] from every [Amphitheater]",
+        "[+5]% [Culture] from every [Opera House]",
+        "[+10]% [Culture] from every [Museum]",
+            "[+8 Culture] <before the [Medieval era]>",
+            "[+15 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+30 Culture] <starting from the [Industrial era]>"
         ],
         "color": [139, 96, 255]
     },
     {
-        "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "name": "Trade",//贸易
+        "friendBonusUniques": ["[+4 Gold] [in capital]"],
+        "allyBonusUniques": ["[+4 Gold] [in capital]", "[+2 Gold] [in all cities]"],
         "color": [56, 255, 112]
     },
     {
-        "name": "Mercantile",
+        "name": "Mercantile",//商业
         "friendBonusUniques": [
             "[+2 Happiness] <before the [Medieval era]>",
             "[+3 Happiness] <starting from the [Medieval era]>"
+            "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
         ],
         "allyBonusUniques": [
             "[+2 Happiness] <before the [Medieval era]>",
             "[+3 Happiness] <starting from the [Medieval era]>",
+            "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
     },
     {
-        "name": "Militaristic",
-        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "name": "Militaristic",//军事
+        "friendBonusUniques": ["Provides military units every ≈[15] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[10] turns"
+        "[+5]% Strength <for [All] units>",
+        ],
         "color": [255, 0, 0]
     },
     {
-        "name": "Religious",
+        "name": "Religious",//宗教
         "friendBonusUniques":  [
-            "[+3 Faith] <before the [Medieval era]>",
-            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+4 Faith] <before the [Medieval era]>",
+            "[+8 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+16 Faith] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <before the [Medieval era]>",
-            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+9 Faith] <before the [Medieval era]>",
+            "[+16 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+34 Faith] <starting from the [Industrial era]>"
+            "[+10]% [Faith] [in all cities]",
         ],
         "color": [255, 255, 255]
-    }
+    },
+    
+    
+    
+    
+    
+    
+    //
+    {
+        "name": "Brussels",//布鲁塞尔
+        "friendBonusUniques": [
+        "[+5]% [Culture] from every [Amphitheater]",
+            "[+4 Culture] <before the [Medieval era]>",
+            "[+7 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+15 Culture] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+        "[+15]% Production when constructing [All] wonders [in all cities]",
+        "[+5]% [Culture] from every [Amphitheater]",
+        "[+5]% [Culture] from every [Opera House]",
+        "[+10]% [Culture] from every [Museum]",
+            "[+8 Culture] <before the [Medieval era]>",
+            "[+15 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+30 Culture] <starting from the [Industrial era]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ]

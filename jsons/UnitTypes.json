@@ -6,34 +6,42 @@
     {
         "name": "Sword",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Gunpowder",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Archery",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Ranged Gunpowder",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Scout",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Mounted",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Armored",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Siege",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Civilian Water",
@@ -42,44 +50,59 @@
     {
         "name": "Melee Water",
         "movementType": "Water"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Ranged Water",
         "movementType": "Water"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"
+        "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        ]
     },
     {
         "name": "Aircraft Carrier",
         "movementType": "Water"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"
+        "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        ]
     },
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft"
+        "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        ]
     },
     {
         "name": "Atomic Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft"
+        "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        ]
     },
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"
+        "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        ]
     },
     {
         "name": "Helicopter",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
+        "uniques": ["Can pass through impassable tiles"
+        "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        ]
     },
 
     // Deprecated unit types required for mods without a UnitTypes.json file to work
@@ -87,14 +110,17 @@
     {
         "name": "Melee",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Ranged",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Armor",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "WaterCivilian",
@@ -103,30 +129,37 @@
     {
         "name": "WaterMelee",
         "movementType": "Water"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "WaterRanged",
         "movementType": "Water"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "WaterSubmarine",
         "movementType": "Water"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "WaterAircraftCarrier",
         "movementType": "Water"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "AtomicBomber",
         "movementType": "Air"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Dark",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
     {
         "name": "Blade Soul",
         "movementType": "Land"
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
     },
         {
         "name": "英雄猎手",
@@ -139,3 +172,9 @@
        // "promotions": ["克隆英雄"],
     },
 ]
+//"uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+
+
+
+
+

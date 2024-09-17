@@ -705,14 +705,37 @@
 		"Stockpiled"//库存
 		]
 	},
-	/*Monster Sui = BOSS岁兽
-Monster Sui Rune = 岁兽标记
-Chongyue = 重岳
-Shu = 黍
-Dusk = 夕
-Nian = 年
-Ling = 令*/
-	//Universe Point
-	//Music Note
-	//Inheritance of Loulan
+	{
+		"name": "Chasten",//磨炼
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "finance",//财政
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "deficit",//赤字
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	
+	
+	
 ]

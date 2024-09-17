@@ -3238,10 +3238,19 @@
 		],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Marshal",//元帅
+		"unitType": "Civilian",
+		"uniques": [
+            "[+10]% Strength bonus for [Military] units within [3] tiles",
+            "[+15]% Strength bonus for [Military] units within [1] tiles <after adopting [Military Tradition]>",
+            "Unbuildable", "Uncapturable",
+			],
+		"movement": 2
+	},
 	
 	
-	
-	
+	//Marshal
 	//<with [3] to [6] neighboring [Weather controller] tiles>
 	//"[+1] Range"
 	//"Instantly consumes [10] [Horses]",

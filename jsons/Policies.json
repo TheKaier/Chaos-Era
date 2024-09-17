@@ -155,7 +155,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+2 Happiness, +1 Culture, +2 Science] [in all cities connected to capital]",
+                    "[+1 Happiness, +1 Culture, +1 Science] [in all cities connected to capital]",
                     "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
                     "[-25]% maintenance on road & railroads",
                 ],
@@ -349,7 +349,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Medieval era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -886,7 +886,7 @@
             }
         ]
     },
-]
+
 //Tradition
 //Aristocracy
 //Legalism
@@ -928,3 +928,108 @@
 "Remove [Discipline] and refund [50]% of its cost",
 "Remove [Military Caste] and refund [50]% of its cost",*/
 //            "Only available <before adopting [Ursus]>",
+
+            {
+        "name": "Menu",
+        "era": "Ancient era",
+        "priorities": {
+            
+        },
+        "uniques": [
+        "Unavailable",
+],
+        "policies": [
+            {
+                "name": "air",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "More Events",
+                "uniques": [
+                "Triggers a [Rebellion] event<when below [-10] Happiness> <with [5]% chance> <when at war> <upon turn end> <hidden from users>",
+                "Triggers a [trade caravan] event<when above [0] Happiness> <with [5]% chance> <when not at war> <upon turn end> <hidden from users>",
+                
+                "Triggers a [Be promoted to a marshal] event <when above [4] [Chasten]> <when below [11] [Chasten]> <with [1]% chance> <upon turn end> <hidden from users>",
+                "Triggers a [Be promoted to a marshal] event <when above [11] [Chasten]> <when below [21] [Chasten]> <with [7]% chance> <upon turn end> <hidden from users>",
+                "Triggers a [Be promoted to a marshal] event <when above [20] [Chasten]> <with [15]% chance> <upon turn end> <hidden from users>",
+                "Triggers a [A vase is broken] event <when above [-5] Happiness> <when below [5] Happiness> <with [1]% chance> <upon turn end> <hidden from users>",
+                
+                "Triggers a [Chaotic scene] event <starting from the [Renaissance era]> <when above [300] [Science]> <with [15]% chance> <before adopting [espionage activities]> <upon turn end> <hidden from users>",
+                "Remove [espionage activities] <every [5] turns> <after adopting [espionage activities]> <before adopting [Spy stop]> <upon turn end> <hidden from users>",
+                "Remove [Spy stop] <every [10] turns> <after adopting [Spy stop]> <upon turn end> <hidden from users>",
+                "Adopt [Early empire] <starting from the [Classical era]> <when above [150] [Culture]> <when above [85] [Science]> <before adopting [Early empire]> <upon turn end> <hidden from users>",
+                "Adopt [Great empire] <starting from the [Medieval era]> <when above [300] [Culture]> <when above [300] [Science]> <before adopting [Great empire]> <upon turn end> <hidden from users>",
+                //<if no other Civilization has adopted this>
+                //<if no other Civilization has researched this>
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "espionage activities",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Spy stop",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Early empire",
+                "uniques": [
+                "Empire enters a [5]-turn Golden Age <if no other Civilization has adopted this> <hidden from users>",
+                "Empire enters a [5]-turn Golden Age <hidden from users>",
+                "Triggers a [Early empire] event <if no other Civilization has adopted this> <hidden from users>",
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Great empire",
+                "uniques": [
+                "Empire enters a [5]-turn Golden Age <if no other Civilization has adopted this> <hidden from users>",
+                "Empire enters a [5]-turn Golden Age <hidden from users>",
+                "Triggers a [Great empire] event <hidden from users>",
+                ],
+                "row": 1,
+                "column": 11
+            },
+            
+            
+            
+            //
+
+
+
+
+
+
+            //
+            
+            
+            
+            
+            {
+                "name": "Menu Complete",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
+
+
+
+
+]

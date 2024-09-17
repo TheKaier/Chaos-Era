@@ -79,7 +79,7 @@
     },
 	{
 		"name": "China",//中华
-		"leaderName": "Wu Zetian",
+		"leaderName": "Leader",//Wu Zetian
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
 
@@ -99,9 +99,10 @@
 
 		"favouredReligion": "Taoism",
 		"uniqueName": "Art of War",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [100]% faster",
-		//"Free Great Person <after discovering [Civil Service]>",
-		"[+1 Culture] <when at war>","[+3 Science] <when not at war>",],
+		"uniques": [
+		"Great General provides double combat bonus", "[Great General] is earned [100]% faster",
+		/*"[+1 Culture] <when at war>","[+3 Science] <when not at war>",*/
+		],
 		"civilopediaText":[
         {"text": "t1"},
     ],
@@ -114,7 +115,7 @@
     },
 	{
 		"name": "Egypt",//埃及
-		"leaderName": "Ramesses II",
+		"leaderName": "Leader",//Ramesses II
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
 		"preferredVictoryType": "Cultural",
@@ -136,8 +137,9 @@
 		"innerColor": [83, 0, 208],
 		"favoredReligion": "Islam",
 		"uniqueName": "Monument Builders",
-		"uniques": ["[+25]% Production when constructing [All] wonders [in all cities]",
-		"[+7]% Production when constructing [All] buildings [in all cities]"
+		"uniques": [
+		/*"[+25]% Production when constructing [All] wonders [in all cities]",
+		"[+7]% Production when constructing [All] buildings [in all cities]"*/
 		],
 		"civilopediaText":[
         {"text": "t2"},
@@ -251,7 +253,7 @@
     },
 	{
 		"name": "Rome",//罗马
-		"leaderName": "Augustus Caesar",
+		"leaderName": "Leader",//Augustus Caesar
 		"adjective": ["Roman"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
@@ -271,7 +273,9 @@
 		"innerColor": [240, 199, 0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Glory of Rome",
-		"uniques": ["[+30]% Production towards any buildings that already exist in the Capital"],
+		"uniques": [
+		//"[+30]% Production towards any buildings that already exist in the Capital"
+		],
 		"civilopediaText":[
         {"text": "t2"},
     ],
@@ -316,7 +320,7 @@
     },
 	{
 		"name": "America",//美国
-		"leaderName": "George Washington",
+		"leaderName": "Roosevelt",//George Washington
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
 
@@ -335,12 +339,30 @@
         "innerColor": [255,255,255],
 
         "favoredReligion": "Christianity",
-		"uniqueName": "Manifest Destiny",
-		"uniques": ["[+1] Sight <for [{Military} {Land}] units>", "[-66]% Gold cost of acquiring tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]",
-		"[-10]% Strength <when fighting units from a Civilization with more Cities than you>","[+10]% Strength",
+		"uniqueName": "",//Manifest Destiny
+		"uniqueText": "每花50金钱，所有城市加以产能，每回合效果减半",
+		"uniques": [
+		/*"[+1] Sight <for [{Military} {Land}] units>", "[-66]% Gold cost of acquiring tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]",
+		"[-10]% Strength <when fighting units from a Civilization with more Cities than you>","[+10]% Strength",*/
+		
+		"Instantly provides [1] [deficit] <for every [1] [finance]> <when number of [Gold] is less than [finance]> <upon turn end>",
+		"Instantly consumes [1] [deficit] <for every [1] [Gold]> <when number of [Gold] is less than [finance]> <upon turn end>",
+		"Instantly consumes [1] [finance] <for every [1] [finance]> <upon turn end>",
+		"Instantly provides [1] [finance] <for every [1] [Gold]> <upon turn end>",
+		"[+1 Production] [in all cities] <for every [50] [deficit]>"
+		"Instantly consumes [1] [deficit] <for every [2] [deficit]> <upon turn end>",
+		//"Instantly consumes [1] [deficit] <when below [3] [deficit]> <when above [0] [deficit]> <upon turn end>",
+		
+		
+		
+		
+		
+		
+		
+		
 		],
 		"civilopediaText":[
-        {"text": "t3"},
+        {"text": "t？"},
     ],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
@@ -417,7 +439,7 @@
     },
 	{
 		"name": "Germany",//德国
-		"leaderName": "Otto von Bismarck",
+		"leaderName": "Leader",
 		"adjective": ["German"],
 		"preferredVictoryType": "Scientific",
 
@@ -435,8 +457,10 @@
 		"innerColor": [37, 43, 33],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Furor Teutonicus",
-		"uniques": ["When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <with [50]% chance>",
-			"[-33]% maintenance costs <for [Land] units>","Notified of new Barbarian encampments"],
+		"uniques": [
+		/*"When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <with [50]% chance>",
+			"[-33]% maintenance costs <for [Land] units>",*/
+			"Notified of new Barbarian encampments"],
 			"civilopediaText":[
         {"text": "t2"},
     ],
@@ -1232,7 +1256,7 @@
 	{
 		"name": "Brussels",
 		"adjective": ["Bruxellois"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Brussels",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1330,7 +1354,7 @@
 	{
 		"name": "Cape Town",
 		"adjective": ["Cape Town"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1342,7 +1366,7 @@
 	{
 		"name": "Helsinki",
 		"adjective": ["Helsinki"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1354,7 +1378,7 @@
 	{
 		"name": "Manila",
 		"adjective": ["Manilan"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1366,7 +1390,7 @@
 	{
 		"name": "Mogadishu",
 		"adjective": ["Mogadishu"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1378,7 +1402,7 @@
 	{
 		"name": "Rio de Janeiro",
 		"adjective": ["Carioca"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 		"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
@@ -1391,7 +1415,7 @@
 	{
 		"name": "Sydney",
 		"adjective": ["Sydney"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 
 		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
@@ -1403,7 +1427,7 @@
 	{
 		"name": "Ur",
 		"adjective": ["Ur"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 		"startBias": ["Coast"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
@@ -1417,7 +1441,7 @@
 		"name": "Vancouver",
 		"translatedName": "Vancouver",
 		"adjective": ["Vancouverite"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 
 		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
 		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
@@ -1429,7 +1453,7 @@
 	{
 		"name": "Venice",
 		"adjective": ["Venetian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Trade",
 		"startBias": ["Coast"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
@@ -3255,8 +3279,6 @@
 		]
 		"cities": ["Nineveh"],
 	},
-
-    
     {
 		"name": "Brazil",
 		"leaderName": "Pedro II",
@@ -3280,16 +3302,45 @@
 		"[+100]% [Culture] [in all cities] <during a Golden Age>",
 		"[Great Artist] is earned [50]% faster <during a Golden Age>",
 		"[Great Artist] is earned [50]% faster",
-		
-		
-		
-		
-		
 		]
 		"cities": ["Brasilia", "Sao Paulo", "Rio de Janeiro", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre", "Belém", "Goiânia", "Guarulhos", "Campinas", "Sao Luis", "Sao Goncalo", "Maceio", "Duque de Caxias", "Natal", "Campo Grande", "Teresina", "Sao Bernardo do Campo", "Nova Iguacu", "João Pessoa", "Santo Andre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
     },
-    
+    {
+		"name": "Intellectual forest",//智识森林
+		"leaderName": "dryads",
+		"adjective": ["Intellectual forest"],
+		"preferredVictoryType": "Scientific",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [10, 250, 56],
+		"innerColor": [100, 100, 100],
+		"uniqueName": "Intellectual forest",
+		"uniques": [
+		"Nullifies [Science] [in all cities]",
+		"Nullifies [Culture] [in all cities]",
+		"[+4 Science]",
+		"[+1 Culture]",
+		//"Gain [10] [Science] <after turn number [3]>",
+		//"Gain [10] [Culture] <after turn number [3]>",
+		"Gain [3] [Science] <for every [10] [Culture]> <upon turn end>",
+		"Gain [2] [Culture] <for every [10] [Science]> <upon turn end>",
+		//"Gain [-1] [Science] <for every [25] [Culture]> <upon turn end>",
+		//"Gain [-1] [Culture] <for every [25] [Science]> <upon turn end>",
+		"[-20]% [Production] [in all cities]",
+		],
+		/*"civilopediaText":[
+        {"text": "t？\n投稿人：凯尔"},
+    ],*/
+		"cities": ["Intellectual forest",],
+    },
     
     
     

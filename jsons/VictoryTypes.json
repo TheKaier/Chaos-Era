@@ -77,5 +77,11 @@
         "Build [BOSS Suppresser]"
         ]
     },*/
-    
+     {//启用更多事件
+        "name":"More Events",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [More games]"
+        ]
+    },
 ]

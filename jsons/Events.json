@@ -1,4 +1,37 @@
 [//"Triggers a [事件名] event"
+    
+    
+    
+    
+    {
+        "name":"Monument Builders",
+        "text":"",
+        "choices":[
+        {
+        "text":"",
+        "triggeredUniques":[
+        "[+5]% Production when constructing [All] wonders [in all cities] <for [1000] turns>",
+        "[+15]% Production when constructing [All] wonders [in all cities] <for [15] turns>",
+		    ],
+        },
+        {
+        "text":"",
+        "triggeredUniques":[
+        "Gain enough Faith for [33]% of a Great Prophet <after founding a Pantheon>",
+        "Empire enters a [5]-turn Golden Age",
+        ]
+        },
+        {
+        "text":"",
+        "triggeredUniques":[
+        "[+5]% Strength <for [All] units> <for [15] turns>",
+        "[+15]% Production when constructing [Military] units [in all cities] <for [15] turns>",
+        ]
+        },
+        ]
+    }
+    
+    
     {
         "name":"Event.New universe",//宇宙创生
         "text":"Our instruments have made some modifications to the universe",
@@ -173,6 +206,231 @@
     },
         
     
+    {
+        "name":"Rebellion",
+        "text":"There was a rebellion in one of our cities, and the rebellious citizens looted the city coffers.",
+        "choices":[
+        {
+        "text":"Let it go.",
+        "triggeredUniques":[
+        "Gain [-150]-[-75] [Gold] <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Violence must be met by violence.",
+        "triggeredUniques":[
+        "[-1] population in a random city <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Heavy rules for troubled times.",
+        "triggeredUniques":[
+        "Free [Worker] appears <hidden from users>",
+        "Cannot build [Settler] units <for [15] turns> <hidden from users>",
+        "[-10]% Strength <for [All] units> <for [15] turns> <hidden from users>",
+		    ],
+        },
+        ]
+    }
+    {
+        "name":"trade caravan",
+        "text":"A foreign caravan came to our city, hoping to exchange some goods with us.",
+        "choices":[
+        {
+        "text":"Exchange map",
+        "triggeredUniques":[
+        "[+1] Sight <for [1] turns> <for [All] units> <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Buy their curiosities",
+        "triggeredUniques":[
+        "Empire enters a [4]-turn Golden Age <hidden from users>",
+        "Gain [-278]-[-159] [Gold] <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Ask for some gossip",
+        "triggeredUniques":[
+        
+        "[+5]% [Culture] [in all cities] <for [5] turns> <hidden from users>",
+        "[+5]% [Science] [in all cities] <for [5] turns> <hidden from users>",
+		    ],
+        },
+        ]
+    }
+    {
+        "name":"Be promoted to a marshal",
+        "text":"One of the soldiers was so distinguished in the battle that we wished to appoint him marshal.",
+        "choices":[
+        {
+        "text":"Honor him.",
+        "triggeredUniques":[
+        "Free [Marshal] appears <hidden from users>",
+        "Instantly consumes [1] [Chasten] <for every [1] [Chasten]> <hidden from users>",
+		    ],
+        },
+        {
+        "text":"He's not qualified for it.",
+        "triggeredUniques":[
+        "Instantly consumes [5] [Chasten] <hidden from users>",
+		    ],
+        },
+        ]
+    }
+    {
+        "name":"A vase is broken",
+        "text":"A vase is broken",
+        "choices":[
+        {
+        "text":"",
+        "triggeredUniques":[
+        "Gain [1] [Faith]",
+        "I don't like that vase anyway",
+        "Gain [-1] [Faith]",
+		    ],
+        },
+        ]
+    }
+    {
+        "name":"Chaotic scene",
+        "text":"The documents of the research institute were scattered on the ground, and we suspected that it may have been the work of foreign spies, but fortunately no documents were lost.",
+        "choices":[
+        {
+        "text":"It just blew away",
+        "triggeredUniques":[
+        "Triggers a [espionage activities] event <with [33]% chance> <before adopting [espionage activities]> <hidden from users>"
+		    ],
+        },
+        {
+        "text":"Strengthen supervision",
+        "triggeredUniques":[
+        "[-5]% [Science] [in all cities] <for [10] turns> <hidden from users>",
+        "Triggers a [espionage activities] event <with [5]% chance> <before adopting [espionage activities]> <hidden from users>"
+		    ],
+        },
+        
+        ]
+    }
+    {
+        "name":"espionage activities",
+        "text":"The theft of the research results of the institute should be thoroughly investigated",
+        "choices":[
+        {
+        "text":"It's just some papers",
+        "triggeredUniques":[
+        "Adopt [espionage activities] <hidden from users>",
+        "Gain [-500]-[-150] [Science] <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Lock this place down.",
+        "triggeredUniques":[
+        "Adopt [espionage activities] <hidden from users>",
+        "Gain [-200]-[-150] [Gold] <hidden from users>",
+        "Triggers a [Catch the spy] event <with [33]% chance> <before adopting [Spy stop]> <hidden from users>"
+		    ],
+        },
+        
+        ]
+    }
+    
+    
+    {
+        "name":"Catch the spy",
+        "text":"We finally found the answer. We caught a foreign spy who was responsible for everything",
+        "choices":[
+        {
+        "text":"Put him to death",
+        "triggeredUniques":[
+        "Adopt [Spy stop] <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Let the country ransom him",
+        "triggeredUniques":[
+        "Adopt [Spy stop] <hidden from users>",
+        "Gain [100]-[350] [Gold] <hidden from users>",
+        "Remove [Spy stop] <with [33]% chance> <hidden from users>",
+        ]
+        },
+        
+        ]
+    }
+    
+    {
+        "name":"Early empire",
+        "text":"Your country is ahead of the rest of the world, let us decide the development strategy!",
+        "choices":[
+        {
+        "text":"Magnificent",
+        "triggeredUniques":[
+        "Free [Worker] appears <hidden from users>",
+        "[+10]% Production when constructing [All] buildings [in all cities] <for [15] turns> <hidden from users>",
+        "[-15]% Culture cost of natural border growth [in all cities] <for [15] turns> <hidden from users>",
+		    ],
+        },
+        {
+        "text":"The evangelist's journey",
+        "triggeredUniques":[
+        "Gain enough Faith for [75]% of a Great Prophet <hidden from users>",
+        "[+2 Faith] from every [Wonder] <for [15] turns> <hidden from users>",
+        "[+20]% Production when constructing [All] wonders [in all cities] <for [15] turns> <hidden from users>",
+        ]
+        },
+        {
+        "text":"Here be dragons",
+        "triggeredUniques":[
+        "[+2] Sight <for [5] turns> <for [All] units> <hidden from users>",
+        "[+20]% [Culture] [in all cities] <for [15] turns> <hidden from users>",
+        "[+20]% [Science] [in all cities] <for [15] turns> <hidden from users>",
+        "[+2 Happiness] from every [Wonder] <for [15] turns> <hidden from users>",
+        ]
+        },
+        ]
+    }
+    
+    {
+        "name":"Great empire",
+        "text":"Our national power has risen to a new level, and we should determine the next direction.",
+        "choices":[
+        {
+        "text":"Magnificent",
+        "triggeredUniques":[
+        "Free [Settler] appears <hidden from users>",
+        "[+15]% Production when constructing [All] buildings [in all cities] <for [20] turns> <hidden from users>",
+        "[-20]% Culture cost of natural border growth [in all cities] <for [20] turns> <hidden from users>",
+		    ],
+        },
+        {
+        "text":"The evangelist's journey",
+        "triggeredUniques":[
+        "Gain enough Faith for [75]% of a Great Prophet <hidden from users>",
+        "[+2 Faith, +1 Science, +1 Production, +1 Gold, +1 Culture] from every [Wonder] <for [20] turns> <hidden from users>",
+        "[+25]% Production when constructing [All] wonders [in all cities] <for [20] turns> <hidden from users>",
+        ]
+        },
+        {
+        "text":"Monetary reform",
+        "triggeredUniques":[
+        "[+50]% [Gold] [in all cities] <for [20] turns> <hidden from users>",
+        "[+1 Happiness, +1 Culture, +1 Science] [in all cities connected to capital] <for [20] turns> <hidden from users>",
+        "[-25]% maintenance on road & railroads <for [20] turns> <hidden from users>",
+        ]
+        },
+        ]
+    }
+    
+    
+    
+    //
+
+
+
+
+    //
+    
+    //Rebellion
 
 ]
     //<hidden from users>
