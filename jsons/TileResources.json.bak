@@ -772,7 +772,7 @@
 		"uniques": [
 		//"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		//"Not shown on world screen",//不显示
+		"Not shown on world screen",//不显示
 		]
 	},
 	

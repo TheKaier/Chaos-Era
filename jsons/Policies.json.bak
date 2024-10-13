@@ -967,11 +967,11 @@
                 "Adopt [Industrial era] <starting from the [Industrial era]> <when above [300] [Culture]> <when above [800] [Science]> <when above [0] Happiness> <before adopting [Industrial era]> <upon turn end> <hidden from users>",
                 "Adopt [Modern era] <starting from the [Modern era]> <when above [400] [Culture]> <when above [1000] [Science]> <when above [4] Happiness> <before adopting [Modern era]> <upon turn end> <hidden from users>",
                 
-                /*//世博会事件
+                //世博会事件
                 "Adopt [Expo countdown 0] <starting from the [Industrial era]> <before adopting [Expo opens]> <upon turn end> <hidden from users>",
                 "Triggers a [Closing of the World Expo] event <when below [0] [World Expo 2]> <after adopting [Expo opens]> <upon turn end> <hidden from users>",
                 "Adopt [ok] <hidden from users>",
-                "Remove [ok] <hidden from users>",*/
+                "Remove [ok] <hidden from users>",
                 
                 
                 

@@ -470,33 +470,13 @@
             "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
-	{
-		"name": "The_Great_Wall_Qin",//秦长城
-		"uniqueTo": "China_Qin",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Masonry",
-		"uniques": [
-		
-            ],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Fortress of God",//神之垒
-		"uniqueTo": "Whiteland",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 6,
-		"techRequired": "Engineering",
-		"uniques": ["Can be built outside your borders",],
-		"shortcutKey": "O"
-	},
 	
 	
 	
 	
-	//		    Whiteland = 白兰
-
+	
+	
+	//
 	/*{
 		"name": "Weather controller",//
 		"uniqueTo": "American empire",

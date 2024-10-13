@@ -1,3 +1,5 @@
+
+Let's begin! = 开始Unicv！ -  Chaos Era模组QQ群926974044
 #晋升#
 Dark capture = 阴暗俘获
 Dark hidden = 阴暗隐蔽
@@ -6,6 +8,129 @@ Blade Soul Wood = 木
 Blade Soul Water = 水
 Blade Soul Fire = 火
 Blade Soul Soil = 土
+Pillaging = 吃干抹净
+Impossible = 不可能的
+
+More games = 更多模式
+More Events = 更多事件
+
+When the city was built, the territory expanded = 建造城市时领土额外扩张一环
+
+
+
+
+
+There was a rebellion in one of our cities, and the rebellious citizens looted the city coffers. = 我们的一座城市发生了叛乱，暴动的市民抢劫了城市的金库。
+Let it go. = 随它去吧。
+Violence must be met by violence. = 以暴制暴。
+Heavy rules for troubled times. = 乱世用重典。
+
+A foreign caravan came to our city, hoping to exchange some goods with us. = 一支外国商队来到我们的城市，他们希望和我们交换一些货物。
+Exchange map = 交换地图
+Buy their curiosities = 购买他们的奇珍异宝
+Ask for some gossip = 询问一些小道消息
+
+
+
+
+Be promoted to a marshal = 晋升一位元帅
+One of the soldiers was so distinguished in the battle that we wished to appoint him marshal. = 在战斗中一位将士的才能十分出众，我们希望将他任命为元帅。
+Honor him. = 为他授勋。
+He's not qualified for it. = 他还不够这个资格。
+Marshal = 元帅
+Chasten = 磨炼
+
+
+A vase is broken = 一个花瓶碎了
+I don't like that vase anyway = 反正我也不喜欢那个花瓶
+
+Chaotic scene = 杂乱的现场
+The documents of the research institute were scattered on the ground, and we suspected that it may have been the work of foreign spies, but fortunately no documents were lost. = 研究院的文件散落在地上，我们猜测可能是他国间谍所为，万幸的是没有文件丢失。
+It just blew away = 不过是被风吹走而已
+Strengthen supervision = 加强看管
+
+espionage activities = 间谍活动
+We finally found the answer. We caught a foreign spy who was responsible for everything = 我们最终找到了答案，一名别国间谍被我们抓住，他就是一切的罪魁祸首
+
+The theft of the research results of the institute should be thoroughly investigated = 研究院的科研成果遭到盗窃，这件事情应当彻查
+It's just some papers = 不过是一些文件而已
+Lock this place down. = 封锁这里。
+
+
+Catch the spy = 抓住间谍
+Put him to death = 处死他
+Let the country ransom him = 让那个国家把他赎回去
+
+Spy stop = 间谍止步
+
+
+Early empire = 帝国初期
+Great empire = 巍峨帝国
+
+Magnificent = 雄伟壮丽
+The evangelist's journey = 布道者的远行
+Free exploration = 自由探索
+Here be dragons = 此处有龙
+Monetary reform = 货币改革
+
+Your country is ahead of the rest of the world, let us decide the development strategy! = 您的国家领先于世界各国，让我们来决定发展方略吧！
+Our national power has risen to a new level, and we should determine the next direction. = 我们的国家实力上升到了一个新的阶梯，我们应当确定接下来的发展方向。
+
+
+Billowing smoke = 滚滚浓烟
+Industrial Revolution = 工业革命
+
+Our country has entered the industrial age, perhaps this is the culmination of civilization = 我们的国家步入了工业时代，也许这就是文明的顶点了吧
+
+
+
+
+all is fair in war = 兵不厌诈
+globalization = 全球化
+scientific innovation = 科学革新
+Robot wars = 机器人大战
+Entering the electric age, new technologies have changed the face of society, and we believe in our hearts that the future does not stop there = 步入电气时代，全新的科技改变了社会的面貌，我们心中相信未来不止于此
+
+
+World Expo = 世博会
+Expo opens = 世博会启用
+World Expo rating = 世博会评分
+Expo countdown 10 = 世博会倒计时十位
+Expo countdown 20 = 世博会倒计时十位
+Expo countdown 30 = 世博会倒计时十位
+Expo countdown 40 = 世博会倒计时十位
+Expo countdown 60 = 世博会倒计时十位
+Expo countdown 70 = 世博会倒计时十位
+Expo countdown 80 = 世博会倒计时十位
+Expo countdown 90 = 世博会倒计时十位
+Expo countdown 0 = 世博会倒计时个位
+Expo countdown 1 = 世博会倒计时个位
+Expo countdown 2 = 世博会倒计时个位
+Expo countdown 3 = 世博会倒计时个位
+Expo countdown 4 = 世博会倒计时个位
+Expo countdown 5 = 世博会倒计时个位
+Expo countdown 6 = 世博会倒计时个位
+Expo countdown 7 = 世博会倒计时个位
+Expo countdown 8 = 世博会倒计时个位
+Expo countdown 9 = 世博会倒计时个位
+
+新领袖
+Leader = 领袖
+Roosevelt = 罗斯福
+deficit = 赤字
+finance = 财政
+Frederick I = 腓特烈一世
+Khufu = 胡夫
+trajan = 图拉真
+
+
+
+
+
+
+
+
+
 
 #部分战略资源#
 C_P = 建设槽位
@@ -30,6 +155,22 @@ Discovering Resources Uranium = 发现资源_铀
 
 
 
+#传奇模式#
+Desert yellow sand = 大漠黄沙
+Inheritance of Loulan = 楼兰传承
+Golden armor = 黄金甲
+Nightmare in the North = 北境梦魇
+The wrath of the sun God = 太阳神之怒
+
+
+
+#移除政策
+RemovePolicy.
+
+
+
+
+
 
 
 #宗教#
@@ -44,10 +185,7 @@ Colonization time is up = 殖民时间到
 The God of Dampness = 潮湿之神
 Encourage labor = 鼓励劳动
 Involuntary Servitude = 强制劳役
-
-
-
-
+Nature seeker = 自然探索者
 
 
 
@@ -180,7 +318,11 @@ Become the world religion = 成为世界宗教
 Become the dominant religion in every city of the world to win! = 成为世界上每个城市的主导宗教，赢得胜利!
 Religion = 宗教
 Unity = 统一
-
+Visionary win = 远见胜利/政策卡
+Legend mode = 启用传奇模式
+Legend_mode = 启用该文明传奇模式
+BOSS Suppresser = 启用BOSS抑制器
+BOSS_Suppresser = BOSS抑制器
 
 
 
@@ -188,6 +330,7 @@ The King of War = 战争之王
 Indian Empire = 印度帝国
 Mad Gandhi = 疯狂甘地
 Kaier = 凯尔
+Weien = 伟恩
 Rosbin City = 罗斯宾市
 Slime = 史莱姆
 Slime King = 史莱姆王
@@ -409,6 +552,7 @@ Houyi mecha = 后羿机甲
 Nuwa = 女娲战斗机
 Kunpeng battleship = 鲲鹏战舰
 Thousand machine gun = 千机重炮
+Thousand machine = 千机阵列
 Power = 电力
 
 
@@ -473,11 +617,11 @@ Rapid phagocytosis_B = 快速吞噬
 
 
 #乌萨斯帝国的翻译#
-Usas Empire = 乌萨斯帝国
+Ursus Empire = 乌萨斯帝国
 emperor = 皇帝
 Imperial tank = 帝国战车
-Usas culture = 乌萨斯文化
-The will of Usas = 乌萨斯意志
+Ursus culture = 乌萨斯文化
+The will of Ursus = 乌萨斯意志
 Like the shadow of an empire = 如帝国之影
 Hegemonic culture = 霸权文化
 Black snow = 黑色的雪
@@ -485,7 +629,7 @@ Intensification of contradiction = 矛盾的激化
 The Emperor's sword = 皇帝的利刃
 The Emperor's Sword • The Chaser = 皇帝的利刃•追猎者
 black fog = 国度
-Usas = 乌萨斯
+Ursus = 乌萨斯
 
 
 #北狄#
@@ -513,7 +657,7 @@ Beidi-food = 北狄粮食
 #远见国和短见国#
 Visionary nation = 远见国
 Visionary = 远见者
-Visionary win = 远见
+
 Once you learn to run, walking won't be a problem = 只要学会了跑，走路也就不成问题了。
 progress = 进步
 To the sky = 向那天空进发
@@ -543,7 +687,7 @@ Official salt = 官盐
 #明朝的翻译#
 China_Ming = 明朝
 Zhu Di = 朱棣
-Frontier trade = 互市
+Lining nail = 里甲
 Camp_of_Divine_Machinery = 神机营
 haijin_Ming = 海禁_明朝
 tianzishouguomen = 天子守国门
@@ -568,7 +712,7 @@ Forest Camp = 林间营
 Arcturus Mengsk = 阿克图尔斯·蒙斯克
 Terran Dominion = 泰伦帝国
 Terran = 泰伦人族
-Marine = 陆战队员
+Marine_TD = 陆战队员
 Siege Tank March_mode = 攻城坦克-行军模式
 Siege Tank Siege_mode = 攻城坦克-攻城模式
 Thunder God = 雷神
@@ -622,7 +766,222 @@ tank_IBBE = “水箱”
 
 #旭日帝国的翻译#
 The Empire of Rising Sun = 旭日帝国
+Mikado = 天皇
 The sun rises in the east = 旭日东升
 Solar corona = 日冕
 Rising Sun Power armor = 旭日动力甲
+key component = 关键组件
 Shogun Executioner = 将军刽子手
+
+#凯撒的翻译#
+Caesar = 凯撒
+Augustus = 奥古斯都
+Caiser base station = 凯撒基站
+Caesar's Legion = 凯撒军团
+Augustus drone Sleep_mode = 奥古斯都无人机-休眠模式
+Augustus drone Activation_mode = 奥古斯都无人机-激活模式
+
+
+#音乐游戏大师的翻译#
+Music Game Master = 音乐游戏大师
+Music Note = 音符
+
+#永恒国度的翻译#
+Eternal kingdom = 永恒国度-BOSS
+Dante Angela = 但丁•安吉拉
+Twelve Laws of Eternity = 永恒十二律令
+Eternal glory = 不灭荣光
+Explore the immensity = 探索无垠
+A sea of havoc = 汪洋浩劫
+Skies closed = 天空禁行
+Fire steel will = 火钢意志
+
+#原初人类的翻译#
+Primitive humans = 原初人类
+Primitive = 原初
+Primitive Granary = 原初粮储
+Primitive Shrine = 原初神庙
+
+#坎寒的翻译#
+Kanhan = 坎寒
+Awater = 为水
+Men of talent come out in succession = 人才辈出
+Senior architect = 高级工程师
+Great Man Tablet = 伟人碑
+Knight fleet = 骑士舰队
+Universe Point = 通用点数
+Kanhan_Food = 坎寒_食物
+Kanhan_Production = 坎寒_产能
+Kanhan_Gold = 坎寒_金钱
+Kanhan_Culture = 坎寒_文化
+Kanhan_Science = 坎寒_科技
+Kanhan_Faith = 坎寒_信仰
+Kanhan_Happiness = 坎寒_快乐
+
+#神风宗的翻译#
+Kamikaze = 神风宗
+Dai Li = 戴立
+God walks with the wind = 神行伴风
+Kamikaze ride = 神风骑
+
+#BOSS岁兽的翻译#
+Monster Sui = BOSS岁兽
+Monster Sui Rune = 岁兽标记
+Chongyue = 重岳
+Shu = 黍
+Dusk = 夕
+Nian = 年
+Ling = 令
+Monster Sui Altar = 岁兽坛
+
+#直立羊的翻译#
+Sheep People = 直立羊
+People of Sheep = 人羊晋升
+People Control = 人圈
+
+
+
+#苏联的翻译
+Soviet Union = 苏联
+Stalin = 斯大林
+
+
+
+#沙漠的翻译
+Desert bishop = 沙漠主教
+Desertization = 沙漠化
+
+#腐败沼泽的翻译
+Putrefaction Marsh = 腐败沼泽
+Grimer = 臭泥
+
+
+#唐朝的翻译
+China_Tang = 唐朝
+Khan of Heaven = 天可汗
+Li Shimin = 李世民
+Black Armor Force = 玄甲军
+
+
+#幻尘的翻译
+Phantom dust = 幻尘
+Void monarch = 虚无君主
+Illusory resonance = 虚幻共鸣
+Resonance altar = 共鸣坛
+
+
+Universe Genesis = 宇宙创生
+Event.New universe = 宇宙创生
+Event.New universe-Remove policy = 宇宙创生-移除政策
+Contact process machine = 触突凝炼机
+Contact overclocking machine = 触突超频机
+Contact saver machine = 触突保存机
+Our instruments have made some modifications to the universe = 我们的仪器对宇宙进行了一些修改
+Change the basic law = 改变基本规律
+Create a spectacle = 制造壮观的场面
+Change the structure of the material = 改变材料的结构
+
+
+
+#回归的错误和蛮族
+Barbarians 1 = 蛮族BOSS
+Error = 错误BOSS
+bomb 1 = 炸弹等级1
+bomb 2 = 炸弹等级2
+bomb 3 = 炸弹等级3
+bomb 4 = 炸弹等级4
+Troop carrier = 运输舰
+Pathfinder = 征服者
+Primary mixture = 原始培养体
+Error experimental project 1 = 错误实验项目1
+Who are we? Human? Material? Spiritual? Destructive? = 我们是谁？人类吗？材料？精神？破坏？
+I Am Destruction! = 我就是毁灭的化身!
+The Spirit is invisible. = 精神是看不见的。
+Matter can not be destroyed! = 物质不灭！
+Hello, human. = 你好…人类？
+You're just a lump of matter. = 你只是一团物质。
+Just exchanging some stuff. = 只是交换一些东西。
+
+#谍之星的翻译
+Star of spies = 谍之星
+From ancient times know and others“Exchange” country, want to the world all things. They set up the world regulator to see what was going on. = 从远古时代就懂得和别人“交流”的国家，欲图全世界的所有事情。他们建立了世界监管局，看尽天下事。
+The star of spies has been able to use spies since ancient times, and classical times will keep getting new spies. The proper use of spies can be very powerful. = 谍之星从远古时代就可以使用间谍，古典时代将不断获得新的间谍。合理运用间谍将会变得十分强大。
+Hey, you don't look like you're doing anything good. In fact, I know exactly what you did. = 嘿，你不像在做什么好事情。事实上，你的所作所为我一清二楚。
+I'm not going to panic. The information says it all. = 我不会惊慌，情报说明了一切。
+Perhaps, intelligence is not the absolute power of the world... = 或许，情报不是这世间的绝对实力...
+HMM? Welcome, new friend. = 嗯？新朋友，欢迎你。
+Want to buy some information? = 想要买什么情报吗？
+Flip through the papers in hand = （翻阅了一下手中的文件）
+I have what you need = 我有你需要的
+Gray spy fog = 灰暗谍雾
+World Regulatory Agency = 世界监管局
+The Spy Academy = 间谍培养院
+High-level spy agency = 高级谍报机构
+The Spy Archive = 谍报档案馆
+Intelligence markets = 情报市场
+Gorman = 戈门
+Alchemy = 布施
+Worde = 沃德
+Katya = 克季
+
+#美利坚帝国的翻译
+American empire = 美利坚帝国
+Eternal monarch = 永世君主
+Weather controller = 天气控制器
+Weather controller core = 天气控制器核心
+Weather decree = 天气诏令
+Weather machine = 天气器械
+
+
+#蒸汽英国的翻译
+Victoria = 维多利亚
+Steam UK = 蒸汽英国
+The frigate Britannia = 大不列颠护卫舰
+World Factory = 世界工厂
+Gold shipyard = 黄金造船厂
+
+
+#石匠的翻译
+Incantation stone statue = 咒文石像
+Stonecutter = 石匠
+Incantation style = 咒文术式
+
+
+Assyria = 亚述
+Ashurbanipal = 亚述巴尼拔
+Treasures of Nineveh = 尼尼微的宝藏
+Royal Library = 王室图书馆
+Siege Tower = 攻城塔
+Nineveh = 尼尼微
+
+Brazil = 巴西
+Pedro II = 佩德罗二世
+Carnival = 狂欢节
+Brazilwood Camp = 红木林场
+FEB = 巴西远征军
+
+
+Intellectual forest = 智识森林
+dryads = 树精
+
+
+
+Whiteland = 白兰
+Emperor Huweikou = 薅维蔻大帝
+Religious empire = 宗教帝国
+Whiteland hieron = 白兰神庙
+Whiteland heaven army = 白兰天兵
+Fortress of God = 神之垒
+每回合信仰获取+15%
+每回合科研获取-10%
+大先知招募速度+20%
+圣地+2快乐
+【特色建筑/单位/设施】：“神庙”取代“纪念碑”
++2文化 +2信仰
+〔特色建筑〕：见上
+〔特色单位〕：“天兵”取代“骑士”
+22防 4→
+击杀敌人后刷新行动力
+
+〔特色设施〕：“神之垒”取带“堡垒”
+不会为敌方占领和提供加成

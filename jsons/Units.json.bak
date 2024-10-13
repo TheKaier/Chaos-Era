@@ -3278,7 +3278,6 @@
 		"upgradesTo": "Pikeman",
 		"uniques": [
 		"[This Unit] heals [5] HP <upon losing at least [0] HP in a single attack>",
-		"[Target Unit] takes [10] damage <upon damaging a [Wounded] unit>",
 		],
 	},
 	
@@ -3287,7 +3286,21 @@
 	
 	
 	
+		The Goblin Kingdom = 哥布林王国
+Dr. Goblin = 哥布林博士
+Overclock = 超频
+Overclocking shock = 超频电击
+Overclocking point = 超频点数
+Frankenstein = 科学怪
+Overclocking machine = 超频机器
+科学怪 代替 枪兵
+攻击时额外造成10HP伤害
+受到至少0HP伤害时恢复5HP
 
+超频机器 代替 军营
+不可售卖
+立即提供1点超频点数
+失去15XP的效果
 	//Marshal
 	//<with [3] to [6] neighboring [Weather controller] tiles>
 	//"[+1] Range"

@@ -3945,14 +3945,16 @@ trajan = 图拉真*/
 	{
 		"name": "Overclocking machine",//超频机器
 		"uniqueTo": "The Goblin Kingdom",
-		"hurryCostModifier": 25,
-		"replaces": "Barracks",
-		"maintenance": 1,
-		"requiredTech": "Bronze Working"
+		"cost": 50,
+		"culture": 2,
+		"replaces": "Monument",
+		"maintenance": 2,
+		//"requiredTech": "Pottery",
 		"uniques": ["Destroyed when the city is captured",
 		"Instantly provides [1] [Overclocking point]",
 		]
 	},
+	
 	
 	
 

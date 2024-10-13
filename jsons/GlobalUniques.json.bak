@@ -1,0 +1,132 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+        "Cannot build [Settler] units <when below [-10] Happiness>",
+        "Rebel units may spawn <when below [-10] Happiness>",
+        "[-1] Sight <for [Embarked] units>",
+
+        // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
+        "Aircraft"
+"[+1]% Strength <for [Military] units> <vs [Japan] units> <for [Aircraft]>",
+        // TODO: Implement the uniques below
+        // "[+20]% [Culture] [in all cities] <during a golden age>",
+        // "[+20]% [Production] [in all cities] <during a golden age>",
+
+        // "[+10]% growth [in all cities] <during We Love The King Day>",
+
+        // "Nullifies All Yield <while is in resistance>",
+
+        // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
+        // "[-25]% [Culture] [in pupetted cities]"
+
+        // "[+20]% [Production] [in cities connected via railroad]"
+        // something something unit supply
+        
+
+        /*"Discover [Discovering Resources_Horses] <after discovering [Animal Husbandry]>",//立刻发现马
+        "Discover [Discovering Resources_Iron] <after discovering [Iron Working]>",//立刻发现铁
+        "Discover [Discovering Resources_Coal] <after discovering [Industrialization]>",//立刻发现煤
+        "Discover [Discovering Resources_Aluminum] <after discovering [Electricity]>",//立刻发现铝
+        "Discover [Discovering Resources_Uranium] <after discovering [Atomic Theory]>",//立刻发现铀*/
+        
+        
+        
+        //政策关闭
+        //"Provides [-100] [C_P]",
+        //"Provides [-100] [E_P]",
+        //"Provides [-100] [M_P]",
+        //"Provides [-100] [A_P]",
+        //政策修正在[远古政策]
+        
+        
+        
+        //<when below [0] [A_P]>
+        //通用政策槽bug惩罚
+        "Nullifies [Production] [in all cities] <when below [0] [A_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [A_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [A_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [A_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [A_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [A_P]>",
+		
+		"Nullifies [Production] [in all cities] <when below [0] [C_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [C_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [C_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [C_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [C_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [C_P]>",
+        
+        "Nullifies [Production] [in all cities] <when below [0] [E_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [E_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [E_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [E_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [E_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [E_P]>",
+        
+        "Nullifies [Production] [in all cities] <when below [0] [M_P]>",
+        "Nullifies [Food] [in all cities] <when below [0] [M_P]>",
+        "Nullifies [Science] [in all cities] <when below [0] [M_P]>",
+		"Nullifies [Culture] [in all cities] <when below [0] [M_P]>",
+		"Nullifies [Gold] [in all cities] <when below [0] [M_P]>",
+		"Nullifies [Faith] [in all cities] <when below [0] [M_P]>",
+        
+        
+        //"Can trade civilization introductions for [30] Gold",
+        //"Nullifies [Science] [in all cities]",
+        
+        
+        
+        //AI政策卡全解锁
+        //"Provides [100] [C_P] <for [AI player]>",
+        //"Provides [100] [E_P] <for [AI player]>",
+        //"Provides [100] [M_P] <for [AI player]>",
+        
+        "Provides [1] [A_P] <after discovering [Ancient_era]>",
+        "Provides [1] [A_P] <after discovering [Medieval_era]>",
+        "Provides [1] [A_P] <after discovering [Industrial_era]>",
+        "Provides [1] [A_P] <after discovering [Information_era]>",
+        
+        
+        
+        
+        
+        
+        //"Adopt [Early empire] <in cities with at least [1] [Population]> <in [in capital] cities> <after adopting [More Events]> <below adopting [Early empire]> <upon turn end>",
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        "I don't like that vase anyway"
+        "可以通过消耗一个通用点数来建造一下设施\n坎寒_食物 +4食物\n坎寒_产能 +3产能\n坎寒_金钱 +5金钱\n坎寒_文化 +4文化\n坎寒_科技 +4科技\n坎寒_信仰 +4信仰\n坎寒_快乐 +3快乐",
+        
+        
+        " \n东罗马帝国\n ",
+        " \n北境梦魇\n \n代替原文明能力\n",
+//防报错
+        " \n大漠黄沙\n ",
+        " \n太阳神之怒\n ",
+        " \n永恒其一•繁育丰饶",
+        " \n永恒其二•智识渴求",
+        " \n永恒其三•不灭荣光",
+        " \n永恒其四•无尽征伐",
+        " \n永恒其五•虔诚信仰",
+        " \n永恒其六•探索无垠",
+    ]
+}

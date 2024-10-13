@@ -101,6 +101,7 @@
 		"uniqueName": "Art of War",
 		"uniques": [
 		"Great General provides double combat bonus", "[Great General] is earned [100]% faster",
+		"Aircraft",
 		/*"[+1 Culture] <when at war>","[+3 Science] <when not at war>",*/
 		],
 		"civilopediaText":[

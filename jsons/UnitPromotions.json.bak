@@ -1080,12 +1080,7 @@
 		"Heals [100] damage if it kills a unit","Earn [150]% of the damage done to [All] units as [Science]","Earn [150]% of the damage done to [All] units as [Culture]"]
 	},
 	
-	{
-		"name": "Overclocking shock",//
-		"uniques": [
-		"[Target Unit] takes [10] damage <upon damaging a [Wounded] unit> <when above [0] [Overclocking point]>",
-		]
-	},
+	
 	
 	
 	
