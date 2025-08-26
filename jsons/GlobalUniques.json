@@ -1,17 +1,26 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
-        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
-        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
-        "Cannot build [Settler] units <when below [-10] Happiness>",
-        "Rebel units may spawn <when below [-10] Happiness>",
+        "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+        "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]>",
+        "Rebel units may spawn <when below [-10] [Happiness]>",
         "[-1] Sight <for [Embarked] units>",
 
         // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
         "Aircraft"
-
+        
+        //干扰文化霸权
+        /*"Instantly consumes [100] [Tourism performance] <if [Interference Culture Hegemony] is constructed by anybody> <upon turn end>",
+        "Instantly provides [10] [Tourism performance] <when below [0] [Tourism performance]> <upon turn end>",*/
+        
+        
+        
+        
+        
+        
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
         // "[+20]% [Production] [in all cities] <during a golden age>",
@@ -43,7 +52,7 @@
         //政策修正在[远古政策]
         
         
-        
+        /*
         //<when below [0] [A_P]>
         //通用政策槽bug惩罚
         "Nullifies [Production] [in all cities] <when below [0] [A_P]>",
@@ -92,7 +101,7 @@
         
         
         
-        
+        */
         
         
         //"Adopt [Early empire] <in cities with at least [1] [Population]> <in [in capital] cities> <after adopting [More Events]> <below adopting [Early empire]> <upon turn end>",

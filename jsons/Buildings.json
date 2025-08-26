@@ -3,13 +3,13 @@
 //第1705行原版建筑
 //额外的胜利方式
 /*模组专属模式开关隐藏建筑*/
-        {//启用模式的条件建筑
-        "name": "More games",
+        /*{//启用模式的条件建筑
+        "name": "More games",//更多事件
         "cost": 0,
         "uniques":[
         "Unbuildable",
         "Will not be displayed in Civilopedia"]
-    },
+    },*/
     /*{//启用传奇模式
         "name": "Legend mode",
         "cost": 0,
@@ -44,7 +44,7 @@
         "Hidden when [BOSS Suppresser] Victory is disabled",
         "Will not be displayed in Civilopedia"]
     },*/
-        {//启用更多事件
+        /*{//启用更多事件
         "name": "More Events",
         "cost": 0,
         "uniques":[
@@ -52,18 +52,99 @@
         "Adopt [More Events]",
         "Automatically built in all cities where it is buildable",
         "Can only be built <in [in capital] cities>",
-        "Hidden when [More Events] Victory is disabled",
+        "Only available <when [More Events] Victory is enabled>",
+        //"Hidden when [More Events] Victory is disabled",
         "Will not be displayed in Civilopedia"]
-    },
+    },*/
     
 	//远见胜利
 	{//"Can only be built <in [in capital] cities>",
 		"name": "To the sky",//向那天空进发
 		"uniqueTo": "Visionary nation",		
-		"isWonder": true,
-		"cost": 0,
-		"uniques": ["Consumes [1500] [Visionary]","Can only be built <in [in capital] cities>","[+5 Gold, +5 Production, +5 Culture, +5 Science, +5 Food] [in all cities]","[+25]% [Culture]","[+25]% [Science]","[+25]% [Gold]"],		
+		"isNationWonder": true,
+		"cost": 700,
+		"uniques": [
+		//"Consumes [1500] [Visionary]",
+		"Cannot be hurried",
+		"[+5 Gold, +5 Production, +5 Culture, +5 Science, +5 Food] [in all cities]",
+		"[+25]% [Culture]","[+25]% [Science]","[+25]% [Gold]",
+		"Only available <when above [1499] [Visionary]>",
+		"Can only be built <in [in capital] cities>",
+		],		
 	},
+	
+	
+	
+	
+	//胜利方式
+	//文化
+	{
+		"name": "Culture Hegemony",//文化霸权
+		"cost": 450,
+		"isWonder": true,
+		"uniques": [
+		"Cannot be hurried",
+		"Only available <when [Culture Hegemony] Victory is enabled>",
+		"Cost increases by [50] per owned city",
+		"Only available <when above [999] [Tourism performance]>",
+		]
+	},
+	{
+		"name": "Interference Culture Hegemony",//干扰文化霸权
+		"cost": 10,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <when [Culture Hegemony] Victory is enabled>",
+		"Only available <when above [149] [Tourism performance]> <when below [1] [Culture Hegemony point]> <if [Strive for Culture Hegemony] is constructed by anybody>",
+		"Automatically built in all cities where it is buildable",
+		
+		
+		]
+	},
+	{
+		"name": "Remove Interference Culture Hegemony",//移除干扰文化霸权
+		"cost": 10,
+		"uniques": [
+		"Only available <when [Culture Hegemony] Victory is enabled>",
+		"Only available <when below [150] [Tourism performance]> <in cities with a [Interference Culture Hegemony]>",
+		"Automatically built in all cities where it is buildable",
+		"Remove [Remove Interference Culture Hegemony] [in this city]",
+		"Remove [Interference Culture Hegemony] [in this city]",
+		]
+	},
+	{
+		"name": "Strive for Culture Hegemony",//争取文化霸权
+		"cost": 10,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <when [Culture Hegemony] Victory is enabled>",
+		"Only available <when above [500] [Tourism performance]>",
+		"Automatically built in all cities where it is buildable",
+		"Provides [1] [Culture Hegemony point]",
+		]
+	},
+	{
+		"name": "Remove Strive for Culture Hegemony",//移除争取文化霸权
+		"cost": 10,
+		"uniques": [
+		"Only available <when [Culture Hegemony] Victory is enabled>",
+		"Only available <when below [500] [Tourism performance]> <in cities with a [Strive for Culture Hegemony]>",
+		"Automatically built in all cities where it is buildable",
+		"Remove [Remove Strive for Culture Hegemony] [in this city]",
+		"Remove [Strive for Culture Hegemony] [in this city]",
+		]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//政策研发科技
 	{
 		"name": "Ancient_era",//远古政策
@@ -71,8 +152,10 @@
 		//"requiredBuilding": "",	
 		"uniques": ["Discover [Ancient_era]","Only available <before discovering [Ancient_era]>",
         //"Remove [Ancient_era] [in this city] <hidden from users>",
-		"Hidden when [Visionary win] Victory is disabled",
+        //"Only available <when [Visionary win] Victory is enabled>",
+		//"Only available <when [Visionary win] Victory is enabled>",
 		"Only available <starting from the [Ancient era]>",
+		"Automatically built in all cities where it is buildable",
 		//"Provides [100] [C_P]",
         //"Provides [100] [E_P]",
         //"Provides [100] [M_P]",
@@ -90,7 +173,8 @@
 		"uniques": ["Discover [Classical_era]","Only available <before discovering [Classical_era]>",
         "Remove [Classical_era] [in this city] <hidden from users>",
         "Only available <starting from the [Classical era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Automatically built in all cities where it is buildable",
+        //"Only available <when [Visionary win] Victory is enabled>",
         ]
 	},
 	{
@@ -100,7 +184,8 @@
 		"uniques": ["Discover [Medieval_era]","Only available <before discovering [Medieval_era]>",
         "Remove [Medieval_era] [in this city] <hidden from users>",
         "Only available <starting from the [Medieval era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Automatically built in all cities where it is buildable",
+        //"Only available <when [Visionary win] Victory is enabled>",
         ]
 	},
 	{
@@ -110,7 +195,8 @@
 		"uniques": ["Discover [Renaissance_era]","Only available <before discovering [Renaissance_era]>",
         "Remove [Renaissance_era] [in this city] <hidden from users>",
         "Only available <starting from the [Renaissance era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Automatically built in all cities where it is buildable",
+        //"Only available <when [Visionary win] Victory is enabled>",
         ]
 	},
 	{
@@ -120,7 +206,8 @@
 		"uniques": ["Discover [Industrial_era]","Only available <before discovering [Industrial_era]>",
         "Remove [Industrial_era] [in this city] <hidden from users>",
         "Only available <starting from the [Industrial era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Automatically built in all cities where it is buildable",
+        //"Only available <when [Visionary win] Victory is enabled>",
         ]
 	},
 	{
@@ -130,7 +217,8 @@
 		"uniques": ["Discover [Modern_era]","Only available <before discovering [Modern_era]>",
         "Remove [Modern_era] [in this city] <hidden from users>",
         "Only available <starting from the [Modern era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Automatically built in all cities where it is buildable",
+        //"Only available <when [Visionary win] Victory is enabled>",
         ]
 	},
     {
@@ -140,55 +228,83 @@
 		"uniques": ["Discover [Atomic_era]","Only available <before discovering [Atomic_era]>",
         "Remove [Atomic_era] [in this city] <hidden from users>",
         "Only available <starting from the [Atomic era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Automatically built in all cities where it is buildable",
+        //"Only available <when [Visionary win] Victory is enabled>",
         ]
 	},
-/*	{
-		"name": "Information_era",//信息政策
-		"cost":0,
-		"requiredBuilding": "Atomic_era",	
-		"uniques": ["Discover [Information_era]","Only available <before discovering [Information_era]>",
-        "Remove [Information_era] [in this city] <hidden from users>",
-        "Hidden when [Visionary win] Victory is disabled",
-        ]
-	},
-	*/
 	//发现资源科技建筑
 	{
 		"name": "Discovering Resources Horses",//发现马
 		"cost":0,
 		"requiredTech": "Animal Husbandry",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Horses]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
+		"uniques": [
+		"Destroyed when the city is captured",
+		"Discover [Discovering Resources_Horses]",
+		"Limited to [1] per Civilization",
+		"Can only be built <in [in capital] cities>",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable",
+		]
 	},
 	{
 		"name": "Discovering Resources_Iron",//发现铁
 		"cost":0,
 		"requiredTech": "Iron Working",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Iron]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
+		"uniques": ["Destroyed when the city is captured",
+		"Discover [Discovering Resources_Iron]",
+		"Limited to [1] per Civilization",
+		"Can only be built <in [in capital] cities>",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable",
+		]
 	},
 	{
 		"name": "Discovering Resources_Coal",//发现煤
 		"cost":0,
 		"requiredTech": "Industrialization",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Coal]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
+		"uniques": ["Destroyed when the city is captured",
+		"Discover [Discovering Resources_Coal]",
+		"Limited to [1] per Civilization",
+		"Can only be built <in [in capital] cities>",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable",
+		]
 	},
 	{
 		"name": "Discovering Resources_Oil",//发现石油
 		"cost":0,
 		"requiredTech": "Biology",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Oil]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
+		"uniques": ["Destroyed when the city is captured",
+		"Discover [Discovering Resources_Oil]",
+		"Limited to [1] per Civilization",
+		"Can only be built <in [in capital] cities>",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable",
+		]
 	},
 	{
 		"name": "Discovering Resources_Aluminum",//发现铝
 		"cost":0,
 		"requiredTech": "Electricity",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Aluminum]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
+		"uniques": ["Destroyed when the city is captured",
+		"Discover [Discovering Resources_Aluminum]",
+		"Limited to [1] per Civilization",
+		"Can only be built <in [in capital] cities>",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable",
+		]
 	},
 	{
 		"name": "Discovering Resources_Uranium",//发现铀
 		"cost":0,
 		"requiredTech": "Atomic Theory",
-		"uniques": ["Destroyed when the city is captured","Discover [Discovering Resources_Uranium]","Limited to [1] per Civilization","Can only be built <in [in capital] cities>","Unsellable"]
+		"uniques": ["Destroyed when the city is captured",
+		"Discover [Discovering Resources_Uranium]",
+		"Limited to [1] per Civilization",
+		"Can only be built <in [in capital] cities>",
+		"Unsellable",
+		"Automatically built in all cities where it is buildable",
+		]
 	},
 	
 	
@@ -207,6 +323,7 @@
 		
 		"[+1 Production] from all [Science] buildings",
 		"[+1 Production] from all [Culture] buildings",
+		"[+1 Production] from all [Gold] buildings",
 		],
 	},
 	{
@@ -225,6 +342,23 @@
 		],
 	},
 	{
+		"name": "Marcus Agrippa",//马尔库斯·阿格里帕‌
+		"cost": 0,
+		"uniqueTo": "Rome",
+		"isNationalWonder": true,
+		"uniques": [
+		"Unsellable",
+		"Can only be built <in [in capital] cities>",
+		"Only available <in cities without a [Augustus Caesar]>",
+		"Only available <in cities without a [trajan]>",
+		"Destroyed when the city is captured",
+		
+		"Comment [[+15]% [Production] <if [Shrine] is constructed in all [non-[Puppeted]] cities> [in all cities]]",
+		"Comment [May choose 1 additional belief of founding religion from every Shrine]",
+		"Comment [[-1 Faith] from every [Shrine]]",
+		],
+	},
+	{
 		"name": "trajan",//图拉真
 		"cost": 0,
 		"uniqueTo": "Rome",
@@ -233,6 +367,7 @@
 		"Unsellable",
 		"Can only be built <in [in capital] cities>",
 		"Only available <in cities without a [Augustus Caesar]>",
+		"Only available <in cities without a [Marcus Agrippa]>",
 		"Destroyed when the city is captured",
 		
 		"Provides the cheapest [Culture] building in your first [3] cities for free",
@@ -251,6 +386,7 @@
 		"Unsellable",
 		"Can only be built <in [in capital] cities>",
 		"Only available <in cities without a [trajan]>",
+		"Only available <in cities without a [Marcus Agrippa]>",
 		"Destroyed when the city is captured",
 		
 		"[+30]% Production towards any buildings that already exist in the Capital"
@@ -349,7 +485,7 @@ trajan = 图拉真*/
 	
 	
 	
-	
+	/*
 	
 	//通用转换
 		    {
@@ -363,7 +499,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -378,7 +514,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -393,7 +529,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -408,7 +544,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -423,7 +559,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [C_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -438,7 +574,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -453,7 +589,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -468,7 +604,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -483,7 +619,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -498,7 +634,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [E_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -513,7 +649,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -528,7 +664,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -543,7 +679,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -558,7 +694,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -573,7 +709,7 @@ trajan = 图拉真*/
         "Only available <with [A_P]>",
         "Destroyed when the city is captured",
         "Provides [1] [M_P]",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         //"Unsellable"
 ],
     },
@@ -604,7 +740,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
 ],
     },
 	    {//经济-城市规划
@@ -619,7 +755,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {//经济-服役
@@ -634,7 +770,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -650,7 +786,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -665,7 +801,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     //Classical_era
@@ -681,7 +817,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [C_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ]
     },
     {
@@ -696,7 +832,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -712,7 +848,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [C_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -727,7 +863,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -743,14 +879,14 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
         "name":"E_haijunjichusheshi",//海军基础设施
         "cost":0,
         "requiredResource":"M_P",
-        "uniques":["New [Melee Water] units start with [15] Experience [in this city] <before discovering [Industrial_era]>",
+        "uniques":["New [Military] units start with [15] XP [in this city] <before discovering [Industrial_era]>",
         "[+20]% Production when constructing [Water] units [in all cities] <before discovering [Industrial_era]>"
         "Can only be built <in [in capital] cities>",
         "Limited to [1] per Civilization",
@@ -759,7 +895,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [M_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -774,7 +910,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [C_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     //Medieval_era
@@ -790,7 +926,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [E_P] <after discovering [Modern_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -807,7 +943,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [E_P] <after discovering [Modern_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -823,7 +959,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [E_P] <after discovering [Modern_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ]
     },
     {
@@ -838,7 +974,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [C_P] <after discovering [Modern_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ]
     },
     {
@@ -853,7 +989,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [C_P] <after discovering [Modern_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ]
     },
     {
@@ -868,7 +1004,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Modern_era]>",
         "Provides [1] [C_P] <after discovering [Modern_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ]
     },
     //Renaissance_era
@@ -886,7 +1022,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [E_P] <after discovering [Atomic_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -903,7 +1039,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [E_P] <after discovering [Atomic_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -919,7 +1055,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [E_P] <after discovering [Atomic_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -934,7 +1070,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [E_P] <after discovering [Atomic_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -951,7 +1087,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [C_P] <after discovering [Atomic_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -969,7 +1105,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [C_P] <after discovering [Atomic_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -986,7 +1122,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Atomic_era]>",
         "Provides [1] [C_P] <after discovering [Atomic_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     //Industrial_era
@@ -1004,7 +1140,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
         "Provides [1] [E_P] <after discovering [Information_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -1020,7 +1156,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
         "Provides [1] [C_P] <after discovering [Information_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -1036,7 +1172,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
         "Provides [1] [E_P] <after discovering [Information_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1052,7 +1188,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Information_era]>",
         "Provides [1] [C_P] <after discovering [Information_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
 
     },
@@ -1070,7 +1206,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [E_P] <after discovering [Future_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1089,7 +1225,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [E_P] <after discovering [Future_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1108,7 +1244,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [C_P] <after discovering [Future_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1126,7 +1262,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [C_P] <after discovering [Future_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1143,7 +1279,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         //"Only available <before discovering [Future_era]>",
         //"Provides [1] [C_P] <after discovering [Future_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1159,7 +1295,7 @@ trajan = 图拉真*/
         "Only available <with [E_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1176,7 +1312,7 @@ trajan = 图拉真*/
         "Only available <with [C_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1191,7 +1327,7 @@ trajan = 图拉真*/
         "Only available <with [C_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1205,7 +1341,7 @@ trajan = 图拉真*/
         "Only available <with [E_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1220,7 +1356,7 @@ trajan = 图拉真*/
         "Only available <with [E_P]>",
         "Only available <after discovering [Atomic_era]>",
         "Destroyed when the city is captured",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
         
     },
@@ -1239,7 +1375,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [C_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
 	{//汉朝
@@ -1256,7 +1392,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
 	{
@@ -1275,7 +1411,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [E_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
 		{
@@ -1292,7 +1428,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [M_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
 	{
@@ -1311,7 +1447,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [E_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
 	
@@ -1338,7 +1474,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -1354,7 +1490,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -1370,7 +1506,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -1386,7 +1522,7 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Renaissance_era]>",
         "Provides [1] [M_P] <after discovering [Renaissance_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
     {
@@ -1401,10 +1537,10 @@ trajan = 图拉真*/
         "Destroyed when the city is captured",
         "Only available <before discovering [Industrial_era]>",
         "Provides [1] [M_P] <after discovering [Industrial_era]>",
-        "Hidden when [Visionary win] Victory is disabled",
+        "Only available <when [Visionary win] Victory is enabled>",
         ],
     },
-    /*
+    
     {
         "name":"Mil.zhengbing",//征兵
         "cost":0,
@@ -1835,7 +1971,7 @@ trajan = 图拉真*/
         "cost": 160,
         "maintenance": 1,
         "hurryCostModifier": 10,
-        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         "requiredTech": "Banking"
     },
     {
@@ -1843,7 +1979,7 @@ trajan = 图拉真*/
         "cost": 300,
         "maintenance": 1,
         "hurryCostModifier": 10,
-        "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         "requiredBuilding": "Constabulary",
         "requiredTech": "Electricity"
     },
@@ -1852,7 +1988,7 @@ trajan = 图拉真*/
         "cost": 120,
         "culture": 1,
         "isNationalWonder": true,
-        "uniques": ["Hidden when espionage is disabled",
+        "uniques": ["Only available <when espionage is enabled>",
             "New spies start with [1] level(s)",
             "Promotes all spies [1] time(s)",
             "Gain an extra spy", // Order is significant here
@@ -1864,7 +2000,7 @@ trajan = 图拉真*/
     {
         "name": "Great Firewall",
         "isWonder": true,
-        "uniques": ["Hidden when espionage is disabled", "[-99]% enemy spy effectiveness [in this city]",
+        "uniques": ["Only available <when espionage is enabled>", "[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in all cities]",],
         "requiredTech": "Computers"
     },
@@ -1888,7 +2024,7 @@ trajan = 图拉真*/
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city",
-		"Provides [1] [M_P] <starting from the [Classical era]> <for [China_Ming]>",
+		"Provides [1] [M_P] <starting from the [Classical era]> <for [China_Ming] Civilizations>",
 		]
 	},
 	//各种各样的特色宫殿
@@ -1945,8 +2081,8 @@ trajan = 图拉真*/
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","Provides [1] [DNA] <for [Zerg]>",
-		
+		"uniques": ["Destroyed when the city is captured","Provides [1] [DNA] <for [Zerg] Civilizations>",
+		"Provides [1] [Tourism performance]",
 		]
 	},
 	{
@@ -1958,7 +2094,12 @@ trajan = 图拉真*/
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
-		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+		"uniques": ["Destroyed when the city is captured",
+		
+		"Provides [1] [Tourism performance]",
+		
+		
+		] //"Only available <when religion is enabled>",
 	},
 	// Column 1
 	{
@@ -1977,8 +2118,14 @@ trajan = 图拉真*/
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled",
-		 "Destroyed when the city is captured"
+		"uniques": [
+		"Only available <when religion is enabled>",
+		 "Destroyed when the city is captured",
+		"[-1 Faith] <for [Rome] Civilizations>",
+		"May choose [1] additional belief(s) of any type when [founding] a religion <for [Rome] Civilizations>",
+		 
+		 
+		 
 		]
 	},
 	{
@@ -1990,7 +2137,7 @@ trajan = 图拉真*/
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 		 "Destroyed when the city is captured"
 		]
 	},
@@ -2000,7 +2147,11 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
-            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]",
+            "Provides [5] [Tourism performance]",
+            
+            
+            ],
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
@@ -2022,6 +2173,7 @@ trajan = 图拉真*/
 		"faith": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Provides [5] [Tourism performance]",],
 		"requiredTech": "Calendar",
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
@@ -2049,7 +2201,9 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Writing",
-		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]",
+		"Provides [5] [Tourism performance]",
+		],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
 	{
@@ -2104,7 +2258,10 @@ trajan = 图拉真*/
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear"],
+		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear",
+		"Provides [5] [Tourism performance]",
+		
+		],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -2121,6 +2278,7 @@ trajan = 图拉真*/
 			//"Creates a [Ancient ruins] improvement on a specific tile",
 			//"Creates a [Ancient ruins] improvement on a specific tile",
 			"Creates a [Ancient ruins] improvement on a specific tile",
+			"Provides [5] [Tourism performance]",
 			],
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
@@ -2129,7 +2287,10 @@ trajan = 图拉真*/
 		"name": "Barracks",//兵营
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": [
+		
+		"New [Military] units start with [15] XP [in this city]",
+		  "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -2139,7 +2300,8 @@ trajan = 图拉真*/
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+			"New [Military] units start with [15] XP [in this city]",
+			 "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -2148,6 +2310,7 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"uniques": ["[+20]% Strength <for [All] units> <vs cities> <when attacking>",
 		//"Provides [1] [M_P]",
+		"Provides [5] [Tourism performance]",
 		"Free [Great General] appears",
 		],
 		"requiredTech": "Bronze Working",
@@ -2174,7 +2337,9 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]",
+			"Provides [5] [Tourism performance]",
+			],
 		"requiredTech": "Optics",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
 	},
@@ -2199,10 +2364,10 @@ trajan = 图拉真*/
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Courthouse",
+		"name": "Courthouse",//法庭
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>","Destroyed when the city is captured"],
 		"requiredTech": "Mathematics"
 	},
@@ -2213,7 +2378,10 @@ trajan = 图拉真*/
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
-		"uniques": ["Gain a free [Garden] [in this city]"],
+		"uniques": ["Gain a free [Garden] [in this city]",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
 	{
@@ -2228,6 +2396,7 @@ trajan = 图拉真*/
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Provides [5] [Tourism performance]",],
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -2239,7 +2408,7 @@ trajan = 图拉真*/
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Burial Tomb",
@@ -2285,7 +2454,10 @@ trajan = 图拉真*/
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
-		"uniques": ["Free Social Policy"],
+		"uniques": ["Free Social Policy",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Philosophy",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
@@ -2296,7 +2468,12 @@ trajan = 图拉真*/
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Destroyed when the city is captured",
+		
+		
+		"Provides [1] [Tourism performance]",
+		
+		],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -2342,7 +2519,10 @@ trajan = 图拉真*/
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
 	},
@@ -2359,7 +2539,9 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]>",
-			"Gain a free [Walls] [in this city]"],
+			"Gain a free [Walls] [in this city]",
+			"Provides [5] [Tourism performance]",
+			],
 		"requiredTech": "Engineering",
 		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
 	},
@@ -2382,7 +2564,10 @@ trajan = 图拉真*/
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Iron Working",
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
@@ -2401,7 +2586,9 @@ trajan = 图拉真*/
 		"name": "Hagia Sophia",
 		"faith": 3,
 		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
+		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>",
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -2411,9 +2598,12 @@ trajan = 图拉真*/
 		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [Mosque] [in this city]", "Hidden when religion is disabled",
+		"uniques": ["Gain a free [Mosque] [in this city]", "Only available <when religion is enabled>",
             "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
-            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
+            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
+            "Provides [5] [Tourism performance]",
+            
+            ],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
@@ -2425,7 +2615,7 @@ trajan = 图拉真*/
 		"uniques": [
 		"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
 		"Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
@@ -2435,7 +2625,10 @@ trajan = 图拉真*/
 		"happiness": 4,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+50]% Golden Age length"],
+		"uniques": ["[+50]% Golden Age length",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Civil Service",
 		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
 	},
@@ -2457,6 +2650,9 @@ trajan = 图拉真*/
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles",
+		
+		"Provides [5] [Tourism performance]",
+		
 		//"Provides [1] [E_P]",
 		],
 		"requiredTech": "Guilds",
@@ -2543,7 +2739,12 @@ trajan = 图拉真*/
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]",
+		"Provides [5] [Tourism performance]",
+		
+		
+		
+		],
 		"requiredTech": "Education",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
 	},
@@ -2576,7 +2777,10 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
-			"Gain a free [Castle] [in this city]"],
+			"Gain a free [Castle] [in this city]",
+			"Provides [5] [Tourism performance]",
+			
+			],
 		"requiredTech": "Chivalry",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
@@ -2598,6 +2802,7 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"requiredTech": "Physics",
+		"uniques": ["Provides [5] [Tourism performance]",],
 		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 	},
 	{
@@ -2605,7 +2810,8 @@ trajan = 图拉真*/
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+		 "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 
@@ -2629,7 +2835,11 @@ trajan = 图拉真*/
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured",
+		
+		"Provides [1] [Tourism performance]",
+		
+		]
 	},
 	{
 		"name": "Ceilidh Hall",
@@ -2642,14 +2852,20 @@ trajan = 图拉真*/
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 1,
 		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured",
+		"Provides [1] [Tourism performance]",
+		
+		]
 	},
 	{
 		"name": "Sistine Chapel",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[+25]% [Culture] [in all cities]"],
+		"uniques": ["[+25]% [Culture] [in all cities]",
+		"Provides [5] [Tourism performance]",
+		
+		],
 		"requiredTech": "Acoustics",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
@@ -2693,6 +2909,8 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]",
+		
+		"Provides [5] [Tourism performance]",
 		//"Provides [1] [C_P]",
 		],
 		"requiredTech": "Banking",
@@ -2711,7 +2929,10 @@ trajan = 图拉真*/
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
+		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Printing Press",
 		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
 	},
@@ -2721,6 +2942,7 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+		"Provides [5] [Tourism performance]",
 			"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Gunpowder",
 		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
@@ -2752,7 +2974,10 @@ trajan = 图拉真*/
 		"happiness": 4,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["Empire enters golden age"],
+		"uniques": ["Empire enters golden age",
+		"Provides [5] [Tourism performance]",
+		
+		],
 		"requiredTech": "Architecture",
 		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
 	},
@@ -2761,7 +2986,10 @@ trajan = 图拉真*/
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%"],
+		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Architecture",
 		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
 	},
@@ -2801,7 +3029,11 @@ trajan = 图拉真*/
 		"culture": 3,
 		"cityStrength": 12,
 		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings"],
+		"uniques": ["[+25]% City Strength from defensive buildings",
+		"Provides [5] [Tourism performance]",
+		
+		
+		],
 		"requiredTech": "Metallurgy",
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
@@ -2817,14 +3049,20 @@ trajan = 图拉真*/
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured",
+		
+		"Provides [1] [Tourism performance]",
+		]
 	},
 	{
 		"name": "The Louvre",
 		"culture": 1,
 		"happiness": 4,
 		"isWonder": true,
-		"uniques": ["[2] free [Great Artist] units appear"],
+		"uniques": ["[2] free [Great Artist] units appear",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
 	},
@@ -2847,7 +3085,7 @@ trajan = 图拉真*/
 		"requiredBuilding": "Workshop",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["Provides [1] [DNA] <for [Zerg]>"],
+		"uniques": ["Provides [1] [DNA] <for [Zerg] Civilizations>"],
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
 	},
@@ -2858,6 +3096,7 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
 		"uniques": ["[Gold] cost of purchasing items in cities [-15]%",
+		"Provides [5] [Tourism performance]",
 		//"Provides [1] [E_P]",
 		],
 		"requiredTech": "Industrialization",
@@ -2868,7 +3107,8 @@ trajan = 图拉真*/
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+		"Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -2876,7 +3116,10 @@ trajan = 图拉真*/
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Free [Great General] appears", "New [Military] units start with [20] XP [in this city]",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
@@ -2924,7 +3167,10 @@ trajan = 图拉真*/
 		"requiredBuilding": "Museum",
 		"maintenance": 3,
 		"requiredTech": "Radio",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured",
+		
+		"Provides [1] [Tourism performance]",
+		]
 	},
 	{
 		"name": "Eiffel Tower",
@@ -2932,7 +3178,11 @@ trajan = 图拉真*/
 		"happiness": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
-		"uniques": ["[+1 Happiness] per [2] social policies adopted"],
+		"uniques": ["[+1 Happiness] per [2] social policies adopted",
+		
+		"Provides [5] [Tourism performance]",
+		
+		],
 		"requiredTech": "Radio",
 		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
 	},
@@ -2950,7 +3200,11 @@ trajan = 图拉真*/
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"uniques": ["[+1 Production] from every specialist [in all cities]",
+		"Provides [5] [Tourism performance]",
+		
+		
+		],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
@@ -2962,6 +3216,7 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
+		"Provides [5] [Tourism performance]",
 			"Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
@@ -2981,7 +3236,12 @@ trajan = 图拉真*/
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-10]% Culture cost of adopting new Policies"],
+		"uniques": ["[-10]% Culture cost of adopting new Policies",
+		
+		
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
@@ -3008,7 +3268,13 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>",
+		
+		"Provides [5] [Tourism performance]",
+		
+		
+		
+		],
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
@@ -3033,7 +3299,10 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
-		"uniques": ["Free Social Policy","Must be next to [Coast]"],
+		"uniques": ["Free Social Policy","Must be next to [Coast]",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Ecology",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
 	},
@@ -3052,7 +3321,10 @@ trajan = 图拉真*/
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+		"Only available <when [Scientific] Victory is enabled>",
+		
+			//"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"
+			],
 		"requiredTech": "Rocketry"
 	},
 
@@ -3064,7 +3336,10 @@ trajan = 图拉真*/
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]"],
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]",
+		
+		"Provides [5] [Tourism performance]",
+		],
 		"requiredTech": "Telecommunications",
 		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
 	},
@@ -3081,6 +3356,8 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[2] free [Great Scientist] units appear",
 			"[+25]% Production when constructing [Spaceship part] units [in this city]",
+			"Provides [5] [Tourism performance]",
+			
 			"Gain a free [Spaceship Factory] [in this city]"],
 		"requiredTech": "Satellites",
 		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
@@ -3101,7 +3378,10 @@ trajan = 图拉真*/
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", 
+		//"Hidden when [Diplomatic] Victory is disabled", 
+		"Only available <when [Diplomatic] Victory is enabled>",
+		"Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 
@@ -3111,8 +3391,8 @@ trajan = 图拉真*/
 		"name": "Utopia Project",
 		"cost": 1500,
 		"isNationalWonder": true,
-		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
 	},
 
 	// Religious buildings
@@ -3124,7 +3404,7 @@ trajan = 图拉真*/
 		"culture": 3,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>",]
 	},
 	{
 		"name": "Monastery",
@@ -3133,7 +3413,7 @@ trajan = 图拉真*/
 		"faith": 2,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Mosque",
@@ -3141,7 +3421,7 @@ trajan = 图拉真*/
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>",]
 	},
 	{
 		"name": "Pagoda",
@@ -3149,7 +3429,7 @@ trajan = 图拉真*/
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>",]
 	},
 	//接下来就是模组了，希望这个分界线能有点用吧
 {
@@ -3273,7 +3553,8 @@ trajan = 图拉真*/
 		"requiredBuilding": "The Giant's Institute of Technology",
 "maintenance": 2,
 		"cost": 180,
-		"uniques": ["New [Military] units start with [20] Experience [in this city]", "Destroyed when the city is captured","Provides [1] [Guarder]"]
+		"uniques": ["New [Military] units start with [25] XP [in this city]",
+		"Destroyed when the city is captured","Provides [1] [Guarder]"]
 		
 "requiredTech": "Iron Working"
 	},
@@ -3577,7 +3858,8 @@ trajan = 图拉真*/
 		"replaces": "Barracks",
 		"hurryCostModifier": 20,
 		"maintenance": 0,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured",
+		"uniques": ["New [Military] units start with [15] XP [in this city]",
+		 "Destroyed when the city is captured",
 		"Free [Fly Scout] appears",
 		],
 		"requiredTech": "Bronze Working"
@@ -3625,6 +3907,7 @@ trajan = 图拉真*/
 		"uniques": ["Destroyed when the city is captured",
 		"Free [Caesar's Legion] appears",
 		"Provides [1] [Iron]",
+		"Provides [1] [Tourism performance]",
 		],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -3648,7 +3931,7 @@ trajan = 图拉真*/
 		"cost": 30,
 		//"maintenance": 1,
 		//"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled",
+		"uniques": ["Only available <when religion is enabled>",
 		 "Destroyed when the city is captured"
 		]
 	},
@@ -3662,6 +3945,7 @@ trajan = 图拉真*/
 		//"requiredTech": "Pottery",
 		"uniques": ["Destroyed when the city is captured",
 		"Provides [1] [Universe Point]",
+		"Provides [1] [Tourism performance]",
 		]
 	},
 	{
@@ -3925,7 +4209,7 @@ trajan = 图拉真*/
 		"greatPersonPoints": {"Great Artist": 1},	
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["[+1 Science] per [2] population [in this city]",
-		"New [Military] units start with [5] Experience [in this city]",
+		"New [Military] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Writing"
@@ -3940,6 +4224,7 @@ trajan = 图拉真*/
 		//"maintenance": 1,
 		//"requiredTech": "Pottery",
 		"uniques": ["Destroyed when the city is captured",
+		"Provides [1] [Tourism performance]",
 		]
 	},
 	{
@@ -3953,8 +4238,39 @@ trajan = 图拉真*/
 		"Instantly provides [1] [Overclocking point]",
 		]
 	},
-	
-	
+	{
+		"name": "Quantum Forge",
+		"cost": 320,
+		"production": 5,
+		"uniqueTo": "Deepseek Nexus",
+		"replaces": "Factory",
+		"percentStatBonus": {"production": 15, "science": 15},
+		"specialistSlots": {"Engineer": 2, "Scientist": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"uniques": [
+		"[+2 Culture, +2 Science] [in all cities connected to capital]",
+		
+		],
+		//"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Neural Conclave",
+		"maintenance": 3,
+		"hurryCostModifier": 15,
+		"replaces": "University",
+		"uniqueTo": "Deepseek Nexus",
+		"percentStatBonus": {"science": 40},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science, +2 Culture] from [Jungle] tiles [in this city]"
+		"[+2 Science, +1 Culture] from every specialist [in this city]",
+		"[-40]% enemy spy effectiveness [in this city]",
+		],
+		"requiredTech": "Education"
+	},
 
 	//Assyria
 	//<in cities with at least [1] [Specialists]>

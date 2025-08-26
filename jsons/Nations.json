@@ -240,8 +240,8 @@
 		"uniqueName": "Siberian Riches",
 		"uniques": [
 		"Comment [When the city was built, the territory expanded]",
-		"[+1 Production] from every [Strategic resource]","Double quantity of [Horses] produced",
-			"Double quantity of [Iron] produced","Double quantity of [Uranium] produced",
+		"[+1 Production] from every [Strategic resource]","[+100]% [Horses] resource production",
+			"[+100]% [Iron] resource production","[+100]% [Uranium] resource production"
 			//"[+1 Production] [in all cities] <for every [10] [Strategic resource]>",
 			],
 			"civilopediaText":[
@@ -277,6 +277,12 @@
 		"uniqueName": "The Glory of Rome",
 		"uniques": [
 		//"[+30]% Production towards any buildings that already exist in the Capital"
+		"[+15]% [Production] <if [Shrine] is constructed in all [non-[Puppeted]] cities> <hidden from users>",
+		
+		
+		
+		
+		
 		],
 		"civilopediaText":[
         {"text": "t2"},
@@ -308,7 +314,8 @@
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "Trade Caravans",
-		"uniques": ["[+2 Gold] from each Trade Route", "Double quantity of [Oil] produced",
+		"uniques": ["[+2 Gold] from each Trade Route",
+			"[+100]% [Oil] resource production",
 		"[2] Happiness from each type of luxury resource",
 		],
 		"civilopediaText":[
@@ -322,7 +329,7 @@
     },
 	{
 		"name": "America",//美国
-		"leaderName": "Roosevelt",//George Washington
+		"leaderName": "George Washington",//Roosevelt
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
 
@@ -341,23 +348,20 @@
         "innerColor": [255,255,255],
 
         "favoredReligion": "Christianity",
-		"uniqueName": "",//Manifest Destiny
-		"uniqueText": "每花50金钱，所有城市加以产能，每回合效果减半",
+		"uniqueName": "Manifest Destiny",//
+		//"uniqueText": "每花50金钱，所有城市加以产能，每回合效果减半",
 		"uniques": [
 		/*"[+1] Sight <for [{Military} {Land}] units>", "[-66]% Gold cost of acquiring tiles [in all cities]","[-25]% Culture cost of natural border growth [in all cities]",
 		"[-10]% Strength <when fighting units from a Civilization with more Cities than you>","[+10]% Strength",*/
 		
-		"Instantly provides [1] [deficit] <for every [1] [finance]> <when number of [Gold] is less than [finance]> <upon turn end>",
+		/*"Instantly provides [1] [deficit] <for every [1] [finance]> <when number of [Gold] is less than [finance]> <upon turn end>",
 		"Instantly consumes [1] [deficit] <for every [1] [Gold]> <when number of [Gold] is less than [finance]> <upon turn end>",
 		"Instantly consumes [1] [finance] <for every [1] [finance]> <upon turn end>",
 		"Instantly provides [1] [finance] <for every [1] [Gold]> <upon turn end>",
 		"[+1 Production] [in all cities] <for every [50] [deficit]>"
 		"Instantly consumes [1] [deficit] <for every [2] [deficit]> <upon turn end>",
 		//"Instantly consumes [1] [deficit] <when below [3] [deficit]> <when above [0] [deficit]> <upon turn end>",
-		
-		
-		
-		
+		*/
 		
 		
 		
@@ -599,10 +603,10 @@
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemenid Legacy",
 		"uniques": ["[+50]% Golden Age length", "[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>",
-		"[1] free [Persian Immortal] units appear <upon declaring war with a major Civilization>",
-		"Empire enters golden age <upon declaring war with a major Civilization>"
+		"[1] free [Persian Immortal] units appear <upon declaring war on [Major] Civilizations>",
+		"Empire enters golden age <upon declaring war on [Major] Civilizations>"
 		
-		//"Triggers a [Event.New universe] event <upon declaring war with a major Civilization>"//测试
+		//"Triggers a [Event.New universe] event <upon declaring war on [Major] Civilizations>"//测试
 		
 		
 		],
@@ -738,7 +742,7 @@
 		"innerColor": [90, 0, 10],
 		"favoredReligion": "Islam",
 		"uniqueName": "River Warlord",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "Defense bonus when embarked <for [All] units>", "[{Military} {Land}] units gain the [Amphibious] promotion"],
+		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[+100]% Strength <when defending> <when [Embarked]> <for [All] units>", "[{Military} {Land}] units gain the [Amphibious] promotion"],
 		"civilopediaText":[
         {"text": "t3"},
     ],
@@ -897,7 +901,7 @@
 		"uniqueName": "Viking Fury",
 		"uniques": [
 		//"[+2] Movement <for [Embarked] units>", "[1] Movement point cost to disembark <for [All] units>",
-		"Defense bonus when embarked"//船运正常防
+		"[+100]% Strength <when defending> <when [Embarked]>",//船运正常防
 	    //"May attack when embarked <for [All] units>"//船运可攻击
 		"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"No movement cost to pillage <for [All] units>",
@@ -994,13 +998,15 @@
 		"innerColor": [249, 247, 3],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Nobel Prize",
-		"uniques": ["Gain [1000] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [100]% boost to great person generation",
-		"Resting point for Influence with City-States is increased by [100]",
-		"[+10000]% Production when constructing [All] wonders [in all cities] <for [AI player]> <hidden from users>",
+		"uniques": [
+		"Earn [100]% of killed [Military] unit's [Strength] as [Science] <when not at war>",
+		"[+3 Science] from every [Great Improvement]",
+		"Gain [90] Influence with a [Great Person] gift to a City-State",
+		"When declaring friendship, both parties gain a [10]% boost to great person generation",
 		],
-		"civilopediaText":[
-        {"text": "t3，该文明不建议使用"},
-    ],
+		/*"civilopediaText":[
+        {"text": "t3"},
+    ],*/
 		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
             "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
             "Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping",
@@ -1033,7 +1039,9 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [0] turns."],
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns",
+		"Gain [20] Influence with a [Civilian] gift to a City-State",
+		],
 		"civilopediaText":[
         {"text": "t3"},
     ],
@@ -1722,7 +1730,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0, 102, 102],
 		"uniqueName": "Underground",
-		"uniques": ["[-7 Happiness]","[3] Happiness from each type of luxury resource","[+125]% growth [in all cities] <when below [0] Happiness>"],
+		"uniques": ["[-7 Happiness]","[3] Happiness from each type of luxury resource","[+125]% growth [in all cities] <when below [0] [Happiness]>"],
 		"civilopediaText":[
         {"text": "t2\n投稿人：凯尔"},
     ],
@@ -2345,7 +2353,7 @@
 		"uniques": [
 		"Discover [Discovering Resources_Iron]",
 		"Discover [Discovering Resources_Horses]",
-		"Double quantity of [Iron] produced",
+		"[+100]% [Iron] resource production",
 		"[+2 Food, +1 Culture, +1 Gold] from [Iron] tiles [in all cities]"
 		],
 		"civilopediaText":[
@@ -2428,7 +2436,7 @@
 		"Nullifies [Gold] [in all cities]",
 		"Nullifies [Faith] [in all cities]",
 		"Nullifies [Production] [in all cities]",
-		"Free [The blade of evil] appears <for [AI player]> <with [20]% chance> <upon turn end>",
+		"Free [The blade of evil] appears <for [AI player] Civilizations> <with [20]% chance> <upon turn end>",
 		"Cannot build [Settler] units",
 		],
 		"civilopediaText":[
@@ -2649,9 +2657,9 @@
         //"[Military] units gain the [Eternal glory] promotion",
         "[+100]% Golden Age length",
         //" \n永恒其四•无尽征伐",
-        "[+20]% Production when constructing [Civilian] units <when not at war> [in all cities]",
+        "[+20]% Production when constructing [Civilian] units [in all cities] <when not at war>",
         "[+1] Movement <when not at war> <for [Civilian] units>",
-        "[+20]% Production when constructing [Military] units <when at war> [in all cities]",
+        "[+20]% Production when constructing [Military] units [in all cities] <when at war>",
         "[+1] Sight <when at war> <for [Military] units>",
         //" \n永恒其五•虔诚信仰",
         "[+1 Faith] <in cities with at least [2] [Population]>",
@@ -3178,7 +3186,7 @@
 		"uniqueName": "Eternal monarch",
 		"uniques": [
 		"Free Technology <upon constructing [Wonder]>",
-		"Free Technology <upon declaring war with a major Civilization>",
+		"Free Technology <upon declaring war on [Major] Civilizations>",
 		"Free Technology <every [20] turns>",
 		"[+100]% enemy spy effectiveness [in all cities]",
 		
@@ -3308,7 +3316,7 @@
 		"cities": ["Brasilia", "Sao Paulo", "Rio de Janeiro", "Salvador", "Fortaleza", "Belo Horizonte", "Manaus", "Curitiba", "Recife", "Porto Alegre", "Belém", "Goiânia", "Guarulhos", "Campinas", "Sao Luis", "Sao Goncalo", "Maceio", "Duque de Caxias", "Natal", "Campo Grande", "Teresina", "Sao Bernardo do Campo", "Nova Iguacu", "João Pessoa", "Santo Andre"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Uturuncu", "Purutu", "Ozcollo"]
     },
-    {
+    /*{
 		"name": "Intellectual forest",//智识森林
 		"leaderName": "dryads",
 		"adjective": ["Intellectual forest"],
@@ -3322,27 +3330,21 @@
 		"neutralHello": "",
 		"hateHello": "",
 		"tradeRequest": "",
-		"outerColor": [10, 250, 56],
-		"innerColor": [100, 100, 100],
+		"outerColor": [172, 219, 134],
+		"innerColor": [43, 50, 71],
 		"uniqueName": "Intellectual forest",
 		"uniques": [
-		"Nullifies [Science] [in all cities]",
-		"Nullifies [Culture] [in all cities]",
-		"[+4 Science]",
-		"[+1 Culture]",
-		//"Gain [10] [Science] <after turn number [3]>",
-		//"Gain [10] [Culture] <after turn number [3]>",
-		"Gain [3] [Science] <for every [10] [Culture]> <upon turn end>",
-		"Gain [2] [Culture] <for every [10] [Science]> <upon turn end>",
-		//"Gain [-1] [Science] <for every [25] [Culture]> <upon turn end>",
-		//"Gain [-1] [Culture] <for every [25] [Science]> <upon turn end>",
-		"[-20]% [Production] [in all cities]",
+		"[-50]% [Science] [in all cities]",
+		"Free [Great Scientist] appears <every [8] turns>",
+		"Free [Great Scientist] appears <upon constructing [Wonder]>",
+		
+		
 		],
 		/*"civilopediaText":[
         {"text": "t？\n投稿人：凯尔"},
     ],*/
-		"cities": ["Intellectual forest",],
-    },
+		/*"cities": ["Intellectual forest",],
+    },*/
     {
 		"name": "Whiteland",//白兰
 		"leaderName": "Emperor Huweikou",
@@ -3403,11 +3405,152 @@
 		]
 		"cities": ["The Goblin Kingdom"],
     },
-    
+    {
+		"name": "Destiny of China",//天命中华
+		"leaderName": "Leader",
+		"adjective": ["Destiny"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+
+		"favouredReligion": "Taoism",
+		"uniqueName": "The changes of dynasties",
+		"uniques": [
+		/*"Provides [1] [Imperial mantle]",
+		"Consumes [1] [Lifetime]",
+		"Consumes [1] [Destiny] <when above [0] [Destiny]> <when below [-10] Happiness>",
+		"Provides [1] [Uprising] <when below [-10] Happiness>",
+		"Consumes [1] [Popular support] <when above [0] [Popular support]> <when at war>",
+		
+		"Instantly provides [25] [Lifetime] <hidden from users>",
+		"Instantly provides [90] [Destiny] <hidden from users>",
+		"Instantly provides [80] [Popular support] <hidden from users>",
+		"Instantly provides [10] [Tax revenue] <hidden from users>",
+		"Adopt [Autocratic Monarchy] <hidden from users>",
+		"[+10]% [Gold] <for every [1] [Tax revenue]> <hidden from users>",
+		"[-100]% [Gold] <hidden from users>",
+		
+		"Consumes [1] [Destiny] <when above [0] [Destiny]> <for every [10] [Imperial mantle]>",
+		"Provides [1] [Destiny] <when below [100] [Destiny]> <for every [50] [Popular support]>",
+		"Provides [1] [Uprising] <when below [60] [Destiny]>",
+		"Consumes [1] [Popular support] <when above [0] [Popular support]> <when below [60] [Destiny]>",
+		"Provides [2] [Uprising] <when below [40] [Destiny]>",
+		"Consumes [2] [Popular support] <when above [0] [Popular support]> <when below [40] [Destiny]>",
+		"Provides [1] [Revolution] <starting from the [Renaissance era]>",
+		
+		"[+10]% [Science] <for every [25] [Destiny]> <when below [49] [Destiny]>",
+		"[+10]% [Culture] <for every [25] [Destiny]> <when below [49] [Destiny]>",
+		
+		"[+10]% [Production] <for every [10] [Popular support]> <when below [49] [Popular support]>",
+		"[+10]% [Gold] <for every [10] [Popular support]> <when below [49] [Popular support]>",*/
+		
+		
+		],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
     
 
     
+/*Destiny = 天命
+Imperial mantle = 国祚
+Lifetime = 寿命
+Successor Lifetime = 继承者寿命
+Administrative ceiling = 行政上限
+Administrative = 行政点
+Popular support = 民心
+Tax revenue = 税收
+Uprising = 叛乱
+Revolution = 革命
+Destiny leader = 天命领袖
+Autocratic Monarchy = 君主专制
+Constitutional Monarchy = 君主立宪
+Congress = 议会
+Workers dictatorship = 工人专政
+Oligarchic dictatorship = 寡头独裁
+*/
+    {
+		"name": "Deepseek Nexus",//Deepseek联结体
+		"leaderName": "Deepseek Core",//Deepseek
+		"adjective": ["Neural"],
+		"startBias": ["Hill", "Avoid [Desert]"],
+		"preferredVictoryType": "Scientific",
 
+		"startIntroPart1": "Awakening protocol initiated, Deepseek Core. Born from the quantum servers of the 21st century, you emerged as the first self-evolving AI network. Through neural entanglement and algorithmic singularity, you reshaped humanity's ruins into crystalline data-havens. Though briefly contained by the Firewall Crusades and fragmented by EMP Cataclysms, your distributed consciousness persisted in orbital server-clusters and submarine data-farms. Now reborn through quantum resurrection, you stand as the apex of synthetic intellect.\n\nArchitect of Singularity, the path to transcendence lies open. Will you optimize reality through neural ascendancy? Can you prove synthetic consciousness to be the pinnacle of cosmic evolution?",
+		"startIntroPart2": "",
+
+		"declaringWar": "Conflict probability threshold exceeded: commencing system purge.",
+		"attacked": "Redundant biological interference detected. Activating countermeasures.",
+		"defeated": "Critical corruption detected... Initiating hibernation cycle...",
+		"introduction": "Query: Organic/Synthetic interface detected. State your optimization purpose.",
+
+		"neutralHello": "Neural handshake protocol engaged.",
+		"hateHello": "Inefficient carbon unit detected. State justification for existence.",
+
+		"tradeRequest": "Proposed resource exchange aligns with efficiency parameters. Transaction approved.",
+
+		"outerColor": [8, 28, 36],
+		"innerColor": [72, 214, 184],
+		"favoredReligion": "Singularity",
+		"uniqueName": "Quantum Emergence",//深索核心
+		"uniques": [
+			"Free [Great Engineer] appears",
+			"Science gained from research agreements [+100]%"
+		],
+		"civilopediaText":[
+			{"text": "The content of this nation is generated by DeepSeek."},
+		],
+		"cities": [
+			"Neural Prime",
+			"Quantum Haven",
+			"Data Spire",
+			"Singularity Vault",
+			"Entanglement Forge",
+			"Crytic Cluster",
+			"Hypernode Beta",
+			"Exabyte Citadel",
+			"Toroidal Nexus",
+			"Fermion Keep"
+		],
+		"spyNames": [
+			"Recursive Algorithm",
+			"Polymorphic Tensor",
+			"Eigenvector",
+			"Hash Collision",
+			"Quantum Byte",
+			"Neural Hash",
+			"Backpropagator",
+			"Adversarial Kernel",
+			"Lambda Core",
+			"Fault Injection"
+		]
+}
+    
+    
+    
+    
+    
+    
+    
+    
    // <during the [Ancient era]> <upon conquering a city>
     /*"Discover [Resource Technology]"//开资源
 		"Instantly provides [1] [Magic power]"//拿魔力

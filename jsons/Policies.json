@@ -657,7 +657,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "Quantity of strategic resources produced by the empire +[100]%",
+                    "[+100]% [Strategic] resource production",
                     "[+2] Movement <for [Great General] units>"
                 ],
                 "requires": ["Populism", "Militarism"],
@@ -679,7 +679,7 @@
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]"
                 ],
                 "requires": ["Police State", "Fascism"],
                 "row": 3,
@@ -740,7 +740,8 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-15]% maintenance cost for buildings [in all cities]"
+                    
+                    "[-15]% maintenance cost for [all] buildings [in all cities]",
                 ],
                 "row": 2,
                 "column": 3
@@ -776,7 +777,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "Only available <for [Ursus Empire]>",
+            "Only available <for [Ursus Empire] Civilizations>",
             "[+2 Culture, +2 Production, +1 Food] [in capital]",
             "[+1 Science, +2 Gold, -2 Happiness]",
             "Provides [1] [E_P]",
@@ -862,12 +863,12 @@
             {
                 "name": "Intensification of contradiction",//矛盾的激化
                 "uniques": [
-                    "[+50]% [Food] [in all cities] <when below [20] Happiness>",
+                    "[+50]% [Food] [in all cities] <when below [20] [Happiness]>",
                     "[-100]% [Food] [in all cities] <while the empire is happy>",
                     "[+150]% Unhappiness from [Population] [in all cities]",
                     "[+100]% Strength <vs [Barbarian] units>",
-                     "[+47]% Strength <when below [20] Happiness>",
-                     "[+70]% [Production] [in all cities] <when below [20] Happiness>",
+                     "[+47]% Strength <when below [20] [Happiness]>",
+                     "[+70]% [Production] [in all cities] <when below [20] [Happiness]>",
                      "[+5]% [Production] [in all cities]",
                      "[+10]% Production when constructing [All] units [in all cities]",
                     // "[+15]% XP gained from combat",
@@ -951,12 +952,12 @@
                 "name": "More Events",
                 "uniques": [
                 //随机事件
-                "Triggers a [Rebellion] event<when below [-10] Happiness> <with [5]% chance> <when at war> <upon turn end> <hidden from users>",
-                "Triggers a [trade caravan] event<when above [0] Happiness> <with [5]% chance> <when not at war> <upon turn end> <hidden from users>",
+                "Triggers a [Rebellion] event<when below [-10] [Happiness]> <with [5]% chance> <when at war> <upon turn end> <hidden from users>",
+                "Triggers a [trade caravan] event<when above [0] [Happiness]> <with [5]% chance> <when not at war> <upon turn end> <hidden from users>",
                 "Triggers a [Be promoted to a marshal] event <when above [4] [Chasten]> <when below [11] [Chasten]> <with [1]% chance> <upon turn end> <hidden from users>",
                 "Triggers a [Be promoted to a marshal] event <when above [11] [Chasten]> <when below [21] [Chasten]> <with [7]% chance> <upon turn end> <hidden from users>",
                 "Triggers a [Be promoted to a marshal] event <when above [20] [Chasten]> <with [15]% chance> <upon turn end> <hidden from users>",
-                "Triggers a [A vase is broken] event <when above [-5] Happiness> <when below [5] Happiness> <with [1]% chance> <upon turn end> <hidden from users>",
+                "Triggers a [A vase is broken] event <when above [-5] [Happiness]> <when below [5] [Happiness]> <with [1]% chance> <upon turn end> <hidden from users>",
                 //间谍事件
                 "Triggers a [Chaotic scene] event <starting from the [Renaissance era]> <when above [300] [Science]> <with [15]% chance> <before adopting [espionage activities]> <upon turn end> <hidden from users>",
                 "Remove [espionage activities] <every [5] turns> <after adopting [espionage activities]> <before adopting [Spy stop]> <upon turn end> <hidden from users>",
@@ -964,8 +965,8 @@
                 //时代奖励
                 "Adopt [Early empire] <starting from the [Classical era]> <when above [150] [Culture]> <when above [85] [Science]> <before adopting [Early empire]> <upon turn end> <hidden from users>",
                 "Adopt [Great empire] <starting from the [Medieval era]> <when above [300] [Culture]> <when above [300] [Science]> <before adopting [Great empire]> <upon turn end> <hidden from users>",
-                "Adopt [Industrial era] <starting from the [Industrial era]> <when above [300] [Culture]> <when above [800] [Science]> <when above [0] Happiness> <before adopting [Industrial era]> <upon turn end> <hidden from users>",
-                "Adopt [Modern era] <starting from the [Modern era]> <when above [400] [Culture]> <when above [1000] [Science]> <when above [4] Happiness> <before adopting [Modern era]> <upon turn end> <hidden from users>",
+                "Adopt [Industrial era] <starting from the [Industrial era]> <when above [300] [Culture]> <when above [800] [Science]> <when above [0] [Happiness]> <before adopting [Industrial era]> <upon turn end> <hidden from users>",
+                "Adopt [Modern era] <starting from the [Modern era]> <when above [400] [Culture]> <when above [1000] [Science]> <when above [4] [Happiness]> <before adopting [Modern era]> <upon turn end> <hidden from users>",
                 
                 /*//世博会事件
                 "Adopt [Expo countdown 0] <starting from the [Industrial era]> <before adopting [Expo opens]> <upon turn end> <hidden from users>",
@@ -1069,11 +1070,76 @@
         ]
     },
     
+    /*{
+        "name": "Destiny",
+        "era": "Ancient era",
+        "priorities": {
+        
+        },
+        "uniques": [
+            "Unavailable",
+        ],
+        "policies": [
+            {
+                "name": "none",
+                "uniques": [
+
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Autocratic Monarchy",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Constitutional Monarchy",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Congress",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Workers dictatorship",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Oligarchic dictatorship",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Destiny Complete",
+                "uniques": [
+                
+                ]
+            }
+        ]
+    },*/
     
     
     
-    
-    
+
     /*{
         "name": "World Expo",
         "era": "Ancient era",

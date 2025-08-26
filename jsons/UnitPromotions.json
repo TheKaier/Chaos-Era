@@ -755,7 +755,7 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"]
 	},
 	{
 		"name": "[Janissary] ability",
@@ -784,7 +784,7 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
+		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength <when stacked with a [Great General] unit>"]
 	},
 	{
 		"name": "[Zero] ability",
@@ -938,7 +938,7 @@
 	{
 		"name": "Khala",//卡拉
 		"uniques": [
-		"May Paradrop up to [100] tiles from inside friendly territory",
+		"May Paradrop to [All] tiles up to [100] tiles away",
 		"[-10] HP when healing <in [Foreign Land] tiles>",
 		],
         "column": 32,

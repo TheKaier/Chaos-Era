@@ -593,6 +593,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
 		]
 	},	
 	{
@@ -600,6 +601,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
 		]
 	},	
 	{
@@ -607,6 +609,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
 		]
 	},
 		{
@@ -614,6 +617,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
 		]
 	},
 	{
@@ -696,7 +700,7 @@
 		"Stockpiled"//库存
 		]
 	},
-	{
+	/*{
 		"name":"谱面难度",//
 		"resourceType": "Strategic",
 		"revealedBy": "Future Tech",
@@ -704,7 +708,7 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		]
-	},
+	},*/
 	{
 		"name": "Chasten",//磨炼
 		"resourceType": "Strategic",
@@ -770,12 +774,141 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Future Tech",
 		"uniques": [
-		//"Cannot be traded"//不能交易
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Destiny",//天命
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Imperial mantle",//国祚
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Lifetime",//寿命
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Successor Lifetime",//继承者寿命
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Administrative ceiling",//行政上限
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Administrative",//行政点
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Popular support",//民心
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Tax revenue",//税收
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Uprising",//叛乱
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Revolution",//革命
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		//"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Destiny leader",//天命领袖
+		"resourceType": "Strategic",
+		"revealedBy": "Future Tech",
+		"uniques": [
+		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		//"Not shown on world screen",//不显示
 		]
 	},
 	
+	{
+		"name": "Tourism performance",//旅游业绩
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+	{
+		"name": "Culture Hegemony point",//文化霸权点
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		"Not shown on world screen",//不显示
+		]
+	},
+
 	
 	
 	

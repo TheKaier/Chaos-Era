@@ -6,42 +6,66 @@
     {
         "name": "Sword",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Gunpowder",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        ]
     },
     {
         "name": "Archery",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Ranged Gunpowder",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Scout",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Mounted",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        
+        ]
     },
     {
         "name": "Armored",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Siege",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Civilian Water",
@@ -50,30 +74,45 @@
     {
         "name": "Melee Water",
         "movementType": "Water"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        
+        ]
     },
     {
         "name": "Ranged Water",
         "movementType": "Water"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Submarine",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"
         "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        
         ]
     },
     {
         "name": "Aircraft Carrier",
         "movementType": "Water"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Fighter",
         "movementType": "Air",
         "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"
         "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
         ]
     },
     {
@@ -81,6 +120,9 @@
         "movementType": "Air",
         "uniques": ["Aircraft"
         "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        
         ]
     },
     {
@@ -88,6 +130,9 @@
         "movementType": "Air",
         "uniques": ["Aircraft"
         "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        
         ]
     },
     {
@@ -102,6 +147,9 @@
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"
         "Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        
         ]
     },
 
@@ -110,17 +158,26 @@
     {
         "name": "Melee",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Ranged",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Armor",
         "movementType": "Land"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "WaterCivilian",
@@ -129,27 +186,41 @@
     {
         "name": "WaterMelee",
         "movementType": "Water"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "WaterRanged",
         "movementType": "Water"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "WaterSubmarine",
         "movementType": "Water"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "WaterAircraftCarrier",
         "movementType": "Water"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        ]
     },
     {
         "name": "AtomicBomber",
         "movementType": "Air"
-        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",]
+        "uniques": ["Instantly provides [1] [Chasten] <upon defeating a [Wounded] unit> <after adopting [More Events]>",
+        "Instantly provides [2] [Uprising] <upon being defeated> <for [Destiny of China] Civilizations>",
+        
+        ]
     },
     {
         "name": "Dark",

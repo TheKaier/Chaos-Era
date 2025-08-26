@@ -9,21 +9,21 @@
         "choices":[
         {
         "text":"",
-        "triggeredUniques":[
+        "uniques":[
         "[+5]% Production when constructing [All] wonders [in all cities] <for [1000] turns>",
         "[+15]% Production when constructing [All] wonders [in all cities] <for [15] turns>",
 		    ],
         },
         {
         "text":"",
-        "triggeredUniques":[
+        "uniques":[
         "Gain enough Faith for [33]% of a Great Prophet <after founding a Pantheon>",
         "Empire enters a [5]-turn Golden Age",
         ]
         },
         {
         "text":"",
-        "triggeredUniques":[
+        "uniques":[
         "[+5]% Strength <for [All] units> <for [15] turns>",
         "[+15]% Production when constructing [Military] units [in all cities] <for [15] turns>",
         ]
@@ -38,20 +38,20 @@
         "choices":[
         {
         "text":"Change the basic law",
-        "triggeredUniques":[
+        "uniques":[
         "Triggers a [Event.New universe-Remove policy] event <hidden from users>",
 		    ],
         },
         {
         "text":"Create a spectacle",
-        "triggeredUniques":[
+        "uniques":[
         "Empire enters golden age <hidden from users>",
         
             ],
         },
         {
         "text":"Change the structure of the material",
-        "triggeredUniques":[
+        "uniques":[
         "Gain [15]-[30] [Faith] <when number of [Gold] is less than [Faith]> <hidden from users>",
         "Gain [30]-[45] [Faith] <when number of [Gold] is less than [Faith]> <after discovering [Classical_era]> <hidden from users>",
         "Gain [45]-[60] [Faith] <when number of [Gold] is less than [Faith]> <after discovering [Medieval_era]> <hidden from users>",
@@ -78,126 +78,126 @@
         "choices":[
         {
         "text":"Tradition",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Tradition] and refund [75]% of its cost <hidden from users>",
         //"Only available <after adopting [Tradition]>",
 		    ],
         },
         {
         "text":"Aristocracy",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Aristocracy] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Aristocracy]>",
 		    ],
         },
         {
         "text":"Legalism",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Legalism] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Legalism]>",
 		    ],
         },
         {
         "text":"Oligarchy",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Oligarchy] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Oligarchy]>",
 		    ],
         },
         {
         "text":"Landed Elite",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Landed Elite] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Landed Elite]>",
 		    ],
         },
         {
         "text":"Monarchy",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Monarchy] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Monarchy]>",
 		    ],
         },
         {
         "text":"Liberty",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Liberty] and refund [75]% of its cost <hidden from users>",
         //"Only available <after adopting [Liberty]>",
 		    ],
         },
         {
         "text":"Republic",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Republic] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Republic]>",
 		    ],
         },
         {
         "text":"Citizenship",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Citizenship] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Citizenship]>",
 		    ],
         },
         {
         "text":"Collective Rule",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Collective Rule] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Collective Rule]>",
 		    ],
         },
         {
         "text":"Representation",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Representation] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Representation]>",
 		    ],
         },
         {
         "text":"Meritocracy",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Meritocracy] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Meritocracy]>",
 		    ],
         },
         {
         "text":"Honor",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Honor] and refund [75]% of its cost <hidden from users>",
         //"Only available <after adopting [Honor]>",
 		    ],
         },
         {
         "text":"Warrior Code",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Warrior Code] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Warrior Code]>",
 		    ],
         },
         {
         "text":"Professional Army",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Professional Army] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Professional Army]>",
 		    ],
         },
         {
         "text":"Military Tradition",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Military Tradition] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Military Tradition]>",
 		    ],
         },
         {
         "text":"Discipline",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Discipline] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Discipline]>",
 		    ],
         },
         {
         "text":"Military Caste",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Military Caste] and refund [50]% of its cost <hidden from users>",
         //"Only available <after adopting [Military Caste]>",
 		    ],
@@ -212,19 +212,19 @@
         "choices":[
         {
         "text":"Let it go.",
-        "triggeredUniques":[
+        "uniques":[
         "Gain [-150]-[-75] [Gold] <hidden from users>",
 		    ],
         },
         {
         "text":"Violence must be met by violence.",
-        "triggeredUniques":[
+        "uniques":[
         "[-1] population in a random city <hidden from users>",
 		    ],
         },
         {
         "text":"Heavy rules for troubled times.",
-        "triggeredUniques":[
+        "uniques":[
         "Free [Worker] appears <hidden from users>",
         "Cannot build [Settler] units <for [15] turns> <hidden from users>",
         "[-10]% Strength <for [All] units> <for [15] turns> <hidden from users>",
@@ -238,20 +238,20 @@
         "choices":[
         {
         "text":"Exchange map",
-        "triggeredUniques":[
+        "uniques":[
         "[+1] Sight <for [1] turns> <for [All] units> <hidden from users>",
 		    ],
         },
         {
         "text":"Buy their curiosities",
-        "triggeredUniques":[
+        "uniques":[
         "Empire enters a [4]-turn Golden Age <hidden from users>",
         "Gain [-278]-[-159] [Gold] <hidden from users>",
 		    ],
         },
         {
         "text":"Ask for some gossip",
-        "triggeredUniques":[
+        "uniques":[
         
         "[+5]% [Culture] [in all cities] <for [5] turns> <hidden from users>",
         "[+5]% [Science] [in all cities] <for [5] turns> <hidden from users>",
@@ -265,14 +265,14 @@
         "choices":[
         {
         "text":"Honor him.",
-        "triggeredUniques":[
+        "uniques":[
         "Free [Marshal] appears <hidden from users>",
         "Instantly consumes [1] [Chasten] <for every [1] [Chasten]> <hidden from users>",
 		    ],
         },
         {
         "text":"He's not qualified for it.",
-        "triggeredUniques":[
+        "uniques":[
         "Instantly consumes [5] [Chasten] <hidden from users>",
 		    ],
         },
@@ -284,7 +284,7 @@
         "choices":[
         {
         "text":"",
-        "triggeredUniques":[
+        "uniques":[
         "Gain [1] [Faith]",
         "I don't like that vase anyway",
         "Gain [-1] [Faith]",
@@ -298,13 +298,13 @@
         "choices":[
         {
         "text":"It just blew away",
-        "triggeredUniques":[
+        "uniques":[
         "Triggers a [espionage activities] event <with [33]% chance> <before adopting [espionage activities]> <hidden from users>"
 		    ],
         },
         {
         "text":"Strengthen supervision",
-        "triggeredUniques":[
+        "uniques":[
         "[-5]% [Science] [in all cities] <for [10] turns> <hidden from users>",
         "Triggers a [espionage activities] event <with [5]% chance> <before adopting [espionage activities]> <hidden from users>"
 		    ],
@@ -318,14 +318,14 @@
         "choices":[
         {
         "text":"It's just some papers",
-        "triggeredUniques":[
+        "uniques":[
         "Adopt [espionage activities] <hidden from users>",
         "Gain [-500]-[-150] [Science] <hidden from users>",
 		    ],
         },
         {
         "text":"Lock this place down.",
-        "triggeredUniques":[
+        "uniques":[
         "Adopt [espionage activities] <hidden from users>",
         "Gain [-200]-[-150] [Gold] <hidden from users>",
         "Triggers a [Catch the spy] event <with [33]% chance> <before adopting [Spy stop]> <hidden from users>"
@@ -342,13 +342,13 @@
         "choices":[
         {
         "text":"Put him to death",
-        "triggeredUniques":[
+        "uniques":[
         "Adopt [Spy stop] <hidden from users>",
 		    ],
         },
         {
         "text":"Let the country ransom him",
-        "triggeredUniques":[
+        "uniques":[
         "Adopt [Spy stop] <hidden from users>",
         "Gain [100]-[350] [Gold] <hidden from users>",
         "Remove [Spy stop] <with [33]% chance> <hidden from users>",
@@ -364,7 +364,7 @@
         "choices":[
         {
         "text":"Magnificent",
-        "triggeredUniques":[
+        "uniques":[
         "Free [Worker] appears <hidden from users>",
         "[+10]% Production when constructing [All] buildings [in all cities] <for [15] turns> <hidden from users>",
         "[-15]% Culture cost of natural border growth [in all cities] <for [15] turns> <hidden from users>",
@@ -372,7 +372,7 @@
         },
         {
         "text":"The evangelist's journey",
-        "triggeredUniques":[
+        "uniques":[
         "Gain enough Faith for [75]% of a Great Prophet <hidden from users>",
         "[+2 Faith] from every [Wonder] <for [15] turns> <hidden from users>",
         "[+20]% Production when constructing [All] wonders [in all cities] <for [15] turns> <hidden from users>",
@@ -380,7 +380,7 @@
         },
         {
         "text":"Here be dragons",
-        "triggeredUniques":[
+        "uniques":[
         "[+2] Sight <for [5] turns> <for [All] units> <hidden from users>",
         "[+20]% [Culture] [in all cities] <for [15] turns> <hidden from users>",
         "[+20]% [Science] [in all cities] <for [15] turns> <hidden from users>",
@@ -396,7 +396,7 @@
         "choices":[
         {
         "text":"Magnificent",
-        "triggeredUniques":[
+        "uniques":[
         "Free [Settler] appears <hidden from users>",
         "[+15]% Production when constructing [All] buildings [in all cities] <for [20] turns> <hidden from users>",
         "[-20]% Culture cost of natural border growth [in all cities] <for [20] turns> <hidden from users>",
@@ -404,7 +404,7 @@
         },
         {
         "text":"The evangelist's journey",
-        "triggeredUniques":[
+        "uniques":[
         "Gain enough Faith for [75]% of a Great Prophet <hidden from users>",
         "[+2 Faith, +1 Science, +1 Production, +1 Gold, +1 Culture] from every [Wonder] <for [20] turns> <hidden from users>",
         "[+25]% Production when constructing [All] wonders [in all cities] <for [20] turns> <hidden from users>",
@@ -412,7 +412,7 @@
         },
         {
         "text":"Monetary reform",
-        "triggeredUniques":[
+        "uniques":[
         "[+50]% [Gold] [in all cities] <for [20] turns> <hidden from users>",
         "[+1 Happiness, +1 Culture, +1 Science] [in all cities connected to capital] <for [20] turns> <hidden from users>",
         "[-25]% maintenance on road & railroads <for [20] turns> <hidden from users>",
@@ -426,7 +426,7 @@
         "choices":[
         {
         "text":"Monetary reform",
-        "triggeredUniques":[
+        "uniques":[
         "[+66]% [Gold] [in all cities] <for [20] turns> <hidden from users>",
         "[+1 Happiness, +2 Culture, +2 Science] [in all cities connected to capital] <for [20] turns> <hidden from users>",
         "[-33]% maintenance on road & railroads <for [20] turns> <hidden from users>",
@@ -434,14 +434,14 @@
         },
         {
         "text":"Billowing smoke",
-        "triggeredUniques":[
+        "uniques":[
         "[+25]% [Production] [in all cities] <for [20] turns> <hidden from users>",
         "Provides a [Factory] in your first [1] cities for free <hidden from users>",
         ]
         },
         {
         "text":"Industrial Revolution",
-        "triggeredUniques":[
+        "uniques":[
         "[Great Engineer] is earned [100]% faster <for [20] turns> <hidden from users>",
         "[+2 Production] from every specialist [in all cities] <for [20] turns> <hidden from users>",
         ]
@@ -454,14 +454,14 @@
         "choices":[
         {
         "text":"all is fair in war",
-        "triggeredUniques":[
+        "uniques":[
         "Gain an extra spy <hidden from users>",
-        "[-99]% enemy spy effectiveness <for [25] turns>[in all cities] <hidden from users>",
+        "[-99]% enemy spy effectiveness [in all cities] <for [25] turns> <hidden from users>",
 		    ],
         },
         {
         "text":"globalization",
-        "triggeredUniques":[
+        "uniques":[
         "[+4 Gold, +4 Culture, +4 Science] [in all cities connected to capital] <for [25] turns> <hidden from users>",
         "[+20]% [Gold] [in all cities] <for [25] turns> <hidden from users>",
         "[+20]% [Science] [in all cities] <for [25] turns> <hidden from users>",
@@ -470,7 +470,7 @@
         },
         {
         "text":"scientific innovation",
-        "triggeredUniques":[
+        "uniques":[
         "Free [Great Scientist] appears <hidden from users>",
         "[+30]% [Science] [in all cities] <for [25] turns> <hidden from users>",
         "[Great Scientist] is earned [50]% faster <for [25] turns> <hidden from users>",
@@ -478,7 +478,7 @@
         },
         {
         "text":"Robot wars",
-        "triggeredUniques":[
+        "uniques":[
         "Free [Giant Death Robot] appears <hidden from users>",
         //"Provides [1] [Uranium] <hidden from users>",
         ]
@@ -491,7 +491,7 @@
         "choices":[
         {
         "text":"",
-        "triggeredUniques":[
+        "uniques":[
         "Instantly provides [25] [World Expo 2] <hidden from users>",
 		    ],
         },
@@ -503,7 +503,7 @@
         "choices":[
         {
         "text":"",
-        "triggeredUniques":[
+        "uniques":[
         "Remove [Expo opens] <hidden from users>",
 		    ],
         },
